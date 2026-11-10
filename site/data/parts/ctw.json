@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ctw01",
+    "pool": "practice",
+    "level": "easy",
+    "text": "Mangrove forests grow along warm coasts where rivers meet the sea. Their tangled roots trap sediment and reduce the force of incoming waves. Many young fish use the calm water as a nursery before they move to deeper areas. Local communities also collect wood and shellfish from these forests. When mangroves are cleared for shrimp ponds, the shore becomes more exposed to storms. Restoring native trees can bring back both wildlife and coastal protection within a few seasons.",
+    "gaps": [
+      "tangled",
+      "sediment",
+      "reduce",
+      "incoming",
+      "nursery",
+      "deeper",
+      "communities",
+      "shellfish",
+      "exposed",
+      "protection"
+    ]
+  },
+  {
+    "id": "ctw02",
+    "pool": "practice",
+    "level": "mid",
+    "text": "Public murals can change how people feel about an ordinary street. Artists often plan the colors with neighborhood groups before they paint a wall. A bright scene of local markets may replace a dull concrete surface. Residents then stop to take photos and talk with neighbors they rarely meet. Some cities pay for these projects because they hope the artwork will slow graffiti. Careful maintenance keeps the paint vivid after rain and strong sunlight.",
+    "gaps": [
+      "Artists",
+      "colors",
+      "neighborhood",
+      "before",
+      "bright",
+      "concrete",
+      "Residents",
+      "neighbors",
+      "rarely",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "ctw03",
+    "pool": "practice",
+    "level": "easy",
+    "text": "A small bakery must set prices that cover its costs and still attract buyers. Flour, butter, and rent rise at different times during the year. If the baker raises every price at once, some customers may shop elsewhere. Offering a smaller loaf at the old price can keep those buyers loyal. The shop also watches which cakes sell out before noon. Those clues help the staff decide what to bake the next morning.",
+    "gaps": [
+      "different",
+      "during",
+      "baker",
+      "customers",
+      "Offering",
+      "smaller",
+      "buyers",
+      "watches",
+      "clues",
+      "decide"
+    ]
+  },
+  {
+    "id": "ctw04",
+    "pool": "practice",
+    "level": "mid",
+    "text": "People often remember a story better when they retell it in their own words. Psychologists call this effort retrieval, and it strengthens the memory trace. Students who close the book and explain the idea aloud tend to recall more later. Simply rereading the same page can feel productive while helping less. Short pauses between practice sessions also give the brain time to store details. That pattern appears in studies of both children and adults.",
+    "gaps": [
+      "Psychologists",
+      "effort",
+      "strengthens",
+      "memory",
+      "Students",
+      "explain",
+      "aloud",
+      "rereading",
+      "pauses",
+      "sessions"
+    ]
+  },
+  {
+    "id": "ctw05",
+    "pool": "practice",
+    "level": "hard",
+    "text": "Cities that track illness can spot a risky pattern before hospitals fill. Public health teams compare weekly reports of fever, cough, and stomach pain. A sudden cluster in one district may signal dirty water or spoiled food. Officials then test samples and warn residents through radio and text messages. Early warnings do not replace treatment, yet they slow the spread. Clear records also show whether a campaign reached the poorest neighborhoods.",
+    "gaps": [
+      "health",
+      "compare",
+      "weekly",
+      "reports",
+      "sudden",
+      "district",
+      "signal",
+      "samples",
+      "warnings",
+      "campaign"
+    ]
+  },
+  {
+    "id": "ctw06",
+    "pool": "practice",
+    "level": "mid",
+    "text": "Wide sidewalks do more than move people from one corner to another. When benches and trees line a street, walkers stay longer and greet strangers. Shops along that path often gain steady foot traffic on weekdays. Parents with strollers need smooth ramps rather than high curbs. Poor lighting, however, can make the same block feel unsafe after dusk. Planners who measure these details design streets that invite daily use. The result is a block people choose even for short trips.",
+    "gaps": [
+      "benches",
+      "trees",
+      "walkers",
+      "longer",
+      "steady",
+      "strollers",
+      "smooth",
+      "unsafe",
+      "measure",
+      "details"
+    ]
+  },
+  {
+    "id": "ctw07",
+    "pool": "practice",
+    "level": "easy",
+    "text": "Every language has ways to show politeness, but the tools are not the same. Some communities rely on special titles before a person's name. Others soften a request with extra words such as please and perhaps. A direct question may sound rude in one place and honest in another. Learners need time to notice these patterns in real conversations. Listening to native speakers is as useful as memorizing grammar rules.",
+    "gaps": [
+      "communities",
+      "special",
+      "titles",
+      "soften",
+      "request",
+      "direct",
+      "Learners",
+      "notice",
+      "native",
+      "memorizing"
+    ]
+  },
+  {
+    "id": "ctw08",
+    "pool": "practice",
+    "level": "hard",
+    "text": "Archaeologists studying ancient ports look for more than broken pots. Layers of sand can preserve wooden docks that once held trading ships. Coins found nearby suggest which distant markets sent goods to the harbor. Seeds in the soil reveal the crops that sailors carried on long voyages. Storms later buried some of these sites under meters of mud. Careful digging lets historians rebuild a picture of early coastal trade. Teams record each layer before they remove it.",
+    "gaps": [
+      "Layers",
+      "preserve",
+      "wooden",
+      "trading",
+      "suggest",
+      "distant",
+      "reveal",
+      "sailors",
+      "buried",
+      "historians"
+    ]
+  },
+  {
+    "id": "ctw-m1a",
+    "pool": "m1",
+    "level": "mid",
+    "text": "Coral reefs support a huge variety of life in shallow tropical water. Tiny animals build hard skeletons that pile up over many centuries. Fish hide in the gaps, and algae inside the coral provide food. When the sea stays too warm, the coral expels those algae and turns white. Bleaching weakens the reef and leaves the coast with less natural shelter. Cooling the water is slow, so reducing local pollution still matters.",
+    "gaps": [
+      "animals",
+      "skeletons",
+      "provide",
+      "expels",
+      "turns",
+      "Bleaching",
+      "weakens",
+      "natural",
+      "reducing",
+      "pollution"
+    ]
+  },
+  {
+    "id": "ctw-m1b",
+    "pool": "m1",
+    "level": "mid",
+    "text": "Museums sometimes move a famous painting to a quieter room. Bright sunlight can fade pigments that cannot be replaced. Staff therefore limit the hours of strong lamps near the canvas. Visitors may stand farther back, yet they still see the composition clearly. A short label explains when the artist finished the work and why it moved. Such care keeps fragile colors available for future students. Guards also watch the humidity in that gallery each hour.",
+    "gaps": [
+      "sunlight",
+      "pigments",
+      "therefore",
+      "Visitors",
+      "composition",
+      "explains",
+      "artist",
+      "fragile",
+      "colors",
+      "available"
+    ]
+  },
+  {
+    "id": "ctw-m1u",
+    "pool": "m1u",
+    "level": "hard",
+    "text": "Inflation changes the real value of money even when a salary stays the same. If prices climb faster than wages, households buy fewer goods each month. Economists track a basket of common items to estimate that rise. Housing and food often dominate the basket for lower income families. A small official rate may hide sharp jumps in rent. Policymakers watch these gaps before they adjust interest rates. Families feel the change first at the grocery store.",
+    "gaps": [
+      "climb",
+      "households",
+      "Economists",
+      "estimate",
+      "dominate",
+      "income",
+      "official",
+      "sharp",
+      "Policymakers",
+      "adjust"
+    ]
+  },
+  {
+    "id": "ctw-m1l",
+    "pool": "m1l",
+    "level": "easy",
+    "text": "Many students learn better when a lesson connects to a familiar place. A teacher might ask the class to map sounds heard near home. Children then compare traffic, birds, and music on their own streets. The activity turns an abstract idea about noise into something visible. Pupils who share maps often notice patterns they had ignored. Simple local data can make a science lesson feel personal. Teachers can repeat the same map task in another season.",
+    "gaps": [
+      "teacher",
+      "sounds",
+      "compare",
+      "activity",
+      "abstract",
+      "Pupils",
+      "notice",
+      "patterns",
+      "local",
+      "science"
+    ]
+  },
+  {
+    "id": "ctw-m2a",
+    "pool": "m2",
+    "level": "mid",
+    "text": "River deltas form where flowing water slows and drops its load of silt. Over time the deposits build low land that farmers prize for rich soil. Channels shift as floods cut new paths across the plain. Towns built on older banks may find the river moving away. Engineers sometimes add walls to hold a channel in place. Those walls protect fields, but they also trap sediment upstream. Fishers also notice when the main mouth changes place.",
+    "gaps": [
+      "deposits",
+      "farmers",
+      "Channels",
+      "floods",
+      "Engineers",
+      "sometimes",
+      "channel",
+      "protect",
+      "trap",
+      "sediment"
+    ]
+  },
+  {
+    "id": "ctw-m2b",
+    "pool": "m2",
+    "level": "mid",
+    "text": "Group projects succeed when members divide tasks according to clear skills. One student may research sources while another drafts the slides. A shared calendar shows who must finish each part before the meeting. Without that plan, people repeat work or leave a section blank. Honest feedback during the week prevents a rushed final night. Teachers usually reward both the product and the way the team cooperated. A short written log makes that cooperation easy to see.",
+    "gaps": [
+      "research",
+      "drafts",
+      "calendar",
+      "finish",
+      "repeat",
+      "feedback",
+      "prevents",
+      "rushed",
+      "reward",
+      "product"
+    ]
+  },
+  {
+    "id": "ctw-m2u",
+    "pool": "m2u",
+    "level": "hard",
+    "text": "Historians of medicine study how cities once fought repeated outbreaks of cholera. They read hospital logs, newspaper notices, and maps of public wells. A clustering of deaths around one pump suggested contaminated water. Removing the pump handle did not explain the germ, yet it tested the idea. Later laboratory work identified the bacterium that had spread through the supply. The episode shows how careful maps can guide action before a full theory exists.",
+    "gaps": [
+      "hospital",
+      "clustering",
+      "suggested",
+      "contaminated",
+      "handle",
+      "laboratory",
+      "identified",
+      "bacterium",
+      "episode",
+      "theory"
+    ]
+  },
+  {
+    "id": "ctw-m2l",
+    "pool": "m2l",
+    "level": "easy",
+    "text": "Community kitchens give neighbors a place to cook and eat together. Volunteers plan menus that use vegetables donated by nearby gardens. A large pot of soup can feed families who arrive after work. Children often help wash bowls and learn simple recipes. The kitchen also shares tips about storing food so less is wasted. Regular meals build trust as well as full plates. People leave with leftovers and a plan for the next dinner.",
+    "gaps": [
+      "Volunteers",
+      "vegetables",
+      "donated",
+      "families",
+      "shares",
+      "storing",
+      "Regular",
+      "meals",
+      "build",
+      "trust"
+    ]
+  }
+]

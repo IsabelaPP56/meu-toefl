@@ -1,0 +1,802 @@
+[
+  {
+    "id": "v001",
+    "w": "deadline",
+    "pos": "n",
+    "pt": "prazo final",
+    "ex": "The deadline for the history paper is Friday at noon.",
+    "topic": "campus"
+  },
+  {
+    "id": "v002",
+    "w": "syllabus",
+    "pos": "n",
+    "pt": "plano de ensino",
+    "ex": "The syllabus lists every quiz and the grading policy.",
+    "topic": "campus"
+  },
+  {
+    "id": "v003",
+    "w": "office hours",
+    "pos": "n",
+    "pt": "horário de atendimento",
+    "ex": "Professor Alvarez holds office hours on Tuesday afternoons.",
+    "topic": "campus"
+  },
+  {
+    "id": "v004",
+    "w": "advisor",
+    "pos": "n",
+    "pt": "orientador acadêmico",
+    "ex": "My advisor suggested that I add a statistics course.",
+    "topic": "campus"
+  },
+  {
+    "id": "v005",
+    "w": "withdraw",
+    "pos": "v",
+    "pt": "cancelar a matrícula em",
+    "ex": "You may withdraw from a course before the fifth week.",
+    "topic": "campus"
+  },
+  {
+    "id": "v006",
+    "w": "prerequisite",
+    "pos": "n",
+    "pt": "pré-requisito",
+    "ex": "Calculus is a prerequisite for this physics class.",
+    "topic": "campus"
+  },
+  {
+    "id": "v007",
+    "w": "transcript",
+    "pos": "n",
+    "pt": "histórico escolar",
+    "ex": "The graduate program asked for an official transcript.",
+    "topic": "campus"
+  },
+  {
+    "id": "v008",
+    "w": "scholarship",
+    "pos": "n",
+    "pt": "bolsa de estudos",
+    "ex": "Her scholarship covers tuition but not housing.",
+    "topic": "campus"
+  },
+  {
+    "id": "v009",
+    "w": "tuition",
+    "pos": "n",
+    "pt": "anuidade universitária",
+    "ex": "Tuition rises slightly at the start of each academic year.",
+    "topic": "campus"
+  },
+  {
+    "id": "v010",
+    "w": "dorm",
+    "pos": "n",
+    "pt": "alojamento estudantil",
+    "ex": "The dorm closes its front doors at midnight.",
+    "topic": "campus"
+  },
+  {
+    "id": "v011",
+    "w": "plagiarism",
+    "pos": "n",
+    "pt": "plágio",
+    "ex": "The handbook says plagiarism can lead to a failing grade.",
+    "topic": "campus"
+  },
+  {
+    "id": "v012",
+    "w": "enrollment",
+    "pos": "n",
+    "pt": "matrícula",
+    "ex": "Enrollment in the lab section is limited to twenty students.",
+    "topic": "campus"
+  },
+  {
+    "id": "v013",
+    "w": "registrar",
+    "pos": "n",
+    "pt": "secretaria de registros",
+    "ex": "The registrar can print a copy of your class schedule.",
+    "topic": "campus"
+  },
+  {
+    "id": "v014",
+    "w": "bursar",
+    "pos": "n",
+    "pt": "tesouraria da universidade",
+    "ex": "Pay the housing fee at the bursar before you move in.",
+    "topic": "campus"
+  },
+  {
+    "id": "v015",
+    "w": "midterm",
+    "pos": "n",
+    "pt": "prova parcial",
+    "ex": "The biology midterm includes diagrams and short answers.",
+    "topic": "campus"
+  },
+  {
+    "id": "v016",
+    "w": "assignment",
+    "pos": "n",
+    "pt": "tarefa",
+    "ex": "This assignment asks you to compare two news articles.",
+    "topic": "campus"
+  },
+  {
+    "id": "v017",
+    "w": "lecture",
+    "pos": "n",
+    "pt": "aula expositiva",
+    "ex": "The lecture on glaciers will be recorded for absent students.",
+    "topic": "campus"
+  },
+  {
+    "id": "v018",
+    "w": "seminar",
+    "pos": "n",
+    "pt": "seminário",
+    "ex": "In the seminar we discuss one article each week.",
+    "topic": "campus"
+  },
+  {
+    "id": "v019",
+    "w": "laboratory",
+    "pos": "n",
+    "pt": "laboratório",
+    "ex": "Safety goggles are required inside the chemistry laboratory.",
+    "topic": "campus"
+  },
+  {
+    "id": "v020",
+    "w": "credit",
+    "pos": "n",
+    "pt": "crédito acadêmico",
+    "ex": "The internship counts as three credits toward the major.",
+    "topic": "campus"
+  },
+  {
+    "id": "v021",
+    "w": "major",
+    "pos": "n",
+    "pt": "curso principal",
+    "ex": "She changed her major from chemistry to public health.",
+    "topic": "campus"
+  },
+  {
+    "id": "v022",
+    "w": "minor",
+    "pos": "n",
+    "pt": "curso secundário",
+    "ex": "A minor in Portuguese requires six approved courses.",
+    "topic": "campus"
+  },
+  {
+    "id": "v023",
+    "w": "elective",
+    "pos": "n",
+    "pt": "disciplina eletiva",
+    "ex": "Studio photography is a popular elective in the spring.",
+    "topic": "campus"
+  },
+  {
+    "id": "v024",
+    "w": "attendance",
+    "pos": "n",
+    "pt": "presença",
+    "ex": "Attendance counts for ten percent of the final grade.",
+    "topic": "campus"
+  },
+  {
+    "id": "v025",
+    "w": "extension",
+    "pos": "n",
+    "pt": "prorrogação de prazo",
+    "ex": "He requested an extension because he was ill.",
+    "topic": "campus"
+  },
+  {
+    "id": "v026",
+    "w": "draft",
+    "pos": "n",
+    "pt": "rascunho",
+    "ex": "Bring a draft of the introduction to the writing center.",
+    "topic": "campus"
+  },
+  {
+    "id": "v027",
+    "w": "citation",
+    "pos": "n",
+    "pt": "citação bibliográfica",
+    "ex": "Each citation must include the author and the year.",
+    "topic": "campus"
+  },
+  {
+    "id": "v028",
+    "w": "faculty",
+    "pos": "n",
+    "pt": "corpo docente",
+    "ex": "The faculty voted to update the language requirement.",
+    "topic": "campus"
+  },
+  {
+    "id": "v029",
+    "w": "roommate",
+    "pos": "n",
+    "pt": "colega de quarto",
+    "ex": "My roommate studies architecture and works late.",
+    "topic": "campus"
+  },
+  {
+    "id": "v030",
+    "w": "cafeteria",
+    "pos": "n",
+    "pt": "refeitório",
+    "ex": "The cafeteria serves a vegetarian meal every evening.",
+    "topic": "campus"
+  },
+  {
+    "id": "v031",
+    "w": "quiz",
+    "pos": "n",
+    "pt": "teste curto",
+    "ex": "There is a short quiz at the start of each lab.",
+    "topic": "campus"
+  },
+  {
+    "id": "v032",
+    "w": "rubric",
+    "pos": "n",
+    "pt": "grade de critérios",
+    "ex": "The rubric explains how the presentation will be scored.",
+    "topic": "campus"
+  },
+  {
+    "id": "v033",
+    "w": "feedback",
+    "pos": "n",
+    "pt": "retorno avaliativo",
+    "ex": "Useful feedback points to one change you can make.",
+    "topic": "campus"
+  },
+  {
+    "id": "v034",
+    "w": "department",
+    "pos": "n",
+    "pt": "departamento",
+    "ex": "The history department is in the brick building.",
+    "topic": "campus"
+  },
+  {
+    "id": "v035",
+    "w": "internship",
+    "pos": "n",
+    "pt": "estágio",
+    "ex": "Her internship at the museum lasts for the summer.",
+    "topic": "campus"
+  },
+  {
+    "id": "v036",
+    "w": "textbook",
+    "pos": "n",
+    "pt": "livro didático",
+    "ex": "The textbook for economics is on reserve in the library.",
+    "topic": "campus"
+  },
+  {
+    "id": "v037",
+    "w": "tutoring",
+    "pos": "n",
+    "pt": "monitoria",
+    "ex": "Free tutoring in calculus is available on weeknights.",
+    "topic": "campus"
+  },
+  {
+    "id": "v038",
+    "w": "workshop",
+    "pos": "n",
+    "pt": "oficina",
+    "ex": "The workshop teaches students how to cite sources.",
+    "topic": "campus"
+  },
+  {
+    "id": "v039",
+    "w": "orientation",
+    "pos": "n",
+    "pt": "semana de integração",
+    "ex": "Orientation includes a tour of the science library.",
+    "topic": "campus"
+  },
+  {
+    "id": "v040",
+    "w": "financial aid",
+    "pos": "n",
+    "pt": "auxílio financeiro",
+    "ex": "Financial aid forms are due before March first.",
+    "topic": "campus"
+  },
+  {
+    "id": "v041",
+    "w": "waitlist",
+    "pos": "n",
+    "pt": "lista de espera",
+    "ex": "She is on the waitlist for the evening section.",
+    "topic": "campus"
+  },
+  {
+    "id": "v042",
+    "w": "section",
+    "pos": "n",
+    "pt": "turma",
+    "ex": "I switched to the Thursday section of sociology.",
+    "topic": "campus"
+  },
+  {
+    "id": "v043",
+    "w": "undergraduate",
+    "pos": "n",
+    "pt": "estudante de graduação",
+    "ex": "The lab hires undergraduate assistants each fall.",
+    "topic": "campus"
+  },
+  {
+    "id": "v044",
+    "w": "graduate",
+    "pos": "adj",
+    "pt": "de pós-graduação",
+    "ex": "Graduate seminars usually meet once a week.",
+    "topic": "campus"
+  },
+  {
+    "id": "v045",
+    "w": "diploma",
+    "pos": "n",
+    "pt": "diploma",
+    "ex": "You must clear all fees before the diploma is issued.",
+    "topic": "campus"
+  },
+  {
+    "id": "v046",
+    "w": "proctor",
+    "pos": "n",
+    "pt": "fiscal de prova",
+    "ex": "The proctor will check student cards at the door.",
+    "topic": "campus"
+  },
+  {
+    "id": "v047",
+    "w": "participation",
+    "pos": "n",
+    "pt": "participação",
+    "ex": "Participation means joining the discussion, not only attending.",
+    "topic": "campus"
+  },
+  {
+    "id": "v048",
+    "w": "commute",
+    "pos": "n",
+    "pt": "deslocamento diário",
+    "ex": "His commute from the suburbs takes forty minutes.",
+    "topic": "campus"
+  },
+  {
+    "id": "v049",
+    "w": "shuttle",
+    "pos": "n",
+    "pt": "ônibus interno do campus",
+    "ex": "The night shuttle stops outside the library.",
+    "topic": "campus"
+  },
+  {
+    "id": "v050",
+    "w": "meal plan",
+    "pos": "n",
+    "pt": "plano de refeições",
+    "ex": "A meal plan can be changed during the first two weeks.",
+    "topic": "campus"
+  },
+  {
+    "id": "v051",
+    "w": "however",
+    "pos": "adv",
+    "pt": "contudo",
+    "ex": "The sample was small; however, the pattern was clear.",
+    "topic": "academic"
+  },
+  {
+    "id": "v052",
+    "w": "evidence",
+    "pos": "n",
+    "pt": "evidência",
+    "ex": "The evidence comes from three years of field notes.",
+    "topic": "academic"
+  },
+  {
+    "id": "v053",
+    "w": "significant",
+    "pos": "adj",
+    "pt": "significativo",
+    "ex": "A significant drop in rainfall reduced the harvest.",
+    "topic": "academic"
+  },
+  {
+    "id": "v054",
+    "w": "approach",
+    "pos": "n",
+    "pt": "abordagem",
+    "ex": "Their approach combines interviews with city maps.",
+    "topic": "academic"
+  },
+  {
+    "id": "v055",
+    "w": "factor",
+    "pos": "n",
+    "pt": "fator",
+    "ex": "Cost is only one factor in the family's decision.",
+    "topic": "academic"
+  },
+  {
+    "id": "v056",
+    "w": "method",
+    "pos": "n",
+    "pt": "método",
+    "ex": "This method measures noise inside classrooms.",
+    "topic": "academic"
+  },
+  {
+    "id": "v057",
+    "w": "theory",
+    "pos": "n",
+    "pt": "teoria",
+    "ex": "The theory predicts that people share more when trust is high.",
+    "topic": "academic"
+  },
+  {
+    "id": "v058",
+    "w": "consequence",
+    "pos": "n",
+    "pt": "consequência",
+    "ex": "One consequence of the tax was a rise in bus use.",
+    "topic": "academic"
+  },
+  {
+    "id": "v059",
+    "w": "establish",
+    "pos": "v",
+    "pt": "estabelecer",
+    "ex": "The study helped establish a link between sleep and mood.",
+    "topic": "academic"
+  },
+  {
+    "id": "v060",
+    "w": "imply",
+    "pos": "v",
+    "pt": "implicar",
+    "ex": "These results imply that the policy reached only some neighborhoods.",
+    "topic": "academic"
+  },
+  {
+    "id": "v061",
+    "w": "relevant",
+    "pos": "adj",
+    "pt": "relevante",
+    "ex": "Only relevant details should stay in the summary.",
+    "topic": "academic"
+  },
+  {
+    "id": "v062",
+    "w": "analyze",
+    "pos": "v",
+    "pt": "analisar",
+    "ex": "Students analyze the graph before they write a claim.",
+    "topic": "academic"
+  },
+  {
+    "id": "v063",
+    "w": "consistent",
+    "pos": "adj",
+    "pt": "consistente",
+    "ex": "The findings are consistent with earlier research.",
+    "topic": "academic"
+  },
+  {
+    "id": "v064",
+    "w": "contribute",
+    "pos": "v",
+    "pt": "contribuir",
+    "ex": "Shade trees contribute to cooler streets in summer.",
+    "topic": "academic"
+  },
+  {
+    "id": "v065",
+    "w": "range",
+    "pos": "n",
+    "pt": "amplitude",
+    "ex": "The range of scores on the quiz was wide.",
+    "topic": "academic"
+  },
+  {
+    "id": "v066",
+    "w": "trend",
+    "pos": "n",
+    "pt": "tendência",
+    "ex": "A clear trend toward smaller classes appears in the data.",
+    "topic": "academic"
+  },
+  {
+    "id": "v067",
+    "w": "hypothesis",
+    "pos": "n",
+    "pt": "hipótese",
+    "ex": "The hypothesis was that music would slow reading.",
+    "topic": "academic"
+  },
+  {
+    "id": "v068",
+    "w": "variable",
+    "pos": "n",
+    "pt": "variável",
+    "ex": "Temperature was the variable the team changed.",
+    "topic": "academic"
+  },
+  {
+    "id": "v069",
+    "w": "sample",
+    "pos": "n",
+    "pt": "amostra",
+    "ex": "The sample included two hundred first-year students.",
+    "topic": "academic"
+  },
+  {
+    "id": "v070",
+    "w": "survey",
+    "pos": "n",
+    "pt": "levantamento",
+    "ex": "The survey asked how often people visited the park.",
+    "topic": "academic"
+  },
+  {
+    "id": "v071",
+    "w": "correlation",
+    "pos": "n",
+    "pt": "correlação",
+    "ex": "A correlation does not by itself prove a cause.",
+    "topic": "academic"
+  },
+  {
+    "id": "v072",
+    "w": "experiment",
+    "pos": "n",
+    "pt": "experimento",
+    "ex": "The experiment lasted for six weeks.",
+    "topic": "academic"
+  },
+  {
+    "id": "v073",
+    "w": "observation",
+    "pos": "n",
+    "pt": "observação",
+    "ex": "Direct observation showed that birds returned in April.",
+    "topic": "academic"
+  },
+  {
+    "id": "v074",
+    "w": "conclusion",
+    "pos": "n",
+    "pt": "conclusão",
+    "ex": "The conclusion follows from the measurements, not from a guess.",
+    "topic": "academic"
+  },
+  {
+    "id": "v075",
+    "w": "assumption",
+    "pos": "n",
+    "pt": "suposição",
+    "ex": "The model rests on the assumption that wages stay fixed.",
+    "topic": "academic"
+  },
+  {
+    "id": "v076",
+    "w": "framework",
+    "pos": "n",
+    "pt": "referencial",
+    "ex": "A simple framework organizes the three causes.",
+    "topic": "academic"
+  },
+  {
+    "id": "v077",
+    "w": "context",
+    "pos": "n",
+    "pt": "contexto",
+    "ex": "In this context, demand means the amount people will buy.",
+    "topic": "academic"
+  },
+  {
+    "id": "v078",
+    "w": "contrast",
+    "pos": "n",
+    "pt": "contraste",
+    "ex": "The contrast between the two cities is sharp.",
+    "topic": "academic"
+  },
+  {
+    "id": "v079",
+    "w": "therefore",
+    "pos": "adv",
+    "pt": "portanto",
+    "ex": "The road flooded; therefore, the market closed early.",
+    "topic": "academic"
+  },
+  {
+    "id": "v080",
+    "w": "moreover",
+    "pos": "adv",
+    "pt": "além disso",
+    "ex": "The soil is thin; moreover, the wind dries it quickly.",
+    "topic": "academic"
+  },
+  {
+    "id": "v081",
+    "w": "nevertheless",
+    "pos": "adv",
+    "pt": "ainda assim",
+    "ex": "The plan was costly; nevertheless, the council approved it.",
+    "topic": "academic"
+  },
+  {
+    "id": "v082",
+    "w": "although",
+    "pos": "conj",
+    "pt": "embora",
+    "ex": "Although the winter was mild, the lake still froze.",
+    "topic": "academic"
+  },
+  {
+    "id": "v083",
+    "w": "proportion",
+    "pos": "n",
+    "pt": "proporção",
+    "ex": "A large proportion of the budget goes to salaries.",
+    "topic": "academic"
+  },
+  {
+    "id": "v084",
+    "w": "estimate",
+    "pos": "v",
+    "pt": "estimar",
+    "ex": "Researchers estimate the crowd at five thousand.",
+    "topic": "academic"
+  },
+  {
+    "id": "v085",
+    "w": "predict",
+    "pos": "v",
+    "pt": "prever",
+    "ex": "The model can predict next month's water use.",
+    "topic": "academic"
+  },
+  {
+    "id": "v086",
+    "w": "indicate",
+    "pos": "v",
+    "pt": "indicar",
+    "ex": "Rising sales indicate stronger demand.",
+    "topic": "academic"
+  },
+  {
+    "id": "v087",
+    "w": "suggest",
+    "pos": "v",
+    "pt": "sugerir",
+    "ex": "The footprints suggest that deer crossed the field at night.",
+    "topic": "academic"
+  },
+  {
+    "id": "v088",
+    "w": "bias",
+    "pos": "n",
+    "pt": "viés",
+    "ex": "Selection bias can distort the result of a survey.",
+    "topic": "academic"
+  },
+  {
+    "id": "v089",
+    "w": "valid",
+    "pos": "adj",
+    "pt": "válido",
+    "ex": "A valid comparison uses the same units.",
+    "topic": "academic"
+  },
+  {
+    "id": "v090",
+    "w": "reliable",
+    "pos": "adj",
+    "pt": "confiável",
+    "ex": "A reliable scale gives the same weight twice.",
+    "topic": "academic"
+  },
+  {
+    "id": "v091",
+    "w": "accurate",
+    "pos": "adj",
+    "pt": "preciso",
+    "ex": "Accurate notes help the next team repeat the test.",
+    "topic": "academic"
+  },
+  {
+    "id": "v092",
+    "w": "abstract",
+    "pos": "n",
+    "pt": "resumo acadêmico",
+    "ex": "The abstract states the question and the main result.",
+    "topic": "academic"
+  },
+  {
+    "id": "v093",
+    "w": "phenomenon",
+    "pos": "n",
+    "pt": "fenômeno",
+    "ex": "The northern lights are a natural phenomenon.",
+    "topic": "academic"
+  },
+  {
+    "id": "v094",
+    "w": "process",
+    "pos": "n",
+    "pt": "processo",
+    "ex": "The process of composting needs air and moisture.",
+    "topic": "academic"
+  },
+  {
+    "id": "v095",
+    "w": "impact",
+    "pos": "n",
+    "pt": "impacto",
+    "ex": "The impact of the new bus line was felt within a month.",
+    "topic": "academic"
+  },
+  {
+    "id": "v096",
+    "w": "policy",
+    "pos": "n",
+    "pt": "política",
+    "ex": "The policy limits water use during dry months.",
+    "topic": "academic"
+  },
+  {
+    "id": "v097",
+    "w": "distribution",
+    "pos": "n",
+    "pt": "distribuição",
+    "ex": "The distribution of income is uneven across districts.",
+    "topic": "academic"
+  },
+  {
+    "id": "v098",
+    "w": "population",
+    "pos": "n",
+    "pt": "população",
+    "ex": "The population of the town doubled in twenty years.",
+    "topic": "academic"
+  },
+  {
+    "id": "v099",
+    "w": "source",
+    "pos": "n",
+    "pt": "fonte",
+    "ex": "Name the source when you quote a sentence.",
+    "topic": "academic"
+  },
+  {
+    "id": "v100",
+    "w": "debate",
+    "pos": "n",
+    "pt": "debate",
+    "ex": "The debate concerns whether the new fee is fair.",
+    "topic": "academic"
+  }
+]

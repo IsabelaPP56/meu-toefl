@@ -1,0 +1,898 @@
+[
+  {
+    "id": "ac01",
+    "pool": "practice",
+    "level": "mid",
+    "title": "Street trees and summer heat",
+    "text": "City streets often feel hotter than the parks around them. Dark pavement and brick walls absorb sunlight during the day and release that heat after sunset. Researchers call this pattern an urban heat island. In a study of one mid-sized city, afternoon temperatures on a treeless avenue were three degrees higher than temperatures in a nearby block with mature trees. The difference mattered most to older residents, who walked to shops in the late afternoon. Leaves cool the air in two ways. They cast shade on the sidewalk, and they release water vapor through tiny pores. That vapor uses heat as it evaporates, so the air just above the street becomes slightly cooler. Trees do not solve every heat problem. A narrow sidewalk may have no room for large roots, and some species drop limbs during storms. Cities that plant the right tree in a wide strip of soil still gain a practical benefit. Residents get a cooler route, and the pavement lasts longer because it is not baked as hard each summer. The lesson is local: shade placed where people actually walk can change a daily trip more than a distant park can.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How parks replace every city street",
+          "Why street trees can cool the places people walk",
+          "How storms choose which limbs fall",
+          "Why older residents avoid all shops"
+        ],
+        "a": 1,
+        "why": "O texto explica como árvores na rua reduzem o calor no caminho que as pessoas usam."
+      },
+      {
+        "q": "What did the study find about the treeless avenue?",
+        "options": [
+          "It was three degrees hotter in the afternoon than a block with mature trees.",
+          "It was cooler at night than the park.",
+          "It had no pavement.",
+          "It was reserved for older residents."
+        ],
+        "a": 0,
+        "why": "O estudo diz que a avenida sem árvores ficou três graus mais quente à tarde."
+      },
+      {
+        "q": "The word 'mature' in the passage is closest in meaning to",
+        "options": [
+          "recently planted",
+          "fully grown",
+          "artificial",
+          "rare"
+        ],
+        "a": 1,
+        "why": "No contexto, mature trees são árvores já crescidas, capazes de fazer sombra."
+      },
+      {
+        "q": "What can be inferred about a distant park?",
+        "options": [
+          "It cools every street automatically.",
+          "It may not cool the streets people use every day.",
+          "It is always hotter than an avenue.",
+          "It cannot contain trees."
+        ],
+        "a": 1,
+        "why": "A frase final diz que a sombra no caminho diário muda mais a viagem do que um parque distante."
+      },
+      {
+        "q": "Why does the author mention narrow sidewalks and falling limbs?",
+        "options": [
+          "To show practical limits of planting trees",
+          "To argue that all street trees should be removed",
+          "To explain how vapor forms",
+          "To compare two different studies"
+        ],
+        "a": 0,
+        "why": "Esses detalhes mostram que plantar árvores nem sempre é simples, apesar do benefício."
+      }
+    ]
+  },
+  {
+    "id": "ac02",
+    "pool": "practice",
+    "level": "easy",
+    "title": "Sleep and what students remember",
+    "text": "Sleep does more than rest a tired body. During the night the brain sorts what a person practiced while awake. Researchers call one part of this sorting memory consolidation. In a study with college students, one group slept for eight hours after learning a list of new words. Another group stayed awake for the same number of hours. The next day the sleep group remembered more of the list. The advantage was largest for words the students had struggled to recall in the evening. Sleep did not help every kind of memory equally. A simple fact, such as a date, improved less than a skill the students had practiced with their hands. Timing also mattered. Students who slept soon after study did better than students who stayed up late and slept in the morning. Caffeine kept some students alert, but it did not replace the night. The practical lesson is limited and useful. A full night after hard study gives the brain time to keep what was difficult, and a late cram session cannot fully copy that effect. Teachers who assign a skill should therefore leave room for sleep before the test.",
+    "questions": [
+      {
+        "q": "What is the main idea of the passage?",
+        "options": [
+          "Caffeine is the best study tool.",
+          "Sleep soon after study helps students keep difficult material.",
+          "Dates are easier to learn than words.",
+          "All kinds of memory improve in the same way."
+        ],
+        "a": 1,
+        "why": "O texto conclui que uma noite de sono depois do estudo ajuda a reter o que foi difícil."
+      },
+      {
+        "q": "Which words showed the largest advantage for the sleep group?",
+        "options": [
+          "Words the students already knew well",
+          "Words they had struggled to recall in the evening",
+          "Dates and other simple facts",
+          "Words learned in the morning"
+        ],
+        "a": 1,
+        "why": "O texto diz que a vantagem foi maior nas palavras que os alunos tiveram dificuldade de lembrar à noite."
+      },
+      {
+        "q": "The word 'consolidation' is closest in meaning to",
+        "options": [
+          "the process of making a memory more stable",
+          "a short break with caffeine",
+          "a list of new words",
+          "a test given the next day"
+        ],
+        "a": 0,
+        "why": "O parágrafo apresenta consolidation como a organização que torna a memória mais estável."
+      },
+      {
+        "q": "What can be inferred about a student who studies at dawn after a sleepless night?",
+        "options": [
+          "That student has copied the full benefit of sleeping soon after study.",
+          "That student may miss part of the benefit described in the study.",
+          "That student will remember dates better than skills.",
+          "That student no longer needs to practice with the hands."
+        ],
+        "a": 1,
+        "why": "Quem dorme só de manhã, depois de ficar acordado, teve resultado pior do que quem dormiu logo após estudar."
+      },
+      {
+        "q": "Why does the author mention caffeine?",
+        "options": [
+          "To show that feeling alert is not the same as the effect of sleep",
+          "To recommend coffee before every test",
+          "To explain how hands learn a skill",
+          "To describe the taste of a late drink"
+        ],
+        "a": 0,
+        "why": "A cafeína manteve alguns alunos alertas, mas não substituiu a noite de sono."
+      }
+    ]
+  },
+  {
+    "id": "ac03",
+    "pool": "practice",
+    "level": "mid",
+    "title": "Grain stores in a river town",
+    "text": "In the fourteenth century a river town kept grain in a shared stone building. Each farming family brought sacks after the harvest and received a mark on a wooden tally. The mark, not a written contract, showed how much that family could take back during the winter. A keeper lived beside the building and recorded spoilage. If mice or damp ruined a sack, the loss was divided across all the marks rather than charged to one household. This rule made families willing to store grain together instead of hiding it at home, where a single fire could destroy a year of food. The store also smoothed prices. When a flood stopped boats, local bakers bought from the building instead of bidding against one another at the dock. Travelers sometimes complained that outsiders paid a higher fee. Town records show that the extra fee bought salt and repairs, not private profit for the keeper. The system was not generous in every case. A family that missed the harvest delivery could not invent a mark later. Still, the shared store turned a risky crop into a public reserve that lasted until the next boats arrived.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How a shared grain building reduced winter risk",
+          "Why travelers refused to eat local bread",
+          "How mice were removed from every house",
+          "Why written contracts replaced wooden tallies"
+        ],
+        "a": 0,
+        "why": "O texto descreve o depósito comum e como ele protegia a comida e os preços."
+      },
+      {
+        "q": "How was a loss from mice or damp handled?",
+        "options": [
+          "It was charged to the keeper.",
+          "It was divided across all the marks.",
+          "It was paid by travelers.",
+          "It was ignored until the next harvest."
+        ],
+        "a": 1,
+        "why": "A regra dividia a perda entre todas as marcas, em vez de cobrá-la de uma só família."
+      },
+      {
+        "q": "The word 'smoothed' in the passage is closest in meaning to",
+        "options": [
+          "made less extreme",
+          "made illegal",
+          "measured with a tally",
+          "moved by boat"
+        ],
+        "a": 0,
+        "why": "O depósito deixava os preços menos instáveis quando as barcas paravam."
+      },
+      {
+        "q": "What can be inferred about a family that missed the harvest delivery?",
+        "options": [
+          "It could later claim a full share.",
+          "It could not create a mark after the fact.",
+          "It received salt instead of grain.",
+          "It was paid from the travelers' fee."
+        ],
+        "a": 1,
+        "why": "O texto diz que uma família que não entregava na colheita não podia inventar uma marca depois."
+      },
+      {
+        "q": "What is the relationship between the travelers' fee and the building?",
+        "options": [
+          "The fee was the keeper's private profit.",
+          "The fee paid for salt and repairs.",
+          "The fee replaced the wooden tally.",
+          "The fee was charged only to local bakers."
+        ],
+        "a": 1,
+        "why": "Os registros da cidade mostram que a taxa extra comprava sal e consertos."
+      }
+    ]
+  },
+  {
+    "id": "ac04",
+    "pool": "practice",
+    "level": "mid",
+    "title": "How honeybees report distance",
+    "text": "A honeybee that finds flowers must tell other bees where to fly. Inside the dark hive she cannot point at the field. She walks a short pattern, a waggle dance, on the comb. The angle of the walk, relative to straight up, matches the angle between the sun and the flowers outside. Distance is reported in a different way. The longer she waggles, the farther the patch. Researchers tested this by training bees to a boat of sugar water. When the boat was near the shore, the dances were brief. When the boat was moved farther out, the waggle lasted longer, and new bees flew to the new spot. The dance is not a perfect map. Wind can blow a bee off the straight line, and the recruits may search a wide area before they smell the flowers. The system is still efficient. Dozens of bees learn a location without each one searching the whole meadow. A hive that loses this signal, because of constant cloud or a damaged comb, sends foragers more randomly and brings back less food each week.",
+    "questions": [
+      {
+        "q": "What is the main point of the passage?",
+        "options": [
+          "Sugar water is the only food bees use.",
+          "A dance in the hive can report direction and distance.",
+          "Wind always stops bees from finding flowers.",
+          "Boats are the best place to keep hives."
+        ],
+        "a": 1,
+        "why": "O texto explica que a dança comunica o ângulo em relação ao sol e a distância."
+      },
+      {
+        "q": "What happened when the boat was moved farther out?",
+        "options": [
+          "The dances became shorter.",
+          "The waggle lasted longer and new bees flew to the new spot.",
+          "The bees refused the sugar water.",
+          "The comb was damaged."
+        ],
+        "a": 1,
+        "why": "Com o barco mais longe, o zigue-zague durava mais e as novas abelhas iam ao novo ponto."
+      },
+      {
+        "q": "The word 'recruits' refers to",
+        "options": [
+          "bees that receive the dance and go to search",
+          "boats used in the experiment",
+          "flowers that have no smell",
+          "researchers who move the sugar water"
+        ],
+        "a": 0,
+        "why": "Recruits são as abelhas informadas pela dança, que ainda podem procurar antes de sentir o cheiro."
+      },
+      {
+        "q": "What can be inferred about a very long waggle?",
+        "options": [
+          "The flowers are probably farther away.",
+          "The flowers are inside the hive.",
+          "The sun is straight up.",
+          "The bees will not leave the comb."
+        ],
+        "a": 0,
+        "why": "O texto diz que, quanto mais longo o zigue-zague, mais distante é o canteiro."
+      },
+      {
+        "q": "Why does the author mention wind?",
+        "options": [
+          "To show a limit of the dance as a map",
+          "To prove that smell is useless",
+          "To explain how sugar water is made",
+          "To argue that hives should be moved daily"
+        ],
+        "a": 0,
+        "why": "O vento mostra que a dança não é um mapa perfeito, porque a abelha pode sair da linha reta."
+      }
+    ]
+  },
+  {
+    "id": "ac05",
+    "pool": "practice",
+    "level": "easy",
+    "title": "Shared drinking fountains",
+    "text": "A public drinking fountain seems like a small object, but its location changes who stops for water. In one hot city, health workers counted users at fountains placed either in the shade of a bus stop or in full sun a short walk away. The shaded fountains were used more than twice as often. The difference was greatest in the early afternoon, when the walk across open pavement was uncomfortable. The workers also watched what people did. Many rinsed their hands before drinking if a second spout was clearly marked for washing. Fountains with only one spout were used for drinking alone, and hand washing happened less. Clean water mattered, yet design mattered too. A fountain that was hard to see from the sidewalk was almost unused, even when tests showed the water was safe. After the city added signs and shade, use rose within a week. The study does not claim that fountains replace bottles at home. It shows that a safe supply will be ignored if the stop feels unpleasant or unclear. A small change in place and labeling can raise the chance that people drink water when they need it.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How to test water in a laboratory",
+          "How the design and place of a fountain affect its use",
+          "Why bottles are always safer than fountains",
+          "How bus stops are built"
+        ],
+        "a": 1,
+        "why": "O texto mostra que sombra, visibilidade e um bico extra mudam o uso do bebedouro."
+      },
+      {
+        "q": "When was the difference between shaded and sunny fountains greatest?",
+        "options": [
+          "At night",
+          "In the early afternoon",
+          "Within a week of the signs",
+          "During laboratory tests"
+        ],
+        "a": 1,
+        "why": "A diferença foi maior no começo da tarde, quando atravessar o sol era desconfortável."
+      },
+      {
+        "q": "The word 'spout' is closest in meaning to",
+        "options": [
+          "the opening where water comes out",
+          "a sign on the sidewalk",
+          "a bottle brought from home",
+          "a laboratory test"
+        ],
+        "a": 0,
+        "why": "Spout é a saída de água; o texto fala de um segundo bico marcado para lavar as mãos."
+      },
+      {
+        "q": "What can be inferred about a safe fountain that people cannot see from the sidewalk?",
+        "options": [
+          "It will probably be used often.",
+          "It may stay almost unused.",
+          "It will replace every bottle.",
+          "It does not need clean water."
+        ],
+        "a": 1,
+        "why": "O texto diz que um bebedouro difícil de ver quase não era usado, mesmo com água segura."
+      },
+      {
+        "q": "Why does the author mention the second spout?",
+        "options": [
+          "To show that a clear washing point changed behavior",
+          "To argue that one spout is always enough",
+          "To explain the chemistry of clean water",
+          "To compare two cities"
+        ],
+        "a": 0,
+        "why": "Com um segundo bico marcado, muitas pessoas lavavam as mãos antes de beber."
+      }
+    ]
+  },
+  {
+    "id": "ac06",
+    "pool": "practice",
+    "level": "mid",
+    "title": "The first price shoppers see",
+    "text": "Shoppers often judge a price by comparing it with another number they saw first. Economists call that first number an anchor. In a campus store experiment, one group of students saw a jacket with a tag of 120 and then a sale tag of 80. A second group saw only the 80 tag. Both groups could feel the same jacket. The first group rated the purchase as a better deal and was more willing to buy it that day. The jacket had not changed. Only the comparison had. The effect was weaker when students were asked to write down prices from other stores before they decided. That short task gave them a second reference. Anchors also appear outside shops. A tuition letter that prints last year's higher fee next to this year's fee can make the new fee seem moderate, even if both numbers are large. The study does not say that shoppers are careless. It says that a single comparison is powerful when no other comparison is ready. People who pause to gather one more price are less tied to the first number they happened to see.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Jackets are cheaper on campus than in other stores.",
+          "The first price people see can shape whether a later price feels like a deal.",
+          "Tuition should always rise.",
+          "Writing prices removes the need for stores."
+        ],
+        "a": 1,
+        "why": "O experimento mostra que a primeira etiqueta muda a avaliação do mesmo casaco."
+      },
+      {
+        "q": "What did the first group see that the second group did not?",
+        "options": [
+          "A different jacket",
+          "A tag of 120 before the sale tag of 80",
+          "A list of prices from other stores",
+          "Last year's tuition"
+        ],
+        "a": 1,
+        "why": "O primeiro grupo viu a etiqueta de 120 e depois a de 80; o segundo viu só a de 80."
+      },
+      {
+        "q": "The word 'anchor' in the passage means",
+        "options": [
+          "a number used as a starting point for comparison",
+          "a jacket that does not sell",
+          "a fee printed by mistake",
+          "a store that refuses discounts"
+        ],
+        "a": 0,
+        "why": "O texto define anchor como o primeiro número com o qual o comprador compara o preço."
+      },
+      {
+        "q": "What can be inferred about a student who writes down other prices first?",
+        "options": [
+          "That student is more tied to the campus tag.",
+          "That student is less controlled by the first campus number.",
+          "That student will always refuse the jacket.",
+          "That student cannot understand tuition letters."
+        ],
+        "a": 1,
+        "why": "A tarefa de anotar outros preços enfraqueceu o efeito e deu uma segunda referência."
+      },
+      {
+        "q": "Why does the author mention a tuition letter?",
+        "options": [
+          "To show that the same comparison effect can appear outside shops",
+          "To prove that last year's fee was an error",
+          "To recommend a jacket sale",
+          "To explain how to write a budget"
+        ],
+        "a": 0,
+        "why": "A carta de mensalidade é um exemplo do mesmo tipo de comparação fora da loja."
+      }
+    ]
+  },
+  {
+    "id": "ac07",
+    "pool": "practice",
+    "level": "hard",
+    "title": "Light on paintings",
+    "text": "Museum staff control light because light both reveals a painting and slowly changes it. Bright sun can fade a pigment that cannot be mixed again in the same way. For that reason, some rooms keep the lamps low and ask visitors to stand a little farther from the canvas. The choice has a cost. Details in a dark corner of the picture become harder to see, and a visitor who stays for only a minute may miss them. One gallery tested a compromise. For most of the day the light stayed low. For twenty minutes each hour it rose to a higher level, and a small sign told visitors when the brighter period would start. Counts at the door showed that people who came for the bright interval spent longer in front of the oldest paintings. People who arrived at random did not. The test did not make the paintings safe forever. Even the low setting causes a little change over many years. The gallery accepted that slow change in order to keep the works on view. What the schedule added was fairness: a visitor who read the sign could choose a moment when looking was easier, without leaving the lamps high all afternoon.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "A schedule that balances viewing and damage from light",
+          "How to mix lost pigments again",
+          "Why visitors should not read signs",
+          "How door counts replace conservation"
+        ],
+        "a": 0,
+        "why": "O texto apresenta um horário de luz mais forte para ver melhor sem deixar as lâmpadas altas o tempo todo."
+      },
+      {
+        "q": "What did the door counts show?",
+        "options": [
+          "Random visitors spent the longest time.",
+          "People who came for the bright interval spent longer in front of the oldest paintings.",
+          "The oldest paintings were removed.",
+          "Twenty people left every hour."
+        ],
+        "a": 1,
+        "why": "Quem vinha no intervalo mais claro passava mais tempo diante das pinturas mais antigas."
+      },
+      {
+        "q": "The word 'compromise' is closest in meaning to",
+        "options": [
+          "a middle solution between two goals",
+          "a type of pigment",
+          "a visitor who stays one minute",
+          "a lamp that never changes"
+        ],
+        "a": 0,
+        "why": "O compromisso é a solução intermediária entre ver o quadro e limitar a luz."
+      },
+      {
+        "q": "What can be inferred about leaving the lamps high all afternoon?",
+        "options": [
+          "It would remove every risk of fading.",
+          "It would make viewing easier but increase exposure.",
+          "It would hide the sign.",
+          "It would stop people from entering."
+        ],
+        "a": 1,
+        "why": "A luz alta facilita a visão, mas o texto evita deixá-la alta a tarde inteira por causa do desgaste."
+      },
+      {
+        "q": "What is the relationship between the sign and the brighter period?",
+        "options": [
+          "The sign hides the brighter period.",
+          "The sign lets a visitor time a visit for easier looking.",
+          "The sign replaces the lamps.",
+          "The sign is only for staff."
+        ],
+        "a": 1,
+        "why": "O aviso informa quando a luz sobe, para o visitante escolher esse momento."
+      }
+    ]
+  },
+  {
+    "id": "ac08",
+    "pool": "practice",
+    "level": "mid",
+    "title": "Languages at the family table",
+    "text": "When a family moves to a new country, the language of the home can change within one generation. Children often learn the school language faster than their parents because they use it all day. At dinner a child may answer in the new language even when a grandparent asked a question in the old one. Linguists call this pattern language shift. A study of forty households found that shift was slower when the old language had a job outside the home. Parents who spoke it with customers, or at a weekend school, kept more of it with their children. Shift was faster when the old language was used only for short commands, such as 'come here' or 'wash your hands.' Those phrases did not give children enough words for stories. The researchers did not treat shift as a failure of respect. Children were not refusing the family. They were choosing the language in which they could say more. Households that set aside one meal for the old language, with no correction and no rush, heard longer answers within two months. The meal did not freeze the language in place. It gave it a regular use that commands alone could not provide.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How restaurant menus are translated",
+          "Why a home language can weaken, and what slows that change",
+          "How grandparents refuse new languages",
+          "Why commands are the best way to tell stories"
+        ],
+        "a": 1,
+        "why": "O texto explica a troca de língua em casa e as condições que a tornam mais lenta."
+      },
+      {
+        "q": "When was the shift slower?",
+        "options": [
+          "When the old language was used only for commands",
+          "When the old language also had a use outside the home",
+          "When children avoided dinner",
+          "When there was no weekend school"
+        ],
+        "a": 1,
+        "why": "A mudança era mais lenta se a língua antiga também era usada com clientes ou na escola de fim de semana."
+      },
+      {
+        "q": "The phrase 'language shift' means",
+        "options": [
+          "a move to a new house",
+          "a change in which language a family actually uses",
+          "a grammar test at school",
+          "a list of short commands"
+        ],
+        "a": 1,
+        "why": "O texto define language shift como a mudança da língua usada em casa ao longo de uma geração."
+      },
+      {
+        "q": "What can be inferred about short commands?",
+        "options": [
+          "They teach children a full range of story words.",
+          "They do not provide enough language for longer talk.",
+          "They always stop shift.",
+          "They are used only at weekend schools."
+        ],
+        "a": 1,
+        "why": "O texto diz que essas frases não davam às crianças palavras suficientes para histórias."
+      },
+      {
+        "q": "Why does the author describe the meal with no correction?",
+        "options": [
+          "To show a regular, low-pressure use that produced longer answers",
+          "To argue that grandparents should stop asking questions",
+          "To prove that two months freeze a language forever",
+          "To compare customer service in two countries"
+        ],
+        "a": 0,
+        "why": "A refeição sem correção é o exemplo de uso regular que aumentou as respostas em dois meses."
+      }
+    ]
+  },
+  {
+    "id": "ac-m1",
+    "pool": "m1",
+    "level": "mid",
+    "title": "Community gardens and neighborly ties",
+    "text": "A community garden is often praised for its vegetables, but the social effect may be just as important. In a neighborhood study, residents who held a plot spoke with more neighbors than residents on the same blocks who did not garden. The conversations were not only about plants. People arranged tool sharing, warned one another about a broken gate, and learned the names of children who visited on Saturdays. The garden had rules that made this contact likely. Plots were small, so no one worked in isolation for long, and a shared shed forced people to cross paths. New arrivals were paired with an experienced gardener for the first month. That pairing mattered. New gardeners who skipped it reported fewer conversations, even when they grew similar crops. The study does not claim that a garden repairs every conflict. Two blocks with gardens still argued about parking. It does suggest that repeated, useful contact gives people a reason to talk before a problem appears. A bench at the entrance, where someone might rest with a handful of beans, extended those talks past the work itself.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Gardens end parking disputes.",
+          "Shared garden routines increase ordinary contact among neighbors.",
+          "Experienced gardeners grow better crops than newcomers.",
+          "Children should manage the tool shed."
+        ],
+        "a": 1,
+        "why": "O texto liga as regras do jardim ao aumento de conversas entre vizinhos."
+      },
+      {
+        "q": "What did new gardeners who skipped the pairing report?",
+        "options": [
+          "More vegetables",
+          "Fewer conversations",
+          "A broken gate",
+          "No parking problems"
+        ],
+        "a": 1,
+        "why": "Quem não fazia a dupla com um jardineiro experiente relatava menos conversas."
+      },
+      {
+        "q": "The word 'isolation' is closest in meaning to",
+        "options": [
+          "working apart from other people",
+          "sharing every tool",
+          "arguing about parking",
+          "resting on a bench"
+        ],
+        "a": 0,
+        "why": "Isolation aqui é ficar separado dos outros; os canteiros pequenos evitavam isso."
+      },
+      {
+        "q": "What can be inferred about the bench?",
+        "options": [
+          "It replaced the need for plots.",
+          "It gave people a place to continue talking after the work.",
+          "It solved the parking argument.",
+          "It was used only by children."
+        ],
+        "a": 1,
+        "why": "O banco na entrada prolongava as conversas para além do trabalho."
+      },
+      {
+        "q": "Why does the author mention the parking arguments?",
+        "options": [
+          "To limit the claim: a garden does not repair every conflict",
+          "To prove that gardens cause parking problems",
+          "To explain how gates break",
+          "To recommend larger plots"
+        ],
+        "a": 0,
+        "why": "As brigas por estacionamento mostram que o jardim não resolve todos os conflitos."
+      }
+    ]
+  },
+  {
+    "id": "ac-m1u",
+    "pool": "m1u",
+    "level": "hard",
+    "title": "Drains under an old mountain road",
+    "text": "Roman road builders in steep country faced a problem that was not only the surface under the wheels. Rain running down a slope can lift stones and cut a channel beside a road until the edge collapses. On one mountain route, builders laid the paving on a deep bed of gravel and cut shallow side ditches. At regular intervals a covered drain carried water under the road to the downhill side, instead of letting it cross the surface. Archaeologists mapped these drains by the different color of the soil, which stayed damp longer than the ground around it. The spacing was not random. Drains were closer together on the steepest bends, where water would have gathered speed. On gentler stretches they were farther apart. The design did not make the road dry in every storm. A blocked drain could still send water over the paving, and records mention crews sent to clear them after heavy rain. What the system did was reduce the chance that water would sit against the edge long enough to move the stones. The road's long survival is easier to understand when the hidden drains are counted as part of the structure, not as a later repair.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How hidden drains protected a steep road from running water",
+          "Why Roman maps used colored soil",
+          "How modern crews pave highways",
+          "Why gravel is useless on mountains"
+        ],
+        "a": 0,
+        "why": "O texto explica o sistema de drenos que impedia a água de destruir a borda da estrada."
+      },
+      {
+        "q": "Where were the drains placed closer together?",
+        "options": [
+          "On gentler stretches",
+          "On the steepest bends",
+          "Only inside towns",
+          "Wherever the soil was dry"
+        ],
+        "a": 1,
+        "why": "Os drenos ficavam mais próximos nas curvas mais íngremes, onde a água ganhava velocidade."
+      },
+      {
+        "q": "The word 'intervals' in the passage means",
+        "options": [
+          "spaces between repeating drains",
+          "colors on an archaeological map",
+          "crews sent after a storm",
+          "stones lifted by rain"
+        ],
+        "a": 0,
+        "why": "Intervals são os espaços regulares entre um dreno e outro."
+      },
+      {
+        "q": "What can be inferred about a blocked drain?",
+        "options": [
+          "It proved the road no longer needed maintenance.",
+          "It could let water cross the paving despite the design.",
+          "It made the soil a different color forever.",
+          "It replaced the gravel bed."
+        ],
+        "a": 1,
+        "why": "O texto diz que um dreno entupido ainda podia jogar água sobre o pavimento."
+      },
+      {
+        "q": "Why does the author mention crews sent after heavy rain?",
+        "options": [
+          "To show that the design still required maintenance",
+          "To argue that drains were added centuries later",
+          "To explain the color of the paving",
+          "To compare two mountain empires"
+        ],
+        "a": 0,
+        "why": "As equipes chamadas depois da chuva mostram que o sistema precisava de manutenção."
+      }
+    ]
+  },
+  {
+    "id": "ac-m1l",
+    "pool": "m1l",
+    "level": "easy",
+    "title": "Breakfast at school",
+    "text": "A school that serves breakfast in the classroom reaches students who never had time to eat at home. In one district, buses often arrived with only a few minutes before the first lesson. Children who had not eaten sat through that lesson tired and distracted. The district then placed a simple meal, fruit and a roll, on each desk at the start of the day. Teachers spent about ten minutes on the meal while taking attendance. Test scores did not jump overnight, but teachers reported fewer stomach complaints before noon. Students who had skipped breakfast at home were the ones most likely to eat the classroom meal. Students who had already eaten usually took only the fruit. The program was not free of problems. Crumbs attracted ants in two old rooms, and the school had to add covered bins. The cost was modest because the meal was small. The gain was a morning in which hunger was less of a barrier to paying attention. A cafeteria breakfast, offered earlier, had failed the same students because the bus schedule did not leave them enough time to reach it.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Fruit is better than a roll.",
+          "A short classroom breakfast helped students who arrived too late to eat.",
+          "Test scores doubled in one day.",
+          "Ants improved attendance."
+        ],
+        "a": 1,
+        "why": "O texto mostra que o café na sala alcançou alunos que não tinham tempo de comer antes."
+      },
+      {
+        "q": "Who was most likely to eat the classroom meal?",
+        "options": [
+          "Students who had already eaten at home",
+          "Students who had skipped breakfast",
+          "Only the teachers",
+          "Students who arrived early"
+        ],
+        "a": 1,
+        "why": "Quem não tinha comido em casa era o grupo mais propenso a fazer a refeição da sala."
+      },
+      {
+        "q": "The word 'modest' is closest in meaning to",
+        "options": [
+          "not large",
+          "impossible",
+          "sudden",
+          "sweet"
+        ],
+        "a": 0,
+        "why": "O custo era modesto porque a refeição era pequena, ou seja, o custo não era alto."
+      },
+      {
+        "q": "What can be inferred about the earlier cafeteria plan?",
+        "options": [
+          "It failed because many students could not arrive in time.",
+          "It removed ants from the classrooms.",
+          "It raised test scores overnight.",
+          "It was served on each desk."
+        ],
+        "a": 0,
+        "why": "O café na cantina falhou porque o horário do ônibus não deixava tempo para chegar até lá."
+      },
+      {
+        "q": "Why does the author mention covered bins?",
+        "options": [
+          "To note a practical problem and the fix",
+          "To argue that fruit should be banned",
+          "To explain the bus schedule",
+          "To compare two districts' test scores"
+        ],
+        "a": 0,
+        "why": "As migalhas atraíram formigas, e a escola respondeu com latas tampadas."
+      }
+    ]
+  },
+  {
+    "id": "ac-m2",
+    "pool": "m2",
+    "level": "mid",
+    "title": "Noise outside a classroom",
+    "text": "Noise from a busy road does not have to be extremely loud to affect a lesson. In a primary school beside a four-lane street, researchers measured reading scores on days when the windows were open and on days when they were shut. With the windows open, average scores on a short reading check were lower, especially for students seated nearest the street. The difference was small for a single day and clearer across a month. Teachers were not shouting. They simply paused more often because a truck covered a word. A barrier of thick shrubs, planted along the fence, reduced the measured noise by only a few decibels. That small drop was enough to raise the reading check for the street-side seats back toward the scores of the quiet side. The shrubs did not replace a solid wall, and they took three years to fill in. They did show that the school did not need silence. It needed the road to stop masking individual words. Students in the interior rooms, farther from the glass, showed little change in either condition, which helped the researchers separate noise from other differences among classes.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How a small reduction in road noise can protect reading",
+          "Why trucks should be banned from all cities",
+          "How decibels are calculated",
+          "Why interior rooms need shrubs"
+        ],
+        "a": 0,
+        "why": "O texto relaciona o ruído da rua, as pausas dos professores e o resultado da leitura."
+      },
+      {
+        "q": "Which students were most affected when the windows were open?",
+        "options": [
+          "Students in interior rooms",
+          "Students seated nearest the street",
+          "Teachers who were shouting",
+          "Students who took the monthly test only"
+        ],
+        "a": 1,
+        "why": "A queda foi especialmente dos alunos sentados mais perto da rua."
+      },
+      {
+        "q": "The word 'masking' is closest in meaning to",
+        "options": [
+          "covering a sound so it cannot be heard clearly",
+          "planting a shrub",
+          "raising a score",
+          "closing a window"
+        ],
+        "a": 0,
+        "why": "Masking é o ruído cobrir a palavra, como o caminhão que escondia o que o professor dizia."
+      },
+      {
+        "q": "What can be inferred about the few-decibel drop?",
+        "options": [
+          "It was too small to matter.",
+          "It was small but still enough to help the street-side scores.",
+          "It made the interior rooms louder.",
+          "It replaced the need for windows."
+        ],
+        "a": 1,
+        "why": "A queda de poucos decibéis foi suficiente para aproximar as notas do lado da rua das notas do lado quieto."
+      },
+      {
+        "q": "Why does the author mention the interior rooms?",
+        "options": [
+          "To help separate the effect of noise from other class differences",
+          "To prove that shrubs grow faster indoors",
+          "To show that all rooms had the same score",
+          "To explain how to build a solid wall"
+        ],
+        "a": 0,
+        "why": "As salas internas quase não mudaram, o que ajudou a isolar o efeito do ruído."
+      }
+    ]
+  },
+  {
+    "id": "ac-m2u",
+    "pool": "m2u",
+    "level": "hard",
+    "title": "What a rain forecast means",
+    "text": "A forecast that says there is a 40 percent chance of rain is easy to misread. Many listeners think it will rain for 40 percent of the day, or over 40 percent of the city. Forecasters usually mean something more specific. In the system used by one national service, the number combines two judgments: how confident the forecaster is that rain will occur in the area, and how much of the area is expected to get it. A 40 percent chance can therefore describe a fairly confident forecast that a smaller part of the area will be wet, or a less confident forecast that covers more ground. The number is not a promise about one street. A person who stays on a dry corner has not proved the forecast wrong. Studies of public understanding find that people make better decisions when the forecast also names a time window, such as 'between 2 and 5 p.m.,' and a typical amount, such as 'a brief shower.' Without those details, listeners may cancel a whole afternoon for a risk that was narrow. The percentage is still useful. It is a summary, and a summary leaves out the shape of the rain unless the forecaster adds it back in plain words.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "A rain percentage is a specific kind of summary and is often misunderstood.",
+          "Rain always lasts 40 percent of the day.",
+          "Forecasters should stop using numbers.",
+          "A dry corner proves a forecast false."
+        ],
+        "a": 0,
+        "why": "O texto explica o que a porcentagem combina e por que ela não descreve uma rua só."
+      },
+      {
+        "q": "In the system described, what two judgments form the percentage?",
+        "options": [
+          "The time of day and the day of the week",
+          "Confidence that rain will occur, and how much of the area will get it",
+          "The size of one street and the number of listeners",
+          "The amount of a shower and the cost of an umbrella"
+        ],
+        "a": 1,
+        "why": "O número junta a confiança de que vai chover na área e a fração da área que deve molhar."
+      },
+      {
+        "q": "The word 'window' in the passage is closest in meaning to",
+        "options": [
+          "a glass opening",
+          "a period of time",
+          "a percentage point",
+          "a dry corner"
+        ],
+        "a": 1,
+        "why": "Time window é um intervalo de horas, como entre 14h e 17h."
+      },
+      {
+        "q": "What can be inferred about someone standing on a dry corner during a 40 percent forecast?",
+        "options": [
+          "That person has proved the forecast wrong.",
+          "That person may simply be outside the wet part of the area.",
+          "That person should expect rain for 40 percent of the day.",
+          "That person heard a promise about one street."
+        ],
+        "a": 1,
+        "why": "O texto diz que uma esquina seca não prova que a previsão estava errada."
+      },
+      {
+        "q": "Why does the author mention a time and a typical amount?",
+        "options": [
+          "To show extra details that help people judge a narrow risk",
+          "To replace the percentage with a picture",
+          "To argue that afternoons should always be canceled",
+          "To explain how to measure a city"
+        ],
+        "a": 0,
+        "why": "Horário e quantidade ajudam as pessoas a não cancelar a tarde inteira por um risco estreito."
+      }
+    ]
+  },
+  {
+    "id": "ac-m2l",
+    "pool": "m2l",
+    "level": "easy",
+    "title": "Bike lanes and nearby shops",
+    "text": "A new bike lane can worry shop owners who believe most customers arrive by car. A study of a shopping street tested that belief before and after a lane replaced eight parking spaces. Cameras counted people entering shops, and short surveys asked how they had traveled. After the lane opened, car arrivals fell a little. Bike and bus arrivals rose by more than that amount, so the total number of customers went up slightly. The change was not equal for every shop. A repair business that depended on people loading heavy parts saw fewer stops. A bakery and a pharmacy saw more. Customers who came by bike spent less on a single visit but came more often during the week. The lane was not the only change. The city also added a bench and a clearer crosswalk, which may have made walking easier. Even with that limit, the counts do not support the fear that removing a few spaces empties a street. What mattered was whether a shop's typical errand could be done without a car. Owners who looked only at the lost spaces missed the new arrivals.",
+    "questions": [
+      {
+        "q": "What is the passage mainly about?",
+        "options": [
+          "How a bike lane changed who reached the shops",
+          "Why bakeries should move",
+          "How to repair heavy parts",
+          "Why benches replace pharmacies"
+        ],
+        "a": 0,
+        "why": "O texto compara a chegada de clientes antes e depois da faixa de bicicleta."
+      },
+      {
+        "q": "What happened to the total number of customers?",
+        "options": [
+          "It fell sharply.",
+          "It went up slightly.",
+          "It stayed exactly the same.",
+          "It was not counted."
+        ],
+        "a": 1,
+        "why": "As chegadas de bicicleta e ônibus compensaram a queda dos carros, e o total subiu um pouco."
+      },
+      {
+        "q": "The word 'errand' is closest in meaning to",
+        "options": [
+          "a short trip to get something done",
+          "a parking space",
+          "a camera count",
+          "a lost customer"
+        ],
+        "a": 0,
+        "why": "Errand é a tarefa curta do cliente, como passar na padaria, e se ela cabe sem carro."
+      },
+      {
+        "q": "What can be inferred about the repair business?",
+        "options": [
+          "Its customers could easily switch to bikes.",
+          "Its work was harder to do without a car, so it lost stops.",
+          "It gained more visits than the bakery.",
+          "It did not appear in the study."
+        ],
+        "a": 1,
+        "why": "A oficina que dependia de carregar peças pesadas teve menos paradas."
+      },
+      {
+        "q": "Why does the author mention the bench and the crosswalk?",
+        "options": [
+          "To note other changes that might also explain easier walking",
+          "To prove that the lane had no effect",
+          "To describe the bakery's menu",
+          "To recommend removing the pharmacy"
+        ],
+        "a": 0,
+        "why": "O banco e a faixa de pedestres são outras mudanças que podem ter facilitado a caminhada."
+      }
+    ]
+  }
+]

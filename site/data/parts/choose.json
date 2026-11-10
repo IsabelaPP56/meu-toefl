@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "ch01",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Could you tell me where the registrar is?",
+    "options": [
+      "I registered for history yesterday afternoon.",
+      "It's on the second floor, next to the bursar.",
+      "The registrar closes early on Friday.",
+      "Yes, the registrar sent me an email."
+    ],
+    "a": 1,
+    "why": "A pessoa pediu a localização; a resposta adequada diz que o escritório fica no segundo andar."
+  },
+  {
+    "id": "ch02",
+    "pool": "practice",
+    "level": "hard",
+    "line": "I'm sorry I missed our study group.",
+    "options": [
+      "The study group meets in the library at seven.",
+      "I missed the bus, so I arrived late too.",
+      "No problem. We can go over the notes tomorrow.",
+      "Sorry is not the same as being on time."
+    ],
+    "a": 2,
+    "why": "Houve um pedido de desculpas; a resposta adequada aceita e propõe revisar as anotações."
+  },
+  {
+    "id": "ch03",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Would you like me to save you a seat?",
+    "options": [
+      "Yes, please. I'll be there in five minutes.",
+      "The seat by the window is broken.",
+      "I saved my work on a different laptop.",
+      "Seats in the front row are usually taken."
+    ],
+    "a": 0,
+    "why": "A oferta é guardar um lugar; aceitar e dizer que chega em cinco minutos é a resposta adequada."
+  },
+  {
+    "id": "ch04",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Do you know what time the clinic closes?",
+    "options": [
+      "I know the nurse who works there.",
+      "The clinic is next to the gym.",
+      "It closes at six, except on Sunday.",
+      "Yes, I closed the form and sent it."
+    ],
+    "a": 2,
+    "why": "A pergunta é sobre o horário de fechamento; a resposta cita que fecha às seis."
+  },
+  {
+    "id": "ch05",
+    "pool": "practice",
+    "level": "hard",
+    "line": "I can't find my student card.",
+    "options": [
+      "You should check the lost-and-found in the lobby.",
+      "My student card expires next August.",
+      "The card reader at the library is new.",
+      "I found the reading very difficult."
+    ],
+    "a": 0,
+    "why": "A pessoa perdeu a carteirinha; indicar o achados e perdidos é a ajuda adequada."
+  },
+  {
+    "id": "ch06",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Thanks for lending me your calculator.",
+    "options": [
+      "Calculators are not allowed in the midterm.",
+      "You're welcome. Just return it after class.",
+      "I lent two books to the library.",
+      "Thank you for the homework reminder."
+    ],
+    "a": 1,
+    "why": "A pessoa agradeceu o empréstimo; a resposta adequada reconhece o agradecimento e pede a devolução."
+  },
+  {
+    "id": "ch07",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Are you free to meet after the lecture?",
+    "options": [
+      "The lecture is about river systems.",
+      "I already met the professor this morning.",
+      "Yes. I have an hour before work.",
+      "Free samples are at the bookstore."
+    ],
+    "a": 2,
+    "why": "O convite é para se encontrar depois da aula; dizer que tem uma hora livre aceita o convite."
+  },
+  {
+    "id": "ch08",
+    "pool": "practice",
+    "level": "hard",
+    "line": "This lab report is taking forever.",
+    "options": [
+      "Forever is a long word for a short task.",
+      "The lab report is due on Thursday.",
+      "Reports should include a methods section.",
+      "Want to split the charts and finish tonight?"
+    ],
+    "a": 3,
+    "why": "O comentário mostra cansaço com o relatório; oferecer dividir os gráficos é uma resposta solidária."
+  },
+  {
+    "id": "ch09",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Could you speak a little more slowly?",
+    "options": [
+      "I spoke to the advisor about my major.",
+      "Of course. I'll start that explanation again.",
+      "Slow readers may need extra time.",
+      "A little more coffee would help me."
+    ],
+    "a": 1,
+    "why": "A pessoa pediu para falar mais devagar; repetir a explicação atende ao pedido."
+  },
+  {
+    "id": "ch10",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Is the dining hall serving dinner yet?",
+    "options": [
+      "Dinner starts at five-thirty.",
+      "I served on the student council.",
+      "The hall is being painted this week.",
+      "Yes, I already ate dinner at home."
+    ],
+    "a": 0,
+    "why": "A pergunta é se o jantar já começou; informar que começa às cinco e meia responde à dúvida."
+  },
+  {
+    "id": "ch11",
+    "pool": "practice",
+    "level": "hard",
+    "line": "I think I left my umbrella in your room.",
+    "options": [
+      "The weather report says it will rain.",
+      "Umbrellas are sold at the campus store.",
+      "I'll look under the chair and text you.",
+      "Your room is warmer than the library."
+    ],
+    "a": 2,
+    "why": "A pessoa acha que esqueceu o guarda-chuva; oferecer procurar e avisar é a resposta adequada."
+  },
+  {
+    "id": "ch12",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Would Thursday or Friday be better for you?",
+    "options": [
+      "Thursday is better. I have a lab on Friday.",
+      "Better grades take a lot of practice.",
+      "The better room is the one with windows.",
+      "Friday classes are usually shorter."
+    ],
+    "a": 0,
+    "why": "A pergunta pede para escolher entre quinta e sexta; a resposta escolhe quinta e dá o motivo."
+  },
+  {
+    "id": "ch13",
+    "pool": "practice",
+    "level": "mid",
+    "line": "I'm nervous about the oral exam.",
+    "options": [
+      "The oral exam counts for twenty percent.",
+      "Nervous habits are hard to change.",
+      "You knew the material in our practice. You'll be fine.",
+      "I examined the schedule last night."
+    ],
+    "a": 2,
+    "why": "A pessoa está nervosa; tranquilizar com base no ensaio é uma resposta adequada."
+  },
+  {
+    "id": "ch14",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Can I borrow a pen for the quiz?",
+    "options": [
+      "Sure. This one writes in blue.",
+      "The quiz has fifteen questions.",
+      "I borrowed a novel from the library.",
+      "Pens are cheaper online than in the shop."
+    ],
+    "a": 0,
+    "why": "O pedido é emprestar uma caneta; entregar uma que escreve em azul atende ao pedido."
+  },
+  {
+    "id": "ch15",
+    "pool": "practice",
+    "level": "easy",
+    "line": "We should leave now if we want seats.",
+    "options": [
+      "The seats are numbered from the left.",
+      "You're right. Let me grab my bag.",
+      "I left my seat during the interval.",
+      "Leaving early is sometimes a good idea."
+    ],
+    "a": 1,
+    "why": "A sugestão é sair agora para conseguir lugares; concordar e pegar a bolsa é a resposta adequada."
+  },
+  {
+    "id": "ch16",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Did you understand the homework question?",
+    "options": [
+      "The homework is on page forty.",
+      "I understand why you were late.",
+      "Not really. What does 'contrast' ask us to do?",
+      "Questions should be sent before midnight."
+    ],
+    "a": 2,
+    "why": "A pergunta é se a tarefa ficou clara; dizer que não e pedir explicação é uma resposta honesta e adequada."
+  },
+  {
+    "id": "ch17",
+    "pool": "practice",
+    "level": "hard",
+    "line": "The line at the cafe is really long.",
+    "options": [
+      "Long essays need a clearer thesis.",
+      "Let's try the cart outside the library.",
+      "I lined my notebook with graph paper.",
+      "The cafe opens at eight on weekdays."
+    ],
+    "a": 1,
+    "why": "O comentário reclama da fila; sugerir o carrinho da biblioteca oferece uma alternativa."
+  },
+  {
+    "id": "ch18",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Would you mind if I opened the window?",
+    "options": [
+      "Go ahead. It's warm in here.",
+      "My mind is on the chemistry test.",
+      "The window in the lab does not open.",
+      "I opened the file you sent me."
+    ],
+    "a": 0,
+    "why": "A pessoa pede licença para abrir a janela; autorizar porque está quente é a resposta adequada."
+  },
+  {
+    "id": "ch19",
+    "pool": "practice",
+    "level": "mid",
+    "line": "I got the time wrong and missed the bus.",
+    "options": [
+      "The bus stop is across from the dorm.",
+      "Wrong answers lose half a point.",
+      "That's annoying. The next one comes in twelve minutes.",
+      "I missed you at the club meeting."
+    ],
+    "a": 2,
+    "why": "A pessoa perdeu o ônibus por engano de horário; reconhecer o incômodo e informar o próximo horário ajuda."
+  },
+  {
+    "id": "ch20",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Do you want to join our project group?",
+    "options": [
+      "The project is about street markets.",
+      "I'd like to. What role is still open?",
+      "Groups of four are the maximum.",
+      "I joined the gym last September."
+    ],
+    "a": 1,
+    "why": "O convite é para entrar no grupo; aceitar e perguntar a função ainda livre é adequado."
+  },
+  {
+    "id": "ch21",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Professor, I didn't catch the page number.",
+    "options": [
+      "It's pages twelve to fifteen.",
+      "I caught a cold after the game.",
+      "Page numbers go at the bottom.",
+      "The professor is from the history department."
+    ],
+    "a": 0,
+    "why": "O aluno não ouviu o número das páginas; repetir que são as páginas doze a quinze resolve a dúvida."
+  },
+  {
+    "id": "ch22",
+    "pool": "practice",
+    "level": "mid",
+    "line": "This room is freezing.",
+    "options": [
+      "Freezing point is zero degrees Celsius.",
+      "I'll close the window.",
+      "The room reservation ends at noon.",
+      "My freezer at home is too small."
+    ],
+    "a": 1,
+    "why": "A pessoa reclama do frio; fechar a janela é uma resposta prática e adequada."
+  },
+  {
+    "id": "ch23",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Could you recommend a quiet place to read?",
+    "options": [
+      "I recommend reviewing your notes tonight.",
+      "Reading every night improves vocabulary.",
+      "The periodical room on the third floor is quiet.",
+      "Quiet hours in the dorm start at ten."
+    ],
+    "a": 2,
+    "why": "O pedido é uma recomendação de lugar silencioso; indicar a sala de periódicos atende ao pedido."
+  },
+  {
+    "id": "ch24",
+    "pool": "practice",
+    "level": "easy",
+    "line": "I'm going to the store. Need anything?",
+    "options": [
+      "The store closes at nine.",
+      "I need to rewrite my introduction.",
+      "Anything you buy should have a receipt.",
+      "Could you get me a bottle of water?"
+    ],
+    "a": 3,
+    "why": "A pessoa oferece trazer algo da loja; pedir uma garrafa de água aceita a oferta."
+  },
+  {
+    "id": "ch25",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Sorry, I think that's my jacket.",
+    "options": [
+      "Jackets must be labeled in the lab.",
+      "Oh, you're right. I picked it up by mistake.",
+      "I think the jacket sale is on Friday.",
+      "Sorry, the lost jacket was black."
+    ],
+    "a": 1,
+    "why": "Alguém reconhece o próprio casaco; devolvê-lo e admitir o engano é a resposta adequada."
+  },
+  {
+    "id": "ch26",
+    "pool": "practice",
+    "level": "hard",
+    "line": "How long did the writing center appointment last?",
+    "options": [
+      "It lasted about half an hour.",
+      "The writing center is in Harper Hall.",
+      "I wrote the appointment on my calendar.",
+      "Long paragraphs need a topic sentence."
+    ],
+    "a": 0,
+    "why": "A pergunta é sobre a duração; dizer que durou meia hora responde diretamente."
+  },
+  {
+    "id": "ch27",
+    "pool": "practice",
+    "level": "easy",
+    "line": "I don't think I can finish this tonight.",
+    "options": [
+      "Tonight's lecture was moved to room 204.",
+      "Finish the introduction and stop. We can edit tomorrow.",
+      "I finished a similar paper last night.",
+      "Thinking takes more time than typing."
+    ],
+    "a": 1,
+    "why": "A pessoa diz que não termina hoje; sugerir parar na introdução e revisar amanhã é um apoio adequado."
+  },
+  {
+    "id": "ch28",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Are you going to the career fair?",
+    "options": [
+      "Yes. I want to ask about summer internships.",
+      "Careers in design require a portfolio.",
+      "The fair is in the sports hall.",
+      "I went to a fair in my hometown."
+    ],
+    "a": 0,
+    "why": "A pergunta é se a pessoa vai à feira; responder que sim e dizer o motivo é adequado."
+  },
+  {
+    "id": "ch29",
+    "pool": "practice",
+    "level": "hard",
+    "line": "The copier is out of paper again.",
+    "options": [
+      "Paper topics are listed on the syllabus.",
+      "Again, the chapter is shorter than it looks.",
+      "There's a spare pack in the cabinet.",
+      "I copied your notes from Monday."
+    ],
+    "a": 2,
+    "why": "O problema é a falta de papel; indicar o pacote no armário ajuda a resolver."
+  },
+  {
+    "id": "ch30",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Would you like coffee or tea?",
+    "options": [
+      "Tea, please. No sugar.",
+      "The coffee shop is beside the bookstore.",
+      "I would like to change my major.",
+      "Coffee plants need a warm climate."
+    ],
+    "a": 0,
+    "why": "A oferta pede uma escolha entre café e chá; escolher chá sem açúcar responde ao oferecimento."
+  },
+  {
+    "id": "ch31",
+    "pool": "practice",
+    "level": "mid",
+    "line": "I heard the midterm was moved.",
+    "options": [
+      "Yes, it's now on Wednesday at the same time.",
+      "I heard a concert in the quad.",
+      "Midterms are worth thirty percent.",
+      "Moving apartments takes a full day."
+    ],
+    "a": 0,
+    "why": "A pessoa ouviu que a prova mudou; confirmar a nova data responde à informação."
+  },
+  {
+    "id": "ch32",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Can you watch my bag while I buy a ticket?",
+    "options": [
+      "Tickets for the play are ten dollars.",
+      "Sure. I'll stay right here.",
+      "My bag is already full of books.",
+      "Watch the time so you are not late."
+    ],
+    "a": 1,
+    "why": "O pedido é cuidar da bolsa por um momento; aceitar e permanecer ali é a resposta adequada."
+  },
+  {
+    "id": "ch33",
+    "pool": "practice",
+    "level": "easy",
+    "line": "I'm not sure which form to submit.",
+    "options": [
+      "Submit the housing form, not the parking one.",
+      "Sure, I can submit it for you later.",
+      "Forms are available after one o'clock.",
+      "Which building is the newest on campus?"
+    ],
+    "a": 0,
+    "why": "A dúvida é qual formulário enviar; indicar o de moradia, e não o de estacionamento, esclarece."
+  },
+  {
+    "id": "ch34",
+    "pool": "practice",
+    "level": "mid",
+    "line": "That comment in class was unfair.",
+    "options": [
+      "Comments on the essay are due Friday.",
+      "The class meets again on Monday.",
+      "Unfair rules should be printed in the handbook.",
+      "I agree. You answered the question he asked."
+    ],
+    "a": 3,
+    "why": "A pessoa se sentiu tratada de modo injusto; concordar e lembrar que ela respondeu à pergunta valida o sentimento."
+  },
+  {
+    "id": "ch35",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Do you mind going over problem three with me?",
+    "options": [
+      "Not at all. Let's look at the graph first.",
+      "Problem three is printed on the back.",
+      "I mind the noise from the hallway.",
+      "My mind goes blank during timed tests."
+    ],
+    "a": 0,
+    "why": "O pedido é revisar o problema três; aceitar e começar pelo gráfico é adequado."
+  },
+  {
+    "id": "ch36",
+    "pool": "practice",
+    "level": "easy",
+    "line": "The advisor said I should drop a course.",
+    "options": [
+      "Drop boxes are outside every classroom.",
+      "Which course feels like too much right now?",
+      "The advisor's office is in Dalton.",
+      "I said the same thing to my roommate."
+    ],
+    "a": 1,
+    "why": "A notícia é que a orientação sugeriu trancar uma disciplina; perguntar qual está pesada continua a conversa de modo útil."
+  },
+  {
+    "id": "ch37",
+    "pool": "practice",
+    "level": "mid",
+    "line": "I'll be about ten minutes late.",
+    "options": [
+      "Late work loses ten points a day.",
+      "Ten minutes is not enough for the quiz.",
+      "Thanks for telling me. I'll wait by the entrance.",
+      "About half the class arrived late."
+    ],
+    "a": 2,
+    "why": "A pessoa avisa o atraso; agradecer e dizer que espera na entrada é a resposta adequada."
+  },
+  {
+    "id": "ch38",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Have you seen the notice about the water shutoff?",
+    "options": [
+      "Yes. The showers will be off from noon to three.",
+      "I noticed a mistake in my draft.",
+      "Water is available in the vending machine.",
+      "The notice board is next to the mailboxes."
+    ],
+    "a": 0,
+    "why": "A pergunta é se a pessoa viu o aviso; confirmar e resumir o horário do corte mostra que viu."
+  },
+  {
+    "id": "ch39",
+    "pool": "practice",
+    "level": "easy",
+    "line": "I was wondering if you could write me a reference.",
+    "options": [
+      "Reference books cannot leave the library.",
+      "I wonder when the letter is due.",
+      "I'd be glad to. Send me the description of the job.",
+      "You could write a longer introduction."
+    ],
+    "a": 2,
+    "why": "O pedido é uma carta de referência; aceitar e pedir a descrição da vaga é adequado."
+  },
+  {
+    "id": "ch40",
+    "pool": "practice",
+    "level": "mid",
+    "line": "Let's take a break and come back to this.",
+    "options": [
+      "The break room is at the end of the hall.",
+      "Good idea. Twenty minutes?",
+      "I came back to campus on Sunday.",
+      "Taking notes during the break helps."
+    ],
+    "a": 1,
+    "why": "A sugestão é fazer uma pausa; concordar e propor vinte minutos aceita o plano."
+  },
+  {
+    "id": "ch41",
+    "pool": "practice",
+    "level": "hard",
+    "line": "Is it all right if I record the review session?",
+    "options": [
+      "The session is a review of chapters four and five.",
+      "Yes, if you use it only for your own study.",
+      "I recorded the temperature every hour.",
+      "All right answers earn full credit."
+    ],
+    "a": 1,
+    "why": "A pessoa pede para gravar a revisão; permitir apenas para estudo próprio é uma resposta adequada."
+  },
+  {
+    "id": "ch42",
+    "pool": "practice",
+    "level": "easy",
+    "line": "Nobody signed up for the Saturday cleanup.",
+    "options": [
+      "I can come for the morning shift.",
+      "The signup sheet is on the door.",
+      "Saturday classes end at noon.",
+      "Cleanup crews need gloves and bags."
+    ],
+    "a": 0,
+    "why": "O problema é a falta de voluntários; oferecer o turno da manhã ajuda a resolver."
+  },
+  {
+    "id": "ch-m1-01",
+    "pool": "m1",
+    "level": "mid",
+    "line": "Could we move our meeting to three?",
+    "options": [
+      "Three people already confirmed.",
+      "The meeting room has a projector.",
+      "Three works. I'll update the calendar.",
+      "I moved here from another campus."
+    ],
+    "a": 2,
+    "why": "O pedido é mudar a reunião para as três; confirmar e atualizar o calendário aceita a mudança."
+  },
+  {
+    "id": "ch-m1-02",
+    "pool": "m1",
+    "level": "mid",
+    "line": "I'm having trouble with the citation style.",
+    "options": [
+      "The style guide is linked in the syllabus. I can show you.",
+      "Citations belong at the end of the paper.",
+      "I had trouble finding a parking space.",
+      "Style is less important than length."
+    ],
+    "a": 0,
+    "why": "A pessoa tem dificuldade com o estilo de citação; oferecer o guia e mostrar como fazer é adequado."
+  },
+  {
+    "id": "ch-m1-03",
+    "pool": "m1",
+    "level": "mid",
+    "line": "Do you sell meal cards here?",
+    "options": [
+      "No, those are sold at the housing office.",
+      "I sell my old books at the end of term.",
+      "Meals are served until eight.",
+      "Yes, I already have a meal card."
+    ],
+    "a": 0,
+    "why": "A pergunta é se vendem o cartão de refeição ali; explicar que a venda é na moradia responde."
+  },
+  {
+    "id": "ch-m1-04",
+    "pool": "m1",
+    "level": "mid",
+    "line": "I might have grabbed your printout.",
+    "options": [
+      "Printouts cost ten cents a page.",
+      "Check the name at the top. Mine is R. Costa.",
+      "I grabbed lunch before the seminar.",
+      "Your printer is faster than mine."
+    ],
+    "a": 1,
+    "why": "A pessoa suspeita que pegou a impressão alheia; pedir para conferir o nome no topo resolve a troca."
+  },
+  {
+    "id": "ch-m1-05",
+    "pool": "m1",
+    "level": "mid",
+    "line": "Shall we submit one paper or two?",
+    "options": [
+      "The paper must be double-spaced.",
+      "Two students may share a topic.",
+      "Submit is a button on the course page.",
+      "One paper is fine if both names are on it."
+    ],
+    "a": 3,
+    "why": "A dúvida é sobre um ou dois trabalhos; dizer que um basta com os dois nomes responde à decisão."
+  },
+  {
+    "id": "ch-m1-06",
+    "pool": "m1",
+    "level": "mid",
+    "line": "The guest lecture is optional, right?",
+    "options": [
+      "Right. It will not be on the quiz.",
+      "The guest is a city planner.",
+      "Optional courses still appear on the bill.",
+      "Lectures start at nine this week."
+    ],
+    "a": 0,
+    "why": "A pessoa quer confirmar se a palestra é opcional; dizer que não cai na prova confirma."
+  },
+  {
+    "id": "ch-m1-07",
+    "pool": "m1",
+    "level": "mid",
+    "line": "I locked myself out of my room.",
+    "options": [
+      "The lockers near the gym are free.",
+      "Call the front desk. They can bring a spare key.",
+      "I locked the lab before I left.",
+      "Your room faces the courtyard."
+    ],
+    "a": 1,
+    "why": "A pessoa está trancada para fora; orientar a ligar para a portaria, que tem a chave reserva, é adequado."
+  },
+  {
+    "id": "ch-m1-08",
+    "pool": "m1",
+    "level": "mid",
+    "line": "Want me to read your introduction?",
+    "options": [
+      "Yes. I'm unsure about the thesis sentence.",
+      "The introduction should be one paragraph.",
+      "I read the chapter on inflation.",
+      "Wanted posters are not allowed on campus."
+    ],
+    "a": 0,
+    "why": "A oferta é ler a introdução; aceitar e apontar a dúvida sobre a tese é adequado."
+  },
+  {
+    "id": "ch-m1-09",
+    "pool": "m1",
+    "level": "mid",
+    "line": "Cash or card?",
+    "options": [
+      "Card, please.",
+      "The cash machine is in the lobby.",
+      "I paid the card fee yesterday.",
+      "Please cash the check at the bursar."
+    ],
+    "a": 0,
+    "why": "A pergunta pede a forma de pagamento; escolher cartão responde diretamente."
+  },
+  {
+    "id": "ch-m1-10",
+    "pool": "m1",
+    "level": "mid",
+    "line": "I'm afraid the section you want is full.",
+    "options": [
+      "Afraid is too strong a word for a schedule.",
+      "Could you put me on the waiting list?",
+      "The full text is posted online.",
+      "I want the section about glaciers."
+    ],
+    "a": 1,
+    "why": "A notícia é que a turma está lotada; pedir a lista de espera é o próximo passo adequado."
+  },
+  {
+    "id": "ch-m1u-01",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "I was under the impression the draft was due Monday.",
+    "options": [
+      "Monday classes are canceled.",
+      "Impressions can be misleading in art.",
+      "It was. The date changed to Wednesday in yesterday's message.",
+      "The draft needs a stronger conclusion."
+    ],
+    "a": 2,
+    "why": "A pessoa entendeu que o prazo era segunda; corrigir para quarta, citando a mensagem, esclarece o mal-entendido."
+  },
+  {
+    "id": "ch-m1u-02",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "If you're not doing anything with that outlet...",
+    "options": [
+      "Go ahead and plug in. I'm finished charging.",
+      "Outlets in the lab are for equipment only.",
+      "I'm not doing the extra-credit problem.",
+      "Anything with a cord should be labeled."
+    ],
+    "a": 0,
+    "why": "A fala indireta pede a tomada; autorizar a conexão porque o carregamento acabou é a resposta adequada."
+  },
+  {
+    "id": "ch-m1u-03",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "You wouldn't happen to know Dean Park's email, would you?",
+    "options": [
+      "I wouldn't email a dean without a draft.",
+      "Parks close at dusk in the winter.",
+      "Happening now is the club fair.",
+      "I do. I'll forward the message she sent the class."
+    ],
+    "a": 3,
+    "why": "A pergunta indireta pede o e-mail da diretora; dizer que vai encaminhar a mensagem entrega a informação."
+  },
+  {
+    "id": "ch-m1u-04",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "So much for getting a table by the window.",
+    "options": [
+      "The window table is reserved after six.",
+      "Tables of contents are not graded.",
+      "We can take the booth. It's just as quiet.",
+      "So much reading was assigned this week."
+    ],
+    "a": 2,
+    "why": "A pessoa lamenta não conseguir a mesa da janela; sugerir o reservado silencioso oferece uma alternativa."
+  },
+  {
+    "id": "ch-m1u-05",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "I hate to ask, but could you cover my shift?",
+    "options": [
+      "Hate speech is banned in the residence.",
+      "Shifts at the library are three hours.",
+      "I can take Tuesday, but not Thursday.",
+      "You could cover the topic in less time."
+    ],
+    "a": 2,
+    "why": "O pedido hesitante é cobrir um turno; dizer que terça é possível e quinta não responde com um limite claro."
+  },
+  {
+    "id": "ch-m1u-06",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "That's the third time the link has failed.",
+    "options": [
+      "Third place still earns a certificate.",
+      "Try the copy I uploaded to the course folder.",
+      "Links between ideas need transition words.",
+      "The time failed to show on my watch."
+    ],
+    "a": 1,
+    "why": "A pessoa está frustrada porque o link falhou de novo; oferecer a cópia na pasta do curso resolve o acesso."
+  },
+  {
+    "id": "ch-m1u-07",
+    "pool": "m1u",
+    "level": "hard",
+    "line": "I'd rather not decide until I see the rubric.",
+    "options": [
+      "The rubric is posted under week four.",
+      "Rather large classes are harder to manage.",
+      "I decided to change my minor.",
+      "Decisions about housing are due Friday."
+    ],
+    "a": 0,
+    "why": "A pessoa adia a decisão até ver os critérios; informar onde a rubrica está publicada ajuda o próximo passo."
+  },
+  {
+    "id": "ch-m1l-01",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Where is the bookstore?",
+    "options": [
+      "Where did you buy that bag?",
+      "It's across from the student center.",
+      "I bought my books online.",
+      "The store sells paper and pens."
+    ],
+    "a": 1,
+    "why": "A pergunta pede o lugar da livraria; dizer que fica em frente ao centro estudantil responde."
+  },
+  {
+    "id": "ch-m1l-02",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "What day is the quiz?",
+    "options": [
+      "The quiz is on Tuesday.",
+      "The day was long and tiring.",
+      "Quiz scores are posted on Friday.",
+      "I have a question about the quiz."
+    ],
+    "a": 0,
+    "why": "A pergunta é o dia da prova curta; responder que é terça atende diretamente."
+  },
+  {
+    "id": "ch-m1l-03",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Can you help me with this box?",
+    "options": [
+      "Boxes of paper are in the closet.",
+      "I can help you study later.",
+      "This box is heavier than that one.",
+      "Sure. Where should I put it?"
+    ],
+    "a": 3,
+    "why": "O pedido é ajuda com uma caixa; aceitar e perguntar onde colocá-la é adequado."
+  },
+  {
+    "id": "ch-m1l-04",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Thank you for the notes.",
+    "options": [
+      "I thanked the teacher after class.",
+      "Thank you for coming early.",
+      "You're welcome.",
+      "The notes are from chapter two."
+    ],
+    "a": 2,
+    "why": "A pessoa agradeceu as anotações; 'de nada' reconhece o agradecimento."
+  },
+  {
+    "id": "ch-m1l-05",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Is the library open now?",
+    "options": [
+      "Now is a good time to study.",
+      "Yes, until midnight.",
+      "The library has two floors.",
+      "I opened my book to page ten."
+    ],
+    "a": 1,
+    "why": "A pergunta é se a biblioteca está aberta agora; dizer que sim, até meia-noite, responde."
+  },
+  {
+    "id": "ch-m1l-06",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Do you want water?",
+    "options": [
+      "Yes, please.",
+      "Water is important for health.",
+      "I want to visit the lake.",
+      "The water fountain is broken."
+    ],
+    "a": 0,
+    "why": "A oferta é água; aceitar com 'sim, por favor' é a resposta adequada."
+  },
+  {
+    "id": "ch-m1l-07",
+    "pool": "m1l",
+    "level": "easy",
+    "line": "Sorry I'm late.",
+    "options": [
+      "Late papers lose points.",
+      "Sorry about the noise.",
+      "I'm late for chemistry too.",
+      "That's okay. We just started."
+    ],
+    "a": 3,
+    "why": "A pessoa pede desculpas pelo atraso; dizer que tudo bem porque a atividade acabou de começar aceita o pedido."
+  },
+  {
+    "id": "ch-m2-01",
+    "pool": "m2",
+    "level": "mid",
+    "line": "Could you pass the attendance sheet?",
+    "options": [
+      "I passed the course last spring.",
+      "The sheet music is in my locker.",
+      "Here you go.",
+      "Attendance is ten percent of the grade."
+    ],
+    "a": 2,
+    "why": "O pedido é passar a lista de presença; entregar a folha é a resposta adequada."
+  },
+  {
+    "id": "ch-m2-02",
+    "pool": "m2",
+    "level": "mid",
+    "line": "I forgot my headphones.",
+    "options": [
+      "My headphones broke last week.",
+      "You can borrow mine for the lab.",
+      "Headphones are not allowed in the exam.",
+      "I forgot the formula for area."
+    ],
+    "a": 1,
+    "why": "A pessoa esqueceu o fone; oferecer o próprio para o laboratório resolve a necessidade."
+  },
+  {
+    "id": "ch-m2-03",
+    "pool": "m2",
+    "level": "mid",
+    "line": "When is your presentation?",
+    "options": [
+      "Mine is on Thursday morning.",
+      "Presentations should last eight minutes.",
+      "I presented the budget to the club.",
+      "When you are ready, we can start."
+    ],
+    "a": 0,
+    "why": "A pergunta é a data da apresentação da pessoa; dizer que é quinta de manhã responde."
+  },
+  {
+    "id": "ch-m2-04",
+    "pool": "m2",
+    "level": "mid",
+    "line": "The elevator is out of order.",
+    "options": [
+      "Order the parts from the catalog.",
+      "Elevators are fastest at noon.",
+      "I ordered lunch from the cafe.",
+      "Then let's take the stairs."
+    ],
+    "a": 3,
+    "why": "A informação é que o elevador não funciona; propor a escada é uma resposta prática."
+  },
+  {
+    "id": "ch-m2-05",
+    "pool": "m2",
+    "level": "mid",
+    "line": "May I sit here?",
+    "options": [
+      "Here is the worksheet.",
+      "Sitting too long is tiring.",
+      "Yes, that seat is free.",
+      "I sit in the third row."
+    ],
+    "a": 2,
+    "why": "A pessoa pede para sentar ali; confirmar que o lugar está livre autoriza."
+  },
+  {
+    "id": "ch-m2-06",
+    "pool": "m2",
+    "level": "mid",
+    "line": "I need to print five pages.",
+    "options": [
+      "Print your name on the folder.",
+      "The printer by the stairs is working.",
+      "Five pages is the limit for the summary.",
+      "I need a new printer cartridge."
+    ],
+    "a": 1,
+    "why": "A necessidade é imprimir cinco páginas; indicar a impressora que funciona ajuda."
+  },
+  {
+    "id": "ch-m2-07",
+    "pool": "m2",
+    "level": "mid",
+    "line": "Are you done with the stapler?",
+    "options": [
+      "Yes. Thanks for waiting.",
+      "Staplers are sold at the bookstore.",
+      "I'm done with my draft.",
+      "The staple fell under the desk."
+    ],
+    "a": 0,
+    "why": "A pergunta é se a pessoa já terminou o grampeador; dizer que sim e agradecer a espera libera o objeto."
+  },
+  {
+    "id": "ch-m2-08",
+    "pool": "m2",
+    "level": "mid",
+    "line": "Let's meet at the east gate.",
+    "options": [
+      "The east side of campus is quieter.",
+      "Meetings with the dean need an appointment.",
+      "I met the gatekeeper this morning.",
+      "Okay. I'll be there at four."
+    ],
+    "a": 3,
+    "why": "A proposta é encontrar no portão leste; aceitar e marcar às quatro confirma o plano."
+  },
+  {
+    "id": "ch-m2-09",
+    "pool": "m2",
+    "level": "mid",
+    "line": "Did the professor post the grades?",
+    "options": [
+      "Grades matter for the scholarship.",
+      "I posted a question in the forum.",
+      "Yes, they're on the course page.",
+      "The professor posts the readings on Sunday."
+    ],
+    "a": 2,
+    "why": "A pergunta é se as notas foram publicadas; confirmar que estão na página do curso responde."
+  },
+  {
+    "id": "ch-m2-10",
+    "pool": "m2",
+    "level": "mid",
+    "line": "I can't hear the speaker.",
+    "options": [
+      "Hearing the difference takes practice.",
+      "Let's move closer to the front.",
+      "The speaker is a visiting architect.",
+      "I heard the announcement at noon."
+    ],
+    "a": 1,
+    "why": "A pessoa não ouve quem fala; sugerir ir mais para a frente resolve o problema."
+  },
+  {
+    "id": "ch-m2u-01",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "I'd appreciate it if you kept this between us.",
+    "options": [
+      "Of course. I won't mention it to the group.",
+      "Appreciation letters should be formal.",
+      "Between classes I usually eat lunch.",
+      "I kept the handout from last week."
+    ],
+    "a": 0,
+    "why": "O pedido é manter o assunto em sigilo; prometer não comentar com o grupo atende ao pedido."
+  },
+  {
+    "id": "ch-m2u-02",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "It's not that I dislike the topic.",
+    "options": [
+      "The topic is listed on the syllabus.",
+      "Dislike is a strong reaction.",
+      "So the schedule is the problem, not the subject.",
+      "That topic was not on the exam."
+    ],
+    "a": 2,
+    "why": "A pessoa esclarece que o problema não é o tema; concluir que a dificuldade é o horário interpreta o sentido implícito."
+  },
+  {
+    "id": "ch-m2u-03",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "You might want to double-check the room.",
+    "options": [
+      "Double rooms cost more than singles.",
+      "Thanks. I'll look at the updated schedule.",
+      "I want to check out a novel.",
+      "The room check is at ten."
+    ],
+    "a": 1,
+    "why": "O aviso indireto sugere conferir a sala; agradecer e olhar a agenda atualizada é a resposta adequada."
+  },
+  {
+    "id": "ch-m2u-04",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "I'm all ears.",
+    "options": [
+      "All students must wear ear protection.",
+      "Then I'll explain the problem briefly.",
+      "Ears of corn are served on Fridays.",
+      "I heard every word of the lecture."
+    ],
+    "a": 1,
+    "why": "'I'm all ears' significa que a pessoa está pronta para ouvir; começar a explicação é a resposta adequada."
+  },
+  {
+    "id": "ch-m2u-05",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "That's one way to look at it.",
+    "options": [
+      "One way signs are near the garage.",
+      "You see a problem I missed. What would you change?",
+      "Looking at the data takes time.",
+      "The way to the lab is through the courtyard."
+    ],
+    "a": 1,
+    "why": "A frase sinaliza discordância educada; pedir o que a pessoa mudaria convida a visão dela."
+  },
+  {
+    "id": "ch-m2u-06",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "I wouldn't call it a waste of time.",
+    "options": [
+      "Waste bins are at every exit.",
+      "Calling the office is faster than email.",
+      "So you did get something useful from the workshop.",
+      "Time wasted cannot be recovered."
+    ],
+    "a": 2,
+    "why": "A fala defende que a atividade não foi inútil; reconhecer que houve algo útil interpreta o sentido."
+  },
+  {
+    "id": "ch-m2u-07",
+    "pool": "m2u",
+    "level": "hard",
+    "line": "Say the word and I'll reserve the room.",
+    "options": [
+      "The word count is eight hundred.",
+      "Please reserve it for Friday at two.",
+      "I reserved a book this morning.",
+      "Say each word more clearly."
+    ],
+    "a": 1,
+    "why": "'Say the word' oferece fazer a reserva; pedir a sala na sexta às duas aceita a oferta."
+  },
+  {
+    "id": "ch-m2l-01",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "How much is a bus ticket?",
+    "options": [
+      "How much time do we have?",
+      "It's two dollars.",
+      "The bus leaves from gate three.",
+      "I bought a ticket yesterday."
+    ],
+    "a": 1,
+    "why": "A pergunta é o preço da passagem; dizer que custa dois dólares responde."
+  },
+  {
+    "id": "ch-m2l-02",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "Who is teaching the lab?",
+    "options": [
+      "Dr. Shah is teaching it.",
+      "The lab is on the first floor.",
+      "I am teaching my brother to cook.",
+      "Who left this notebook here?"
+    ],
+    "a": 0,
+    "why": "A pergunta é quem dá a aula de laboratório; nomear a professora Shah responde."
+  },
+  {
+    "id": "ch-m2l-03",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "Please close the door.",
+    "options": [
+      "The door code is 4412.",
+      "I closed the document.",
+      "Please come in.",
+      "Sure."
+    ],
+    "a": 3,
+    "why": "O pedido é fechar a porta; aceitar com 'claro' é adequado."
+  },
+  {
+    "id": "ch-m2l-04",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "Nice to meet you.",
+    "options": [
+      "The meeting was nice and short.",
+      "I met you at the library.",
+      "Nice to meet you too.",
+      "We meet every Monday."
+    ],
+    "a": 2,
+    "why": "A saudação de apresentação pede uma saudação de volta."
+  },
+  {
+    "id": "ch-m2l-05",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "Is this seat taken?",
+    "options": [
+      "Taken notes are easier to review.",
+      "No, you can sit there.",
+      "I took a seat by the door.",
+      "This seat is more comfortable."
+    ],
+    "a": 1,
+    "why": "A pergunta é se o lugar está ocupado; dizer que a pessoa pode sentar responde."
+  },
+  {
+    "id": "ch-m2l-06",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "See you tomorrow.",
+    "options": [
+      "See you then.",
+      "Tomorrow's class is canceled.",
+      "I saw you yesterday.",
+      "You can see the board from here."
+    ],
+    "a": 0,
+    "why": "A despedida marca o dia seguinte; responder 'até lá' fecha a conversa de modo adequado."
+  },
+  {
+    "id": "ch-m2l-07",
+    "pool": "m2l",
+    "level": "easy",
+    "line": "I lost my keys.",
+    "options": [
+      "My keys are in my pocket.",
+      "The lost chapter was important.",
+      "I lost points on the quiz.",
+      "Let's ask at the front desk."
+    ],
+    "a": 3,
+    "why": "A pessoa perdeu as chaves; sugerir perguntar na portaria é uma ajuda adequada."
+  }
+]

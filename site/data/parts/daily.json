@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "d01",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "notice",
+    "text": "Science Building notice. The third-floor chemistry lab closes this Friday at 4 p.m. for hood repairs. Classes that meet there will use room 210 instead. The lab reopens Monday at 8 a.m. Please do not leave bags in the hallway.",
+    "questions": [
+      {
+        "q": "What is the notice mainly announcing?",
+        "options": [
+          "A new chemistry course",
+          "A temporary lab closure",
+          "A change in tuition",
+          "A lost-bag sale"
+        ],
+        "a": 1,
+        "why": "O aviso diz que o laboratório fecha na sexta para conserto e reabre na segunda."
+      },
+      {
+        "q": "When will the lab be open again?",
+        "options": [
+          "Friday at 4 p.m.",
+          "Monday at 8 a.m.",
+          "Sunday at noon",
+          "Thursday at 8 a.m."
+        ],
+        "a": 1,
+        "why": "A última informação de horário afirma que o laboratório reabre na segunda às 8h."
+      }
+    ]
+  },
+  {
+    "id": "d02",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "email",
+    "text": "To: Leila Santos. Subject: Draft of your outline. Leila, I read the outline you left in my box. The question is clear, but the third section repeats the second. Bring a revised outline to office hours on Wednesday between 2 and 3. I will not review a new draft by email this week. Professor Ortiz",
+    "questions": [
+      {
+        "q": "Why did Professor Ortiz write?",
+        "options": [
+          "To cancel Wednesday's class",
+          "To comment on Leila's outline",
+          "To assign a new research topic",
+          "To ask Leila to teach the section"
+        ],
+        "a": 1,
+        "why": "O e-mail diz que ele leu o esboço e aponta um problema na terceira seção."
+      },
+      {
+        "q": "What should Leila do?",
+        "options": [
+          "Email a new draft this week",
+          "Bring a revised outline on Wednesday",
+          "Rewrite the whole paper by Friday",
+          "Leave the outline in his box again"
+        ],
+        "a": 1,
+        "why": "Ele pede que ela leve o esboço revisado ao atendimento de quarta, entre 14h e 15h."
+      }
+    ]
+  },
+  {
+    "id": "d03",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "messages",
+    "text": "Ravi: Are you still coming to the poster session? Mina: Yes, but my bus is late. Ravi: They lock the hall at 7. Mina: I should arrive by 6:40. Can you hold our table? Ravi: I will, if you text me from the stop.",
+    "questions": [
+      {
+        "q": "What problem does Mina have?",
+        "options": [
+          "She lost the posters",
+          "Her bus is late",
+          "The hall is already locked",
+          "Ravi cannot find a table"
+        ],
+        "a": 1,
+        "why": "Mina escreve que o ônibus está atrasado."
+      },
+      {
+        "q": "What must Mina do so Ravi will hold the table?",
+        "options": [
+          "Pay for the table",
+          "Arrive before 6",
+          "Text him from the stop",
+          "Bring a lock for the hall"
+        ],
+        "a": 2,
+        "why": "Ravi diz que segura a mesa se ela mandar mensagem do ponto."
+      }
+    ]
+  },
+  {
+    "id": "d04",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "menu",
+    "text": "North Quad Cafe, Tuesday lunch. Bean soup, cup 3 or bowl 5. Rice plate with vegetables 8. Grilled chicken 9. Add bread for 1. Students with a meal plan pay half price before 1 p.m. Soup is not included in the half-price offer.",
+    "questions": [
+      {
+        "q": "Which item is excluded from the half-price offer?",
+        "options": [
+          "The rice plate",
+          "The grilled chicken",
+          "The soup",
+          "The bread"
+        ],
+        "a": 2,
+        "why": "O cardápio diz que a sopa não entra na oferta de meia entrada."
+      },
+      {
+        "q": "Who pays half price before 1 p.m.?",
+        "options": [
+          "Every visitor",
+          "Students with a meal plan",
+          "Only people who order chicken",
+          "People who buy soup"
+        ],
+        "a": 1,
+        "why": "A meia entrada vale para estudantes com plano de refeições antes das 13h."
+      }
+    ]
+  },
+  {
+    "id": "d05",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "schedule",
+    "text": "Evening shuttle, weekdays. Leaves the library at 8:10, 9:10, and 10:10. Stops at the dorms, then the train station. The 10:10 bus does not stop at the station. No service on Sunday. Show your student card when you board.",
+    "questions": [
+      {
+        "q": "Which bus skips the train station?",
+        "options": [
+          "The 8:10 bus",
+          "The 9:10 bus",
+          "The 10:10 bus",
+          "Every Sunday bus"
+        ],
+        "a": 2,
+        "why": "O horário informa que o ônibus das 22h10 não para na estação."
+      },
+      {
+        "q": "What do riders need when they board?",
+        "options": [
+          "A paper ticket",
+          "A student card",
+          "Exact change",
+          "A dorm key"
+        ],
+        "a": 1,
+        "why": "A última frase pede para mostrar a carteirinha de estudante ao embarcar."
+      }
+    ]
+  },
+  {
+    "id": "d06",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "ad",
+    "text": "For sale: a used city bicycle, medium frame, with a lock and lights. Price 120, or 100 if you pick it up tonight. I live in Maple Hall, room 12. Text Nia before 9 p.m. The bike cannot be held without a deposit.",
+    "questions": [
+      {
+        "q": "How can a buyer pay 100?",
+        "options": [
+          "By adding a new lock",
+          "By picking the bike up tonight",
+          "By living in Maple Hall",
+          "By waiting until tomorrow"
+        ],
+        "a": 1,
+        "why": "O anúncio diz que o preço cai para 100 se a pessoa buscar a bicicleta hoje à noite."
+      },
+      {
+        "q": "What is required to reserve the bike?",
+        "options": [
+          "A visit before 9 a.m.",
+          "A deposit",
+          "A student discount",
+          "A new frame"
+        ],
+        "a": 1,
+        "why": "O texto diz que a bicicleta não fica reservada sem um depósito."
+      }
+    ]
+  },
+  {
+    "id": "d07",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "form",
+    "text": "Campus choir audition form. Name, voice part, and year of study are required. Choose Tuesday at 4 or Wednesday at 5. Bring one short song. Accompanists are not provided. Return this form to the music office by Monday at noon, or the slot will be released.",
+    "questions": [
+      {
+        "q": "What must a student bring?",
+        "options": [
+          "An accompanist",
+          "A short song",
+          "A music stand",
+          "The Tuesday fee"
+        ],
+        "a": 1,
+        "why": "O formulário pede que a pessoa traga uma música curta."
+      },
+      {
+        "q": "What happens if the form is late?",
+        "options": [
+          "The song must be longer",
+          "The slot will be released",
+          "The student must pay a fee",
+          "The audition moves to Friday"
+        ],
+        "a": 1,
+        "why": "O texto diz que, depois do meio-dia de segunda, o horário será liberado."
+      }
+    ]
+  },
+  {
+    "id": "d08",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "receipt",
+    "text": "Campus Books, receipt 441. Used sociology reader, 28. Shipping, 0, because the book was collected in the store. Tax, 2. Total paid by card, 30. Returns are accepted within seven days with this receipt. Opened access codes cannot be returned.",
+    "questions": [
+      {
+        "q": "Why was shipping zero?",
+        "options": [
+          "The book was used",
+          "The book was collected in the store",
+          "Tax replaced the shipping fee",
+          "The card payment failed"
+        ],
+        "a": 1,
+        "why": "O recibo explica que o frete foi zero porque o livro foi retirado na loja."
+      },
+      {
+        "q": "What cannot be returned?",
+        "options": [
+          "A used reader with a receipt",
+          "An item within seven days",
+          "An opened access code",
+          "A purchase paid by card"
+        ],
+        "a": 2,
+        "why": "A última frase diz que códigos de acesso abertos não podem ser devolvidos."
+      }
+    ]
+  },
+  {
+    "id": "d09",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "post",
+    "text": "Lost near the gym: a green notebook with chemistry formulas. My name, Paulo, is on the inside cover. It may have fallen by the bike racks around 3 p.m. If you find it, please leave it at the gym desk. There is no reward, but I need it for Friday's quiz.",
+    "questions": [
+      {
+        "q": "Where should a finder take the notebook?",
+        "options": [
+          "To the chemistry lab",
+          "To the bike shop",
+          "To the gym desk",
+          "To Paulo's mailbox"
+        ],
+        "a": 2,
+        "why": "Paulo pede que deixem o caderno na recepção do ginásio."
+      },
+      {
+        "q": "Why does Paulo want it back quickly?",
+        "options": [
+          "He must pay a reward",
+          "He needs it for Friday's quiz",
+          "The gym closes at 3 p.m.",
+          "His name is missing from the cover"
+        ],
+        "a": 1,
+        "why": "Ele diz que precisa do caderno para a prova de sexta."
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "invoice",
+    "text": "Invoice from Campus Internet. Account 19B. Service for October, 24. A late fee of 5 was added on the 12th. Total due, 29, by the 20th. Pay in the housing portal. If the total is still unpaid on the 21st, the connection will pause until the next business day after payment.",
+    "questions": [
+      {
+        "q": "What is the total due?",
+        "options": [
+          "5",
+          "19",
+          "24",
+          "29"
+        ],
+        "a": 3,
+        "why": "A fatura soma o serviço de 24 com a multa de 5 e indica o total de 29."
+      },
+      {
+        "q": "What happens if the bill is unpaid on the 21st?",
+        "options": [
+          "The late fee doubles",
+          "The connection will pause",
+          "The account number changes",
+          "Payment must be in cash"
+        ],
+        "a": 1,
+        "why": "O texto diz que a conexão será interrompida se o total continuar sem pagamento no dia 21."
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "email",
+    "text": "To: Housing Office. From: Amina Dar. Subject: Room change request. I live in Oak Hall, room 306. Since September the window has not closed fully, and rain has damaged two notebooks. I reported this on the 3rd and again on the 10th. A repair visit was planned, then canceled. I am asking to move to any dry single room in Oak or Birch before the rainy weeks in November. I can show the room on weekday mornings. I understand that a move depends on an open bed and may take more than a few days.",
+    "questions": [
+      {
+        "q": "What is Amina's main request?",
+        "options": [
+          "A refund of the November rent",
+          "A move to a dry single room",
+          "A new window for every room",
+          "A canceled repair visit"
+        ],
+        "a": 1,
+        "why": "Ela pede para mudar para qualquer quarto individual seco em Oak ou Birch."
+      },
+      {
+        "q": "What evidence of damage does she mention?",
+        "options": [
+          "A broken heater",
+          "Two damaged notebooks",
+          "A flooded hallway",
+          "A canceled class"
+        ],
+        "a": 1,
+        "why": "Ela escreve que a chuva danificou dois cadernos."
+      },
+      {
+        "q": "What does she say about the timing of a move?",
+        "options": [
+          "It will happen the same day",
+          "It may take more than a few days",
+          "It must be finished on the 10th",
+          "It is impossible in November"
+        ],
+        "a": 1,
+        "why": "Ela reconhece que a mudança depende de uma vaga e pode levar mais do que alguns dias."
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "pool": "practice",
+    "level": "hard",
+    "kind": "notice",
+    "text": "Exam notice for Introductory Statistics. The midterm is Thursday at 7 p.m. in Hall C, not in the usual classroom. Bring a pencil and your student card. Calculators are limited to the basic model sold by the department. Phones must stay in bags, even if they are off. Students who arrive after 7:20 may sit the exam only if a seat remains, and they will not receive extra time. A conflict form is available until Tuesday at noon for students with another exam at the same hour. The form is not for work shifts.",
+    "questions": [
+      {
+        "q": "Where will the midterm be held?",
+        "options": [
+          "In the usual classroom",
+          "In Hall C",
+          "In the department store",
+          "Online"
+        ],
+        "a": 1,
+        "why": "O aviso diz que a prova é no Hall C, não na sala habitual."
+      },
+      {
+        "q": "Who may submit a conflict form?",
+        "options": [
+          "Any student who works that night",
+          "Students with another exam at the same hour",
+          "Students who arrive after 7:20",
+          "Students without a basic calculator"
+        ],
+        "a": 1,
+        "why": "O formulário de conflito é para quem tem outra prova no mesmo horário, não para turnos de trabalho."
+      },
+      {
+        "q": "What is true about students who arrive after 7:20?",
+        "options": [
+          "They automatically receive extra time",
+          "They may sit the exam only if a seat remains",
+          "They must wait until Tuesday",
+          "They can use a phone as a calculator"
+        ],
+        "a": 1,
+        "why": "O aviso permite que façam a prova só se ainda houver lugar e sem tempo extra."
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "messages",
+    "text": "Nora: The slides are due to Professor Kim at 9 a.m. tomorrow. I finished the maps. Eli: I still owe the source list. My shift ends at 8 tonight. Nora: Send me the list by 10 and I will combine the file. If it comes later, I cannot check the links. Eli: I will send it from the bus. Please do not change my captions. Nora: I will only fix spelling. The group folder closes for editing at midnight.",
+    "questions": [
+      {
+        "q": "What has Nora already finished?",
+        "options": [
+          "The source list",
+          "The maps",
+          "The captions",
+          "The professor's comments"
+        ],
+        "a": 1,
+        "why": "Nora diz que terminou os mapas."
+      },
+      {
+        "q": "Why does Nora set 10 p.m. as the limit?",
+        "options": [
+          "The bus leaves at 10",
+          "She cannot check the links after that",
+          "The shift ends at 10",
+          "The folder closes at 10"
+        ],
+        "a": 1,
+        "why": "Ela escreve que, se a lista chegar mais tarde, não consegue conferir os links."
+      },
+      {
+        "q": "What will Nora change in Eli's work?",
+        "options": [
+          "The captions",
+          "The maps",
+          "Only the spelling",
+          "The due time"
+        ],
+        "a": 2,
+        "why": "Nora diz que vai corrigir apenas a ortografia e que não mudará as legendas."
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "schedule",
+    "text": "Welcome Week, Monday to Wednesday. Monday, 9 a.m., campus tour from the main gate. The tour is canceled if it rains, and a video replaces it in room 12. Tuesday, 11 a.m., course planning with advisors. Sign up first, because drop-in visits are not accepted. Wednesday, 2 p.m., club fair in the gym. First-year students may attend all three events. Family members may join only the Monday tour.",
+    "questions": [
+      {
+        "q": "What replaces the tour if it rains?",
+        "options": [
+          "A meeting with advisors",
+          "A video in room 12",
+          "The club fair",
+          "A walk from the gym"
+        ],
+        "a": 1,
+        "why": "O horário diz que, se chover, um vídeo na sala 12 substitui o passeio."
+      },
+      {
+        "q": "What must students do before course planning?",
+        "options": [
+          "Bring a family member",
+          "Sign up first",
+          "Attend the club fair",
+          "Watch the rain video"
+        ],
+        "a": 1,
+        "why": "O texto diz para se inscrever antes, porque não há atendimento sem hora marcada."
+      },
+      {
+        "q": "Which event may family members join?",
+        "options": [
+          "Only the Monday tour",
+          "Course planning",
+          "The club fair",
+          "All three events"
+        ],
+        "a": 0,
+        "why": "A última frase permite que familiares participem apenas do passeio de segunda."
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "ad",
+    "text": "Need a weekend tutor for first-year chemistry? The Peer Lab offers 40-minute sessions on Saturday at 10 and at 1. The morning session is for balancing equations. The afternoon session is for lab reports. Each session costs 6, or nothing with a tutoring voucher from your college. Book in the app by Friday noon. Walk-ins are accepted only if a tutor is free. Please bring last week's problem set, not just a textbook.",
+    "questions": [
+      {
+        "q": "What is the afternoon session about?",
+        "options": [
+          "Balancing equations",
+          "Lab reports",
+          "Finding a voucher",
+          "Using the app"
+        ],
+        "a": 1,
+        "why": "O anúncio separa a manhã, de equações, da tarde, de relatórios de laboratório."
+      },
+      {
+        "q": "When is booking in the app required?",
+        "options": [
+          "By Friday noon",
+          "By Saturday at 10",
+          "Only for walk-ins",
+          "After the session starts"
+        ],
+        "a": 0,
+        "why": "A reserva no aplicativo deve ser feita até sexta ao meio-dia."
+      },
+      {
+        "q": "What should a student bring?",
+        "options": [
+          "Only a textbook",
+          "Last week's problem set",
+          "A lab coat",
+          "Six printed vouchers"
+        ],
+        "a": 1,
+        "why": "O anúncio pede o conjunto de problemas da semana anterior, não apenas o livro."
+      }
+    ]
+  },
+  {
+    "id": "d16",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "form",
+    "text": "Library card application for visiting researchers. Complete every box in ink. A home-university letter must be attached, and the letter must name the project end date. Cards are valid until that date or for 90 days, whichever comes first. Photo identification is checked at the desk, not uploaded. The first card is free. A replacement costs 10 and takes two business days. Submit the form in person. Emailed forms are not read.",
+    "questions": [
+      {
+        "q": "What must the home-university letter include?",
+        "options": [
+          "A payment of 10",
+          "The project end date",
+          "A photo file",
+          "A list of 90 books"
+        ],
+        "a": 1,
+        "why": "A carta da universidade de origem precisa indicar a data de término do projeto."
+      },
+      {
+        "q": "How long can a card remain valid?",
+        "options": [
+          "Always for one year",
+          "Until the end date or for 90 days, whichever is sooner",
+          "For two business days",
+          "Until a replacement is paid"
+        ],
+        "a": 1,
+        "why": "O formulário limita a validade à data final ou a 90 dias, o que ocorrer primeiro."
+      },
+      {
+        "q": "How should the form be submitted?",
+        "options": [
+          "By email",
+          "In person",
+          "By uploading a photo",
+          "Through the college voucher"
+        ],
+        "a": 1,
+        "why": "O texto pede entrega presencial e diz que formulários enviados por e-mail não são lidos."
+      }
+    ]
+  },
+  {
+    "id": "d17",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "post",
+    "text": "Campus parents' group. The Saturday clothing exchange is moving from the gym to the community room because of a match. Drop off clean children's clothes from 9 to 10. Choosing starts at 10:30 and ends at noon. Please take only what your family will use this season. Leftover coats will go to the city shelter on Monday. Strollers can wait in the hallway, not inside the choosing room.",
+    "questions": [
+      {
+        "q": "Why did the exchange move?",
+        "options": [
+          "The shelter is closed",
+          "There is a match in the gym",
+          "The clothes were not clean",
+          "Noon was too early"
+        ],
+        "a": 1,
+        "why": "O post diz que a troca mudou por causa de uma partida no ginásio."
+      },
+      {
+        "q": "When does choosing start?",
+        "options": [
+          "At 9",
+          "At 10:30",
+          "At noon",
+          "On Monday"
+        ],
+        "a": 1,
+        "why": "A escolha começa às 10h30, depois da entrega das 9 às 10."
+      },
+      {
+        "q": "What happens to leftover coats?",
+        "options": [
+          "They stay in the hallway",
+          "They return to the gym",
+          "They go to the city shelter on Monday",
+          "They are sold at noon"
+        ],
+        "a": 2,
+        "why": "O post diz que os casacos que sobrarem vão para o abrigo da cidade na segunda."
+      }
+    ]
+  },
+  {
+    "id": "d18",
+    "pool": "practice",
+    "level": "hard",
+    "kind": "invoice",
+    "text": "Tuition invoice, spring term. Student: Helena Cruz. Course fees, 4,200. Housing, 1,800. A scholarship credit of 2,000 has already been applied. A health fee of 90 is new this term and cannot be waived. Balance due, 4,090, by January 8. Payments after that date add 25. If the balance is still open on January 15, spring registration will be held, including the seminar that is already full. Aid questions go to the scholarship desk, not to the instructor.",
+    "questions": [
+      {
+        "q": "What is the balance due?",
+        "options": [
+          "2,000",
+          "4,090",
+          "4,200",
+          "1,800"
+        ],
+        "a": 1,
+        "why": "Depois do crédito da bolsa, a fatura indica o saldo de 4.090."
+      },
+      {
+        "q": "Which charge cannot be waived?",
+        "options": [
+          "Housing",
+          "The scholarship credit",
+          "The health fee",
+          "The late charge of 25"
+        ],
+        "a": 2,
+        "why": "O texto diz que a taxa de saúde de 90 não pode ser dispensada."
+      },
+      {
+        "q": "What happens if the balance is open on January 15?",
+        "options": [
+          "The scholarship increases",
+          "Spring registration will be held",
+          "The seminar fee disappears",
+          "The instructor must answer aid questions"
+        ],
+        "a": 1,
+        "why": "Se o saldo continuar aberto em 15 de janeiro, a matrícula da primavera fica retida."
+      }
+    ]
+  },
+  {
+    "id": "d19",
+    "pool": "practice",
+    "level": "mid",
+    "kind": "email",
+    "text": "To: Garden Club members. From: Club secretary. Subject: Tool shed on Sunday. We will repair the shed behind the greenhouse from 1 to 4 on Sunday. Please wear shoes that can get muddy. The college will provide wood and paint, but we need two ladders and a drill. If you can bring either one, reply by Saturday morning. People who only want to plant should wait for the next weekend. This visit is for the shed, because the roof leaked onto the seed trays. Snacks are welcome, yet there is no indoor space if it rains.",
+    "questions": [
+      {
+        "q": "What is the purpose of Sunday's visit?",
+        "options": [
+          "To plant the next crop",
+          "To repair the shed",
+          "To buy new seed trays",
+          "To tour the greenhouse"
+        ],
+        "a": 1,
+        "why": "O e-mail convoca o grupo para consertar o galpão atrás da estufa."
+      },
+      {
+        "q": "What should members do if they can bring a ladder or a drill?",
+        "options": [
+          "Wait until the next weekend",
+          "Reply by Saturday morning",
+          "Pay for the wood",
+          "Meet indoors if it rains"
+        ],
+        "a": 1,
+        "why": "Quem puder levar escada ou furadeira deve responder até sábado de manhã."
+      },
+      {
+        "q": "Why is planting not part of this visit?",
+        "options": [
+          "The seed trays were damaged by a leak and this visit is for the shed",
+          "The college banned planting",
+          "There are no muddy shoes",
+          "Snacks will fill the shed"
+        ],
+        "a": 0,
+        "why": "O e-mail diz que a visita é para o galpão porque o telhado vazou sobre as bandejas de sementes."
+      }
+    ]
+  },
+  {
+    "id": "d20",
+    "pool": "practice",
+    "level": "easy",
+    "kind": "receipt",
+    "text": "Art supply desk, receipt. One sketchbook, 12. Two soft pencils, 3. A faculty discount of 2 was applied because the buyer showed a department card. Total, 13, paid in cash. The sketchbook can be exchanged within ten days if it is unused. Pencils are a final sale. Keep this receipt. The desk cannot look up a cash purchase without it.",
+    "questions": [
+      {
+        "q": "Why was a discount applied?",
+        "options": [
+          "The pencils were used",
+          "The buyer showed a department card",
+          "The purchase was paid in cash",
+          "The sketchbook was unused"
+        ],
+        "a": 1,
+        "why": "O recibo aplica o desconto porque o comprador mostrou o cartão do departamento."
+      },
+      {
+        "q": "Which item cannot be returned?",
+        "options": [
+          "An unused sketchbook",
+          "The pencils",
+          "The department card",
+          "The receipt"
+        ],
+        "a": 1,
+        "why": "O texto diz que os lápis são venda final."
+      },
+      {
+        "q": "Why should the buyer keep the receipt?",
+        "options": [
+          "The desk cannot find a cash purchase without it",
+          "The discount expires in ten days",
+          "Cash payments are not complete",
+          "The faculty card must be copied"
+        ],
+        "a": 0,
+        "why": "O balcão não consegue localizar uma compra em dinheiro sem o recibo."
+      }
+    ]
+  },
+  {
+    "id": "d-m1a",
+    "pool": "m1",
+    "level": "mid",
+    "kind": "notice",
+    "text": "Pool notice. Lane swimming is closed today from 1 to 3 p.m. for a lifeguard course. Open swim starts again at 3:15. Members may use the gym upstairs during the closure. Lanes cannot be reserved while the course is in session.",
+    "questions": [
+      {
+        "q": "Why is lane swimming closed?",
+        "options": [
+          "The gym upstairs is full",
+          "A lifeguard course is using the pool",
+          "Open swim was canceled all day",
+          "Members forgot to reserve"
+        ],
+        "a": 1,
+        "why": "O aviso fecha as raias das 13h às 15h por causa de um curso de salva-vidas."
+      },
+      {
+        "q": "When does open swim start again?",
+        "options": [
+          "At 1 p.m.",
+          "At 3 p.m.",
+          "At 3:15 p.m.",
+          "Tomorrow"
+        ],
+        "a": 2,
+        "why": "O texto diz que a natação livre recomeça às 15h15."
+      }
+    ]
+  },
+  {
+    "id": "d-m1b",
+    "pool": "m1",
+    "level": "mid",
+    "kind": "email",
+    "text": "To: Dr. Berg. From: Student assistant. Subject: Posters for Thursday's talk. Dr. Berg, the posters for your city-design talk are printed. I could not place them in the science lobby because that board is reserved until Wednesday night. I can put them up Thursday at 8 a.m., before your 11 a.m. talk, if that is early enough. I also saved a digital copy in the shared folder. Please tell me if the blue version is the one you want on paper. The print shop will not change the color after Thursday morning. I will be at the front desk until 4 today.",
+    "questions": [
+      {
+        "q": "Why are the posters not in the science lobby yet?",
+        "options": [
+          "The talk was moved",
+          "The board is reserved until Wednesday night",
+          "The digital copy is missing",
+          "The print shop is closed"
+        ],
+        "a": 1,
+        "why": "O assistente diz que o mural está reservado até a noite de quarta."
+      },
+      {
+        "q": "What does the assistant need Dr. Berg to confirm?",
+        "options": [
+          "The 11 a.m. start time",
+          "Whether the blue version should be printed",
+          "The front-desk hours",
+          "A new shared folder"
+        ],
+        "a": 1,
+        "why": "Ele pede que ela diga se a versão azul é a que deve ir para o papel."
+      },
+      {
+        "q": "Until what time is the assistant at the desk today?",
+        "options": [
+          "8 a.m.",
+          "11 a.m.",
+          "4 p.m.",
+          "Wednesday night"
+        ],
+        "a": 2,
+        "why": "A última frase diz que ele fica na recepção até as 16h hoje."
+      }
+    ]
+  },
+  {
+    "id": "d-m1u",
+    "pool": "m1u",
+    "level": "hard",
+    "kind": "messages",
+    "text": "Clerk: Your hold is ready, but another patron requested the same atlas. You: Can I keep it for the full week? Clerk: Only if you collect it before noon. After that, the hold passes on. You: I will come at 11:30.",
+    "questions": [
+      {
+        "q": "What condition allows the student to keep the atlas for the week?",
+        "options": [
+          "Asking a second patron",
+          "Collecting it before noon",
+          "Paying an extra fee",
+          "Returning it the same day"
+        ],
+        "a": 1,
+        "why": "O atendente diz que a reserva da semana só continua se a pessoa retirar o atlas antes do meio-dia."
+      },
+      {
+        "q": "What will the student do?",
+        "options": [
+          "Give the atlas to another patron",
+          "Come at 11:30",
+          "Cancel the hold",
+          "Wait until the next week"
+        ],
+        "a": 1,
+        "why": "A última mensagem diz que a pessoa chegará às 11h30."
+      }
+    ]
+  },
+  {
+    "id": "d-m1u2",
+    "pool": "m1u",
+    "level": "hard",
+    "kind": "form",
+    "text": "Research travel form. Estimate costs in the campus currency. Attach one comparison fare, not three. Funding covers the cheaper fare only when the comparison is dated within 48 hours of this form. Meals are reimbursed up to 30 a day with itemized receipts. A card statement alone is not enough. Submit the form before the trip, or the grant office may refuse the fare even if you traveled. Emergency trips require a supervisor note in the same packet. Incomplete packets are returned without review.",
+    "questions": [
+      {
+        "q": "Which fare can funding cover?",
+        "options": [
+          "Any fare attached to the form",
+          "The cheaper fare if the comparison is recent enough",
+          "Three comparison fares",
+          "Meals up to 30"
+        ],
+        "a": 1,
+        "why": "O financiamento cobre a tarifa mais barata apenas se a comparação tiver no máximo 48 horas."
+      },
+      {
+        "q": "Why is a card statement not enough for meals?",
+        "options": [
+          "Meals are never reimbursed",
+          "The receipt must be itemized",
+          "The limit is 48 hours",
+          "The supervisor must pay"
+        ],
+        "a": 1,
+        "why": "O formulário exige recibos discriminados e diz que o extrato do cartão não basta."
+      },
+      {
+        "q": "What may happen if the form is submitted after the trip?",
+        "options": [
+          "The cheaper fare is guaranteed",
+          "The grant office may refuse the fare",
+          "Meals increase to 48 a day",
+          "The packet is reviewed faster"
+        ],
+        "a": 1,
+        "why": "Se o formulário chegar depois da viagem, o escritório pode recusar a passagem."
+      }
+    ]
+  },
+  {
+    "id": "d-m1l",
+    "pool": "m1l",
+    "level": "easy",
+    "kind": "ad",
+    "text": "Used desk lamp for sale. Bright, white, and sturdy. Price: 15. Pickup only, at Cedar Dorm after 6 p.m. Cash. Text Lila to arrange a time.",
+    "questions": [
+      {
+        "q": "How much does the lamp cost?",
+        "options": [
+          "6",
+          "15",
+          "60",
+          "It is free"
+        ],
+        "a": 1,
+        "why": "O anúncio marca o preço de 15."
+      },
+      {
+        "q": "How can someone buy it?",
+        "options": [
+          "By mail",
+          "By card at any hour",
+          "By picking it up at Cedar Dorm after 6 p.m.",
+          "By visiting the store"
+        ],
+        "a": 2,
+        "why": "A venda é somente retirada no Cedar Dorm depois das 18h."
+      }
+    ]
+  },
+  {
+    "id": "d-m1l2",
+    "pool": "m1l",
+    "level": "easy",
+    "kind": "schedule",
+    "text": "Writing center, this week. Monday: full. Tuesday: 2 p.m. and 4 p.m. still open. Wednesday: closed for training. Thursday: 10 a.m. open. Bring a printed draft. Sessions last 25 minutes. Come five minutes early. If you are more than ten minutes late, the tutor may give the time to another student. Thursday's 10 a.m. slot is the last opening this week, so book it in the portal tonight.",
+    "questions": [
+      {
+        "q": "Which day is the center closed?",
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "a": 2,
+        "why": "A agenda diz que quarta-feira está fechada para treinamento."
+      },
+      {
+        "q": "What should a student bring?",
+        "options": [
+          "A laptop only",
+          "A printed draft",
+          "A training form",
+          "Another student"
+        ],
+        "a": 1,
+        "why": "O horário pede para trazer um rascunho impresso."
+      },
+      {
+        "q": "What can happen if a student is more than ten minutes late?",
+        "options": [
+          "The session becomes 25 minutes longer",
+          "The tutor may give the time to someone else",
+          "The center opens on Wednesday",
+          "The draft is printed for free"
+        ],
+        "a": 1,
+        "why": "Se o atraso passar de dez minutos, o monitor pode entregar o horário a outra pessoa."
+      }
+    ]
+  },
+  {
+    "id": "d-m2a",
+    "pool": "m2",
+    "level": "mid",
+    "kind": "post",
+    "text": "Floor 2 kitchen. Please label food you put in the fridge. Items with no name or date will be thrown out on Sunday morning. The microwave is clean again. Do not leave pots in it. Wipes are under the sink.",
+    "questions": [
+      {
+        "q": "What happens to unlabeled food?",
+        "options": [
+          "It is moved to Floor 1",
+          "It is thrown out on Sunday morning",
+          "It is cooked in the microwave",
+          "It is labeled by staff"
+        ],
+        "a": 1,
+        "why": "O recado diz que itens sem nome ou data serão descartados no domingo de manhã."
+      },
+      {
+        "q": "Where are the wipes?",
+        "options": [
+          "In the microwave",
+          "In the fridge",
+          "Under the sink",
+          "On Floor 1"
+        ],
+        "a": 2,
+        "why": "A última frase diz que os panos estão embaixo da pia."
+      }
+    ]
+  },
+  {
+    "id": "d-m2b",
+    "pool": "m2",
+    "level": "mid",
+    "kind": "email",
+    "text": "To: Night supervisor. From: Front desk. Subject: Package room on Friday. The package room will close at 5 p.m. on Friday, not at 8, because of a staff meeting. Students who need a parcel that day should come before 5. Anything that arrives after 5 will be logged on Monday. Perishable boxes cannot be stored over the weekend and will be refused at the door. Please add this note to the automatic reply. I will put a paper sign on the door at noon. Large envelopes are still accepted at the main desk until 7.",
+    "questions": [
+      {
+        "q": "Why does the package room close early on Friday?",
+        "options": [
+          "A holiday begins",
+          "There is a staff meeting",
+          "The door sign is missing",
+          "Large envelopes filled the room"
+        ],
+        "a": 1,
+        "why": "O e-mail explica o fechamento às 17h por causa de uma reunião da equipe."
+      },
+      {
+        "q": "What happens to parcels that arrive after 5?",
+        "options": [
+          "They are delivered to rooms",
+          "They are logged on Monday",
+          "They stay at the main desk until 8",
+          "They are opened on Friday"
+        ],
+        "a": 1,
+        "why": "O texto diz que o que chegar depois das 17h será registrado na segunda."
+      },
+      {
+        "q": "What can students still do until 7?",
+        "options": [
+          "Store a perishable box",
+          "Leave a large envelope at the main desk",
+          "Attend the staff meeting",
+          "Use the package room"
+        ],
+        "a": 1,
+        "why": "Envelopes grandes continuam aceitos na recepção principal até as 19h."
+      }
+    ]
+  },
+  {
+    "id": "d-m2u",
+    "pool": "m2u",
+    "level": "hard",
+    "kind": "receipt",
+    "text": "Print shop receipt. Poster, rush service, 18. Rush applies only if the file arrives before 10 a.m. This file arrived at 9:40, so the rush fee is correct. A color proof was declined. Pickup after 2 p.m. today. Uncollected rush orders are recycled after two days.",
+    "questions": [
+      {
+        "q": "Why is the rush fee correct?",
+        "options": [
+          "A color proof was added",
+          "The file arrived before 10 a.m.",
+          "Pickup is after 2 p.m.",
+          "The poster was recycled"
+        ],
+        "a": 1,
+        "why": "O recibo diz que o arquivo chegou às 9h40, antes das 10h, então a taxa de urgência procede."
+      },
+      {
+        "q": "What happens to a rush order left for two days?",
+        "options": [
+          "It is delivered free",
+          "It is recycled",
+          "The fee is refunded",
+          "A proof is printed"
+        ],
+        "a": 1,
+        "why": "Pedidos urgentes não retirados são reciclados depois de dois dias."
+      }
+    ]
+  },
+  {
+    "id": "d-m2u2",
+    "pool": "m2u",
+    "level": "hard",
+    "kind": "notice",
+    "text": "Graduate lounge rules, updated. The lounge is for current graduate students from 8 a.m. to 6 p.m. After 6, undergraduate tutors may use the two tables by the window if no seminar is listed on the door. Food is allowed only at those window tables. Whiteboard notes from a seminar must stay up until the convener erases them. Do not stack chairs on the new carpet. Guests may enter with a host, but a guest cannot remain if the host leaves. The printer is for course papers of 20 pages or fewer. Longer jobs go to the library.",
+    "questions": [
+      {
+        "q": "Who may use the window tables after 6 p.m.?",
+        "options": [
+          "Any visitor",
+          "Undergraduate tutors, if no seminar is listed",
+          "Only the convener",
+          "Guests without a host"
+        ],
+        "a": 1,
+        "why": "Depois das 18h, monitores de graduação podem usar as mesas da janela se não houver seminário na porta."
+      },
+      {
+        "q": "Where is food allowed?",
+        "options": [
+          "Anywhere in the lounge",
+          "Only at the window tables",
+          "Only during seminars",
+          "On the new carpet"
+        ],
+        "a": 1,
+        "why": "A comida é permitida apenas nas mesas da janela."
+      },
+      {
+        "q": "What should happen to a long print job?",
+        "options": [
+          "It should be left on the whiteboard",
+          "It should go to the library",
+          "It should wait until the host leaves",
+          "It should be printed after 6 p.m. in the lounge"
+        ],
+        "a": 1,
+        "why": "Trabalhos com mais de 20 páginas devem ser impressos na biblioteca."
+      }
+    ]
+  },
+  {
+    "id": "d-m2l",
+    "pool": "m2l",
+    "level": "easy",
+    "kind": "menu",
+    "text": "Soup and bread. Tomato soup, 4. Chicken soup, 4. Bread and butter, 2. Students eat free on Thursdays with a meal card. Water is free every day.",
+    "questions": [
+      {
+        "q": "How much is the bread and butter?",
+        "options": [
+          "2",
+          "4",
+          "Nothing on Thursday",
+          "Free every day"
+        ],
+        "a": 0,
+        "why": "O cardápio lista pão com manteiga por 2."
+      },
+      {
+        "q": "What is free every day?",
+        "options": [
+          "Tomato soup",
+          "Chicken soup",
+          "Water",
+          "Bread"
+        ],
+        "a": 2,
+        "why": "A última frase diz que a água é grátis todos os dias."
+      }
+    ]
+  },
+  {
+    "id": "d-m2l2",
+    "pool": "m2l",
+    "level": "easy",
+    "kind": "messages",
+    "text": "Omar: The club photo is at 5 by the oak tree. Ines: I have class until 5:10. Omar: We can wait until 5:20. After that, the light is poor. Ines: I will run over. Please save me a place in the front. Omar: I will. Bring your member pin so the photographer knows the group. If you miss 5:20, we will send you the photo later by email.",
+    "questions": [
+      {
+        "q": "Why can the group wait only until 5:20?",
+        "options": [
+          "The class ends then",
+          "The light is poor after that",
+          "The oak tree is closed",
+          "Ines lost her pin"
+        ],
+        "a": 1,
+        "why": "Omar diz que depois das 17h20 a luz fica ruim."
+      },
+      {
+        "q": "What does Ines ask Omar to do?",
+        "options": [
+          "End the photo at 5",
+          "Save her a place in the front",
+          "Bring a second pin",
+          "Cancel his class"
+        ],
+        "a": 1,
+        "why": "Ines pede que ele guarde um lugar na frente."
+      },
+      {
+        "q": "Why is the member pin needed?",
+        "options": [
+          "It pays the photographer",
+          "It shows who belongs to the group",
+          "It improves the light",
+          "It opens the classroom"
+        ],
+        "a": 1,
+        "why": "Omar diz que o broche mostra ao fotógrafo quem faz parte do grupo."
+      }
+    ]
+  }
+]

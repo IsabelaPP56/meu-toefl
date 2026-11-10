@@ -1,0 +1,956 @@
+[
+  {
+    "id": "tk01",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A history lecture",
+    "script": "Cities rename streets for reasons that are practical as well as political. In the port town I am using as an example, the first names simply described a feature: Mill Lane led to the mill, and Fish Street ended at the market. Those names helped newcomers. After a fire in 1730, the council rebuilt two lanes and gave them the names of the merchants who paid for the stone. The old descriptive names survived in letters for another decade, which confused tax collectors. A clerk solved the problem with a pasted list in the town hall, matching each old name to the new one. The list shows that renaming was not instant. People kept using the name that matched the errand they were on. Only when the mail service required the official name did the merchant names become dominant. The point for us is methodological. If a diary says Fish Street in 1742, you cannot assume the writer meant the lane that carries that name on today's map. Check the clerk's list before you locate the event.",
+    "questions": [
+      {
+        "q": "What is the lecture mainly about?",
+        "options": [
+          "How a fire destroyed every map",
+          "Why street names change and why the change is slow",
+          "How tax collectors invented mail",
+          "Why merchants disliked markets"
+        ],
+        "a": 1,
+        "why": "A aula explica os motivos da troca de nomes e o atraso até o novo nome pegar."
+      },
+      {
+        "q": "What did the clerk's list do?",
+        "options": [
+          "It paid for the stone.",
+          "It matched each old name to the new one.",
+          "It banned diaries.",
+          "It moved the mill."
+        ],
+        "a": 1,
+        "why": "A lista colada na prefeitura ligava cada nome antigo ao novo."
+      },
+      {
+        "q": "Why does the speaker mention a diary from 1742?",
+        "options": [
+          "To show that a familiar name may not match today's map",
+          "To prove Fish Street never existed",
+          "To advertise the mail service",
+          "To describe the mill"
+        ],
+        "a": 0,
+        "why": "O exemplo final mostra o cuidado de método: o nome no diário pode não ser o da rua atual."
+      },
+      {
+        "q": "What can be inferred about the mail service?",
+        "options": [
+          "It preferred descriptive names.",
+          "Its requirement helped the official names win.",
+          "It ended in 1730.",
+          "It ignored the council."
+        ],
+        "a": 1,
+        "why": "Os nomes dos comerciantes só dominaram quando o correio passou a exigir o nome oficial."
+      }
+    ]
+  },
+  {
+    "id": "tk02",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A biology lecture for nonmajors",
+    "script": "Bread rises because yeast produces gas while it feeds. In a simple classroom trial, students mixed the same flour and water, then changed only the temperature of the bowl. Bowls kept near a warm radiator rose faster than bowls left by an open window. The cold bowls did rise, but they needed more time. Students sometimes concluded that cold kills yeast. That conclusion is too strong. The yeast was still alive. It was working slowly. A second trial kept every bowl warm but changed the amount of sugar. A small spoon of sugar sped the rise. A large handful did not speed it further, and the dough tasted harsh. The yeast could not use the extra sugar in the time allowed. I want you to notice the design. One variable moved at a time. If temperature and sugar had changed together, you could not tell which one caused the faster rise. Write the trial so a classmate could repeat it without asking you what you meant.",
+    "questions": [
+      {
+        "q": "What is the main point?",
+        "options": [
+          "Cold always kills yeast.",
+          "Controlled changes show how temperature and sugar affect rising.",
+          "Sugar should be avoided in all bread.",
+          "Windows are better than radiators."
+        ],
+        "a": 1,
+        "why": "A aula usa dois testes separados para mostrar o efeito da temperatura e do açúcar."
+      },
+      {
+        "q": "What happened to the cold bowls?",
+        "options": [
+          "They never rose.",
+          "They rose, but more slowly.",
+          "They tasted harsh.",
+          "They were placed on the radiator."
+        ],
+        "a": 1,
+        "why": "As tigelas frias cresceram, só que precisaram de mais tempo."
+      },
+      {
+        "q": "Why does the speaker stress changing one variable at a time?",
+        "options": [
+          "So students can tell which change caused the faster rise",
+          "So the dough tastes sweet",
+          "So the window can stay open",
+          "So sugar replaces flour"
+        ],
+        "a": 0,
+        "why": "Se temperatura e açúcar mudassem juntos, não daria para saber a causa."
+      },
+      {
+        "q": "What can be inferred about a large handful of sugar?",
+        "options": [
+          "It always makes better bread.",
+          "More sugar did not keep increasing the rise in the time allowed.",
+          "It cooled the bowl.",
+          "It replaced the need for yeast."
+        ],
+        "a": 1,
+        "why": "Uma quantidade grande não acelerou mais o crescimento e deixou a massa áspera."
+      }
+    ]
+  },
+  {
+    "id": "tk03",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "An architecture lecture",
+    "script": "Before air conditioning, builders in hot, dry cities used the shape of a courtyard to cool a house. High walls shaded the ground for most of the day. At night the open sky let heat escape. A shallow pool in the center cooled the air a little more as water evaporated. The cooled air then moved through doors into the surrounding rooms. This was not a modern machine, and it did not hold a fixed temperature. It made the afternoon less severe. Travelers' sketches show that the pool was often under a tree, which slowed evaporation and kept the water from disappearing by noon. When a later owner filled the pool to gain floor space, residents reported hotter rooms even though the walls had not changed. The courtyard was a system, not a decoration. If you restore one element and erase another, you should not expect the old comfort to return. On Friday we will compare two floor plans and decide which change broke the airflow.",
+    "questions": [
+      {
+        "q": "What is the talk mainly about?",
+        "options": [
+          "How a courtyard, shade, and water worked together to cool a house",
+          "How air conditioners were invented",
+          "Why travelers disliked trees",
+          "How to fill a pool with stone"
+        ],
+        "a": 0,
+        "why": "A palestra descreve o conjunto de paredes, céu noturno e água que amenizava o calor."
+      },
+      {
+        "q": "What happened when an owner filled the pool?",
+        "options": [
+          "The walls were rebuilt.",
+          "Residents said the rooms became hotter.",
+          "Evaporation increased.",
+          "The tree was moved to the street."
+        ],
+        "a": 1,
+        "why": "Mesmo com as paredes iguais, os moradores sentiram os quartos mais quentes."
+      },
+      {
+        "q": "Why does the speaker mention Friday's comparison?",
+        "options": [
+          "To preview an exercise about which change broke the airflow",
+          "To assign a pool to build",
+          "To cancel the sketches",
+          "To introduce air conditioning prices"
+        ],
+        "a": 0,
+        "why": "A sexta-feira será usada para comparar plantas e achar a mudança que quebrou o fluxo de ar."
+      },
+      {
+        "q": "What can be inferred about the tree over the pool?",
+        "options": [
+          "It stopped all cooling.",
+          "It slowed water loss so the pool lasted longer in the day.",
+          "It replaced the high walls.",
+          "It was added only in modern houses."
+        ],
+        "a": 1,
+        "why": "A árvore diminuía a evaporação e impedia que a água sumisse até o meio-dia."
+      }
+    ]
+  },
+  {
+    "id": "tk04",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A psychology lecture",
+    "script": "People remember a task better when they expect to teach it. In one course, half the students were told they would explain a short article to a partner. The other half were told they would be tested alone. Both groups had the same twenty minutes to read. The teaching group recalled more main ideas the next day, and they also organized their notes with more headings. The interesting part is that the partner session was canceled. The expectation alone changed the reading. Students who thought they would teach checked whether a sentence was necessary. Students who expected a test copied more details, including dates that the article itself called minor. I am not saying that tests are useless. I am saying that the imagined audience shapes what seems worth keeping. When you read tonight's chapter, write one heading you would say aloud to a classmate who missed class. That heading is a clue to the idea you actually understood, not to the sentence you happened to underline.",
+    "questions": [
+      {
+        "q": "What is the main finding?",
+        "options": [
+          "Tests should be canceled.",
+          "Expecting to teach improved memory even without the teaching session.",
+          "Dates are the most important ideas.",
+          "Partners remember less than individuals."
+        ],
+        "a": 1,
+        "why": "O grupo que esperava ensinar lembrou mais, embora a sessão com o colega tenha sido cancelada."
+      },
+      {
+        "q": "How did the teaching group's notes differ?",
+        "options": [
+          "They had more headings.",
+          "They copied more minor dates.",
+          "They were shorter by twenty minutes.",
+          "They were written the next day only."
+        ],
+        "a": 0,
+        "why": "As anotações de quem esperava ensinar tinham mais títulos."
+      },
+      {
+        "q": "Why does the speaker mention the canceled partner session?",
+        "options": [
+          "To show that the expectation, not the session itself, changed the reading",
+          "To complain about attendance",
+          "To prove partners are unreliable",
+          "To introduce a new article"
+        ],
+        "a": 0,
+        "why": "O cancelamento isola a expectativa como causa da diferença."
+      },
+      {
+        "q": "What does the speaker imply about an underlined sentence?",
+        "options": [
+          "It is always the main idea.",
+          "It may not be the idea the student understood well enough to teach.",
+          "It should include a minor date.",
+          "It replaces a heading."
+        ],
+        "a": 1,
+        "why": "O título dito em voz alta revela o que a pessoa entendeu, não apenas o que sublinhou."
+      }
+    ]
+  },
+  {
+    "id": "tk05",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "An environmental science lecture",
+    "script": "Birds strike windows because they see reflections of sky or trees, not because they are careless. A campus count over two migration seasons found most strikes on the glass walkway between the library and the science building. The walkway mirrors the row of oaks beside it. Strikes were rare on the brick face of the same library. Staff first tried a single hawk sticker in the center of each pane. The count barely changed. Birds flew around the sticker and hit the clear glass. A second treatment covered the panes with pale dots about ten centimeters apart. Strikes on the walkway dropped sharply. The dots are close enough that a bird does not try to fly between them. Students complained that the dots looked untidy. The count suggests the untidy glass saved birds, while the neat sticker did not. If the college removes the dots for the sake of appearance, the oaks will be mirrored again, and the strikes are likely to return. Appearance and protection are in tension on that walkway.",
+    "questions": [
+      {
+        "q": "What is the talk mainly about?",
+        "options": [
+          "Why brick is cheaper than glass",
+          "Which window treatment reduced bird strikes",
+          "How oaks should be cut down",
+          "Why students dislike libraries"
+        ],
+        "a": 1,
+        "why": "A aula compara o adesivo de falcão, que não funcionou, com os pontos que reduziram as colisões."
+      },
+      {
+        "q": "Where did most strikes happen?",
+        "options": [
+          "On the brick face",
+          "On the glass walkway that mirrors the oaks",
+          "Inside the science labs",
+          "Only at night"
+        ],
+        "a": 1,
+        "why": "A maioria foi na passarela de vidro que reflete a fileira de carvalhos."
+      },
+      {
+        "q": "Why does the speaker describe the failed sticker before the dots?",
+        "options": [
+          "To contrast a treatment that did not work with one that did",
+          "To recommend hawk stickers",
+          "To explain how to count bricks",
+          "To blame careless birds"
+        ],
+        "a": 0,
+        "why": "A ordem mostra o contraste entre a solução fraca e a que de fato reduziu as colisões."
+      },
+      {
+        "q": "What does the speaker suggest will happen if the dots are removed?",
+        "options": [
+          "Strikes will probably return.",
+          "The oaks will stop reflecting.",
+          "The brick face will become dangerous.",
+          "Students will count fewer seasons."
+        ],
+        "a": 0,
+        "why": "Sem os pontos, o vidro volta a espelhar os carvalhos e as colisões tendem a voltar."
+      }
+    ]
+  },
+  {
+    "id": "tk06",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "An economics lecture",
+    "script": "A long line is not only a loss of time. It is information. When a campus pharmacy switched from one shared line to three separate windows, the average wait fell by four minutes. Satisfaction did not rise as much as the managers expected. Students in interviews said they could no longer tell whether their wait was normal. In the single line, a person who saw twenty people ahead could estimate the delay. At a separate window, five people might hide a slow prescription while another window moved quickly. The unfairness felt larger than the clock. The pharmacy then added a board showing the number of prescriptions filled in the past hour. Satisfaction rose even though the wait stayed about the same. Students could judge the system, not just their own luck. I want you to separate two goods: a shorter wait, and a legible wait. A design that saves minutes but hides the reason for the delay can still fail the people standing in it.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Three windows always please customers.",
+          "People value a wait they can understand, not only a shorter one.",
+          "Pharmacies should remove all lines.",
+          "Interviews are less useful than clocks."
+        ],
+        "a": 1,
+        "why": "A aula separa a espera mais curta da espera que a pessoa consegue interpretar."
+      },
+      {
+        "q": "What happened when the pharmacy split into three windows?",
+        "options": [
+          "The wait grew by four minutes.",
+          "The average wait fell, but satisfaction did not rise as expected.",
+          "The board was removed.",
+          "Students refused all prescriptions."
+        ],
+        "a": 1,
+        "why": "A espera média caiu quatro minutos, mas a satisfação não subiu como os gerentes esperavam."
+      },
+      {
+        "q": "Why does the speaker end with the two goods?",
+        "options": [
+          "To name the distinction the examples were building",
+          "To advertise the pharmacy",
+          "To calculate four minutes",
+          "To reject all boards"
+        ],
+        "a": 0,
+        "why": "Os exemplos preparam a distinção entre espera mais curta e espera legível."
+      },
+      {
+        "q": "What can be inferred about the board?",
+        "options": [
+          "It shortened the wait dramatically.",
+          "It helped students judge the system rather than only their luck.",
+          "It restored the single line.",
+          "It hid slow prescriptions."
+        ],
+        "a": 1,
+        "why": "A satisfação subiu com o painel mesmo sem mudança relevante no tempo de espera."
+      }
+    ]
+  },
+  {
+    "id": "tk07",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A chemistry-in-daily-life lecture",
+    "script": "Paper looks dry, but its manufacture depends on a great deal of water. Old mills placed vats beside a clean stream because fibers had to be washed, beaten, and diluted before they could form a sheet. Dirty water left specks that readers noticed in the margin. A mill downstream from a dye works produced gray paper and lost customers, even though its workers were skilled. The owners did not first buy new presses. They moved the intake pipe upstream of the dye works. The paper whitened within a week. The story is a reminder about inputs. A careful later step cannot erase a stain that entered at the beginning. Modern mills recycle water, but they still test it before the fibers go in. When you read a complaint about a product, ask whether the fault was in the finishing or in something mixed in at the start. The mill's move was a small change of place with a large change in the sheet.",
+    "questions": [
+      {
+        "q": "What is the lecture mainly about?",
+        "options": [
+          "Why dye is good for paper",
+          "How dirty water at the start spoiled paper and how moving the intake fixed it",
+          "How to build a press",
+          "Why readers like gray margins"
+        ],
+        "a": 1,
+        "why": "A aula mostra que a água suja no começo manchava o papel e que mudar a captação resolveu."
+      },
+      {
+        "q": "What did the owners do first to solve the gray paper?",
+        "options": [
+          "They hired new workers.",
+          "They moved the intake pipe upstream of the dye works.",
+          "They bought new presses.",
+          "They stopped using water."
+        ],
+        "a": 1,
+        "why": "Eles não compraram prensas novas; mudaram o cano para antes da tinturaria."
+      },
+      {
+        "q": "Why does the speaker tell students to ask about finishing versus the start?",
+        "options": [
+          "To apply the mill example to other products",
+          "To sell recycled water",
+          "To describe a margin",
+          "To compare two dyes"
+        ],
+        "a": 0,
+        "why": "A história serve de método: a falha pode estar no insumo inicial, não no acabamento."
+      },
+      {
+        "q": "What can be inferred about a stain that enters with the water?",
+        "options": [
+          "A later careful step may not remove it.",
+          "New presses erase it at once.",
+          "Skilled workers can ignore it.",
+          "Readers never notice it."
+        ],
+        "a": 0,
+        "why": "O texto diz que um passo posterior cuidadoso não apaga uma mancha que entrou no início."
+      }
+    ]
+  },
+  {
+    "id": "tk08",
+    "pool": "practice",
+    "level": "hard",
+    "setting": "A linguistics lecture",
+    "script": "Radio announcers do not speak exactly as they do at home, and the difference is useful data. In a study of a regional station, announcers softened local vowel sounds during the news and let them return during a weekend sports show. Listeners rated the news voices as more formal, even when the script was read by the same person. The sports show kept more of the town's vowels, and callers used those vowels back. The station was not erasing the local speech. It was sorting it by task. Formal news aimed at a wider region. The sports show aimed at people who already shared the town. Students sometimes treat a recording as the speaker's only voice. That is a mistake. Ask what the speaker was trying to do. A person who sounds 'neutral' on the news may be perfectly local an hour later. If your project uses broadcast speech, label the program type before you claim that a community has lost a sound. The sound may be waiting in a different program.",
+    "questions": [
+      {
+        "q": "What is the main claim?",
+        "options": [
+          "Announcers have only one voice.",
+          "The same speakers adjust local sounds to the task of the program.",
+          "Sports destroy regional speech.",
+          "Callers cannot hear vowels."
+        ],
+        "a": 1,
+        "why": "A aula mostra que os locutores suavizam vogais no noticiário e as retomam no esporte."
+      },
+      {
+        "q": "When did the local vowels return?",
+        "options": [
+          "During the news",
+          "During the weekend sports show",
+          "When listeners complained",
+          "In no recording"
+        ],
+        "a": 1,
+        "why": "As vogais da cidade voltavam no programa de esportes do fim de semana."
+      },
+      {
+        "q": "Why does the speaker warn about project labels?",
+        "options": [
+          "Because program type can be mistaken for the loss of a sound",
+          "Because sports should not be recorded",
+          "Because neutral speech is illegal",
+          "Because callers write the scripts"
+        ],
+        "a": 0,
+        "why": "Sem marcar o tipo de programa, o pesquisador pode achar que a comunidade perdeu um som."
+      },
+      {
+        "q": "What can be inferred about a 'neutral' news voice?",
+        "options": [
+          "It proves the speaker has no local speech.",
+          "It may be a formal choice, not the speaker's only way of talking.",
+          "It is used only by callers.",
+          "It cannot be rated."
+        ],
+        "a": 1,
+        "why": "A mesma pessoa pode soar neutra no noticiário e local uma hora depois."
+      }
+    ]
+  },
+  {
+    "id": "tk09",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A public-health lecture",
+    "script": "A hand-washing poster works better when it is placed where the decision happens. In a dorm kitchen, a poster above the distant doorway was rarely followed. The same poster, smaller, taped beside the soap, was followed more often. Observers did not ask people to change their beliefs. They changed the moment of the reminder. Students who already intended to wash did so when the reminder was at the sink. Students who had no intention were less affected by either poster. The design therefore helps people act on a plan they already have. It does not create the plan. That limit matters for a campaign. If a survey shows that most residents already agree washing matters, a well-placed reminder is a good spend. If most residents do not agree, the poster by the soap will disappoint, and the campaign needs a different message before it needs a better location. Measure the intention first. Then decide whether you are prompting an action or trying to build a reason.",
+    "questions": [
+      {
+        "q": "What is the talk mainly about?",
+        "options": [
+          "Why soap is expensive",
+          "When a reminder helps hand washing and when it does not",
+          "How to survey an entire city",
+          "Why doorways should be removed"
+        ],
+        "a": 1,
+        "why": "A aula mostra que o cartaz ajuda quem já pretende lavar as mãos, se estiver no lugar da decisão."
+      },
+      {
+        "q": "Which placement was followed more often?",
+        "options": [
+          "Above the distant doorway",
+          "Beside the soap",
+          "In the survey office",
+          "Outside the dorm"
+        ],
+        "a": 1,
+        "why": "O cartaz menor ao lado do sabão foi seguido com mais frequência."
+      },
+      {
+        "q": "Why does the speaker discuss the survey before the spending decision?",
+        "options": [
+          "To show that intention should be measured before choosing a poster strategy",
+          "To reject all reminders",
+          "To describe doorway design",
+          "To prove students dislike soap"
+        ],
+        "a": 0,
+        "why": "A pesquisa decide se o problema é lembrar a ação ou construir um motivo."
+      },
+      {
+        "q": "What can be inferred about students with no intention to wash?",
+        "options": [
+          "A better location will reliably persuade them.",
+          "Moving the poster is unlikely to be enough for them.",
+          "They used the sink poster most.",
+          "They wrote the survey."
+        ],
+        "a": 1,
+        "why": "Quem não tinha a intenção foi pouco afetado por qualquer um dos cartazes."
+      }
+    ]
+  },
+  {
+    "id": "tk10",
+    "pool": "practice",
+    "level": "hard",
+    "setting": "An art lecture",
+    "script": "Textile dyers in the eighteenth century treated color as a contract with the buyer, not only as a look. A blue that faded to gray after two washings brought complaints and sometimes a refund. Workshop books list the number of dips and the waiting time between them. More dips made a darker blue, but only if each dip dried fully. A hurried extra dip on a damp cloth looked dark in the shop and then washed out. Buyers could not see that difference at the counter. They saw it at home. The books therefore added a test: a scrap from the same cloth was washed before the roll was sold. If the scrap held, the roll could be priced as fast color. If it did not, the cloth was sold as ordinary and labeled so. I am less interested in the chemistry than in the honesty of the test. The workshop did not ask the buyer to trust a promise. It produced a small piece of evidence from the same process. That is a useful model when you evaluate any claim about a material you cannot test on the spot.",
+    "questions": [
+      {
+        "q": "What is the lecture mainly about?",
+        "options": [
+          "How a wash test made color claims checkable",
+          "Why gray cloth was fashionable",
+          "How buyers learned chemistry",
+          "Why refunds were illegal"
+        ],
+        "a": 0,
+        "why": "A aula destaca o teste do retalho lavado como prova da cor firme."
+      },
+      {
+        "q": "When did an extra dip fail?",
+        "options": [
+          "When the cloth had dried fully",
+          "When it was added to a damp cloth",
+          "When the scrap was labeled",
+          "When the buyer was in the shop"
+        ],
+        "a": 1,
+        "why": "Um banho extra às pressas no pano úmido parecia escuro e depois desbotava."
+      },
+      {
+        "q": "Why does the speaker say the chemistry is less important here?",
+        "options": [
+          "To focus on the honesty of testing a sample from the same process",
+          "To deny that dips matter",
+          "To describe modern shops",
+          "To reject all labels"
+        ],
+        "a": 0,
+        "why": "O interesse é o modelo de prova, não a fórmula do corante."
+      },
+      {
+        "q": "What can be inferred about cloth sold as ordinary?",
+        "options": [
+          "It had passed the wash test.",
+          "It had failed the scrap test and was labeled accordingly.",
+          "It was always darker.",
+          "It could not be refunded."
+        ],
+        "a": 1,
+        "why": "Se o retalho não segurava a cor, o tecido era vendido como comum e etiquetado assim."
+      }
+    ]
+  },
+  {
+    "id": "tk-m1a",
+    "pool": "m1",
+    "level": "mid",
+    "setting": "A geology lecture",
+    "script": "Contour lines on a map are not decoration. Each line connects points of the same height. When the lines are far apart, the slope is gentle. When they pack together, the slope is steep. Students often misread a trail that crosses many lines in a short distance and then feel surprised by the climb. In a field exercise behind campus, one path looked short on the flat paper and rose eighty meters. A second path was longer on the map and rose only twenty. The shorter path took more time because walkers stopped to rest. I asked the class to mark rest points before they walked. Their marks clustered where the lines were closest. That prediction was better than guessing from the length of the trail alone. Bring a pencil on Thursday and trace one trail with a finger before you trust the distance printed beside it. Distance without the shape of the hill is an incomplete plan.",
+    "questions": [
+      {
+        "q": "What is the talk mainly about?",
+        "options": [
+          "How to rest on any walk",
+          "How contour lines show steepness that distance alone hides",
+          "Why campus trails are closed",
+          "How pencils are made"
+        ],
+        "a": 1,
+        "why": "A aula ensina a ler o espaçamento das curvas de nível, não só o comprimento da trilha."
+      },
+      {
+        "q": "Which path took more time?",
+        "options": [
+          "The longer path that rose twenty meters",
+          "The shorter path that rose eighty meters",
+          "The path with no lines",
+          "Neither, because they were equal"
+        ],
+        "a": 1,
+        "why": "O caminho mais curto no papel subia oitenta metros e exigiu mais paradas."
+      },
+      {
+        "q": "Why does the speaker mention the rest-point marks?",
+        "options": [
+          "To show that students could predict effort from packed lines",
+          "To prove the map was wrong",
+          "To cancel Thursday",
+          "To measure pencils"
+        ],
+        "a": 0,
+        "why": "As marcas de descanso coincidiram com as linhas mais próximas, melhor do que o palpite pelo comprimento."
+      },
+      {
+        "q": "What can be inferred about a trail with widely spaced lines?",
+        "options": [
+          "It is extremely steep.",
+          "The slope is gentler.",
+          "It always takes more time.",
+          "It cannot be walked."
+        ],
+        "a": 1,
+        "why": "Linhas afastadas indicam inclinação suave."
+      }
+    ]
+  },
+  {
+    "id": "tk-m1b",
+    "pool": "m1",
+    "level": "mid",
+    "setting": "A sociology lecture",
+    "script": "Night markets keep different hours from the shops on the same street, and the difference changes who feels welcome. In a study of one market, cooked food appeared after 7 p.m., when day shops had closed. Workers leaving a late shift could eat without missing the only hot meal they had time for. Families with small children came earlier and left before the loud music at 9. The market was not one public. It was a sequence of publics. Stall fees were higher after 9 because the crowd spent more, which pushed cheaper snacks to the early hour. A city plan that extends the music to 7 would not simply add fun. It would collide with the family hour and might remove the cheaper food. I am asking you to map a public place as a timetable, not as a single photograph. Who is there at 7 is not who is there at 10, and a rule made for one hour lands on the other.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Night markets should close at 7.",
+          "The same market serves different groups at different hours.",
+          "Loud music increases snack prices at all times.",
+          "Day shops sell the hot meals."
+        ],
+        "a": 1,
+        "why": "A aula trata o mercado como uma sequência de públicos ao longo da noite."
+      },
+      {
+        "q": "Why were stall fees higher after 9?",
+        "options": [
+          "Children paid more.",
+          "The later crowd spent more.",
+          "Day shops demanded it.",
+          "The music was free."
+        ],
+        "a": 1,
+        "why": "A taxa subia depois das 21h porque a multidão gastava mais."
+      },
+      {
+        "q": "Why does the speaker warn against moving the music to 7?",
+        "options": [
+          "To show that a rule for one hour can harm another group's use",
+          "To ban all food",
+          "To support higher fees",
+          "To close the market"
+        ],
+        "a": 0,
+        "why": "Adiantar a música invadiria o horário das famílias e poderia tirar a comida mais barata."
+      },
+      {
+        "q": "What can be inferred about the cheaper snacks?",
+        "options": [
+          "They were aimed at the later, higher-spending crowd.",
+          "They were pushed to the earlier hour.",
+          "They required loud music.",
+          "They replaced the day shops."
+        ],
+        "a": 1,
+        "why": "Os lanches mais baratos foram deslocados para o começo da noite."
+      }
+    ]
+  },
+  {
+    "id": "tk-m1u",
+    "pool": "m1u",
+    "level": "hard",
+    "setting": "An archaeology lecture",
+    "script": "A burned layer in a settlement is tempting evidence. It looks like a single violent night. It may instead be a dump of oven ash spread during rebuilding. The difference is in the details under the black band. Household objects still on a floor, all burned to the same degree, suggest a fire that caught people by surprise. Ash mixed with broken bricks and animal bone, lying over a swept surface, suggests waste from ordinary cooking piled during a repair. In one hill town, early reports announced a raid because the layer was dark. Later excavation found unburned grain in a jar sealed below the ash, and the jar was intact. A raid that burned the house would likely have cracked it. The grain had been stored and then covered by debris from above. I am not asking you to ignore dark layers. I am asking you to read what is sealed, what is broken, and what is merely dirty. Darkness is a color, not an event. The event has to be argued from the arrangement.",
+    "questions": [
+      {
+        "q": "What is the lecture mainly about?",
+        "options": [
+          "How to tell a destructive fire from dumped ash",
+          "Why grain cannot burn",
+          "How raids are dated by color alone",
+          "Why ovens should be banned"
+        ],
+        "a": 0,
+        "why": "A aula distingue um incêndio súbito de cinzas de forno espalhadas numa reforma."
+      },
+      {
+        "q": "What finding weakened the raid story?",
+        "options": [
+          "A cracked jar",
+          "An intact jar of unburned grain sealed below the ash",
+          "Objects burned to the same degree on the floor",
+          "A swept surface with no bricks"
+        ],
+        "a": 1,
+        "why": "O jarro intacto com grão não queimado, sob as cinzas, não combina com uma casa incendiada num ataque."
+      },
+      {
+        "q": "Why does the speaker contrast objects on a floor with ash over a swept surface?",
+        "options": [
+          "To give two arrangements that point to different events",
+          "To prove every dark layer is a raid",
+          "To describe animal diets",
+          "To reject excavation"
+        ],
+        "a": 0,
+        "why": "Os dois arranjos são critérios para interpretar a camada escura."
+      },
+      {
+        "q": "What does the speaker imply about color alone?",
+        "options": [
+          "It is enough to announce a raid.",
+          "It does not by itself name the event.",
+          "It means the grain was burned.",
+          "It replaces the need to excavate."
+        ],
+        "a": 1,
+        "why": "A escuridão é uma cor, não um acontecimento; o evento precisa ser argumentado pelo arranjo."
+      }
+    ]
+  },
+  {
+    "id": "tk-m1l",
+    "pool": "m1l",
+    "level": "easy",
+    "setting": "An education lecture",
+    "script": "A school garden can teach measurement if the tasks are small and repeated. In one school, children marked the height of bean plants every Friday with a paper strip. They did not write a long report. They pasted the strips in order on a chart. After six weeks the chart showed a fast week and a slow week. The slow week followed a holiday when nobody watered. The children could see the link because the strips were side by side. A teacher who assigned a single essay at the end got vaguer answers. The students remembered that plants grow, but not which week failed. The garden worked as a record, not as a decoration. If your lesson uses a living thing, decide what you will measure and how often. A beautiful bed with no record teaches less than a row of beans and a chart. Bring the idea to your lesson plan: one simple measure, taken the same way, more than once.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Essays are always vague.",
+          "Repeated simple measurements made the garden a useful record.",
+          "Holidays should be canceled.",
+          "Beans grow only on Friday."
+        ],
+        "a": 1,
+        "why": "A aula mostra que medir do mesmo jeito várias vezes ensinou mais do que um texto final."
+      },
+      {
+        "q": "What did the slow week follow?",
+        "options": [
+          "A long report",
+          "A holiday when nobody watered",
+          "A new chart",
+          "A fast essay"
+        ],
+        "a": 1,
+        "why": "A semana lenta veio depois de um feriado sem rega."
+      },
+      {
+        "q": "Why does the speaker compare the chart with the final essay?",
+        "options": [
+          "To show which method kept the weekly difference visible",
+          "To ban writing",
+          "To describe paper strips",
+          "To recommend a larger garden"
+        ],
+        "a": 0,
+        "why": "O gráfico preservou a diferença entre as semanas; a redação única não."
+      },
+      {
+        "q": "What can be inferred about a beautiful garden with no records?",
+        "options": [
+          "It teaches the weekly pattern clearly.",
+          "It teaches less about change over time.",
+          "It replaces watering.",
+          "It is the same as the chart."
+        ],
+        "a": 1,
+        "why": "Um canteiro bonito sem registro ensina menos do que a fileira de feijões com o gráfico."
+      }
+    ]
+  },
+  {
+    "id": "tk-m2a",
+    "pool": "m2",
+    "level": "mid",
+    "setting": "A music lecture",
+    "script": "Concert halls did not always ask the audience to be silent. In eighteenth-century theaters, people talked, and composers wrote moments loud enough to cut through the noise. A soft passage was a risk. It might be lost. By the late nineteenth century, a new habit treated the hall as a place of attention. Programs asked listeners not to speak, and the soft passage became something the composer could trust. The music did not change only because instruments improved. The contract with the audience changed. A quiet phrase could now be heard, so composers wrote more of them. If you hear a very soft opening in a later work and assume the earlier audience heard the same effect, you may be wrong. They may have heard a murmur instead. When you compare two pieces, note the hall they were written for, not only the notes. The notes assume a kind of listener.",
+    "questions": [
+      {
+        "q": "What is the talk mainly about?",
+        "options": [
+          "How audience habits changed what composers could write",
+          "Why instruments became louder only",
+          "How to silence a class",
+          "Why soft music is always better"
+        ],
+        "a": 0,
+        "why": "A aula liga o silêncio do público à possibilidade de escrever trechos suaves."
+      },
+      {
+        "q": "Why were soft passages risky in the earlier theaters?",
+        "options": [
+          "Instruments could not play them.",
+          "Talking might cover them.",
+          "Programs banned them.",
+          "The halls were empty."
+        ],
+        "a": 1,
+        "why": "As pessoas conversavam, e um trecho suave podia se perder."
+      },
+      {
+        "q": "Why does the speaker mention a soft opening in a later work?",
+        "options": [
+          "To warn against assuming an earlier audience heard the same effect",
+          "To prefer nineteenth-century programs",
+          "To describe one instrument",
+          "To end the course"
+        ],
+        "a": 0,
+        "why": "O exemplo impede a conclusão apressada de que o público antigo ouvia o mesmo efeito."
+      },
+      {
+        "q": "What can be inferred about the notes of a piece?",
+        "options": [
+          "They ignore the listener.",
+          "They assume a certain kind of listening.",
+          "They were identical in every century.",
+          "They cannot be soft."
+        ],
+        "a": 1,
+        "why": "As notas pressupõem um tipo de ouvinte e de sala."
+      }
+    ]
+  },
+  {
+    "id": "tk-m2b",
+    "pool": "m2",
+    "level": "mid",
+    "setting": "A nutrition lecture",
+    "script": "A menu label that says 'light' is not a measurement. In a cafeteria study, the same soup was offered with two labels on different days. On the 'light' day, students took larger bowls and added more bread. Their meal contained more salt than on the day the soup was called 'house soup,' even though the pot was identical. The word seemed to grant permission. Students were not bad at arithmetic. They were not given a number. When the label was changed to '400 milligrams of sodium per bowl,' bowl sizes fell. The specific number did what the cheerful word did not. I am not arguing for frightening labels. I am arguing for labels that can be compared. A word like 'light' compares the soup with a hope. A number compares it with another food. If you design a label for the project, choose a unit a classmate can put beside a second choice. Praise without a unit is advertising.",
+    "questions": [
+      {
+        "q": "What is the main point?",
+        "options": [
+          "Students cannot do arithmetic.",
+          "A vague praise word can increase intake, while a comparable number can reduce it.",
+          "House soup has less salt.",
+          "Bread should be banned."
+        ],
+        "a": 1,
+        "why": "A aula mostra que 'light' aumentou o consumo e o número de sódio o reduziu."
+      },
+      {
+        "q": "What did students do on the day the soup was called light?",
+        "options": [
+          "They skipped bread.",
+          "They took larger bowls and more bread.",
+          "They calculated sodium correctly.",
+          "They chose a different pot."
+        ],
+        "a": 1,
+        "why": "No dia 'light', as tigelas foram maiores e o pão também."
+      },
+      {
+        "q": "Why does the speaker contrast a hope with another food?",
+        "options": [
+          "To explain what a useful label can be compared with",
+          "To advertise the cafeteria",
+          "To define house soup",
+          "To reject all numbers"
+        ],
+        "a": 0,
+        "why": "A palavra compara a sopa com um desejo; o número permite comparar com outro alimento."
+      },
+      {
+        "q": "What can be inferred about the pot of soup?",
+        "options": [
+          "It was saltier on the light day.",
+          "It was the same; the label changed the behavior.",
+          "It contained no sodium.",
+          "It was removed from the study."
+        ],
+        "a": 1,
+        "why": "A panela era idêntica; mudou apenas o rótulo."
+      }
+    ]
+  },
+  {
+    "id": "tk-m2u",
+    "pool": "m2u",
+    "level": "hard",
+    "setting": "A research-methods lecture",
+    "script": "A sample can be large and still miss the people your question names. A transportation survey collected two thousand responses from an app. The app required a recent phone and a card payment. Older riders who paid cash on the bus were almost absent. The average trip in the data was short and midday. Drivers knew the morning rush was the crowded one, but the app users were not on those buses. The researchers first reported that ridership was comfortable. Route planners nearly cut a morning bus. A second sample, taken with paper cards on the bus itself, showed the crowding the drivers had described. The first sample was not false about the people who answered. It was false as a picture of the route. Size did not repair the gap. When you cite a survey, ask who could not appear in it. A person who cannot enter the method cannot enter the average. If your claim is about that person, you do not yet have the evidence, however large the file looks.",
+    "questions": [
+      {
+        "q": "What is the lecture mainly about?",
+        "options": [
+          "Why phones are expensive",
+          "How a large sample can still exclude the people the question concerns",
+          "Why paper is always better",
+          "How to cut morning buses"
+        ],
+        "a": 1,
+        "why": "A aula mostra que dois mil respostas do aplicativo não representavam os passageiros do rush."
+      },
+      {
+        "q": "Who was almost absent from the app survey?",
+        "options": [
+          "Midday riders with cards",
+          "Older riders who paid cash",
+          "The route planners",
+          "Drivers on short trips"
+        ],
+        "a": 1,
+        "why": "Quem pagava em dinheiro e era mais velho quase não aparecia no aplicativo."
+      },
+      {
+        "q": "Why does the speaker tell the morning-bus story?",
+        "options": [
+          "To show the practical cost of mistaking the sample for the route",
+          "To praise the first report",
+          "To explain card payments",
+          "To reject all surveys"
+        ],
+        "a": 0,
+        "why": "Os planejadores quase cortaram um ônibus com base num retrato errado da linha."
+      },
+      {
+        "q": "What does the speaker imply about a very large file?",
+        "options": [
+          "Its size guarantees a fair picture.",
+          "Its size cannot replace the missing group.",
+          "It should not be cited.",
+          "It proves the morning bus was empty."
+        ],
+        "a": 1,
+        "why": "O tamanho não corrigiu a lacuna de quem não podia entrar no método."
+      }
+    ]
+  },
+  {
+    "id": "tk-m2l",
+    "pool": "m2l",
+    "level": "easy",
+    "setting": "A campus-life lecture",
+    "script": "Recycling arrows on a package do not always mean your campus can recycle it. The arrows are a code from the maker. They say what the material is, not what the local bin accepts. On this campus the blue bin takes clean paper, metal cans, and bottles marked 1 or 2. A plastic lid marked 5 looks similar and ruins a batch if it is mixed in. Food left in a container is another problem. A half-full coffee cup is trash, even if the cup itself is type 1. Rinse it or throw it away. Last month a whole cart was rejected because of cups with liquid. The simple rule is to read the number and look at the bin sign, not at the arrows alone. If the sign does not list the number, do not guess. A hopeful guess costs more than one item in the trash. It can cost the entire cart.",
+    "questions": [
+      {
+        "q": "What is the main idea?",
+        "options": [
+          "Every arrow means the campus accepts the item.",
+          "The local sign and the material number matter more than the arrows.",
+          "Coffee cups are always recyclable.",
+          "Lids marked 5 are paper."
+        ],
+        "a": 1,
+        "why": "A aula ensina a ler o número e a placa do cesto, não só as setas."
+      },
+      {
+        "q": "What does the blue bin accept besides paper and cans?",
+        "options": [
+          "All plastic lids",
+          "Bottles marked 1 or 2",
+          "Half-full coffee cups",
+          "Anything with arrows"
+        ],
+        "a": 1,
+        "why": "O cesto azul aceita garrafas marcadas com 1 ou 2."
+      },
+      {
+        "q": "Why does the speaker mention the rejected cart?",
+        "options": [
+          "To show the cost of mixing in the wrong cups",
+          "To advertise coffee",
+          "To change the arrows",
+          "To ban metal cans"
+        ],
+        "a": 0,
+        "why": "O carrinho inteiro foi recusado por causa de copos com líquido."
+      },
+      {
+        "q": "What should a student do if the sign does not list a number?",
+        "options": [
+          "Guess and hope",
+          "Leave the item out of the bin",
+          "Rinse a lid marked 5 into the blue bin",
+          "Follow the arrows only"
+        ],
+        "a": 1,
+        "why": "Se a placa não lista o número, a pessoa não deve adivinhar."
+      }
+    ]
+  }
+]
