@@ -1,0 +1,535 @@
+[
+  {
+    "id": "rep01",
+    "pool": "practice",
+    "scenario": "A librarian is explaining how to use the main campus library.",
+    "sentences": [
+      {
+        "text": "Please bring your student card inside.",
+        "chunks": [
+          "Please bring",
+          "your student card inside."
+        ]
+      },
+      {
+        "text": "The service desk is near the front door.",
+        "chunks": [
+          "The service desk",
+          "is near",
+          "the front door."
+        ]
+      },
+      {
+        "text": "Students may borrow up to ten books for three weeks.",
+        "chunks": [
+          "Students may borrow",
+          "up to ten books",
+          "for three weeks."
+        ]
+      },
+      {
+        "text": "Group study rooms should be reserved online at least a day ahead.",
+        "chunks": [
+          "Group study rooms",
+          "should be reserved online",
+          "at least a day ahead."
+        ]
+      },
+      {
+        "text": "Drinks with lids are allowed, but hot food is not permitted near the computers.",
+        "chunks": [
+          "Drinks with lids",
+          "are allowed,",
+          "but hot food is not",
+          "permitted near the computers."
+        ]
+      },
+      {
+        "text": "If the book you need is already checked out, place a hold using your card.",
+        "chunks": [
+          "If the book",
+          "you need is already checked out,",
+          "place a hold",
+          "using your card."
+        ]
+      },
+      {
+        "text": "Please return every item to the outdoor bin after closing so that you avoid a late fee.",
+        "chunks": [
+          "Please return every item",
+          "to the outdoor bin after closing",
+          "so that you avoid",
+          "a late fee."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep02",
+    "pool": "practice",
+    "scenario": "A nurse is giving instructions at the campus health clinic.",
+    "sentences": [
+      {
+        "text": "Check in at the front window.",
+        "chunks": [
+          "Check in",
+          "at the front window."
+        ]
+      },
+      {
+        "text": "Have your student card and appointment number ready.",
+        "chunks": [
+          "Have your student",
+          "card and appointment",
+          "number ready."
+        ]
+      },
+      {
+        "text": "Please sit in the blue chairs until your name is called.",
+        "chunks": [
+          "Please sit in",
+          "the blue chairs",
+          "until your name",
+          "is called."
+        ]
+      },
+      {
+        "text": "Tell the nurse about any regular medicine you already take each day.",
+        "chunks": [
+          "Tell the nurse",
+          "about any regular medicine",
+          "you already take",
+          "each day."
+        ]
+      },
+      {
+        "text": "If you feel dizzy after the visit, do not walk home alone tonight.",
+        "chunks": [
+          "If you feel dizzy",
+          "after the visit,",
+          "do not walk home",
+          "alone tonight."
+        ]
+      },
+      {
+        "text": "The pharmacy next door can fill a simple prescription before six o'clock on weekdays.",
+        "chunks": [
+          "The pharmacy next door",
+          "can fill a simple prescription",
+          "before six o'clock",
+          "on weekdays."
+        ]
+      },
+      {
+        "text": "Call the clinic the same day if a fever starts or if the pain becomes much worse.",
+        "chunks": [
+          "Call the clinic",
+          "the same day if a fever starts",
+          "or if the pain",
+          "becomes much worse."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep03",
+    "pool": "practice",
+    "scenario": "A tutor is explaining the rules of the writing center.",
+    "sentences": [
+      {
+        "text": "Sign up before you come in.",
+        "chunks": [
+          "Sign up",
+          "before you come in."
+        ]
+      },
+      {
+        "text": "Bring a printed draft of your paper with you.",
+        "chunks": [
+          "Bring a printed",
+          "draft of your",
+          "paper with you."
+        ]
+      },
+      {
+        "text": "A tutor will ask what part you want to improve first.",
+        "chunks": [
+          "A tutor will",
+          "ask what part",
+          "you want to",
+          "improve first."
+        ]
+      },
+      {
+        "text": "We will not rewrite the whole essay for you during the session.",
+        "chunks": [
+          "We will not",
+          "rewrite the whole essay",
+          "for you during",
+          "the session."
+        ]
+      },
+      {
+        "text": "You should leave with a short list of changes to make before tomorrow.",
+        "chunks": [
+          "You should leave",
+          "with a short list",
+          "of changes to make",
+          "before tomorrow."
+        ]
+      },
+      {
+        "text": "Appointments last twenty-five minutes, so please arrive a little early and ready to talk.",
+        "chunks": [
+          "Appointments last",
+          "twenty-five minutes,",
+          "so please arrive a little early",
+          "and ready to talk."
+        ]
+      },
+      {
+        "text": "If you miss two appointments without notice, you must wait a week before booking another one.",
+        "chunks": [
+          "If you miss",
+          "two appointments without notice,",
+          "you must wait a week",
+          "before booking another one."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep04",
+    "pool": "practice",
+    "scenario": "A staff member is describing move-in day at a student residence.",
+    "sentences": [
+      {
+        "text": "Collect your key from the lobby desk.",
+        "chunks": [
+          "Collect your key",
+          "from the lobby desk."
+        ]
+      },
+      {
+        "text": "Elevators are reserved for people carrying boxes this morning.",
+        "chunks": [
+          "Elevators are reserved",
+          "for people carrying",
+          "boxes this morning."
+        ]
+      },
+      {
+        "text": "Please label every box with your name and room number.",
+        "chunks": [
+          "Please label every",
+          "box with your",
+          "name and room",
+          "number."
+        ]
+      },
+      {
+        "text": "Cars may stop at the side door for only fifteen minutes.",
+        "chunks": [
+          "Cars may stop",
+          "at the side door",
+          "for only fifteen",
+          "minutes."
+        ]
+      },
+      {
+        "text": "Quiet hours begin at ten tonight, including the hallways and the kitchen.",
+        "chunks": [
+          "Quiet hours begin",
+          "at ten tonight,",
+          "including the hallways",
+          "and the kitchen."
+        ]
+      },
+      {
+        "text": "Report a broken lock or a missing chair on the housing form before you unpack.",
+        "chunks": [
+          "Report a broken",
+          "lock or a missing chair",
+          "on the housing form",
+          "before you unpack."
+        ]
+      },
+      {
+        "text": "Roommates should agree on a cleaning plan this weekend so shared spaces stay fair for everyone.",
+        "chunks": [
+          "Roommates should agree",
+          "on a cleaning plan this weekend",
+          "so shared spaces stay",
+          "fair for everyone."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep05",
+    "pool": "practice",
+    "scenario": "A driver is announcing rules on the campus shuttle.",
+    "sentences": [
+      {
+        "text": "Have your pass ready to scan.",
+        "chunks": [
+          "Have your pass",
+          "ready to scan."
+        ]
+      },
+      {
+        "text": "The next stop is the science building entrance.",
+        "chunks": [
+          "The next stop",
+          "is the science",
+          "building entrance."
+        ]
+      },
+      {
+        "text": "Please move back so more riders can board at this stop.",
+        "chunks": [
+          "Please move back",
+          "so more riders",
+          "can board at",
+          "this stop."
+        ]
+      },
+      {
+        "text": "Please hold the metal rail while the bus turns onto College Avenue.",
+        "chunks": [
+          "Please hold the metal rail",
+          "while the bus",
+          "turns onto College",
+          "Avenue."
+        ]
+      },
+      {
+        "text": "Bags belong on your lap or under the seat, not in the aisle.",
+        "chunks": [
+          "Bags belong on",
+          "your lap or under",
+          "the seat, not",
+          "in the aisle."
+        ]
+      },
+      {
+        "text": "This evening shuttle does not run after midnight on Friday or on Saturday night.",
+        "chunks": [
+          "This evening shuttle does",
+          "not run after midnight",
+          "on Friday or",
+          "on Saturday night."
+        ]
+      },
+      {
+        "text": "If you miss the last bus, the night ride line can send a car to the library.",
+        "chunks": [
+          "If you miss",
+          "the last bus, the night",
+          "ride line can send",
+          "a car to the library."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep06",
+    "pool": "practice",
+    "scenario": "A coordinator is briefing students at a career fair.",
+    "sentences": [
+      {
+        "text": "Pick up a name tag first.",
+        "chunks": [
+          "Pick up a",
+          "name tag first."
+        ]
+      },
+      {
+        "text": "Employers are seated by field along the side walls.",
+        "chunks": [
+          "Employers are seated",
+          "by field along",
+          "the side walls."
+        ]
+      },
+      {
+        "text": "You may visit any table, but wait until the person is free.",
+        "chunks": [
+          "You may visit",
+          "any table, but",
+          "wait until the",
+          "person is free."
+        ]
+      },
+      {
+        "text": "Please offer a short personal introduction and one clean copy of your resume.",
+        "chunks": [
+          "Please offer a short",
+          "personal introduction and one",
+          "clean copy of your",
+          "resume."
+        ]
+      },
+      {
+        "text": "Ask about internships that start in June rather than asking only about full-time jobs.",
+        "chunks": [
+          "Ask about internships",
+          "that start in June",
+          "rather than asking only",
+          "about full-time jobs."
+        ]
+      },
+      {
+        "text": "Write the name of each person you meet so you can send a thank-you note.",
+        "chunks": [
+          "Write the name",
+          "of each person you meet",
+          "so you can send",
+          "a thank-you note."
+        ]
+      },
+      {
+        "text": "The fair closes at three, and leftover guides will be outside the career office tomorrow morning.",
+        "chunks": [
+          "The fair closes",
+          "at three, and leftover guides",
+          "will be outside the career",
+          "office tomorrow morning."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep-m1",
+    "pool": "mock1",
+    "scenario": "A clerk is helping a student at the registrar window.",
+    "sentences": [
+      {
+        "text": "Take a number and wait to be called.",
+        "chunks": [
+          "Take a number",
+          "and wait to be called."
+        ]
+      },
+      {
+        "text": "Course changes are accepted through Friday of this week.",
+        "chunks": [
+          "Course changes are",
+          "accepted through Friday",
+          "of this week."
+        ]
+      },
+      {
+        "text": "Bring a photo identification card before we can print your schedule.",
+        "chunks": [
+          "Bring a photo",
+          "identification card before",
+          "we can print",
+          "your schedule."
+        ]
+      },
+      {
+        "text": "A full-time load is at least twelve credits in the fall term.",
+        "chunks": [
+          "A full-time load",
+          "is at least twelve",
+          "credits in the",
+          "fall term."
+        ]
+      },
+      {
+        "text": "If a class is closed, ask about the waiting list before you leave.",
+        "chunks": [
+          "If a class",
+          "is closed, ask about",
+          "the waiting list",
+          "before you leave."
+        ]
+      },
+      {
+        "text": "Official transcripts ordered today are sent electronically within three business days of the request.",
+        "chunks": [
+          "Official transcripts ordered",
+          "today are sent electronically",
+          "within three business days",
+          "of the request."
+        ]
+      },
+      {
+        "text": "Please check your student account tonight to confirm that the new section replaced the old one.",
+        "chunks": [
+          "Please check your student",
+          "account tonight to confirm",
+          "that the new section",
+          "replaced the old one."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rep-m2",
+    "pool": "mock2",
+    "scenario": "A lab supervisor is giving a safety briefing before a chemistry session.",
+    "sentences": [
+      {
+        "text": "Wear goggles before you touch anything.",
+        "chunks": [
+          "Wear goggles",
+          "before you touch anything."
+        ]
+      },
+      {
+        "text": "Tie back long hair and roll loose sleeves.",
+        "chunks": [
+          "Tie back long",
+          "hair and roll",
+          "loose sleeves."
+        ]
+      },
+      {
+        "text": "Please read the full safety label twice before you pour.",
+        "chunks": [
+          "Please read the full",
+          "safety label twice",
+          "before you pour."
+        ]
+      },
+      {
+        "text": "Point every test tube away from other people when you heat it.",
+        "chunks": [
+          "Point every test tube",
+          "away from other people",
+          "when you heat",
+          "it."
+        ]
+      },
+      {
+        "text": "Spill kits are under the sink, and you should call a supervisor at once.",
+        "chunks": [
+          "Spill kits are",
+          "under the sink,",
+          "and you should call",
+          "a supervisor at once."
+        ]
+      },
+      {
+        "text": "Never taste a sample or return any unused liquid back to the original bottle on the shelf.",
+        "chunks": [
+          "Never taste a sample",
+          "or return any unused liquid",
+          "back to the original bottle",
+          "on the shelf."
+        ]
+      },
+      {
+        "text": "Please wash your hands and wipe the bench before you leave, even if the experiment seemed completely safe.",
+        "chunks": [
+          "Please wash your hands",
+          "and wipe the bench before you",
+          "leave, even if the experiment",
+          "seemed completely safe."
+        ]
+      }
+    ]
+  }
+]

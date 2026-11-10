@@ -1,0 +1,186 @@
+[
+  {
+    "id": "int01",
+    "pool": "practice",
+    "scenario": "A counselor asks about your study routine.",
+    "questions": [
+      {
+        "text": "What time of day do you usually study, and where do you do it?",
+        "focus": "fact"
+      },
+      {
+        "text": "Tell me about a time when a study plan worked well for you.",
+        "focus": "experience"
+      },
+      {
+        "text": "Do you think students should study alone or with a group? Why?",
+        "focus": "opinion"
+      },
+      {
+        "text": "Should phones be allowed in study areas? Explain your view.",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int02",
+    "pool": "practice",
+    "scenario": "An interviewer asks about the city where you live.",
+    "questions": [
+      {
+        "text": "What is one place in your city that you visit often?",
+        "focus": "fact"
+      },
+      {
+        "text": "Describe a day when you showed your city to a visitor.",
+        "focus": "experience"
+      },
+      {
+        "text": "What change would most improve daily life in your city?",
+        "focus": "opinion"
+      },
+      {
+        "text": "Is it better to live near the center or farther out? Why?",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int03",
+    "pool": "practice",
+    "scenario": "A teacher asks about technology in your classes.",
+    "questions": [
+      {
+        "text": "Which device do you use most often for your classes?",
+        "focus": "fact"
+      },
+      {
+        "text": "Tell me about a class activity that used technology in a helpful way.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should recorded lectures replace live classes? Give reasons.",
+        "focus": "opinion"
+      },
+      {
+        "text": "Do you think students learn more when they take notes by hand?",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int04",
+    "pool": "practice",
+    "scenario": "A host asks about food and meals.",
+    "questions": [
+      {
+        "text": "What do you usually eat for your main meal of the day?",
+        "focus": "fact"
+      },
+      {
+        "text": "Describe a meal you prepared for other people.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should schools teach students how to cook simple meals? Why?",
+        "focus": "opinion"
+      },
+      {
+        "text": "Is trying food from other regions important? Explain.",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int05",
+    "pool": "practice",
+    "scenario": "A career advisor asks about work.",
+    "questions": [
+      {
+        "text": "Have you had a job, an internship, or regular family duties?",
+        "focus": "fact"
+      },
+      {
+        "text": "Tell me about a task at work or at home that taught you something useful.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should university students work part time during the term? Why?",
+        "focus": "opinion"
+      },
+      {
+        "text": "What matters more in a first job, the pay or the learning? Explain.",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int06",
+    "pool": "practice",
+    "scenario": "A classmate asks about the environment where you live.",
+    "questions": [
+      {
+        "text": "What is one environmental issue people talk about in your area?",
+        "focus": "fact"
+      },
+      {
+        "text": "Describe something you did to reduce waste or save energy.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should cities limit car traffic in the center? Give your view.",
+        "focus": "opinion"
+      },
+      {
+        "text": "Who should pay for cleaner public transport, riders or the city? Why?",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int-m1",
+    "pool": "mock1",
+    "scenario": "An advisor asks about your classes this term.",
+    "questions": [
+      {
+        "text": "Which class are you taking that meets most often?",
+        "focus": "fact"
+      },
+      {
+        "text": "Tell me about a class discussion you still remember.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should attendance be part of the grade? Explain your opinion.",
+        "focus": "opinion"
+      },
+      {
+        "text": "Is it better to take fewer courses and go deeper, or more courses? Why?",
+        "focus": "opinion"
+      }
+    ]
+  },
+  {
+    "id": "int-m2",
+    "pool": "mock2",
+    "scenario": "A reporter asks about weekends and free time.",
+    "questions": [
+      {
+        "text": "What do you usually do on Saturday morning?",
+        "focus": "fact"
+      },
+      {
+        "text": "Describe a weekend activity you did with friends or family.",
+        "focus": "experience"
+      },
+      {
+        "text": "Should students keep one day each week free from schoolwork? Why?",
+        "focus": "opinion"
+      },
+      {
+        "text": "Is spending free time outdoors better than spending it online? Explain.",
+        "focus": "opinion"
+      }
+    ]
+  }
+]

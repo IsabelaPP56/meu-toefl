@@ -1,0 +1,994 @@
+[
+  {
+    "id": "an01",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A librarian speaking in the lobby",
+    "script": "The reading room on the second floor will close at 6 tonight for a private exam. Regular study tables remain open on the first floor until midnight. If you are using a second-floor carrel, please move your belongings by 5:45. Bags left behind will be taken to the front desk. The room reopens tomorrow at 8 with its usual quiet rules. Thank you for shifting quickly.",
+    "questions": [
+      {
+        "q": "Why is the second-floor room closing early?",
+        "options": [
+          "For cleaning",
+          "For a private exam",
+          "Because the desk is full",
+          "For a midnight concert"
+        ],
+        "a": 1,
+        "why": "A bibliotecária diz que a sala fecha às 18h por causa de uma prova reservada."
+      },
+      {
+        "q": "What should students do with belongings in a carrel?",
+        "options": [
+          "Leave them until tomorrow",
+          "Move them by 5:45",
+          "Take them to the garage",
+          "Give them to the examiner"
+        ],
+        "a": 1,
+        "why": "Ela pede que retirem os pertences até 17h45."
+      }
+    ]
+  },
+  {
+    "id": "an02",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A housing staff member on the floor intercom",
+    "script": "This is a reminder about the fire drill on Thursday at 10 a.m. When the alarm sounds, leave by the stairs, not the elevator. Meet on the lawn across from Oak Hall and stay with your floor leader until you are counted. The drill should take about fifteen minutes. If you have a class at that hour, show this notice to the instructor afterward. Do not reenter until the all-clear is given at the door.",
+    "questions": [
+      {
+        "q": "Where should residents gather?",
+        "options": [
+          "In the elevator",
+          "On the lawn across from Oak Hall",
+          "In the classroom",
+          "At the front desk only"
+        ],
+        "a": 1,
+        "why": "O aviso manda encontrar o grupo no gramado em frente ao Oak Hall."
+      },
+      {
+        "q": "What can a student show an instructor after missing class?",
+        "options": [
+          "A floor leader's badge",
+          "This notice",
+          "The all-clear whistle",
+          "A lawn map"
+        ],
+        "a": 1,
+        "why": "Quem tem aula nesse horário deve mostrar o aviso ao professor depois."
+      }
+    ]
+  },
+  {
+    "id": "an03",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A club president at the start of a meeting",
+    "script": "Before we begin, a change of room for Saturday's workshop. We will meet in the art studio, not the conference room, because we need the large tables. The time is still 1 p.m. Please bring a pencil and wear clothes that can take paint. The studio door locks at 1:10, so arrive a few minutes early. Snacks will be outside, not inside, the studio.",
+    "questions": [
+      {
+        "q": "Why did the workshop change rooms?",
+        "options": [
+          "The conference room has no clock.",
+          "The group needs the large tables.",
+          "Paint is banned on Saturday.",
+          "The president is late."
+        ],
+        "a": 1,
+        "why": "A mudança é para o ateliê porque o grupo precisa das mesas grandes."
+      },
+      {
+        "q": "What is not allowed inside the studio?",
+        "options": [
+          "Pencils",
+          "Large tables",
+          "Snacks",
+          "Clothes that can take paint"
+        ],
+        "a": 2,
+        "why": "Os lanches ficam do lado de fora, não dentro do ateliê."
+      }
+    ]
+  },
+  {
+    "id": "an04",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A bus dispatcher on the campus loop",
+    "script": "Attention riders. The 4:30 loop will skip the north dorms because of a fallen branch on the road. Stay on the bus until the student center, then transfer to the west shuttle. That shuttle is holding for fifteen minutes. Your original ticket still works. We expect the north stops to return on the 5:30 loop if the branch is cleared. Ask the driver before you step off if you are unsure of the transfer.",
+    "questions": [
+      {
+        "q": "Why is the north route skipped?",
+        "options": [
+          "The ticket system failed.",
+          "A fallen branch blocks the road.",
+          "The student center is closed.",
+          "The west shuttle is full."
+        ],
+        "a": 1,
+        "why": "O despachante explica que um galho caído bloqueia a estrada dos alojamentos ao norte."
+      },
+      {
+        "q": "How long will the west shuttle wait?",
+        "options": [
+          "Five minutes",
+          "Fifteen minutes",
+          "Until 5:30 only for new tickets",
+          "It will not wait"
+        ],
+        "a": 1,
+        "why": "O ônibus do oeste espera quinze minutos, e a passagem original continua válida."
+      }
+    ]
+  },
+  {
+    "id": "an05",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A lab assistant before a session",
+    "script": "Please put bags under the bench, not on it. Goggles stay on until you leave the room, even if your own experiment is finished. If you break glass, do not pick it up with your hands. Call me, and I will bring the brush. The sink is for rinsing equipment only. Drinking water is outside in the hall. We start the procedure in two minutes.",
+    "questions": [
+      {
+        "q": "What should a student do with broken glass?",
+        "options": [
+          "Pick it up carefully",
+          "Call the assistant for a brush",
+          "Rinse it in the sink",
+          "Put it in a bag on the bench"
+        ],
+        "a": 1,
+        "why": "A assistente proíbe pegar o vidro com as mãos e diz que ela traz a vassourinha."
+      },
+      {
+        "q": "Where can students drink water?",
+        "options": [
+          "At the sink",
+          "Outside in the hall",
+          "During the procedure",
+          "Nowhere"
+        ],
+        "a": 1,
+        "why": "A água para beber está no corredor, não na pia do laboratório."
+      }
+    ]
+  },
+  {
+    "id": "an06",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "An event host in an auditorium",
+    "script": "Welcome to the career panel. Phones should be silent, and photos are allowed only during the final applause. Each speaker has eight minutes, followed by one round of questions from the middle microphone. If you need a seat near the aisle because you must leave early, take it now. A recording will be posted tomorrow for anyone who cannot stay. Please hold questions until all four speakers have finished, so the later speakers are not cut short.",
+    "questions": [
+      {
+        "q": "When may the audience take photos?",
+        "options": [
+          "During each speech",
+          "Only during the final applause",
+          "After the recording is posted",
+          "At the middle microphone"
+        ],
+        "a": 1,
+        "why": "As fotos são permitidas apenas na salva de palmas final."
+      },
+      {
+        "q": "Why should questions wait until all four speakers finish?",
+        "options": [
+          "The microphone is broken.",
+          "So later speakers are not cut short.",
+          "The recording replaces questions.",
+          "Aisle seats are reserved."
+        ],
+        "a": 1,
+        "why": "O pedido existe para que os últimos palestrantes não tenham o tempo reduzido."
+      }
+    ]
+  },
+  {
+    "id": "an07",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A dining-hall supervisor",
+    "script": "The grill closes at 7 tonight, one hour earlier than usual, because of a staff meeting. The salad bar and the soup pot stay open until 8. If you are on a meal plan, the early closing still counts as a full dinner. Take-out boxes are by the door. Please do not enter the kitchen to ask for a late burger. The cooks cannot restart the grill after it is shut down.",
+    "questions": [
+      {
+        "q": "What remains open until 8?",
+        "options": [
+          "The grill",
+          "The salad bar and the soup",
+          "The kitchen door",
+          "The staff meeting"
+        ],
+        "a": 1,
+        "why": "A grelha fecha às 19h, mas a salada e a sopa ficam até as 20h."
+      },
+      {
+        "q": "What should students not do?",
+        "options": [
+          "Use a take-out box",
+          "Enter the kitchen to ask for a late burger",
+          "Count the meal as dinner",
+          "Leave at 7"
+        ],
+        "a": 1,
+        "why": "O supervisor pede que não entrem na cozinha para pedir um hambúrguer depois do fechamento."
+      }
+    ]
+  },
+  {
+    "id": "an08",
+    "pool": "practice",
+    "level": "hard",
+    "setting": "A registrar speaking at orientation",
+    "script": "If your schedule shows two classes in different buildings at the same hour, do not choose on your own. That overlap is an error, and only the registrar can drop one section without a fee. Bring the printed schedule to window 3 before Friday. After Friday, a late change costs 20 and may leave you under the credit minimum. Check the seat count on the portal before you line up, so the clerk does not have to send you back.",
+    "questions": [
+      {
+        "q": "Who can remove an overlapping section without a fee?",
+        "options": [
+          "The student, alone",
+          "Only the registrar",
+          "Any evening instructor",
+          "The portal automatically"
+        ],
+        "a": 1,
+        "why": "O texto diz que só a secretaria pode cancelar uma das turmas sem taxa."
+      },
+      {
+        "q": "Why should students check the seat count before lining up?",
+        "options": [
+          "To avoid the 20 fee after a wasted trip",
+          "So the clerk does not send them back",
+          "To print a second schedule",
+          "To drop below the credit minimum"
+        ],
+        "a": 1,
+        "why": "A conferência evita que o atendente mande a pessoa voltar por falta de vaga."
+      }
+    ]
+  },
+  {
+    "id": "an09",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A guide at a campus tour stop",
+    "script": "We are outside the language building. Restrooms are on this floor, to the right of the stairs. The computer lab upstairs is open to all students after 4 p.m. Before 4 it is reserved for classes. Please do not enter a room with a closed door. Our next stop is the garden behind this building. The path is narrow, so stay in a single line. If you lose the group, wait by the blue sign and we will return in ten minutes.",
+    "questions": [
+      {
+        "q": "When is the upstairs lab open to everyone?",
+        "options": [
+          "All morning",
+          "After 4 p.m.",
+          "Only when a door is closed",
+          "During the garden stop"
+        ],
+        "a": 1,
+        "why": "O laboratório fica aberto a todos os alunos depois das 16h."
+      },
+      {
+        "q": "What should a lost visitor do?",
+        "options": [
+          "Enter an empty classroom",
+          "Wait by the blue sign",
+          "Walk to the next campus",
+          "Use the upstairs lab"
+        ],
+        "a": 1,
+        "why": "Quem perder o grupo deve esperar junto à placa azul."
+      }
+    ]
+  },
+  {
+    "id": "an10",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A coach on the field",
+    "script": "Practice is moving indoors because lightning was reported west of campus. Gather the cones and go to gym B, not gym A. Gym A is hosting an exam. We will stretch for ten minutes and then review the play you missed on Tuesday. If you cannot find gym B, follow the signs for the pool and turn left. Do not stay on the field to finish a drill. The field is closed until the storm passes.",
+    "questions": [
+      {
+        "q": "Why is practice moving?",
+        "options": [
+          "Gym A is darker.",
+          "Lightning was reported.",
+          "The cones are broken.",
+          "Tuesday's play was canceled."
+        ],
+        "a": 1,
+        "why": "O treino muda de lugar porque houve alerta de raio a oeste do campus."
+      },
+      {
+        "q": "Which gym should the team use?",
+        "options": [
+          "Gym A",
+          "Gym B",
+          "The pool",
+          "The closed field"
+        ],
+        "a": 1,
+        "why": "O técnico manda ir ao ginásio B, porque o A está com uma prova."
+      }
+    ]
+  },
+  {
+    "id": "an11",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A clinic receptionist on the speaker",
+    "script": "The clinic will take walk-in visits only for fever and breathing trouble this afternoon. All other concerns should use the online book, which still has Friday morning times. If you are already in the waiting room for a routine form, you will be seen, but the visit may be short. Please have the form open before you reach the desk. We are not turning away emergencies. If you feel faint, tell the person at the desk immediately.",
+    "questions": [
+      {
+        "q": "Which problems can walk in this afternoon?",
+        "options": [
+          "Any routine form",
+          "Fever and breathing trouble",
+          "Only Friday bookings",
+          "Faintness after leaving"
+        ],
+        "a": 1,
+        "why": "A recepção limita a demanda espontânea a febre e dificuldade para respirar."
+      },
+      {
+        "q": "What should a person who feels faint do?",
+        "options": [
+          "Book Friday online and leave",
+          "Tell the desk immediately",
+          "Wait until the visit is short",
+          "Take a mask home first"
+        ],
+        "a": 1,
+        "why": "Quem se sentir mal deve avisar imediatamente quem está no balcão."
+      }
+    ]
+  },
+  {
+    "id": "an12",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A theater manager before a show",
+    "script": "The doors open in five minutes. Seat numbers are on your ticket, and the ushers can help you find the row. Food is not allowed, but a capped bottle of water is fine. The play runs for eighty minutes with no interval, so visit the lobby restroom now if you need to. Phones must be fully off, not just silent, because a light also distracts the actors. Late arrivals will wait in the lobby until the first scene change.",
+    "questions": [
+      {
+        "q": "Why might someone visit the lobby before the play?",
+        "options": [
+          "To buy food",
+          "Because there is no interval",
+          "To change seats freely",
+          "To keep a phone light on"
+        ],
+        "a": 1,
+        "why": "A peça dura oitenta minutos sem intervalo, então o banheiro deve ser usado antes."
+      },
+      {
+        "q": "What happens to people who arrive late?",
+        "options": [
+          "They enter during any line.",
+          "They wait until the first scene change.",
+          "They lose the ticket.",
+          "They may use a phone light."
+        ],
+        "a": 1,
+        "why": "Quem chega atrasado espera no saguão até a primeira mudança de cena."
+      }
+    ]
+  },
+  {
+    "id": "an13",
+    "pool": "practice",
+    "level": "hard",
+    "setting": "A sustainability officer at a hall meeting",
+    "script": "Starting Monday, the hall will sort waste into three bins, not two. Food scraps go in the brown bin only if they are free of plastic. A compostable cup still counts as plastic if it has a shiny lining, so put those cups in the black bin. The blue bin is for clean paper and cans. A contaminated brown bin is thrown out entirely, which wastes the food scraps around one mistake. If you are unsure, use the black bin.",
+    "questions": [
+      {
+        "q": "Why might a compostable cup go in the black bin?",
+        "options": [
+          "It is made of paper.",
+          "It may have a shiny lining.",
+          "The brown bin is for cans.",
+          "Volunteers ban all cups."
+        ],
+        "a": 1,
+        "why": "O copo com revestimento brilhante conta como plástico e vai para o cesto preto."
+      },
+      {
+        "q": "What happens if the brown bin is contaminated?",
+        "options": [
+          "Only the one mistake is removed.",
+          "The whole bin is thrown out.",
+          "It is moved to the blue bin.",
+          "Volunteers ignore it after the first week."
+        ],
+        "a": 1,
+        "why": "Um cesto marrom contaminado é descartado por inteiro."
+      }
+    ]
+  },
+  {
+    "id": "an14",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A professor at the end of a lecture",
+    "script": "Before you leave, note the change for the Friday section. We will meet in the courtyard if the weather is dry, because we need to see the shadow lengths you calculated. If it rains, stay in this room and use the posted photos instead. Bring the worksheet either way. I will not collect it on Friday. I will walk around and mark that you attempted the measurements. The quiz on Monday covers the method, not the exact numbers from your own courtyard trial.",
+    "questions": [
+      {
+        "q": "Where will Friday's section meet if it is dry?",
+        "options": [
+          "In this room only",
+          "In the courtyard",
+          "In the photo lab",
+          "Online"
+        ],
+        "a": 1,
+        "why": "Se o tempo estiver seco, a turma vai ao pátio para ver o comprimento das sombras."
+      },
+      {
+        "q": "What will Monday's quiz emphasize?",
+        "options": [
+          "The exact numbers from each student's trial",
+          "The method",
+          "The weather report",
+          "Whether the worksheet was collected"
+        ],
+        "a": 1,
+        "why": "A prova de segunda cobre o método, não os números exatos do ensaio de cada aluno."
+      }
+    ]
+  },
+  {
+    "id": "an15",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A residence assistant during move-in",
+    "script": "Elevators are for people with heavy boxes until 2 p.m. If you can carry a light bag, please use the stairs. The loading zone allows ten minutes, so unload the car and then park in lot C. Keys are at the table by the mailboxes, not at the curb. You need a photo identification to pick up a key. Roommates who arrive later can still get their own key. Do not hand your key to a friend to pass along.",
+    "questions": [
+      {
+        "q": "Who should use the elevators before 2?",
+        "options": [
+          "Anyone with a light bag",
+          "People with heavy boxes",
+          "Only roommates who are late",
+          "Friends picking up keys"
+        ],
+        "a": 1,
+        "why": "Os elevadores ficam para quem carrega caixas pesadas até as 14h."
+      },
+      {
+        "q": "What is required to collect a key?",
+        "options": [
+          "A friend's permission",
+          "Photo identification",
+          "A parking space at the curb",
+          "A heavy box"
+        ],
+        "a": 1,
+        "why": "É preciso um documento com foto para retirar a chave na mesa dos correios."
+      }
+    ]
+  },
+  {
+    "id": "an16",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A sports-hall announcer",
+    "script": "The afternoon match will start twenty minutes late while we dry the floor. Fans may stay in the seats. The concession stand will open now rather than at halftime, because the delay is our fault. Players should return to the locker room and wait for the second whistle. The first whistle was only a test. Children in the front row must move behind the railing before play begins. We will not restart if the railing is blocked. Thank you for your patience.",
+    "questions": [
+      {
+        "q": "Why is the match delayed?",
+        "options": [
+          "The concession stand is closed.",
+          "The floor is being dried.",
+          "The players missed the bus.",
+          "The first whistle started the game."
+        ],
+        "a": 1,
+        "why": "O jogo atrasa vinte minutos enquanto secam o piso."
+      },
+      {
+        "q": "What must happen before play restarts?",
+        "options": [
+          "Fans must leave.",
+          "The front-row children must be behind the railing.",
+          "Halftime snacks must be finished.",
+          "The test whistle must be ignored by the crowd only."
+        ],
+        "a": 1,
+        "why": "As crianças da primeira fila precisam ficar atrás do gradil, senão o jogo não recomeça."
+      }
+    ]
+  },
+  {
+    "id": "an17",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A writing-center coordinator",
+    "script": "We are fully booked today, but cancellations often appear at the top of the hour. If you wait on the bench, we will offer a sudden opening in the order of arrival. Please do not wait inside a tutor's room. Sessions that start late still end on time, so a twenty-minute delay means a shorter meeting. Bring one printed page of the section you care about. We cannot read a full thesis in a drop-in gap. The bench list is erased at 6.",
+    "questions": [
+      {
+        "q": "How are sudden openings offered?",
+        "options": [
+          "To whoever enters a tutor's room",
+          "In order of arrival on the bench",
+          "Only for full theses",
+          "After 6"
+        ],
+        "a": 1,
+        "why": "Quem espera no banco recebe a vaga súbita pela ordem de chegada."
+      },
+      {
+        "q": "What happens if a session starts late?",
+        "options": [
+          "It runs past the end time.",
+          "It still ends on time and is shorter.",
+          "It becomes a thesis review.",
+          "The list is erased immediately."
+        ],
+        "a": 1,
+        "why": "Mesmo com atraso, a sessão termina no horário marcado e fica mais curta."
+      }
+    ]
+  },
+  {
+    "id": "an18",
+    "pool": "practice",
+    "level": "hard",
+    "setting": "A museum student guide",
+    "script": "This gallery is darker on purpose. The drawings fade if the light is strong, so we raise the lamps for only ten minutes at half past each hour. If you want to see the fine lines, wait for that interval rather than leaning on the case. The glass is sensitive, and a handprint is expensive to clean. Sketches may be made in pencil in the notebooks we lend at the door. Ink is not allowed. The next bright interval is at 2:30.",
+    "questions": [
+      {
+        "q": "Why are the lamps usually low?",
+        "options": [
+          "To save the guide's voice",
+          "Because strong light fades the drawings",
+          "Because photos are banned everywhere",
+          "Because the court is closed"
+        ],
+        "a": 1,
+        "why": "A luz forte desbota os desenhos, por isso as lâmpadas sobem só por dez minutos."
+      },
+      {
+        "q": "What may visitors use for sketches?",
+        "options": [
+          "Ink in their own books",
+          "Pencil in the notebooks lent at the door",
+          "A hand on the glass",
+          "Flash photos of the drawings"
+        ],
+        "a": 1,
+        "why": "Os esboços devem ser a lápis nos cadernos emprestados na porta."
+      }
+    ]
+  },
+  {
+    "id": "an19",
+    "pool": "practice",
+    "level": "mid",
+    "setting": "A campus safety officer",
+    "script": "The path behind the greenhouse is closed tonight while a crew repairs a broken light. Use the sidewalk along College Avenue to reach the night shuttle. Do not cross the work tape. The crew is using a lift, and the ground is uneven. The path should reopen by 7 a.m. if the part arrives. If you already parked a bicycle at the greenhouse rack, leave it. Security will watch the rack, and you can collect the bicycle in the morning without a fine.",
+    "questions": [
+      {
+        "q": "Why is the path closed?",
+        "options": [
+          "A shuttle broke down.",
+          "A crew is repairing a broken light.",
+          "Bicycles blocked the tape.",
+          "College Avenue is flooded."
+        ],
+        "a": 1,
+        "why": "O caminho fecha porque uma equipe conserta uma luz quebrada."
+      },
+      {
+        "q": "What should cyclists do with bicycles already at the rack?",
+        "options": [
+          "Move them before 7 a.m. or pay a fine",
+          "Leave them; security will watch the rack",
+          "Ride through the work tape",
+          "Take them on the lift"
+        ],
+        "a": 1,
+        "why": "Quem já deixou a bicicleta no suporte deve deixá-la; a segurança vigia o local."
+      }
+    ]
+  },
+  {
+    "id": "an20",
+    "pool": "practice",
+    "level": "easy",
+    "setting": "A student government speaker in the cafeteria",
+    "script": "Voting for the activities budget opens at noon and closes at noon tomorrow. You need your student card, and you may vote only once. The ballot is on paper at this table, not online. If you want to read the proposals first, the summaries are on the back of the ballot. Please do not remove that sheet from the cafeteria. A vote without a card cannot be counted. Results will be posted on the board by 5 p.m. tomorrow.",
+    "questions": [
+      {
+        "q": "How do students vote?",
+        "options": [
+          "Online all week",
+          "On paper at the table, once, with a card",
+          "By speaking to a candidate",
+          "By taking the summary home"
+        ],
+        "a": 1,
+        "why": "A votação é em papel na mesa, uma vez, com a carteirinha."
+      },
+      {
+        "q": "When will results be posted?",
+        "options": [
+          "At noon today",
+          "By 5 p.m. tomorrow",
+          "After candidates leave the table",
+          "Next week"
+        ],
+        "a": 1,
+        "why": "Os resultados vão para o mural até as 17h de amanhã."
+      }
+    ]
+  },
+  {
+    "id": "an-m1-01",
+    "pool": "m1",
+    "level": "mid",
+    "setting": "A department assistant in a hallway",
+    "script": "The guest lecture by Dr. Pell has been moved from room 110 to room 204. The topic and the 4 p.m. start are unchanged. Room 204 is one floor up, at the end of the west corridor. Seats there are individual desks, so a group that hoped to sit together should arrive early. Handouts are already in the new room. If you cannot climb the stairs, tell me now and I will open the lift.",
+    "questions": [
+      {
+        "q": "What changed about the lecture?",
+        "options": [
+          "The topic",
+          "The room",
+          "The speaker's name",
+          "The handout policy only"
+        ],
+        "a": 1,
+        "why": "A palestra sai da sala 110 e vai para a 204; o tema e o horário permanecem."
+      },
+      {
+        "q": "What should a student do if stairs are a problem?",
+        "options": [
+          "Skip the talk",
+          "Tell the assistant so the lift can be opened",
+          "Take a handout and leave",
+          "Move the lecture back to 110"
+        ],
+        "a": 1,
+        "why": "Quem não puder subir a escada deve avisar para que o elevador seja aberto."
+      }
+    ]
+  },
+  {
+    "id": "an-m1-02",
+    "pool": "m1",
+    "level": "mid",
+    "setting": "A choir director",
+    "script": "We have ten minutes before the recording. Please stand in the order we used yesterday, with taller singers in the back row. Phones go in the basket by the piano. If you need water, drink it now. Bottles on the risers make noise. When the red light appears, wait for my hand before you sing. The first note is G, not the A we used in rehearsal. If you miss an entrance, come in on the next phrase. Do not stop the whole take.",
+    "questions": [
+      {
+        "q": "What is different from rehearsal?",
+        "options": [
+          "The first note is G, not A.",
+          "Taller singers move to the front.",
+          "Phones stay on the risers.",
+          "The studio has no time limit."
+        ],
+        "a": 0,
+        "why": "A diretora avisa que a primeira nota é sol, não o lá do ensaio."
+      },
+      {
+        "q": "What should a singer do after a missed entrance?",
+        "options": [
+          "Stop the whole take",
+          "Enter on the next phrase",
+          "Leave before 6",
+          "Change rows"
+        ],
+        "a": 1,
+        "why": "Quem errar a entrada deve entrar na frase seguinte, sem interromper a gravação."
+      }
+    ]
+  },
+  {
+    "id": "an-m1u-01",
+    "pool": "m1u",
+    "level": "hard",
+    "setting": "A research librarian",
+    "script": "The archive you requested is available, but only under supervised use. You may photograph pages if the flash is off and if the item is not marked fragile on the slip. Fragile items may be transcribed in pencil. The reading room closes at 4:30 even if you have not finished. I can hold the box until tomorrow, but I cannot send images by email. Please wash your hands before you open the folder. Gloves are worse for these thin pages because they reduce your control.",
+    "questions": [
+      {
+        "q": "Which items may be photographed?",
+        "options": [
+          "Any item, with flash",
+          "Items not marked fragile, and only without flash",
+          "Fragile items, in a public cloud",
+          "None, because gloves are required"
+        ],
+        "a": 1,
+        "why": "A foto sem flash é permitida se o item não estiver marcado como frágil."
+      },
+      {
+        "q": "Why does the librarian prefer clean hands to gloves?",
+        "options": [
+          "Gloves are out of stock.",
+          "Gloves reduce control of the thin pages.",
+          "Email requires bare hands.",
+          "The room closes at 4:30."
+        ],
+        "a": 1,
+        "why": "As luvas pioram o manuseio porque reduzem o controle sobre as páginas finas."
+      }
+    ]
+  },
+  {
+    "id": "an-m1u-02",
+    "pool": "m1u",
+    "level": "hard",
+    "setting": "A statistics instructor",
+    "script": "About the data set for the project: the column labeled 'score' is not comparable across years. The test changed in 2019, so a 70 before that year is not a 70 after it. Use the column 'scaled' if you want a single trend. If your question is about one year only, the raw score is acceptable, but say so in the caption. Do not drop the early years to make the line smoother. A smoother line that hides the test change is misleading.",
+    "questions": [
+      {
+        "q": "Why are raw scores hard to compare across years?",
+        "options": [
+          "The codebook is missing.",
+          "The test changed in 2019.",
+          "Scaled scores were deleted.",
+          "Office hours were canceled."
+        ],
+        "a": 1,
+        "why": "A prova mudou em 2019, então o mesmo número não significa a mesma coisa."
+      },
+      {
+        "q": "What does the instructor consider misleading?",
+        "options": [
+          "Using the scaled column for a trend",
+          "Smoothing the line by dropping early years and hiding the change",
+          "Stating in the caption that one year uses raw scores",
+          "Reading the codebook"
+        ],
+        "a": 1,
+        "why": "Esconder a mudança da prova para deixar a linha mais lisa é que é enganoso."
+      }
+    ]
+  },
+  {
+    "id": "an-m1l-01",
+    "pool": "m1l",
+    "level": "easy",
+    "setting": "A cafe worker",
+    "script": "The soup of the day is tomato. A small bowl is three dollars, and a large bowl is five. Bread is one dollar more. We stop serving soup at 3. After that, only drinks and fruit are available. Please pay at the counter before you sit. Students with a meal card can swipe it here. There is no extra charge for tap water.",
+    "questions": [
+      {
+        "q": "How much is a large bowl of soup?",
+        "options": [
+          "One dollar",
+          "Three dollars",
+          "Five dollars",
+          "Free with fruit"
+        ],
+        "a": 2,
+        "why": "A tigela grande custa cinco dólares."
+      },
+      {
+        "q": "What is served after 3?",
+        "options": [
+          "Soup and bread",
+          "Only drinks and fruit",
+          "A free meal",
+          "Nothing"
+        ],
+        "a": 1,
+        "why": "Depois das 15h só há bebidas e fruta."
+      }
+    ]
+  },
+  {
+    "id": "an-m1l-02",
+    "pool": "m1l",
+    "level": "easy",
+    "setting": "A front-desk student",
+    "script": "Packages are ready for pickup until 6 today. Bring your student card. If a friend will collect your package, that friend needs a note with your name and the package number. We cannot guess which box is yours. Large boxes stay on the floor by the window. Small envelopes are in the alphabet drawers. Please check the name before you leave, because we cannot reopen a signed slip.",
+    "questions": [
+      {
+        "q": "What does a friend need in order to collect a package?",
+        "options": [
+          "Only a smile",
+          "A note with the owner's name and the package number",
+          "The alphabet drawer key",
+          "A signed slip from yesterday"
+        ],
+        "a": 1,
+        "why": "O amigo precisa de um bilhete com o nome e o número do pacote."
+      },
+      {
+        "q": "Why should students check the name before leaving?",
+        "options": [
+          "Large boxes are heavy.",
+          "A signed slip cannot be reopened.",
+          "The desk closes at noon.",
+          "Envelopes are free."
+        ],
+        "a": 1,
+        "why": "Depois que o recibo é assinado, o balcão não pode reabri-lo."
+      }
+    ]
+  },
+  {
+    "id": "an-m2-01",
+    "pool": "m2",
+    "level": "mid",
+    "setting": "A greenhouse volunteer leader",
+    "script": "We will water only the benches marked with blue tape. The red-tape benches were watered this morning, and extra water would rot the stems. Fill the cans at the indoor tap, not at the outdoor hose, because the hose is leaking. Each person takes two benches. If you finish early, sweep the path rather than watering a red bench. Gloves are in the box by the door. We stop at 4, even if a few blue benches remain. I will finish those.",
+    "questions": [
+      {
+        "q": "Which benches should volunteers water?",
+        "options": [
+          "The red-tape benches",
+          "The blue-tape benches",
+          "Every bench",
+          "Only the outdoor row"
+        ],
+        "a": 1,
+        "why": "A rega é só nos bancos com fita azul; os vermelhos já foram regados."
+      },
+      {
+        "q": "What should someone do after finishing early?",
+        "options": [
+          "Water a red bench",
+          "Sweep the path",
+          "Take the hose home",
+          "Stay past 4"
+        ],
+        "a": 1,
+        "why": "Quem terminar cedo deve varrer o caminho, não regar um banco vermelho."
+      }
+    ]
+  },
+  {
+    "id": "an-m2-02",
+    "pool": "m2",
+    "level": "mid",
+    "setting": "A language-lab monitor",
+    "script": "Headsets are numbered. Take the number on your booking, not a random one, because the lesson is loaded on that set. If the sound is faint, press the round key once. Pressing it twice changes the track. The recording cannot be paused during the exam portion. For practice files, pausing is allowed. Please return the headset to the same hook. The lab closes at 8, and the door locks even if a file is unfinished.",
+    "questions": [
+      {
+        "q": "Why must students take the booked headset?",
+        "options": [
+          "All headsets are the same.",
+          "The lesson is loaded on that set.",
+          "The round key is broken.",
+          "Nearby students pay the fee."
+        ],
+        "a": 1,
+        "why": "A lição está gravada no fone correspondente à reserva."
+      },
+      {
+        "q": "What does pressing the round key twice do?",
+        "options": [
+          "It pauses the exam.",
+          "It changes the track.",
+          "It saves work on the computer.",
+          "It unlocks the door."
+        ],
+        "a": 1,
+        "why": "Apertar duas vezes troca a faixa; uma vez só aumenta o som baixo."
+      }
+    ]
+  },
+  {
+    "id": "an-m2u-01",
+    "pool": "m2u",
+    "level": "hard",
+    "setting": "A journal editor speaking to student reviewers",
+    "script": "When you recommend a revision, separate errors of fact from choices of emphasis. A missing citation is a fact the writer must fix. A paragraph you found dull is a choice, and you should say what the reader cannot yet see. Do not write 'be clearer' without pointing to a sentence. If you have a conflict, such as recognizing your own roommate's draft, stop and tell me before you read further.",
+    "questions": [
+      {
+        "q": "How should a reviewer treat a missing citation?",
+        "options": [
+          "As a dull choice",
+          "As a factual error the writer must fix",
+          "As optional praise",
+          "As a reason to insult the author"
+        ],
+        "a": 1,
+        "why": "A citação ausente é um erro de fato que o autor precisa corrigir."
+      },
+      {
+        "q": "What should a reviewer do if the draft seems to be a roommate's?",
+        "options": [
+          "Finish quickly and hide the conflict",
+          "Stop and tell the editor",
+          "Add extra praise",
+          "Wait until Sunday and then decide"
+        ],
+        "a": 1,
+        "why": "Se houver conflito, como reconhecer o texto do colega de quarto, a pessoa deve parar e avisar."
+      }
+    ]
+  },
+  {
+    "id": "an-m2u-02",
+    "pool": "m2u",
+    "level": "hard",
+    "setting": "A city-planning lecturer giving logistics",
+    "script": "Tomorrow's site walk is an observation, not a cleanup. Do not pick up litter, because we are recording where it gathers. Stand on the sidewalk, not in the bike lane, when you take notes. Pairs should split the block: one person counts entrances, the other counts shaded seats. Switch tasks at the corner so each of you practices both. Notes written after you leave the block will not be accepted, because memory blends the two sides of the street.",
+    "questions": [
+      {
+        "q": "Why should students leave the litter in place?",
+        "options": [
+          "The bags are missing.",
+          "They are recording where it gathers.",
+          "The bike lane is closed.",
+          "Shopkeepers asked them to."
+        ],
+        "a": 1,
+        "why": "O passeio é de observação: o lixo fica para que registrem onde ele se acumula."
+      },
+      {
+        "q": "Why are notes written after leaving the block rejected?",
+        "options": [
+          "The fountain closes at 11.",
+          "Memory mixes up the two sides of the street.",
+          "The badge script forbids writing.",
+          "Only shopkeepers may take notes."
+        ],
+        "a": 1,
+        "why": "A memória mistura os dois lados da rua, então a anotação tardia não é aceita."
+      }
+    ]
+  },
+  {
+    "id": "an-m2l-01",
+    "pool": "m2l",
+    "level": "easy",
+    "setting": "A gym attendant",
+    "script": "The pool is open for free swim until 4. Lanes 1 and 2 are for slow swimmers. Please shower before you enter the water. Children must stay with an adult. The diving board is closed today. Towels are for rent at this desk for one dollar. Lock your locker, because the gym is not responsible for lost phones.",
+    "questions": [
+      {
+        "q": "Which lanes are for slow swimmers?",
+        "options": [
+          "All lanes",
+          "Lanes 1 and 2",
+          "The diving board",
+          "The locker row"
+        ],
+        "a": 1,
+        "why": "As raias 1 e 2 são para quem nada devagar."
+      },
+      {
+        "q": "What should people do before entering the water?",
+        "options": [
+          "Rent a phone",
+          "Shower",
+          "Open the diving board",
+          "Leave children alone"
+        ],
+        "a": 1,
+        "why": "O atendente pede que tomem banho antes de entrar na água."
+      }
+    ]
+  },
+  {
+    "id": "an-m2l-02",
+    "pool": "m2l",
+    "level": "easy",
+    "setting": "A classroom aide",
+    "script": "Please return the clickers before you leave. Put them in the blue tray, not in your bag. A missing clicker costs the department 40 dollars. If your clicker did not work, tell me now so I can mark it. The quiz answers will be on the door tomorrow morning. You may not photograph the board after class. I will erase it when the last person leaves. Have a good evening.",
+    "questions": [
+      {
+        "q": "Where do the clickers go?",
+        "options": [
+          "In a bag",
+          "In the blue tray",
+          "On the door",
+          "On the board"
+        ],
+        "a": 1,
+        "why": "Os controles devem voltar para a bandeja azul."
+      },
+      {
+        "q": "What will happen to the board?",
+        "options": [
+          "It will be photographed by students.",
+          "It will be erased when the last person leaves.",
+          "The answers will stay all week.",
+          "It costs 40 dollars to read."
+        ],
+        "a": 1,
+        "why": "A auxiliar apaga o quadro quando a última pessoa sai."
+      }
+    ]
+  }
+]

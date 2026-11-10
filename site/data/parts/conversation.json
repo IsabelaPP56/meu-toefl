@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "cv01",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The lab printer is jammed again."
+      },
+      {
+        "who": "Man",
+        "text": "I can clear it, but the queue is long."
+      },
+      {
+        "who": "Woman",
+        "text": "I only need two pages for class."
+      },
+      {
+        "who": "Man",
+        "text": "Then use the printer by the stairs."
+      },
+      {
+        "who": "Woman",
+        "text": "Does it take the same card?"
+      },
+      {
+        "who": "Man",
+        "text": "Yes. Swipe once and choose black and white."
+      },
+      {
+        "who": "Woman",
+        "text": "Good. I'll go before the seminar."
+      },
+      {
+        "who": "Man",
+        "text": "If the card fails, tell the desk."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does the woman need another printer?",
+        "options": [
+          "Her card is new.",
+          "The lab printer is jammed and the queue is long.",
+          "The seminar was canceled.",
+          "She needs color pages."
+        ],
+        "a": 1,
+        "why": "Ela diz que a impressora do laboratório emperrou, e ele avisa que a fila está longa."
+      },
+      {
+        "q": "What will the woman do next?",
+        "options": [
+          "Wait in the lab queue",
+          "Print by the stairs before the seminar",
+          "Buy a new card",
+          "Ask the man to clear the jam"
+        ],
+        "a": 1,
+        "why": "Ela decide ir à impressora da escada antes do seminário."
+      }
+    ]
+  },
+  {
+    "id": "cv02",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "Did you reserve a study room for tonight?"
+      },
+      {
+        "who": "Woman",
+        "text": "I tried. The only open slot is at ten."
+      },
+      {
+        "who": "Man",
+        "text": "That's late. I have a shift at six in the morning."
+      },
+      {
+        "who": "Woman",
+        "text": "We could use the empty classroom in Harper."
+      },
+      {
+        "who": "Man",
+        "text": "Is it unlocked after eight?"
+      },
+      {
+        "who": "Woman",
+        "text": "The night guard opens it if a class is listed."
+      },
+      {
+        "who": "Man",
+        "text": "Our review isn't a class."
+      },
+      {
+        "who": "Woman",
+        "text": "Then let's take the ten o'clock room and stop at midnight."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What problem do the students have?",
+        "options": [
+          "The guard lost their books.",
+          "The only study room is very late.",
+          "Harper Hall is closed all week.",
+          "The man does not want to review."
+        ],
+        "a": 1,
+        "why": "A única sala livre é às dez, e o homem trabalha de manhã cedo."
+      },
+      {
+        "q": "What do they decide?",
+        "options": [
+          "To ask the guard to pretend they have a class",
+          "To use the ten o'clock room and finish at midnight",
+          "To cancel the review",
+          "To meet at six in the morning"
+        ],
+        "a": 1,
+        "why": "A mulher propõe a sala das dez e parar à meia-noite, e a conversa fecha nesse plano."
+      }
+    ]
+  },
+  {
+    "id": "cv03",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "Are you still selling the desk lamp?"
+      },
+      {
+        "who": "Man",
+        "text": "Yes. It's in my room in Cedar."
+      },
+      {
+        "who": "Woman",
+        "text": "Can I see it after dinner?"
+      },
+      {
+        "who": "Man",
+        "text": "Dinner is fine. Bring cash. I don't have change."
+      },
+      {
+        "who": "Woman",
+        "text": "Is fifteen the final price?"
+      },
+      {
+        "who": "Man",
+        "text": "Yes, and the bulb is new."
+      },
+      {
+        "who": "Woman",
+        "text": "I'll come at seven."
+      },
+      {
+        "who": "Man",
+        "text": "Text me if the front door is locked."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does the man ask the woman to bring?",
+        "options": [
+          "A new bulb",
+          "Cash",
+          "A student card",
+          "Change for fifty"
+        ],
+        "a": 1,
+        "why": "Ele diz para ela trazer dinheiro porque não tem troco."
+      },
+      {
+        "q": "What will the woman do?",
+        "options": [
+          "Come at seven",
+          "Wait until morning",
+          "Pay by card",
+          "Meet at the bookstore"
+        ],
+        "a": 0,
+        "why": "Ela diz que chegará às sete."
+      }
+    ]
+  },
+  {
+    "id": "cv04",
+    "pool": "practice",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "Professor Shah said my graph has no units."
+      },
+      {
+        "who": "Woman",
+        "text": "Then the trend is hard to read."
+      },
+      {
+        "who": "Man",
+        "text": "I used centimeters, but I never wrote them."
+      },
+      {
+        "who": "Woman",
+        "text": "Add the unit to the axis and to the caption."
+      },
+      {
+        "who": "Man",
+        "text": "Will she still accept it after the deadline?"
+      },
+      {
+        "who": "Woman",
+        "text": "She gave you until Friday for corrections only."
+      },
+      {
+        "who": "Man",
+        "text": "So I should not change the conclusion."
+      },
+      {
+        "who": "Woman",
+        "text": "Right. Fix the labels and resubmit the same file."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is wrong with the man's graph?",
+        "options": [
+          "The conclusion is missing.",
+          "The units are not written.",
+          "The file will not upload.",
+          "The trend is invented."
+        ],
+        "a": 1,
+        "why": "Ele usou centímetros, mas não os escreveu, e a professora apontou a falta de unidades."
+      },
+      {
+        "q": "What should he do by Friday?",
+        "options": [
+          "Write a new conclusion",
+          "Fix the labels and resubmit the same file",
+          "Ask for a longer experiment",
+          "Remove the graph"
+        ],
+        "a": 1,
+        "why": "A mulher diz para corrigir os rótulos e reenviar o mesmo arquivo."
+      }
+    ]
+  },
+  {
+    "id": "cv05",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The shuttle driver skipped our stop."
+      },
+      {
+        "who": "Man",
+        "text": "He only stops if someone signals."
+      },
+      {
+        "who": "Woman",
+        "text": "I didn't know that."
+      },
+      {
+        "who": "Man",
+        "text": "Wave before the corner, not after."
+      },
+      {
+        "who": "Woman",
+        "text": "Is there another bus in the next hour?"
+      },
+      {
+        "who": "Man",
+        "text": "The night line can send a car if you call."
+      },
+      {
+        "who": "Woman",
+        "text": "I have the number on my card."
+      },
+      {
+        "who": "Man",
+        "text": "Call now. They get busy after ten."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why did the shuttle skip the stop?",
+        "options": [
+          "The road was closed.",
+          "No one signaled.",
+          "The night line was faster.",
+          "The card had expired."
+        ],
+        "a": 1,
+        "why": "O homem explica que o ônibus só para se alguém sinalizar."
+      },
+      {
+        "q": "What does the man advise the woman to do?",
+        "options": [
+          "Walk to campus",
+          "Call the night line now",
+          "Wait an hour without calling",
+          "Wave after the corner"
+        ],
+        "a": 1,
+        "why": "Ele diz para ligar agora porque depois das dez o serviço fica cheio."
+      }
+    ]
+  },
+  {
+    "id": "cv06",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I can't find the sign-up sheet for the trip."
+      },
+      {
+        "who": "Woman",
+        "text": "It's on the board outside the office."
+      },
+      {
+        "who": "Man",
+        "text": "The board was empty this morning."
+      },
+      {
+        "who": "Woman",
+        "text": "I moved the sheet to the counter."
+      },
+      {
+        "who": "Man",
+        "text": "Is there still room?"
+      },
+      {
+        "who": "Woman",
+        "text": "Two seats, but you need a packed lunch."
+      },
+      {
+        "who": "Man",
+        "text": "I can bring a sandwich."
+      },
+      {
+        "who": "Woman",
+        "text": "Then write your name before noon."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where is the sign-up sheet now?",
+        "options": [
+          "On the empty board",
+          "On the counter",
+          "In the man's bag",
+          "On the bus"
+        ],
+        "a": 1,
+        "why": "A mulher diz que mudou a lista para o balcão."
+      },
+      {
+        "q": "What must the man do to get a seat?",
+        "options": [
+          "Pay a fee at noon",
+          "Bring a packed lunch and sign before noon",
+          "Find the driver",
+          "Move the board"
+        ],
+        "a": 1,
+        "why": "Ainda há dois lugares se ele levar lanche e escrever o nome antes do meio-dia."
+      }
+    ]
+  },
+  {
+    "id": "cv07",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "My group partner hasn't answered in a week."
+      },
+      {
+        "who": "Man",
+        "text": "Did you try the course forum?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes. He read the message and didn't reply."
+      },
+      {
+        "who": "Man",
+        "text": "Then tell the professor before the draft is due."
+      },
+      {
+        "who": "Woman",
+        "text": "I don't want to get him in trouble."
+      },
+      {
+        "who": "Man",
+        "text": "You can report the missing work without judging him."
+      },
+      {
+        "who": "Woman",
+        "text": "The draft is Thursday."
+      },
+      {
+        "who": "Man",
+        "text": "Write tonight and attach the dates you contacted him."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What has the partner done?",
+        "options": [
+          "He finished the draft.",
+          "He read the message but did not reply.",
+          "He emailed the professor.",
+          "He attached the dates."
+        ],
+        "a": 1,
+        "why": "A mulher diz que ele leu a mensagem e não respondeu."
+      },
+      {
+        "q": "What does the man suggest she include?",
+        "options": [
+          "A judgment of the partner's character",
+          "The dates she tried to contact him",
+          "A new topic for the draft",
+          "The professor's home address"
+        ],
+        "a": 1,
+        "why": "Ele pede que ela anexe as datas em que tentou contato."
+      }
+    ]
+  },
+  {
+    "id": "cv08",
+    "pool": "practice",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The housing office offered me a room on the noisy side."
+      },
+      {
+        "who": "Woman",
+        "text": "You can refuse it once without losing your place in line."
+      },
+      {
+        "who": "Man",
+        "text": "I didn't see that in the email."
+      },
+      {
+        "who": "Woman",
+        "text": "It's in the second paragraph, after the floor plan."
+      },
+      {
+        "who": "Man",
+        "text": "If I refuse, when is the next offer?"
+      },
+      {
+        "who": "Woman",
+        "text": "Usually within ten days, but the rent may be higher."
+      },
+      {
+        "who": "Man",
+        "text": "Higher by how much?"
+      },
+      {
+        "who": "Woman",
+        "text": "They don't say. Ask before you click refuse."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What can the man do once?",
+        "options": [
+          "Refuse the room without losing his place",
+          "Pay a lower rent automatically",
+          "Ignore the second paragraph",
+          "Move in tonight"
+        ],
+        "a": 0,
+        "why": "A mulher diz que ele pode recusar uma vez sem perder o lugar na fila."
+      },
+      {
+        "q": "What does the woman imply he should do before refusing?",
+        "options": [
+          "Click immediately",
+          "Ask how much higher the rent may be",
+          "Delete the floor plan",
+          "Accept the noisy room"
+        ],
+        "a": 1,
+        "why": "Ela diz que o valor maior não está no e-mail e que ele deve perguntar antes de recusar."
+      }
+    ]
+  },
+  {
+    "id": "cv09",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "Do you have a minute to look at my poster?"
+      },
+      {
+        "who": "Man",
+        "text": "I have ten minutes before lab."
+      },
+      {
+        "who": "Woman",
+        "text": "The title is too long."
+      },
+      {
+        "who": "Man",
+        "text": "Cut it to one line and enlarge the photo."
+      },
+      {
+        "who": "Woman",
+        "text": "Will people still know the topic?"
+      },
+      {
+        "who": "Man",
+        "text": "The first sentence under the photo can explain it."
+      },
+      {
+        "who": "Woman",
+        "text": "I'll print a new copy tonight."
+      },
+      {
+        "who": "Man",
+        "text": "Use the matte paper. Glossy reflects the lights."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What change does the man recommend first?",
+        "options": [
+          "A longer title",
+          "A one-line title and a larger photo",
+          "A glossy finish",
+          "More lab time"
+        ],
+        "a": 1,
+        "why": "Ele manda cortar o título para uma linha e aumentar a foto."
+      },
+      {
+        "q": "Why does he prefer matte paper?",
+        "options": [
+          "It is cheaper.",
+          "Glossy paper reflects the lights.",
+          "The lab requires it.",
+          "The title will be longer."
+        ],
+        "a": 1,
+        "why": "Ele explica que o papel brilhante reflete as luzes."
+      }
+    ]
+  },
+  {
+    "id": "cv10",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The clinic canceled my appointment."
+      },
+      {
+        "who": "Woman",
+        "text": "Did they offer a new time?"
+      },
+      {
+        "who": "Man",
+        "text": "Only next month. My form is due Friday."
+      },
+      {
+        "who": "Woman",
+        "text": "Ask for a nurse visit. Those are shorter."
+      },
+      {
+        "who": "Man",
+        "text": "Will a nurse visit stamp the form?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes, if the form is a fitness clearance."
+      },
+      {
+        "who": "Man",
+        "text": "It is."
+      },
+      {
+        "who": "Woman",
+        "text": "Call before noon. The afternoon slots go first."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is the man worried about the cancellation?",
+        "options": [
+          "He dislikes the nurse.",
+          "His form is due Friday and the new time is next month.",
+          "The clinic lost his card.",
+          "He already has a stamp."
+        ],
+        "a": 1,
+        "why": "A nova consulta é só no mês que vem, mas o formulário vence na sexta."
+      },
+      {
+        "q": "What should he do before noon?",
+        "options": [
+          "Wait until next month",
+          "Call and ask for a nurse visit",
+          "Change the form type",
+          "Skip the clearance"
+        ],
+        "a": 1,
+        "why": "A mulher diz para ligar antes do meio-dia porque os horários da tarde acabam primeiro."
+      }
+    ]
+  },
+  {
+    "id": "cv11",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "I'm bringing soup to the floor dinner."
+      },
+      {
+        "who": "Man",
+        "text": "Great. I'll bring bread."
+      },
+      {
+        "who": "Woman",
+        "text": "Can you also get paper bowls?"
+      },
+      {
+        "who": "Man",
+        "text": "The shop under the dorm has them."
+      },
+      {
+        "who": "Woman",
+        "text": "Get twenty. We are more people this week."
+      },
+      {
+        "who": "Man",
+        "text": "I'll go after class."
+      },
+      {
+        "who": "Woman",
+        "text": "Leave them in the kitchen, not in your room."
+      },
+      {
+        "who": "Man",
+        "text": "Will do."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What will the man contribute?",
+        "options": [
+          "Soup and plates",
+          "Bread and paper bowls",
+          "Only a kitchen key",
+          "Nothing"
+        ],
+        "a": 1,
+        "why": "Ele traz o pão e aceita comprar as tigelas de papel."
+      },
+      {
+        "q": "Where should he leave the bowls?",
+        "options": [
+          "In his room",
+          "In the kitchen",
+          "In the shop",
+          "In the classroom"
+        ],
+        "a": 1,
+        "why": "A mulher pede que ele deixe as tigelas na cozinha."
+      }
+    ]
+  },
+  {
+    "id": "cv12",
+    "pool": "practice",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I quoted a paragraph without a page number."
+      },
+      {
+        "who": "Woman",
+        "text": "Then the citation is incomplete."
+      },
+      {
+        "who": "Man",
+        "text": "The idea is still mine around it."
+      },
+      {
+        "who": "Woman",
+        "text": "The quoted lines still need the source."
+      },
+      {
+        "who": "Man",
+        "text": "The book is at home."
+      },
+      {
+        "who": "Woman",
+        "text": "The library has the same edition on reserve."
+      },
+      {
+        "who": "Man",
+        "text": "Is the page the same in every printing?"
+      },
+      {
+        "who": "Woman",
+        "text": "Use the edition on the syllabus, not a different one."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is missing from the man's paper?",
+        "options": [
+          "His own idea",
+          "A page number for a quotation",
+          "The library reserve desk",
+          "The entire paragraph"
+        ],
+        "a": 1,
+        "why": "Ele citou um parágrafo sem o número da página."
+      },
+      {
+        "q": "Which edition should he use?",
+        "options": [
+          "Any printing at home",
+          "The edition listed on the syllabus",
+          "A newer online copy",
+          "No edition, because the idea is his"
+        ],
+        "a": 1,
+        "why": "A mulher manda usar a edição do plano de ensino, não outra."
+      }
+    ]
+  },
+  {
+    "id": "cv13",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The club vote is tied."
+      },
+      {
+        "who": "Man",
+        "text": "Then the president can break the tie."
+      },
+      {
+        "who": "Woman",
+        "text": "She left early."
+      },
+      {
+        "who": "Man",
+        "text": "In that case the vote is held again next week."
+      },
+      {
+        "who": "Woman",
+        "text": "Can we campaign before then?"
+      },
+      {
+        "who": "Man",
+        "text": "Yes, but no posters in the library."
+      },
+      {
+        "who": "Woman",
+        "text": "I'll send one email to the members."
+      },
+      {
+        "who": "Man",
+        "text": "Keep it short. Long emails get skipped."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why will the vote be held again?",
+        "options": [
+          "The president already voted.",
+          "The vote is tied and the president left.",
+          "The library banned email.",
+          "The members refused to read."
+        ],
+        "a": 1,
+        "why": "O voto empatou e a presidente, que desempataria, já tinha ido embora."
+      },
+      {
+        "q": "What restriction does the man mention?",
+        "options": [
+          "No email may be sent.",
+          "No posters in the library.",
+          "The president must return tonight.",
+          "Campaigns last one day."
+        ],
+        "a": 1,
+        "why": "Ele permite a campanha, mas proíbe cartazes na biblioteca."
+      }
+    ]
+  },
+  {
+    "id": "cv14",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "Is the museum trip still on Saturday?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes, but we meet at the side gate, not the front."
+      },
+      {
+        "who": "Man",
+        "text": "What time?"
+      },
+      {
+        "who": "Woman",
+        "text": "Nine. The tickets are timed for nine-thirty."
+      },
+      {
+        "who": "Man",
+        "text": "Can I pay on the bus?"
+      },
+      {
+        "who": "Woman",
+        "text": "No. Pay the treasurer tonight."
+      },
+      {
+        "who": "Man",
+        "text": "I'll find her after choir."
+      },
+      {
+        "who": "Woman",
+        "text": "She leaves the practice room at eight."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where will the group meet?",
+        "options": [
+          "At the front gate",
+          "At the side gate",
+          "Inside the museum",
+          "On the bus"
+        ],
+        "a": 1,
+        "why": "A mulher corrige o ponto de encontro para o portão lateral."
+      },
+      {
+        "q": "When can the man pay the treasurer?",
+        "options": [
+          "On the bus",
+          "After choir, before she leaves at eight",
+          "Saturday at nine-thirty",
+          "He cannot pay"
+        ],
+        "a": 1,
+        "why": "Ele vai procurá-la depois do coral, e ela sai da sala às oito."
+      }
+    ]
+  },
+  {
+    "id": "cv15",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "My laptop died in the middle of the quiz file."
+      },
+      {
+        "who": "Man",
+        "text": "Did it save to the course folder?"
+      },
+      {
+        "who": "Woman",
+        "text": "I was working offline."
+      },
+      {
+        "who": "Man",
+        "text": "Then the lab computers may not have it."
+      },
+      {
+        "who": "Woman",
+        "text": "I have an older version on my drive."
+      },
+      {
+        "who": "Man",
+        "text": "Submit that tonight and explain the crash."
+      },
+      {
+        "who": "Woman",
+        "text": "Will the professor accept a note?"
+      },
+      {
+        "who": "Man",
+        "text": "She has, when the note arrives before midnight."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is the newest file missing from the lab computers?",
+        "options": [
+          "The professor deleted it.",
+          "The woman was working offline.",
+          "The drive is broken.",
+          "The quiz was canceled."
+        ],
+        "a": 1,
+        "why": "Ela estava sem conexão, então a pasta do curso não recebeu o arquivo."
+      },
+      {
+        "q": "What does the man recommend?",
+        "options": [
+          "Wait until morning with no note",
+          "Submit the older version tonight and explain",
+          "Retake the quiz next week",
+          "Buy a new laptop first"
+        ],
+        "a": 1,
+        "why": "Ele manda enviar a versão antiga ainda hoje e explicar a falha."
+      }
+    ]
+  },
+  {
+    "id": "cv16",
+    "pool": "practice",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The landlord says guests can stay only one night."
+      },
+      {
+        "who": "Woman",
+        "text": "Your parents are coming for three."
+      },
+      {
+        "who": "Man",
+        "text": "I don't want to hide them."
+      },
+      {
+        "who": "Woman",
+        "text": "Ask for a written exception before they arrive."
+      },
+      {
+        "who": "Man",
+        "text": "What if he says no?"
+      },
+      {
+        "who": "Woman",
+        "text": "Then book them the guest flat the university keeps for families."
+      },
+      {
+        "who": "Man",
+        "text": "Is it expensive?"
+      },
+      {
+        "who": "Woman",
+        "text": "Less than a hotel, and it is two stops away."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What rule creates the problem?",
+        "options": [
+          "Parents cannot visit campus.",
+          "Guests may stay only one night.",
+          "The guest flat is closed.",
+          "The landlord lives two stops away."
+        ],
+        "a": 1,
+        "why": "O proprietário limita hóspedes a uma noite, e os pais ficam três."
+      },
+      {
+        "q": "What is the backup plan if the landlord refuses?",
+        "options": [
+          "Hide the parents",
+          "Use the university guest flat",
+          "Cancel the visit",
+          "Move to a hotel farther away without asking"
+        ],
+        "a": 1,
+        "why": "A mulher sugere o apartamento de hóspedes da universidade se ele disser não."
+      }
+    ]
+  },
+  {
+    "id": "cv17",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "You left your notebook in the seminar room."
+      },
+      {
+        "who": "Man",
+        "text": "The blue one?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes. I gave it to the department assistant."
+      },
+      {
+        "who": "Man",
+        "text": "Is the office still open?"
+      },
+      {
+        "who": "Woman",
+        "text": "Until four."
+      },
+      {
+        "who": "Man",
+        "text": "I have class until four."
+      },
+      {
+        "who": "Woman",
+        "text": "She said she can leave it at the front desk."
+      },
+      {
+        "who": "Man",
+        "text": "Please ask her to. I'll pick it up at five."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where is the notebook now?",
+        "options": [
+          "In the seminar room",
+          "With the department assistant",
+          "At the man's apartment",
+          "On the bus"
+        ],
+        "a": 1,
+        "why": "A mulher entregou o caderno azul à assistente do departamento."
+      },
+      {
+        "q": "What will happen so the man can collect it at five?",
+        "options": [
+          "The office will stay open.",
+          "The assistant will be asked to leave it at the front desk.",
+          "The woman will bring it to class.",
+          "He will skip class."
+        ],
+        "a": 1,
+        "why": "Como a aula vai até as quatro, ele pede que deixem o caderno na recepção."
+      }
+    ]
+  },
+  {
+    "id": "cv18",
+    "pool": "practice",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The experiment needs ice, and the machine is broken."
+      },
+      {
+        "who": "Woman",
+        "text": "The dining hall will give you a bag if you bring a cooler."
+      },
+      {
+        "who": "Man",
+        "text": "I don't have a cooler."
+      },
+      {
+        "who": "Woman",
+        "text": "Borrow the one from the field kit."
+      },
+      {
+        "who": "Man",
+        "text": "It's checked out until three."
+      },
+      {
+        "who": "Woman",
+        "text": "Then start the warm steps now and get ice later."
+      },
+      {
+        "who": "Man",
+        "text": "The warm steps take an hour."
+      },
+      {
+        "who": "Woman",
+        "text": "That's enough time. I'll watch the bench."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the man unable to get right now?",
+        "options": [
+          "The field notes",
+          "Ice, because the machine is broken and the cooler is out",
+          "A place to work",
+          "The woman's help"
+        ],
+        "a": 1,
+        "why": "A máquina de gelo quebrou e a caixa térmica está emprestada até as três."
+      },
+      {
+        "q": "What is the plan?",
+        "options": [
+          "Wait until tomorrow",
+          "Do the warm steps now and get ice later",
+          "Cancel the experiment",
+          "Use the dining hall as a lab"
+        ],
+        "a": 1,
+        "why": "A mulher sugere fazer as etapas que não precisam de gelo e buscá-lo depois."
+      }
+    ]
+  },
+  {
+    "id": "cv19",
+    "pool": "practice",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "I need a quiet seat for the online exam."
+      },
+      {
+        "who": "Man",
+        "text": "The carrels on the top floor don't allow talking."
+      },
+      {
+        "who": "Woman",
+        "text": "Do I need to reserve one?"
+      },
+      {
+        "who": "Man",
+        "text": "Yes, for blocks of two hours."
+      },
+      {
+        "who": "Woman",
+        "text": "My exam is ninety minutes."
+      },
+      {
+        "who": "Man",
+        "text": "Book two hours so you have time to set up."
+      },
+      {
+        "who": "Woman",
+        "text": "I'll book the four o'clock block."
+      },
+      {
+        "who": "Man",
+        "text": "Bring headphones. The timer beeps."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does the man suggest two hours?",
+        "options": [
+          "The exam lasts two hours.",
+          "She needs time to set up as well as take the exam.",
+          "Talking is required.",
+          "The carrels close at ninety minutes."
+        ],
+        "a": 1,
+        "why": "A prova dura noventa minutos, e ele recomenda duas horas para incluir a preparação."
+      },
+      {
+        "q": "What should the woman bring?",
+        "options": [
+          "A timer from home",
+          "Headphones",
+          "A talking partner",
+          "Food"
+        ],
+        "a": 1,
+        "why": "Ele avisa que o cronômetro apita e que ela deve levar fones."
+      }
+    ]
+  },
+  {
+    "id": "cv20",
+    "pool": "practice",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I think the sample size in the article is too small."
+      },
+      {
+        "who": "Woman",
+        "text": "Then be careful how strongly you criticize it."
+      },
+      {
+        "who": "Man",
+        "text": "Twenty people cannot settle the question."
+      },
+      {
+        "who": "Woman",
+        "text": "You can say the result is suggestive, not final."
+      },
+      {
+        "who": "Man",
+        "text": "Should I ignore the article?"
+      },
+      {
+        "who": "Woman",
+        "text": "No. Use it as a limit on your own claim."
+      },
+      {
+        "who": "Man",
+        "text": "So I cite it and name the limit."
+      },
+      {
+        "who": "Woman",
+        "text": "Exactly. That is more precise than rejecting it."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the man's concern?",
+        "options": [
+          "The article has no title.",
+          "The sample is too small to settle the question.",
+          "He cannot find the citation.",
+          "The woman rejected his paper."
+        ],
+        "a": 1,
+        "why": "Ele diz que vinte pessoas não bastam para encerrar a questão."
+      },
+      {
+        "q": "What does the woman want him to do with the article?",
+        "options": [
+          "Ignore it",
+          "Cite it and state its limit",
+          "Copy its conclusion as final",
+          "Hide the sample size"
+        ],
+        "a": 1,
+        "why": "Ela pede que ele use o artigo como limite da própria afirmação, citando esse limite."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1a",
+    "pool": "m1",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The rehearsal moved to the choir room."
+      },
+      {
+        "who": "Man",
+        "text": "I went to the auditorium and no one was there."
+      },
+      {
+        "who": "Woman",
+        "text": "The message went out at lunch."
+      },
+      {
+        "who": "Man",
+        "text": "I was in lab and didn't see it."
+      },
+      {
+        "who": "Woman",
+        "text": "We still need your part before tonight."
+      },
+      {
+        "who": "Man",
+        "text": "I can come at four."
+      },
+      {
+        "who": "Woman",
+        "text": "Four works. Bring the marked score."
+      },
+      {
+        "who": "Man",
+        "text": "It's in my locker. I'll get it first."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why did the man miss the rehearsal location?",
+        "options": [
+          "He refuses to sing.",
+          "He did not see the lunch message because he was in lab.",
+          "The choir room was locked.",
+          "The score was lost."
+        ],
+        "a": 1,
+        "why": "Ele estava no laboratório e não viu o aviso do almoço."
+      },
+      {
+        "q": "What will he do before coming at four?",
+        "options": [
+          "Email the auditorium",
+          "Get the marked score from his locker",
+          "Cancel his part",
+          "Wait until tonight"
+        ],
+        "a": 1,
+        "why": "Ele diz que a partitura marcada está no armário e que vai buscá-la primeiro."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1b",
+    "pool": "m1",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The advisor wants me to add a statistics course."
+      },
+      {
+        "who": "Woman",
+        "text": "Does it fit your Tuesday schedule?"
+      },
+      {
+        "who": "Man",
+        "text": "Only the evening section is open."
+      },
+      {
+        "who": "Woman",
+        "text": "That section has a lab on Thursday."
+      },
+      {
+        "who": "Man",
+        "text": "I work Thursday nights."
+      },
+      {
+        "who": "Woman",
+        "text": "Then ask the waitlist for the afternoon section."
+      },
+      {
+        "who": "Man",
+        "text": "Is the waitlist long?"
+      },
+      {
+        "who": "Woman",
+        "text": "Three people. One usually drops after the first quiz."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why is the evening section a problem?",
+        "options": [
+          "It has no statistics.",
+          "Its Thursday lab conflicts with his work.",
+          "The advisor refused it.",
+          "It is already finished."
+        ],
+        "a": 1,
+        "why": "A seção da noite tem laboratório na quinta, e ele trabalha nesse período."
+      },
+      {
+        "q": "What does the woman imply about the afternoon section?",
+        "options": [
+          "It will never open.",
+          "A seat may open because someone often drops after the first quiz.",
+          "He should quit his job tonight.",
+          "Three labs are required."
+        ],
+        "a": 1,
+        "why": "Ela diz que há três pessoas na fila e que uma costuma sair depois da primeira prova."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1c",
+    "pool": "m1",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "I reserved the camera, but the case was empty."
+      },
+      {
+        "who": "Man",
+        "text": "Check the sign-out tablet."
+      },
+      {
+        "who": "Woman",
+        "text": "The last name is from the photo club."
+      },
+      {
+        "who": "Man",
+        "text": "They have a shoot until six."
+      },
+      {
+        "who": "Woman",
+        "text": "My assignment is due at eight."
+      },
+      {
+        "who": "Man",
+        "text": "Use the backup camera. It is slower in low light."
+      },
+      {
+        "who": "Woman",
+        "text": "I can shoot near the windows."
+      },
+      {
+        "who": "Man",
+        "text": "Then you won't need the missing lens."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is wrong with the reserved camera?",
+        "options": [
+          "It belongs to the woman.",
+          "The case was empty.",
+          "It is too slow.",
+          "The windows are shut."
+        ],
+        "a": 1,
+        "why": "Ela reservou a câmera, mas o estojo estava vazio."
+      },
+      {
+        "q": "How will she finish the assignment?",
+        "options": [
+          "Wait for the club until after eight",
+          "Use the backup camera near the windows",
+          "Buy a new lens",
+          "Cancel the reservation"
+        ],
+        "a": 1,
+        "why": "Ele oferece a câmera reserva, e ela decide fotografar perto das janelas."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1u-01",
+    "pool": "m1u",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I wouldn't say the interview went badly."
+      },
+      {
+        "who": "Woman",
+        "text": "So something in it still bothers you."
+      },
+      {
+        "who": "Man",
+        "text": "I couldn't name a project when she asked."
+      },
+      {
+        "who": "Woman",
+        "text": "You did the archive project last spring."
+      },
+      {
+        "who": "Man",
+        "text": "I froze and talked about my courses instead."
+      },
+      {
+        "who": "Woman",
+        "text": "Send a short note that adds the project, without apologizing for the whole interview."
+      },
+      {
+        "who": "Man",
+        "text": "Will that look like I forgot?"
+      },
+      {
+        "who": "Woman",
+        "text": "It will look like you followed up. Keep it to one example."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What actually went wrong in the interview?",
+        "options": [
+          "He missed the appointment.",
+          "He could not name a project and talked about courses instead.",
+          "The archive project was rejected.",
+          "He apologized too often."
+        ],
+        "a": 1,
+        "why": "Ele travou e falou das disciplinas em vez de citar um projeto."
+      },
+      {
+        "q": "What kind of note does the woman recommend?",
+        "options": [
+          "A long apology",
+          "A short follow-up with one project and no broad apology",
+          "A request to repeat the whole interview",
+          "A list of every course"
+        ],
+        "a": 1,
+        "why": "Ela sugere um recado curto com o projeto, sem pedir desculpas pela entrevista inteira."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1u-02",
+    "pool": "m1u",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "If the sensor reading is right, the soil is drier than the plants look."
+      },
+      {
+        "who": "Man",
+        "text": "Then the leaves are misleading."
+      },
+      {
+        "who": "Woman",
+        "text": "They can stay green for days after the water drops."
+      },
+      {
+        "who": "Man",
+        "text": "Should I water tonight?"
+      },
+      {
+        "who": "Woman",
+        "text": "Water only the marked beds. The others were irrigated this morning."
+      },
+      {
+        "who": "Man",
+        "text": "I'll record both the reading and the color."
+      },
+      {
+        "who": "Woman",
+        "text": "Good. The report should not choose one signal and hide the other."
+      },
+      {
+        "who": "Man",
+        "text": "I'll put them in the same table."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What disagreement do the two signals create?",
+        "options": [
+          "The plants look fine, but the sensor says the soil is dry.",
+          "The beds were never irrigated.",
+          "The report has no table.",
+          "The leaves are already brown."
+        ],
+        "a": 0,
+        "why": "O sensor indica solo mais seco do que a aparência das plantas sugere."
+      },
+      {
+        "q": "What should the report do?",
+        "options": [
+          "Hide the sensor",
+          "Present both the reading and the color",
+          "Water every bed tonight",
+          "Ignore the morning irrigation"
+        ],
+        "a": 1,
+        "why": "A mulher diz que o relatório não deve escolher um sinal e esconder o outro."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1l-01",
+    "pool": "m1l",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "Where is the mailroom?"
+      },
+      {
+        "who": "Woman",
+        "text": "Down the hall, on the left."
+      },
+      {
+        "who": "Man",
+        "text": "Is it open now?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes, until five."
+      },
+      {
+        "who": "Man",
+        "text": "I need a stamp."
+      },
+      {
+        "who": "Woman",
+        "text": "They sell stamps at the window."
+      },
+      {
+        "who": "Man",
+        "text": "Thanks. I'll go now."
+      },
+      {
+        "who": "Woman",
+        "text": "Take your card. They ask for it at the window."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where is the mailroom?",
+        "options": [
+          "Upstairs",
+          "Down the hall, on the left",
+          "In the library",
+          "Outside the dorm"
+        ],
+        "a": 1,
+        "why": "A mulher indica o fim do corredor, à esquerda."
+      },
+      {
+        "q": "What must the man take with him?",
+        "options": [
+          "A stamp he already owns",
+          "His card",
+          "A package",
+          "Five letters"
+        ],
+        "a": 1,
+        "why": "Ela diz que pedem a carteirinha."
+      }
+    ]
+  },
+  {
+    "id": "cv-m1l-02",
+    "pool": "m1l",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "Can you help me carry these books?"
+      },
+      {
+        "who": "Man",
+        "text": "Sure. Where are we going?"
+      },
+      {
+        "who": "Woman",
+        "text": "To the reserve desk."
+      },
+      {
+        "who": "Man",
+        "text": "That's on this floor."
+      },
+      {
+        "who": "Woman",
+        "text": "I know. The stack is heavy."
+      },
+      {
+        "who": "Man",
+        "text": "I'll take the top half."
+      },
+      {
+        "who": "Woman",
+        "text": "Thank you."
+      },
+      {
+        "who": "Man",
+        "text": "Set them down. I'll slide them across."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does the woman want?",
+        "options": [
+          "A new desk",
+          "Help carrying books",
+          "A map of the city",
+          "To buy stamps"
+        ],
+        "a": 1,
+        "why": "Ela pede ajuda para carregar os livros até o balcão de reserva."
+      },
+      {
+        "q": "What will the man do?",
+        "options": [
+          "Leave the books in the hall",
+          "Carry the top half and help slide them",
+          "Send her upstairs",
+          "Buy more books"
+        ],
+        "a": 1,
+        "why": "Ele fica com a metade de cima e diz que vai empurrá-los no balcão."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2a",
+    "pool": "m2",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "The group presentation is twelve minutes."
+      },
+      {
+        "who": "Woman",
+        "text": "Then we each get about three."
+      },
+      {
+        "who": "Man",
+        "text": "I need four for the map."
+      },
+      {
+        "who": "Woman",
+        "text": "I can cut my part if you start on time."
+      },
+      {
+        "who": "Man",
+        "text": "I won't repeat the introduction."
+      },
+      {
+        "who": "Woman",
+        "text": "Good. I'll end with the question for the class."
+      },
+      {
+        "who": "Man",
+        "text": "Put that question on the last slide."
+      },
+      {
+        "who": "Woman",
+        "text": "I will, in large type."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why does the man want four minutes?",
+        "options": [
+          "To repeat the introduction",
+          "To present the map",
+          "To ask the class a question",
+          "To shorten the woman's slides"
+        ],
+        "a": 1,
+        "why": "Ele diz que precisa de quatro minutos para o mapa."
+      },
+      {
+        "q": "What will the woman put on the last slide?",
+        "options": [
+          "The map",
+          "The question for the class",
+          "A timer",
+          "The introduction"
+        ],
+        "a": 1,
+        "why": "Ela vai encerrar com a pergunta e colocá-la no último slide."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2b",
+    "pool": "m2",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The field trip waiver is missing your signature."
+      },
+      {
+        "who": "Man",
+        "text": "I thought the online box was enough."
+      },
+      {
+        "who": "Woman",
+        "text": "The office wants ink on the paper copy too."
+      },
+      {
+        "who": "Man",
+        "text": "Can I sign it in the morning?"
+      },
+      {
+        "who": "Woman",
+        "text": "Only if you bring it before the bus list closes at nine."
+      },
+      {
+        "who": "Man",
+        "text": "My first class ends at eight-fifty."
+      },
+      {
+        "who": "Woman",
+        "text": "Then come straight here. I'll hold the list."
+      },
+      {
+        "who": "Man",
+        "text": "I'll run."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is still required?",
+        "options": [
+          "An online box only",
+          "A signature in ink on the paper copy",
+          "A new waiver topic",
+          "A later bus"
+        ],
+        "a": 1,
+        "why": "O escritório quer a assinatura à tinta na cópia em papel."
+      },
+      {
+        "q": "What will the woman do to help?",
+        "options": [
+          "Close the list now",
+          "Hold the list if he arrives before nine",
+          "Drive the bus",
+          "Cancel his class"
+        ],
+        "a": 1,
+        "why": "Ela segura a lista se ele vier direto depois da aula, antes das nove."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2c",
+    "pool": "m2",
+    "level": "mid",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I cooked rice, but the pot boiled over."
+      },
+      {
+        "who": "Woman",
+        "text": "The shared kitchen is sticky now."
+      },
+      {
+        "who": "Man",
+        "text": "I'll clean it before anyone else cooks."
+      },
+      {
+        "who": "Woman",
+        "text": "Use the wipes under the sink, not the dish towel."
+      },
+      {
+        "who": "Man",
+        "text": "Should I replace the rice?"
+      },
+      {
+        "who": "Woman",
+        "text": "People can serve what is left. Just label it."
+      },
+      {
+        "who": "Man",
+        "text": "I'll write the time on the lid."
+      },
+      {
+        "who": "Woman",
+        "text": "And move the pot off the hot burner."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What problem did the man cause?",
+        "options": [
+          "He used the last wipe.",
+          "The pot boiled over and left the kitchen sticky.",
+          "He forgot to label the sink.",
+          "He broke the burner."
+        ],
+        "a": 1,
+        "why": "O arroz ferveu e transbordou, e a cozinha ficou grudenta."
+      },
+      {
+        "q": "What should he do with the remaining rice?",
+        "options": [
+          "Throw it out",
+          "Label it, including the time",
+          "Hide the pot",
+          "Dry it with the dish towel"
+        ],
+        "a": 1,
+        "why": "Ela diz que o que sobrou pode ser servido, desde que ele identifique e anote a hora."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2u-01",
+    "pool": "m2u",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "The model fits the average year and misses the dry ones."
+      },
+      {
+        "who": "Man",
+        "text": "So a single score hides the risk we care about."
+      },
+      {
+        "who": "Woman",
+        "text": "I can split the graph by rainfall group."
+      },
+      {
+        "who": "Man",
+        "text": "Do that, and don't average the groups back together in the caption."
+      },
+      {
+        "who": "Woman",
+        "text": "The caption can state the gap instead."
+      },
+      {
+        "who": "Man",
+        "text": "Yes. Say which group the policy fails."
+      },
+      {
+        "who": "Woman",
+        "text": "It fails the driest group."
+      },
+      {
+        "who": "Man",
+        "text": "Then that sentence belongs in the first paragraph, not a footnote."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the flaw in the model as presented?",
+        "options": [
+          "It has no average.",
+          "It fits a typical year but misses dry years.",
+          "It refuses all graphs.",
+          "It was never calculated."
+        ],
+        "a": 1,
+        "why": "A mulher diz que o modelo acerta o ano médio e erra os anos secos."
+      },
+      {
+        "q": "Where does the man want the key sentence?",
+        "options": [
+          "In a footnote",
+          "In the first paragraph",
+          "Only on the graph",
+          "In an appendix"
+        ],
+        "a": 1,
+        "why": "Ele diz que a frase sobre o grupo mais seco deve ir no primeiro parágrafo."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2u-02",
+    "pool": "m2u",
+    "level": "hard",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I'm tempted to drop the seminar after the add deadline."
+      },
+      {
+        "who": "Woman",
+        "text": "A drop now shows on the record as a withdrawal."
+      },
+      {
+        "who": "Man",
+        "text": "Is that worse than a low grade?"
+      },
+      {
+        "who": "Woman",
+        "text": "For this course, a withdrawal is cleaner if you are likely to fail."
+      },
+      {
+        "who": "Man",
+        "text": "I might still pass if the last paper goes well."
+      },
+      {
+        "who": "Woman",
+        "text": "Then decide after you outline it, not tonight."
+      },
+      {
+        "who": "Man",
+        "text": "The outline will tell me if the sources are enough."
+      },
+      {
+        "who": "Woman",
+        "text": "Exactly. Don't withdraw on a mood."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What happens if he drops now?",
+        "options": [
+          "The course disappears.",
+          "It appears as a withdrawal.",
+          "He automatically fails.",
+          "The deadline moves."
+        ],
+        "a": 1,
+        "why": "Depois do prazo de inclusão, a saída entra no histórico como trancamento."
+      },
+      {
+        "q": "What does the woman want him to do before deciding?",
+        "options": [
+          "Withdraw tonight",
+          "Outline the paper and judge the sources",
+          "Ask for a failing grade",
+          "Ignore the record"
+        ],
+        "a": 1,
+        "why": "Ela manda decidir depois do esboço, não por impulso nesta noite."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2l-01",
+    "pool": "m2l",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Woman",
+        "text": "What time is the movie?"
+      },
+      {
+        "who": "Man",
+        "text": "Seven-thirty, in room 5."
+      },
+      {
+        "who": "Woman",
+        "text": "Is it free?"
+      },
+      {
+        "who": "Man",
+        "text": "Free for students. Others pay two dollars."
+      },
+      {
+        "who": "Woman",
+        "text": "I'll bring my card."
+      },
+      {
+        "who": "Man",
+        "text": "Do. They check it at the door."
+      },
+      {
+        "who": "Woman",
+        "text": "Save me a seat?"
+      },
+      {
+        "who": "Man",
+        "text": "I'll be there at seven and hold a seat."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How much do students pay?",
+        "options": [
+          "Two dollars",
+          "Nothing",
+          "Five dollars",
+          "They cannot enter"
+        ],
+        "a": 0,
+        "why": "O homem diz que o filme é gratuito para estudantes."
+      },
+      {
+        "q": "What will the man do?",
+        "options": [
+          "Sell tickets at two dollars",
+          "Be there at seven and save her a seat",
+          "Check cards only",
+          "Cancel the movie"
+        ],
+        "a": 1,
+        "why": "Ele aceita o pedido de lugar ao dizer que chega às sete."
+      }
+    ]
+  },
+  {
+    "id": "cv-m2l-02",
+    "pool": "m2l",
+    "level": "easy",
+    "lines": [
+      {
+        "who": "Man",
+        "text": "I forgot my water bottle."
+      },
+      {
+        "who": "Woman",
+        "text": "There is a fountain by the gym."
+      },
+      {
+        "who": "Man",
+        "text": "Is the water safe to drink?"
+      },
+      {
+        "who": "Woman",
+        "text": "Yes. I fill my bottle there every day."
+      },
+      {
+        "who": "Man",
+        "text": "Can I borrow yours until then?"
+      },
+      {
+        "who": "Woman",
+        "text": "Take a sip. I'll refill at the fountain with you."
+      },
+      {
+        "who": "Man",
+        "text": "Thanks."
+      },
+      {
+        "who": "Woman",
+        "text": "Let's go before class."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where can the man get water?",
+        "options": [
+          "Only at a shop",
+          "At the fountain by the gym",
+          "In the classroom sink",
+          "He cannot"
+        ],
+        "a": 1,
+        "why": "A mulher indica o bebedouro ao lado do ginásio."
+      },
+      {
+        "q": "What will they do next?",
+        "options": [
+          "Skip class",
+          "Go to the fountain before class",
+          "Buy a new bottle",
+          "Wait until tomorrow"
+        ],
+        "a": 1,
+        "why": "Ela propõe ir juntos antes da aula, e ele agradece."
+      }
+    ]
+  }
+]

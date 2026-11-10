@@ -1,0 +1,310 @@
+[
+  {
+    "id": "di01",
+    "pool": "practice",
+    "course": "Education",
+    "question": "Should universities require a public-speaking course for every student?",
+    "s1": {
+      "name": "Lena",
+      "text": "I think every student should take a public-speaking course. In my lab section, good ideas were ignored because the speaker rushed and would not look up. A required class would give quiet students a safe place to practice. It does not need to be long. One term of short talks would already help job interviews and class discussions."
+    },
+    "s2": {
+      "name": "Mateo",
+      "text": "I disagree with making the course required. Some majors already demand labs, studios, and long reports. Adding another class would push students to cut sleep or drop an elective they care about. Clubs and optional workshops can teach speaking to people who want it. A requirement treats every student as if they have the same schedule."
+    }
+  },
+  {
+    "id": "di02",
+    "pool": "practice",
+    "course": "Urban studies",
+    "question": "Should cities replace downtown parking with bus and bike lanes?",
+    "s1": {
+      "name": "Priya",
+      "text": "Cities should replace some downtown parking with bus and bike lanes. I spent forty minutes last month looking for a space, then walked farther than the bus ride would have taken. Lanes that stay clear move more people than a row of parked cars. Shop owners fear losing customers, but riders also buy things when the stop is close."
+    },
+    "s2": {
+      "name": "Owen",
+      "text": "I do not support removing most parking. Delivery vans and people who cannot cycle still need a place to stop. If the lanes replace every space, small shops may lose the customers who drive in from outside the center. A better plan keeps short-term parking and adds lanes only on the widest streets."
+    }
+  },
+  {
+    "id": "di03",
+    "pool": "practice",
+    "course": "Psychology",
+    "question": "Should students be graded on class participation?",
+    "s1": {
+      "name": "Hana",
+      "text": "Participation should be part of the grade. When points depend on speaking, more people prepare the reading instead of staying silent. I learned the debate better in a seminar where the teacher called on every student at least once. The grade can include written comments so that shy students are not punished for a quiet voice."
+    },
+    "s2": {
+      "name": "Luis",
+      "text": "Grading participation is unfair. It rewards students who speak quickly, even when the comment is thin. Someone may understand the text deeply and still need time to translate a thought. I would grade the quality of a short written response instead. That shows preparation without turning the room into a contest for airtime."
+    }
+  },
+  {
+    "id": "di04",
+    "pool": "practice",
+    "course": "Environmental science",
+    "question": "Should campuses ban single-use plastic bottles?",
+    "s1": {
+      "name": "Sofia",
+      "text": "The campus should ban single-use bottles. Refill stations already exist in the library and the gym, and a bottle can be reused for months. During orientation I saw bins overflowing with plastic after one afternoon. A ban would push the cafeteria to serve drinks in cups that are washed. The change is visible and easy to explain to new students."
+    },
+    "s2": {
+      "name": "Noah",
+      "text": "A total ban would cause new problems. Visitors and athletes need water when they forget a bottle, and some events happen far from a fountain. I would rather charge a small deposit and collect the bottles for recycling. Education plus an easy return system cuts waste without leaving people thirsty on a hot match day."
+    }
+  },
+  {
+    "id": "di05",
+    "pool": "practice",
+    "course": "Economics",
+    "question": "Should the university charge higher tuition for the most popular majors?",
+    "s1": {
+      "name": "Amira",
+      "text": "Popular majors should not cost more. If engineering or business becomes much more expensive, students from poorer families will avoid them even when they are qualified. The university already gains from large lectures in those fields. A higher price would sort students by family income, not by interest or ability. Fees should stay even across majors."
+    },
+    "s2": {
+      "name": "Jonah",
+      "text": "Higher tuition for crowded majors could be useful. Those programs need smaller labs, licensed software, and more faculty. If everyone pays the same, literature students help fund equipment they never use. A modest difference, with extra aid for students who qualify, would match the real cost without closing the door."
+    }
+  },
+  {
+    "id": "di06",
+    "pool": "practice",
+    "course": "Public health",
+    "question": "Should a university require vaccination for students who live in dorms?",
+    "s1": {
+      "name": "Elena",
+      "text": "Students who live in dorms should be required to show vaccination against the illnesses the clinic lists. People share kitchens, bathrooms, and elevators, so one case can move quickly. I caught a preventable flu in my first month because the floor did not ask for records. A rule protects roommates who cannot afford to miss labs."
+    },
+    "s2": {
+      "name": "Chris",
+      "text": "I would not make vaccination a housing rule. Some students have medical reasons to wait, and forms from other countries take time to translate. The clinic should offer free shots and clear information instead of blocking a room key. Housing is already scarce. A requirement could leave a student without a bed over paperwork."
+    }
+  },
+  {
+    "id": "di07",
+    "pool": "practice",
+    "course": "Art history",
+    "question": "Should museums allow visitors to take photos of the art?",
+    "s1": {
+      "name": "Maya",
+      "text": "Museums should allow photos without flash. A picture helps me remember a composition when I write about it later, and many students cannot visit twice. I have used my own photo to check a color I described badly in my notes. Staff can still ban tripods and selfie sticks so the rooms stay calm for everyone looking at the work."
+    },
+    "s2": {
+      "name": "Victor",
+      "text": "Photos should stay limited. People turn their backs to the painting and block the view while they frame a shot. The room becomes a set instead of a place to look slowly. Postcards and the museum website already provide images. I would allow photos only during the last hour, when the serious viewers have had quiet time."
+    }
+  },
+  {
+    "id": "di08",
+    "pool": "practice",
+    "course": "Sociology",
+    "question": "Is online group work as useful as meeting in person?",
+    "s1": {
+      "name": "Rita",
+      "text": "Online group work can be as useful as meeting in person if the team sets rules. Last term my group met by video because two members lived far from campus. We shared a document, and nobody lost the bus ride home. The key was a written agenda. Distance was not the problem. Silence without a plan was the problem."
+    },
+    "s2": {
+      "name": "Andre",
+      "text": "Online meetings do not match a table in the library. When we work on video, people mute themselves and do a second task. In person, you can see who is stuck and sketch an idea on paper in seconds. Online tools are fine for sharing files. The hard thinking still happens faster when everyone is in the same room."
+    }
+  },
+  {
+    "id": "di09",
+    "pool": "practice",
+    "course": "Biology",
+    "question": "Should introductory labs use virtual simulations instead of live materials?",
+    "s1": {
+      "name": "Nina",
+      "text": "Virtual labs are a good replacement for some introductory lessons. A simulation lets every student repeat a step without wasting samples or waiting for equipment. When I missed a lab, the online version still taught me the sequence. Live materials matter later, when the technique itself is the goal. For the first month, the screen is enough and fairer."
+    },
+    "s2": {
+      "name": "Paulo",
+      "text": "Simulations should not replace live labs. The smell, the timing, and the small mistakes are part of learning to handle real tools. A perfect animation hides how easy it is to contaminate a sample. I remember the lab where my result failed more than any video. Beginners need that honest result, with a teacher nearby to explain it."
+    }
+  },
+  {
+    "id": "di10",
+    "pool": "practice",
+    "course": "Media studies",
+    "question": "Should professors ban laptops during lectures?",
+    "s1": {
+      "name": "Grace",
+      "text": "Laptops should be closed during lectures. I sit behind screens, and I can see shopping sites more often than notes. A notebook keeps me with the speaker's argument. Students who need a device for a disability can sit in front and use one. For everyone else, the ban removes a distraction that the lecture cannot compete with."
+    },
+    "s2": {
+      "name": "Hugo",
+      "text": "A ban is too broad. I type faster than I write, and I search a term the professor mentions without leaving the thread of the talk. If the rule is absolute, I lose the outline I use to study. Professors can ask for lids down during discussion and allow typing during the explanation. One rule does not fit every minute."
+    }
+  },
+  {
+    "id": "di11",
+    "pool": "practice",
+    "course": "History",
+    "question": "Should students memorize dates, or is understanding causes enough?",
+    "s1": {
+      "name": "Irene",
+      "text": "Students should still memorize a small set of dates. Causes are hard to order if you do not know what came first. When I mixed up two elections, my essay argued backward and the teacher could not follow the claim. Ten dates, learned on purpose, are not busywork. They are pegs that keep a longer explanation from sliding."
+    },
+    "s2": {
+      "name": "Samir",
+      "text": "Understanding causes matters more than a list of years. A student can recite 1789 and still miss why the harvest failed. I would rather explain a chain of events in my own words than match a date on a quiz. Dates can be checked in a timeline. The thinking cannot. Tests should reward the explanation."
+    }
+  },
+  {
+    "id": "di12",
+    "pool": "practice",
+    "course": "Nutrition",
+    "question": "Should the campus cafeteria drop fried food from the daily menu?",
+    "s1": {
+      "name": "Lucia",
+      "text": "The cafeteria should drop fried food on ordinary weekdays. Students eat there because the meal plan leaves them little choice. When fries are the cheapest hot item, that is what people take between classes. Baked potatoes and rice dishes can still be fast. A default menu that is not fried would change habits without closing the grill for special events."
+    },
+    "s2": {
+      "name": "Ethan",
+      "text": "Removing fried food will not make students eat better. Many will skip the cafeteria and buy the same meal off campus, where the kitchen is less inspected. I want labels with salt and calories, plus one fried option at the end of the line. Information and choice teach more than a ban that people can walk around."
+    }
+  },
+  {
+    "id": "di13",
+    "pool": "practice",
+    "course": "Computer science",
+    "question": "Should programming courses forbid the use of code-generation tools?",
+    "s1": {
+      "name": "Yara",
+      "text": "Beginner courses should forbid code-generation tools. If a tool writes the loop, the student never feels where the error is. In my first class I typed every line, and the mistakes taught me how to read a message from the computer. Tools can wait until the student can explain the code without them. Early dependence is hard to undo."
+    },
+    "s2": {
+      "name": "Felix",
+      "text": "A total ban ignores how programmers already work. I want the course to teach us to check, test, and reject bad suggestions. That skill is part of the job. If the tool is forbidden, we will use it in secret and learn nothing about its failures. Graded tasks can require a short comment on what the student changed and why."
+    }
+  },
+  {
+    "id": "di14",
+    "pool": "practice",
+    "course": "Political science",
+    "question": "Should voting in student government be compulsory?",
+    "s1": {
+      "name": "Nadia",
+      "text": "Voting for student government should be compulsory, with a simple online ballot. Last year our council was chosen by a small group, and the housing decision still affected every dorm. A required vote would force candidates to speak to more than their friends. The cost is a few minutes. The result is a council with a wider base."
+    },
+    "s2": {
+      "name": "Peter",
+      "text": "Compulsory voting treats apathy as a crime. Some students are satisfied, and some are too new to judge the candidates. Forcing a click does not create an informed choice. I would extend the campaign by a week and hold the vote in the cafeteria at lunch, where people already are. Convenience will raise turnout more honestly than a penalty."
+    }
+  },
+  {
+    "id": "di15",
+    "pool": "practice",
+    "course": "Music",
+    "question": "Should practice rooms be free, or should students pay a small hourly fee?",
+    "s1": {
+      "name": "Clara",
+      "text": "Practice rooms should stay free. A fee, even a small one, will keep some music students out during the weeks when money is tight. I practice at odd hours because my job ends late, and an empty room costs the building almost nothing then. A sign-up sheet already stops one person from holding a room. Price is the wrong tool."
+    },
+    "s2": {
+      "name": "Marcus",
+      "text": "A small hourly fee would make the rooms available to people who truly need that hour. Right now a few students book several slots and do not show up. If a fee is returned when you arrive, empty reservations would drop. Scholarships can cover the fee for students who ask. Free space that is always booked is not really free."
+    }
+  },
+  {
+    "id": "di16",
+    "pool": "practice",
+    "course": "Geography",
+    "question": "Should field trips be a required part of introductory geography?",
+    "s1": {
+      "name": "Aisha",
+      "text": "Introductory geography should include a required field trip. Maps make more sense after you stand on the slope they describe. Our class visited a stream behind campus, and I finally saw how a bank erodes on the outside of a bend. Students who work can be offered two dates. A course about land should not happen only inside a room."
+    },
+    "s2": {
+      "name": "Diego",
+      "text": "A required trip is hard on students who commute or have jobs they cannot leave. The learning is real, but a video and a local walk assigned individually could cover the same idea. I would make the trip optional and extra credit. That keeps the experience for people who can go without punishing someone whose shift cannot move."
+    }
+  },
+  {
+    "id": "di17",
+    "pool": "practice",
+    "course": "Business",
+    "question": "Should student clubs be allowed to sign exclusive contracts with one company?",
+    "s1": {
+      "name": "Helena",
+      "text": "Clubs should not sign exclusive contracts with one company. When the business club took a gift from a single bank, other speakers were quietly dropped. Students heard one view of internships for a whole year. A club can accept support and still invite competitors. Exclusivity buys banners, but it narrows the education the club claims to offer."
+    },
+    "s2": {
+      "name": "Tom",
+      "text": "Exclusive contracts can be responsible if the terms are public. Companies will pay for events that actually happen, and a clear contract is better than vague gifts. I would limit the deal to one semester and publish the amount. Members can then decide whether to renew. Banning the money does not create a better speaker series by itself."
+    }
+  },
+  {
+    "id": "di18",
+    "pool": "practice",
+    "course": "Linguistics",
+    "question": "Should universities teach local languages as well as international ones?",
+    "s1": {
+      "name": "Bianca",
+      "text": "Universities should offer local languages, not only the ones used in global business. In my city, market signs and radio shows use a language that many students cannot read. A course would help future teachers and nurses talk with the families they serve. International languages still matter. They should not be the only ones that count toward the requirement."
+    },
+    "s2": {
+      "name": "Karl",
+      "text": "The requirement should stay with widely used languages. Students have limited terms, and a language with many speakers opens more exchanges and jobs. Local languages can be clubs or evening courses for people who need them at work. If every local variety became a requirement, the schedule would split into classes too small to run. Choice is better."
+    }
+  },
+  {
+    "id": "di19",
+    "pool": "practice",
+    "course": "Architecture",
+    "question": "Should new campus buildings use glass walls?",
+    "s1": {
+      "name": "Leila",
+      "text": "New campus buildings should use less glass. Full glass walls look open, but in our climate they heat the rooms and glare on every screen. I studied in the new lobby once and had to move because of the reflection. Brick with well-placed windows can still feel bright. Design should serve the people who sit there, not only the photo."
+    },
+    "s2": {
+      "name": "Simon",
+      "text": "Glass walls are worth keeping on common spaces. Students see activity and are more likely to enter a lab that does not look closed. The heat problem can be handled with shades and a deeper roof. I would not cover every classroom in glass. I would use it where a view of other people makes the campus feel shared."
+    }
+  },
+  {
+    "id": "di20",
+    "pool": "practice",
+    "course": "Ethics",
+    "question": "Should professors use software that detects AI-written sentences?",
+    "s1": {
+      "name": "Camila",
+      "text": "Professors should use detection software as a first signal, not as a final judge. When a paragraph has no relation to the assigned reading, a tool can flag it for a conversation. I would want the chance to explain my draft history. The goal is to protect honest work. Silent punishment based on a score would be too crude."
+    },
+    "s2": {
+      "name": "Ivan",
+      "text": "I would avoid those tools. They are often wrong, and a false flag can frighten a student who simply writes in a plain style. Non-native writers may be marked more often because their sentences are careful and regular. A better check is a short oral explanation of the essay. If the student can defend the argument, the writing is theirs."
+    }
+  },
+  {
+    "id": "di-m1",
+    "pool": "mock1",
+    "course": "Economics",
+    "question": "Should campus cafes stop accepting cash?",
+    "s1": {
+      "name": "Rosa",
+      "text": "Campus cafes should keep cash. Not every student wants every small purchase listed on a card, and visitors do not always have the local app. I paid with coins last week when my card failed at the reader. Removing it saves the cafe time and costs the student a meal. Both ways of paying should stay open."
+    },
+    "s2": {
+      "name": "Neil",
+      "text": "Dropping cash would make the lines faster and the accounting cleaner. Staff spend time counting coins after the lunch rush, and those minutes delay the next class. Cards and phones already work for almost everyone on campus. A backup desk could help the rare person without a card. The daily system should follow the way most students actually pay."
+    }
+  },
+  {
+    "id": "di-m2",
+    "pool": "mock2",
+    "course": "Education",
+    "question": "Should first-year students live on campus if housing is available?",
+    "s1": {
+      "name": "Tina",
+      "text": "First-year students should live on campus when a room is available. The first months are when people find study partners and learn where help is. I commuted that year and missed the evening reviews that my classmates mentioned later. A residence is not a vacation. It is a way to be present for informal teaching."
+    },
+    "s2": {
+      "name": "Omar",
+      "text": "Living on campus should stay a choice. Some first-year students support a family or already have a quiet place to study at home. A required room would charge them for a bed they do not need. Orientation, mentor groups, and daytime study space can build the same connections. Presence matters, but a lease should not be the only proof."
+    }
+  }
+]

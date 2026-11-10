@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "bas01",
+    "pool": "practice",
+    "pattern": "indirect-question",
+    "prompt": "Where is the writing center?",
+    "template": "Could you tell me {0} {1}?",
+    "tiles": [
+      "where the writing center",
+      "is",
+      "where is",
+      "the center where is"
+    ],
+    "answer": [
+      "where the writing center",
+      "is"
+    ],
+    "why": "A frase pronta é: “Could you tell me where the writing center is?”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas02",
+    "pool": "practice",
+    "pattern": "indirect-question",
+    "prompt": "Do you know when the lab closes?",
+    "template": "I don't know {0} {1}.",
+    "tiles": [
+      "when the lab",
+      "closes",
+      "when does the lab",
+      "close it"
+    ],
+    "answer": [
+      "when the lab",
+      "closes"
+    ],
+    "why": "A frase pronta é: “I don't know when the lab closes.”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas03",
+    "pool": "practice",
+    "pattern": "indirect-question",
+    "prompt": "What time does the shuttle leave?",
+    "template": "Can you tell me {0} {1}?",
+    "tiles": [
+      "what time the shuttle",
+      "leaves",
+      "what time does the shuttle",
+      "leave it"
+    ],
+    "answer": [
+      "what time the shuttle",
+      "leaves"
+    ],
+    "why": "A frase pronta é: “Can you tell me what time the shuttle leaves?”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas04",
+    "pool": "practice",
+    "pattern": "indirect-question",
+    "prompt": "Who teaches the seminar?",
+    "template": "I wonder {0} {1}.",
+    "tiles": [
+      "who teaches",
+      "the seminar",
+      "who does teach",
+      "teaches who"
+    ],
+    "answer": [
+      "who teaches",
+      "the seminar"
+    ],
+    "why": "A frase pronta é: “I wonder who teaches the seminar.”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas05",
+    "pool": "practice",
+    "pattern": "indirect-question",
+    "prompt": "Why was the room changed?",
+    "template": "Could you explain {0} {1}?",
+    "tiles": [
+      "why the room",
+      "was changed",
+      "why was the room",
+      "changed was"
+    ],
+    "answer": [
+      "why the room",
+      "was changed"
+    ],
+    "why": "A frase pronta é: “Could you explain why the room was changed?”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas06",
+    "pool": "practice",
+    "pattern": "auxiliary",
+    "prompt": "Has Maya submitted the form?",
+    "template": "She {0} {1}.",
+    "tiles": [
+      "has not submitted",
+      "it yet",
+      "has not submit",
+      "did submitted"
+    ],
+    "answer": [
+      "has not submitted",
+      "it yet"
+    ],
+    "why": "A frase pronta é: “She has not submitted it yet.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas07",
+    "pool": "practice",
+    "pattern": "auxiliary",
+    "prompt": "Did they finish the posters?",
+    "template": "They {0} {1}.",
+    "tiles": [
+      "have already finished",
+      "the posters",
+      "have already finish",
+      "did finished"
+    ],
+    "answer": [
+      "have already finished",
+      "the posters"
+    ],
+    "why": "A frase pronta é: “They have already finished the posters.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas08",
+    "pool": "practice",
+    "pattern": "auxiliary",
+    "prompt": "Are you coming to the review?",
+    "template": "I {0} {1}.",
+    "tiles": [
+      "am not coming",
+      "tonight",
+      "am not come",
+      "don't coming"
+    ],
+    "answer": [
+      "am not coming",
+      "tonight"
+    ],
+    "why": "A frase pronta é: “I am not coming tonight.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas09",
+    "pool": "practice",
+    "pattern": "auxiliary",
+    "prompt": "Can he retake the quiz?",
+    "template": "He {0} {1}.",
+    "tiles": [
+      "cannot retake",
+      "the quiz",
+      "cannot retakes",
+      "doesn't can retake"
+    ],
+    "answer": [
+      "cannot retake",
+      "the quiz"
+    ],
+    "why": "A frase pronta é: “He cannot retake the quiz.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas10",
+    "pool": "practice",
+    "pattern": "relative-clause",
+    "prompt": "Which tutor should I email?",
+    "template": "Email the tutor {0} {1}.",
+    "tiles": [
+      "who runs",
+      "the evening hours",
+      "which she runs",
+      "runs who"
+    ],
+    "answer": [
+      "who runs",
+      "the evening hours"
+    ],
+    "why": "A frase pronta é: “Email the tutor who runs the evening hours.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas11",
+    "pool": "practice",
+    "pattern": "relative-clause",
+    "prompt": "What book are we reading?",
+    "template": "We are reading the book {0} {1}.",
+    "tiles": [
+      "that explains",
+      "the maps",
+      "what it explains",
+      "explains that"
+    ],
+    "answer": [
+      "that explains",
+      "the maps"
+    ],
+    "why": "A frase pronta é: “We are reading the book that explains the maps.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas12",
+    "pool": "practice",
+    "pattern": "relative-clause",
+    "prompt": "Who is Dr. Shah?",
+    "template": "She is the professor {0} {1}.",
+    "tiles": [
+      "who leads",
+      "the field course",
+      "which leads she",
+      "leads who"
+    ],
+    "answer": [
+      "who leads",
+      "the field course"
+    ],
+    "why": "A frase pronta é: “She is the professor who leads the field course.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas13",
+    "pool": "practice",
+    "pattern": "relative-clause",
+    "prompt": "Which desk is yours?",
+    "template": "Mine is the desk {0} {1}.",
+    "tiles": [
+      "that faces",
+      "the window",
+      "who faces",
+      "faces that"
+    ],
+    "answer": [
+      "that faces",
+      "the window"
+    ],
+    "why": "A frase pronta é: “Mine is the desk that faces the window.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas14",
+    "pool": "practice",
+    "pattern": "passive",
+    "prompt": "Did they announce the winner?",
+    "template": "The winner {0} {1}.",
+    "tiles": [
+      "was",
+      "announced",
+      "were",
+      "announce"
+    ],
+    "answer": [
+      "was",
+      "announced"
+    ],
+    "why": "A frase pronta é: “The winner was announced.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas15",
+    "pool": "practice",
+    "pattern": "passive",
+    "prompt": "Has someone fixed the printer?",
+    "template": "The printer {0} {1}.",
+    "tiles": [
+      "has been",
+      "repaired",
+      "has being",
+      "repair"
+    ],
+    "answer": [
+      "has been",
+      "repaired"
+    ],
+    "why": "A frase pronta é: “The printer has been repaired.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas16",
+    "pool": "practice",
+    "pattern": "passive",
+    "prompt": "Will they collect the papers?",
+    "template": "The papers {0} {1}.",
+    "tiles": [
+      "will be",
+      "collected",
+      "will being",
+      "collect"
+    ],
+    "answer": [
+      "will be",
+      "collected"
+    ],
+    "why": "A frase pronta é: “The papers will be collected.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas17",
+    "pool": "practice",
+    "pattern": "passive",
+    "prompt": "Did the rain cancel the match?",
+    "template": "The match {0} {1}.",
+    "tiles": [
+      "was",
+      "canceled",
+      "were",
+      "cancel"
+    ],
+    "answer": [
+      "was",
+      "canceled"
+    ],
+    "why": "A frase pronta é: “The match was canceled.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas18",
+    "pool": "practice",
+    "pattern": "preposition",
+    "prompt": "Is the grade based on the quiz?",
+    "template": "The grade depends {0} {1}.",
+    "tiles": [
+      "on",
+      "the final quiz",
+      "of",
+      "in the quiz"
+    ],
+    "answer": [
+      "on",
+      "the final quiz"
+    ],
+    "why": "A frase pronta é: “The grade depends on the final quiz.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas19",
+    "pool": "practice",
+    "pattern": "preposition",
+    "prompt": "Are you interested in the trip?",
+    "template": "I am interested {0} {1}.",
+    "tiles": [
+      "in",
+      "the museum trip",
+      "on",
+      "at the trip"
+    ],
+    "answer": [
+      "in",
+      "the museum trip"
+    ],
+    "why": "A frase pronta é: “I am interested in the museum trip.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas20",
+    "pool": "practice",
+    "pattern": "preposition",
+    "prompt": "Who is responsible for the key?",
+    "template": "Sam is responsible {0} {1}.",
+    "tiles": [
+      "for",
+      "the lab key",
+      "of",
+      "to the key"
+    ],
+    "answer": [
+      "for",
+      "the lab key"
+    ],
+    "why": "A frase pronta é: “Sam is responsible for the lab key.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas21",
+    "pool": "practice",
+    "pattern": "preposition",
+    "prompt": "Did she apologize?",
+    "template": "She apologized {0} {1}.",
+    "tiles": [
+      "for",
+      "the late draft",
+      "about of",
+      "to late"
+    ],
+    "answer": [
+      "for",
+      "the late draft"
+    ],
+    "why": "A frase pronta é: “She apologized for the late draft.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas22",
+    "pool": "practice",
+    "pattern": "word-order",
+    "prompt": "How did she review the draft?",
+    "template": "She reviewed {0} {1}.",
+    "tiles": [
+      "the draft",
+      "last night",
+      "last night the draft",
+      "the draft last"
+    ],
+    "answer": [
+      "the draft",
+      "last night"
+    ],
+    "why": "A frase pronta é: “She reviewed the draft last night.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas23",
+    "pool": "practice",
+    "pattern": "word-order",
+    "prompt": "Where should I put the date?",
+    "template": "Put {0}.",
+    "tiles": [
+      "the date at the top",
+      "at the top the date",
+      "the date the top at"
+    ],
+    "answer": [
+      "the date at the top"
+    ],
+    "why": "A frase pronta é: “Put the date at the top.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas24",
+    "pool": "practice",
+    "pattern": "word-order",
+    "prompt": "When did he finish?",
+    "template": "He {0} {1}.",
+    "tiles": [
+      "finished the lab",
+      "before dinner",
+      "finished before the lab dinner",
+      "the lab finished"
+    ],
+    "answer": [
+      "finished the lab",
+      "before dinner"
+    ],
+    "why": "A frase pronta é: “He finished the lab before dinner.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas25",
+    "pool": "practice",
+    "pattern": "word-order",
+    "prompt": "How do I send the file?",
+    "template": "Please send {0} {1}.",
+    "tiles": [
+      "me the file",
+      "today",
+      "today me the file",
+      "the file me"
+    ],
+    "answer": [
+      "me the file",
+      "today"
+    ],
+    "why": "A frase pronta é: “Please send me the file today.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas26",
+    "pool": "practice",
+    "pattern": "embedded-wh",
+    "prompt": "I'm not sure which bus goes downtown.",
+    "template": "I wonder {0} {1}.",
+    "tiles": [
+      "which bus",
+      "goes downtown",
+      "which does the bus",
+      "go downtown"
+    ],
+    "answer": [
+      "which bus",
+      "goes downtown"
+    ],
+    "why": "A frase pronta é: “I wonder which bus goes downtown.”. Na oração encaixada com wh-, o sujeito fica antes do verbo. Não se usa o auxiliar na frente, como numa pergunta direta."
+  },
+  {
+    "id": "bas27",
+    "pool": "practice",
+    "pattern": "embedded-wh",
+    "prompt": "Do you remember where we left the maps?",
+    "template": "I can't remember {0} {1}.",
+    "tiles": [
+      "where we left",
+      "the maps",
+      "where did we leave",
+      "left we"
+    ],
+    "answer": [
+      "where we left",
+      "the maps"
+    ],
+    "why": "A frase pronta é: “I can't remember where we left the maps.”. Na oração encaixada com wh-, o sujeito fica antes do verbo. Não se usa o auxiliar na frente, como numa pergunta direta."
+  },
+  {
+    "id": "bas28",
+    "pool": "practice",
+    "pattern": "embedded-wh",
+    "prompt": "Nobody knows how the gate opens.",
+    "template": "Nobody knows {0} {1}.",
+    "tiles": [
+      "how the gate",
+      "opens",
+      "how does the gate",
+      "open it"
+    ],
+    "answer": [
+      "how the gate",
+      "opens"
+    ],
+    "why": "A frase pronta é: “Nobody knows how the gate opens.”. Na oração encaixada com wh-, o sujeito fica antes do verbo. Não se usa o auxiliar na frente, como numa pergunta direta."
+  },
+  {
+    "id": "bas29",
+    "pool": "practice",
+    "pattern": "reported-speech",
+    "prompt": "What did Lena say about the quiz?",
+    "template": "She said {0} {1}.",
+    "tiles": [
+      "that the quiz",
+      "was on Friday",
+      "the quiz is that",
+      "is on Friday that"
+    ],
+    "answer": [
+      "that the quiz",
+      "was on Friday"
+    ],
+    "why": "A frase pronta é: “She said that the quiz was on Friday.”. No discurso indireto, o tempo costuma voltar um passo e a oração começa com 'that' mais a ordem afirmativa. Não se repete a pergunta direta."
+  },
+  {
+    "id": "bas30",
+    "pool": "practice",
+    "pattern": "reported-speech",
+    "prompt": "What did the coach tell the team?",
+    "template": "He told us {0} {1}.",
+    "tiles": [
+      "that practice",
+      "had moved indoors",
+      "practice has that",
+      "moves that indoors"
+    ],
+    "answer": [
+      "that practice",
+      "had moved indoors"
+    ],
+    "why": "A frase pronta é: “He told us that practice had moved indoors.”. No discurso indireto, o tempo costuma voltar um passo e a oração começa com 'that' mais a ordem afirmativa. Não se repete a pergunta direta."
+  },
+  {
+    "id": "bas31",
+    "pool": "practice",
+    "pattern": "reported-speech",
+    "prompt": "What did the clerk say?",
+    "template": "The clerk said {0} {1}.",
+    "tiles": [
+      "that the office",
+      "was closed",
+      "the office is that",
+      "closes that"
+    ],
+    "answer": [
+      "that the office",
+      "was closed"
+    ],
+    "why": "A frase pronta é: “The clerk said that the office was closed.”. No discurso indireto, o tempo costuma voltar um passo e a oração começa com 'that' mais a ordem afirmativa. Não se repete a pergunta direta."
+  },
+  {
+    "id": "bas32",
+    "pool": "practice",
+    "pattern": "conditional",
+    "prompt": "What if the library is closed?",
+    "template": "If it {0}, we {1}.",
+    "tiles": [
+      "is closed",
+      "will study online",
+      "will closed",
+      "study will online"
+    ],
+    "answer": [
+      "is closed",
+      "will study online"
+    ],
+    "why": "A frase pronta é: “If it is closed, we will study online.”. Na condicional real, 'if' fica com o presente e o resultado com 'will'. Não se usa 'will' dentro do 'if'."
+  },
+  {
+    "id": "bas33",
+    "pool": "practice",
+    "pattern": "conditional",
+    "prompt": "What would you do with more time?",
+    "template": "If I {0}, I {1}.",
+    "tiles": [
+      "had more time",
+      "would revise the essay",
+      "would have more time",
+      "revised would"
+    ],
+    "answer": [
+      "had more time",
+      "would revise the essay"
+    ],
+    "why": "A frase pronta é: “If I had more time, I would revise the essay.”. Na condicional real, 'if' fica com o presente e o resultado com 'will'. Não se usa 'will' dentro do 'if'."
+  },
+  {
+    "id": "bas34",
+    "pool": "practice",
+    "pattern": "conditional",
+    "prompt": "What if the bus is late?",
+    "template": "If the bus {0}, I {1}.",
+    "tiles": [
+      "is late",
+      "will walk",
+      "will be late",
+      "walk will"
+    ],
+    "answer": [
+      "is late",
+      "will walk"
+    ],
+    "why": "A frase pronta é: “If the bus is late, I will walk.”. Na condicional real, 'if' fica com o presente e o resultado com 'will'. Não se usa 'will' dentro do 'if'."
+  },
+  {
+    "id": "bas35",
+    "pool": "practice",
+    "pattern": "comparison",
+    "prompt": "How hard is this lab?",
+    "template": "This lab is {0} {1}.",
+    "tiles": [
+      "more difficult",
+      "than the last one",
+      "more difficulter",
+      "that the last one"
+    ],
+    "answer": [
+      "more difficult",
+      "than the last one"
+    ],
+    "why": "A frase pronta é: “This lab is more difficult than the last one.”. O comparativo de superioridade usa 'more' ou '-er', e o segundo termo vem com 'than'. 'More' junto de '-er', ou 'that' no lugar de 'than', está errado."
+  },
+  {
+    "id": "bas36",
+    "pool": "practice",
+    "pattern": "comparison",
+    "prompt": "Which room is quieter?",
+    "template": "The carrel is {0} {1}.",
+    "tiles": [
+      "quieter",
+      "than the lobby",
+      "more quieter",
+      "that the lobby"
+    ],
+    "answer": [
+      "quieter",
+      "than the lobby"
+    ],
+    "why": "A frase pronta é: “The carrel is quieter than the lobby.”. O comparativo de superioridade usa 'more' ou '-er', e o segundo termo vem com 'than'. 'More' junto de '-er', ou 'that' no lugar de 'than', está errado."
+  },
+  {
+    "id": "bas37",
+    "pool": "practice",
+    "pattern": "gerund-infinitive",
+    "prompt": "What did she suggest?",
+    "template": "She suggested {0} {1}.",
+    "tiles": [
+      "reviewing",
+      "the notes together",
+      "to reviewing",
+      "review to the notes"
+    ],
+    "answer": [
+      "reviewing",
+      "the notes together"
+    ],
+    "why": "A frase pronta é: “She suggested reviewing the notes together.”. Alguns verbos pedem gerúndio e outros pedem infinitivo. 'Suggest' e 'enjoy' pedem -ing."
+  },
+  {
+    "id": "bas38",
+    "pool": "practice",
+    "pattern": "gerund-infinitive",
+    "prompt": "What did you decide?",
+    "template": "I decided {0} {1}.",
+    "tiles": [
+      "to drop",
+      "the evening section",
+      "dropping to",
+      "drop to the"
+    ],
+    "answer": [
+      "to drop",
+      "the evening section"
+    ],
+    "why": "A frase pronta é: “I decided to drop the evening section.”. Alguns verbos pedem gerúndio e outros pedem infinitivo. 'Suggest' e 'enjoy' pedem -ing."
+  },
+  {
+    "id": "bas39",
+    "pool": "practice",
+    "pattern": "agreement",
+    "prompt": "Where is the list?",
+    "template": "The list of dates {0} {1}.",
+    "tiles": [
+      "is",
+      "ready",
+      "are",
+      "are ready"
+    ],
+    "answer": [
+      "is",
+      "ready"
+    ],
+    "why": "A frase pronta é: “The list of dates is ready.”. O verbo concorda com o núcleo do sujeito, não com o substantivo mais próximo. Em 'the list of dates', o núcleo é 'list', singular."
+  },
+  {
+    "id": "bas40",
+    "pool": "practice",
+    "pattern": "agreement",
+    "prompt": "What does the set of results show?",
+    "template": "The set of results {0} {1}.",
+    "tiles": [
+      "shows",
+      "a clear trend",
+      "show",
+      "showed a trends"
+    ],
+    "answer": [
+      "shows",
+      "a clear trend"
+    ],
+    "why": "A frase pronta é: “The set of results shows a clear trend.”. O verbo concorda com o núcleo do sujeito, não com o substantivo mais próximo. Em 'the list of dates', o núcleo é 'list', singular."
+  },
+  {
+    "id": "bas-m1-01",
+    "pool": "mock1",
+    "pattern": "indirect-question",
+    "prompt": "Where did Ana put the key?",
+    "template": "Do you know {0} {1}?",
+    "tiles": [
+      "where Ana put",
+      "the key",
+      "where did Ana put",
+      "put Ana"
+    ],
+    "answer": [
+      "where Ana put",
+      "the key"
+    ],
+    "why": "A frase pronta é: “Do you know where Ana put the key?”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas-m1-02",
+    "pool": "mock1",
+    "pattern": "auxiliary",
+    "prompt": "Have you seen my charger?",
+    "template": "I {0} {1}.",
+    "tiles": [
+      "have not seen",
+      "your charger",
+      "have not saw",
+      "did not seen"
+    ],
+    "answer": [
+      "have not seen",
+      "your charger"
+    ],
+    "why": "A frase pronta é: “I have not seen your charger.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas-m1-03",
+    "pool": "mock1",
+    "pattern": "relative-clause",
+    "prompt": "Which bus stops here?",
+    "template": "Take the bus {0} {1}.",
+    "tiles": [
+      "that stops",
+      "by the library",
+      "who it stops",
+      "stops that"
+    ],
+    "answer": [
+      "that stops",
+      "by the library"
+    ],
+    "why": "A frase pronta é: “Take the bus that stops by the library.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas-m1-04",
+    "pool": "mock1",
+    "pattern": "passive",
+    "prompt": "Did someone lock the studio?",
+    "template": "The studio {0} {1}.",
+    "tiles": [
+      "was",
+      "locked",
+      "were",
+      "lock"
+    ],
+    "answer": [
+      "was",
+      "locked"
+    ],
+    "why": "A frase pronta é: “The studio was locked.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas-m1-05",
+    "pool": "mock1",
+    "pattern": "preposition",
+    "prompt": "Are you good at editing?",
+    "template": "She is good {0} {1}.",
+    "tiles": [
+      "at",
+      "careful editing",
+      "in",
+      "on editing"
+    ],
+    "answer": [
+      "at",
+      "careful editing"
+    ],
+    "why": "A frase pronta é: “She is good at careful editing.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas-m1-06",
+    "pool": "mock1",
+    "pattern": "word-order",
+    "prompt": "How should I explain the delay?",
+    "template": "Explain {0}.",
+    "tiles": [
+      "the delay in one sentence",
+      "in one sentence the delay",
+      "the delay one sentence in"
+    ],
+    "answer": [
+      "the delay in one sentence"
+    ],
+    "why": "A frase pronta é: “Explain the delay in one sentence.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas-m1-07",
+    "pool": "mock1",
+    "pattern": "embedded-wh",
+    "prompt": "I'm unsure how the fee works.",
+    "template": "Please show me {0} {1}.",
+    "tiles": [
+      "how the fee",
+      "works",
+      "how does the fee",
+      "work it"
+    ],
+    "answer": [
+      "how the fee",
+      "works"
+    ],
+    "why": "A frase pronta é: “Please show me how the fee works.”. Na oração encaixada com wh-, o sujeito fica antes do verbo. Não se usa o auxiliar na frente, como numa pergunta direta."
+  },
+  {
+    "id": "bas-m1-08",
+    "pool": "mock1",
+    "pattern": "reported-speech",
+    "prompt": "What did the landlord write?",
+    "template": "He wrote {0} {1}.",
+    "tiles": [
+      "that guests",
+      "could stay one night",
+      "guests can that",
+      "stay that"
+    ],
+    "answer": [
+      "that guests",
+      "could stay one night"
+    ],
+    "why": "A frase pronta é: “He wrote that guests could stay one night.”. No discurso indireto, o tempo costuma voltar um passo e a oração começa com 'that' mais a ordem afirmativa. Não se repete a pergunta direta."
+  },
+  {
+    "id": "bas-m1-09",
+    "pool": "mock1",
+    "pattern": "conditional",
+    "prompt": "What if it rains on the tour?",
+    "template": "If it {0}, the tour {1}.",
+    "tiles": [
+      "rains",
+      "will move indoors",
+      "will rain",
+      "moves will"
+    ],
+    "answer": [
+      "rains",
+      "will move indoors"
+    ],
+    "why": "A frase pronta é: “If it rains, the tour will move indoors.”. Na condicional real, 'if' fica com o presente e o resultado com 'will'. Não se usa 'will' dentro do 'if'."
+  },
+  {
+    "id": "bas-m1-10",
+    "pool": "mock1",
+    "pattern": "comparison",
+    "prompt": "Which draft is better?",
+    "template": "The second draft is {0} {1}.",
+    "tiles": [
+      "better",
+      "than the first",
+      "more better",
+      "that the first"
+    ],
+    "answer": [
+      "better",
+      "than the first"
+    ],
+    "why": "A frase pronta é: “The second draft is better than the first.”. O comparativo de superioridade usa 'more' ou '-er', e o segundo termo vem com 'than'. 'More' junto de '-er', ou 'that' no lugar de 'than', está errado."
+  },
+  {
+    "id": "bas-m2-01",
+    "pool": "mock2",
+    "pattern": "indirect-question",
+    "prompt": "When is the advisor free?",
+    "template": "Could you tell me {0} {1}?",
+    "tiles": [
+      "when the advisor",
+      "is free",
+      "when is the advisor",
+      "free is"
+    ],
+    "answer": [
+      "when the advisor",
+      "is free"
+    ],
+    "why": "A frase pronta é: “Could you tell me when the advisor is free?”. Na pergunta indireta, a ordem é sujeito + verbo, sem inversão do tipo 'where is'. O bloco invertido deixa a frase incorreta depois de expressões como 'tell me' ou 'know'."
+  },
+  {
+    "id": "bas-m2-02",
+    "pool": "mock2",
+    "pattern": "auxiliary",
+    "prompt": "Does the cafe take cards?",
+    "template": "The cafe {0} {1}.",
+    "tiles": [
+      "does not take",
+      "cards",
+      "does not takes",
+      "not take does"
+    ],
+    "answer": [
+      "does not take",
+      "cards"
+    ],
+    "why": "A frase pronta é: “The cafe does not take cards.”. O auxiliar combina com o sujeito e com a forma do verbo principal. 'Has' pede particípio, não a forma básica, e a negação fica com o auxiliar."
+  },
+  {
+    "id": "bas-m2-03",
+    "pool": "mock2",
+    "pattern": "relative-clause",
+    "prompt": "Who can sign the form?",
+    "template": "Ask the clerk {0} {1}.",
+    "tiles": [
+      "who signs",
+      "these forms",
+      "which signs he",
+      "signs who"
+    ],
+    "answer": [
+      "who signs",
+      "these forms"
+    ],
+    "why": "A frase pronta é: “Ask the clerk who signs these forms.”. A oração relativa cola o pronome 'who' ou 'that' ao verbo que descreve o nome. Trocar essa ordem, ou usar um pronome que não liga, deixa a frase sem sentido."
+  },
+  {
+    "id": "bas-m2-04",
+    "pool": "mock2",
+    "pattern": "passive",
+    "prompt": "Will they publish the minutes?",
+    "template": "The minutes {0} {1}.",
+    "tiles": [
+      "will be",
+      "published",
+      "will being",
+      "publish"
+    ],
+    "answer": [
+      "will be",
+      "published"
+    ],
+    "why": "A frase pronta é: “The minutes will be published.”. Na passiva, o objeto da ação vira sujeito e o verbo fica em 'be' + particípio. A ordem 'particípio + be' não é uma passiva."
+  },
+  {
+    "id": "bas-m2-05",
+    "pool": "mock2",
+    "pattern": "preposition",
+    "prompt": "Did you apply for the grant?",
+    "template": "I applied {0} {1}.",
+    "tiles": [
+      "for",
+      "the travel grant",
+      "to for",
+      "on the grant"
+    ],
+    "answer": [
+      "for",
+      "the travel grant"
+    ],
+    "why": "A frase pronta é: “I applied for the travel grant.”. O verbo ou o adjetivo desta frase pede uma preposição fixa. Trocar 'on', 'at' ou 'for' por outra preposição muda ou destrói o sentido."
+  },
+  {
+    "id": "bas-m2-06",
+    "pool": "mock2",
+    "pattern": "word-order",
+    "prompt": "Where did you leave the badge?",
+    "template": "I left {0} {1}.",
+    "tiles": [
+      "my badge",
+      "there",
+      "there my badge",
+      "my badge to there"
+    ],
+    "answer": [
+      "my badge",
+      "there"
+    ],
+    "why": "A frase pronta é: “I left my badge there.”. Em inglês, o objeto costuma vir logo depois do verbo, e o advérbio de modo não separa os dois. A ordem objeto-antes-do-verbo, típica de outras línguas, fica incorreta aqui."
+  },
+  {
+    "id": "bas-m2-07",
+    "pool": "mock2",
+    "pattern": "gerund-infinitive",
+    "prompt": "What does he enjoy?",
+    "template": "He enjoys {0} {1}.",
+    "tiles": [
+      "working",
+      "in the archive",
+      "to working",
+      "work to the"
+    ],
+    "answer": [
+      "working",
+      "in the archive"
+    ],
+    "why": "A frase pronta é: “He enjoys working in the archive.”. Alguns verbos pedem gerúndio e outros pedem infinitivo. 'Suggest' e 'enjoy' pedem -ing."
+  },
+  {
+    "id": "bas-m2-08",
+    "pool": "mock2",
+    "pattern": "agreement",
+    "prompt": "Is the group of students ready?",
+    "template": "The group of students {0} {1}.",
+    "tiles": [
+      "is ready",
+      "for the tour",
+      "are ready",
+      "are readying"
+    ],
+    "answer": [
+      "is ready",
+      "for the tour"
+    ],
+    "why": "A frase pronta é: “The group of students is ready for the tour.”. O verbo concorda com o núcleo do sujeito, não com o substantivo mais próximo. Em 'the list of dates', o núcleo é 'list', singular."
+  },
+  {
+    "id": "bas-m2-09",
+    "pool": "mock2",
+    "pattern": "conditional",
+    "prompt": "What if you miss the deadline?",
+    "template": "If you {0}, the office {1}.",
+    "tiles": [
+      "miss the deadline",
+      "will not review the file",
+      "will miss the deadline",
+      "reviews will not"
+    ],
+    "answer": [
+      "miss the deadline",
+      "will not review the file"
+    ],
+    "why": "A frase pronta é: “If you miss the deadline, the office will not review the file.”. Na condicional real, 'if' fica com o presente e o resultado com 'will'. Não se usa 'will' dentro do 'if'."
+  },
+  {
+    "id": "bas-m2-10",
+    "pool": "mock2",
+    "pattern": "reported-speech",
+    "prompt": "What did the nurse tell you?",
+    "template": "She told me {0} {1}.",
+    "tiles": [
+      "that the form",
+      "was due Friday",
+      "the form is that",
+      "due that Friday"
+    ],
+    "answer": [
+      "that the form",
+      "was due Friday"
+    ],
+    "why": "A frase pronta é: “She told me that the form was due Friday.”. No discurso indireto, o tempo costuma voltar um passo e a oração começa com 'that' mais a ordem afirmativa. Não se repete a pergunta direta."
+  }
+]

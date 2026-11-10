@@ -1,0 +1,635 @@
+[
+  {
+    "id": "em01",
+    "pool": "practice",
+    "to": "Professor Alvarez",
+    "subject": "Missed lab and a makeup plan",
+    "scenario": "You missed yesterday's biology lab because a clinic visit ran long. Write to your professor.",
+    "bullets": [
+      "Explain why you missed the lab.",
+      "Ask for the worksheet or slides.",
+      "Propose a time to review the experiment."
+    ],
+    "keywords": [
+      [
+        "missed the lab",
+        "clinic",
+        "could not attend"
+      ],
+      [
+        "worksheet",
+        "slides",
+        "handout"
+      ],
+      [
+        "review",
+        "meet",
+        "come to your office"
+      ]
+    ]
+  },
+  {
+    "id": "em02",
+    "pool": "practice",
+    "to": "Registrar's Office",
+    "subject": "Name correction on my record",
+    "scenario": "Your student record shows a misspelled family name. Write to the registrar.",
+    "bullets": [
+      "State the incorrect spelling and the correct one.",
+      "Mention the document that proves the spelling.",
+      "Ask how long the change will take."
+    ],
+    "keywords": [
+      [
+        "incorrect",
+        "misspelled",
+        "correct spelling"
+      ],
+      [
+        "passport",
+        "document",
+        "identification"
+      ],
+      [
+        "how long",
+        "when",
+        "processing time"
+      ]
+    ]
+  },
+  {
+    "id": "em03",
+    "pool": "practice",
+    "to": "Sam, a classmate",
+    "subject": "Swapping our presentation dates",
+    "scenario": "You and Sam present in the same seminar. You need his Friday slot because of a job interview. Write to Sam.",
+    "bullets": [
+      "Explain the interview conflict.",
+      "Ask to trade presentation dates.",
+      "Offer to take his original date."
+    ],
+    "keywords": [
+      [
+        "interview",
+        "conflict",
+        "cannot present"
+      ],
+      [
+        "trade",
+        "switch",
+        "swap"
+      ],
+      [
+        "your date",
+        "original date",
+        "take your slot"
+      ]
+    ]
+  },
+  {
+    "id": "em04",
+    "pool": "practice",
+    "to": "Film Club",
+    "subject": "Idea for next month's screening",
+    "scenario": "You are a member of the film club. Suggest a screening and a short discussion afterward.",
+    "bullets": [
+      "Name the film and why it fits the club.",
+      "Propose a date and a room.",
+      "Ask what help the organizers need."
+    ],
+    "keywords": [
+      [
+        "film",
+        "movie",
+        "screening"
+      ],
+      [
+        "date",
+        "room",
+        "evening"
+      ],
+      [
+        "help",
+        "volunteer",
+        "what can i do",
+        "what do you need"
+      ]
+    ]
+  },
+  {
+    "id": "em05",
+    "pool": "practice",
+    "to": "Library Circulation Desk",
+    "subject": "Hold that expired while I was away",
+    "scenario": "A book you reserved was returned to the shelf while you were off campus. Write to the library.",
+    "bullets": [
+      "Give the title of the book.",
+      "Explain that you were away when the hold expired.",
+      "Ask whether the library can place a new hold."
+    ],
+    "keywords": [
+      [
+        "title",
+        "book"
+      ],
+      [
+        "away",
+        "expired",
+        "off campus",
+        "travel"
+      ],
+      [
+        "new hold",
+        "reserve it again",
+        "another hold"
+      ]
+    ]
+  },
+  {
+    "id": "em06",
+    "pool": "practice",
+    "to": "Building manager",
+    "subject": "Heat problem in apartment 4B",
+    "scenario": "You rent a room near campus. The heater has been out for three days. Write to the manager.",
+    "bullets": [
+      "Describe the heating problem and how long it has lasted.",
+      "Explain how it affects your study and sleep.",
+      "Request a repair visit and give times you are home."
+    ],
+    "keywords": [
+      [
+        "heater",
+        "heat",
+        "cold"
+      ],
+      [
+        "study",
+        "sleep",
+        "three days"
+      ],
+      [
+        "repair",
+        "visit",
+        "home"
+      ]
+    ]
+  },
+  {
+    "id": "em07",
+    "pool": "practice",
+    "to": "Professor Okonkwo",
+    "subject": "Question about the essay prompt",
+    "scenario": "The history essay prompt is unclear about which sources are allowed. Write to the professor.",
+    "bullets": [
+      "Quote or paraphrase the part of the prompt that confuses you.",
+      "Ask whether news articles may be used.",
+      "Request an example of an acceptable source."
+    ],
+    "keywords": [
+      [
+        "prompt",
+        "unclear",
+        "confus"
+      ],
+      [
+        "news",
+        "article"
+      ],
+      [
+        "example",
+        "acceptable source",
+        "sample source"
+      ]
+    ]
+  },
+  {
+    "id": "em08",
+    "pool": "practice",
+    "to": "Campus Housing Office",
+    "subject": "Request to change rooms",
+    "scenario": "Your room faces a loading dock and the noise starts at dawn. Write to housing.",
+    "bullets": [
+      "Describe the noise and when it happens.",
+      "Explain the effect on your classes.",
+      "Ask what rooms are available next month."
+    ],
+    "keywords": [
+      [
+        "noise",
+        "loading",
+        "dawn",
+        "morning"
+      ],
+      [
+        "class",
+        "sleep",
+        "study"
+      ],
+      [
+        "available",
+        "another room",
+        "switch"
+      ]
+    ]
+  },
+  {
+    "id": "em09",
+    "pool": "practice",
+    "to": "Debate Club secretary",
+    "subject": "Cannot host this week's meeting",
+    "scenario": "You promised to host the debate club, but your residence has a fire drill that evening. Write to the secretary.",
+    "bullets": [
+      "Apologize for canceling the hosting plan.",
+      "Explain the fire drill.",
+      "Suggest another member's room or a campus lounge."
+    ],
+    "keywords": [
+      [
+        "sorry",
+        "apolog"
+      ],
+      [
+        "fire drill",
+        "drill"
+      ],
+      [
+        "lounge",
+        "another room",
+        "someone else"
+      ]
+    ]
+  },
+  {
+    "id": "em10",
+    "pool": "practice",
+    "to": "Professor Silva",
+    "subject": "Recommendation request",
+    "scenario": "You want to apply for a research assistant post. Ask a professor who knows your lab work.",
+    "bullets": [
+      "Remind the professor which course you took.",
+      "Explain the assistant post and the deadline.",
+      "Ask if she can write the recommendation."
+    ],
+    "keywords": [
+      [
+        "course",
+        "class",
+        "lab"
+      ],
+      [
+        "assistant",
+        "deadline",
+        "research"
+      ],
+      [
+        "recommendation",
+        "recommend",
+        "reference"
+      ]
+    ]
+  },
+  {
+    "id": "em11",
+    "pool": "practice",
+    "to": "City landlord",
+    "subject": "Question about the guest policy",
+    "scenario": "Your lease is unclear about family visits. Your parents will be in town for three nights. Write to the landlord.",
+    "bullets": [
+      "State the dates of the visit.",
+      "Ask whether three nights are allowed.",
+      "Offer to send their names in advance."
+    ],
+    "keywords": [
+      [
+        "dates",
+        "nights",
+        "parents"
+      ],
+      [
+        "allowed",
+        "permit",
+        "policy"
+      ],
+      [
+        "names",
+        "in advance",
+        "send"
+      ]
+    ]
+  },
+  {
+    "id": "em12",
+    "pool": "practice",
+    "to": "Peer tutor, Jordan",
+    "subject": "Confirming our grammar session",
+    "scenario": "Jordan offered to review your draft. Confirm the plan and send one question ahead of time.",
+    "bullets": [
+      "Confirm the day and place.",
+      "Name the section of the draft you want to review.",
+      "Ask Jordan to bring a printed copy if possible."
+    ],
+    "keywords": [
+      [
+        "confirm",
+        "thursday",
+        "library",
+        "meet"
+      ],
+      [
+        "introduction",
+        "section",
+        "draft"
+      ],
+      [
+        "printed",
+        "copy",
+        "print"
+      ]
+    ]
+  },
+  {
+    "id": "em13",
+    "pool": "practice",
+    "to": "Student Health Center",
+    "subject": "Need an earlier appointment",
+    "scenario": "Your checkup is in three weeks, but a form is due sooner. Write to the clinic.",
+    "bullets": [
+      "Explain which form is due.",
+      "Ask for an earlier appointment.",
+      "Give two mornings when you are free."
+    ],
+    "keywords": [
+      [
+        "form",
+        "due"
+      ],
+      [
+        "earlier",
+        "sooner",
+        "move my appointment"
+      ],
+      [
+        "morning",
+        "free",
+        "available"
+      ]
+    ]
+  },
+  {
+    "id": "em14",
+    "pool": "practice",
+    "to": "Professor Rahman",
+    "subject": "Group member has stopped replying",
+    "scenario": "One person in your project group has not answered messages for a week. Write to the professor.",
+    "bullets": [
+      "Name the project and the problem.",
+      "Describe what the group has already finished.",
+      "Ask how the grade should be divided if the silence continues."
+    ],
+    "keywords": [
+      [
+        "project",
+        "not answered",
+        "no reply",
+        "silence"
+      ],
+      [
+        "finished",
+        "completed",
+        "already done"
+      ],
+      [
+        "grade",
+        "divided",
+        "credit"
+      ]
+    ]
+  },
+  {
+    "id": "em15",
+    "pool": "practice",
+    "to": "Campus Bookstore",
+    "subject": "Wrong edition was sold to me",
+    "scenario": "You bought a sociology textbook, but the course requires the newer edition. Write to the bookstore.",
+    "bullets": [
+      "Give the course and the edition you received.",
+      "Explain that the professor requires the newer edition.",
+      "Ask about an exchange or a refund."
+    ],
+    "keywords": [
+      [
+        "edition",
+        "sociology"
+      ],
+      [
+        "newer",
+        "required",
+        "professor"
+      ],
+      [
+        "exchange",
+        "refund",
+        "return"
+      ]
+    ]
+  },
+  {
+    "id": "em16",
+    "pool": "practice",
+    "to": "Photography Club",
+    "subject": "Borrowing a camera for a class",
+    "scenario": "Your visual studies class needs night photos. Ask the club if you may borrow a camera.",
+    "bullets": [
+      "Explain the class assignment.",
+      "State the days you need the camera.",
+      "Promise to return it in the same condition."
+    ],
+    "keywords": [
+      [
+        "assignment",
+        "class",
+        "night"
+      ],
+      [
+        "days",
+        "borrow",
+        "need the camera"
+      ],
+      [
+        "return",
+        "condition",
+        "same"
+      ]
+    ]
+  },
+  {
+    "id": "em17",
+    "pool": "practice",
+    "to": "Academic advisor",
+    "subject": "Planning a lighter spring term",
+    "scenario": "You want to drop one course next term to care for a family responsibility. Write to your advisor.",
+    "bullets": [
+      "Name the course you hope to postpone.",
+      "Explain the family responsibility briefly.",
+      "Ask whether postponing it delays graduation."
+    ],
+    "keywords": [
+      [
+        "postpone",
+        "drop",
+        "course"
+      ],
+      [
+        "family"
+      ],
+      [
+        "graduation",
+        "delay",
+        "graduate"
+      ]
+    ]
+  },
+  {
+    "id": "em18",
+    "pool": "practice",
+    "to": "Residence laundry service",
+    "subject": "Card charged twice",
+    "scenario": "The laundry card reader charged you twice for one wash. Write to the service desk.",
+    "bullets": [
+      "Give the date, time, and machine number.",
+      "Explain that you paid twice for one cycle.",
+      "Ask for a refund on the card."
+    ],
+    "keywords": [
+      [
+        "machine",
+        "date",
+        "time"
+      ],
+      [
+        "twice",
+        "two charges",
+        "double"
+      ],
+      [
+        "refund",
+        "credit",
+        "put the money back"
+      ]
+    ]
+  },
+  {
+    "id": "em19",
+    "pool": "practice",
+    "to": "Professor Nguyen",
+    "subject": "Arriving late to the midterm",
+    "scenario": "A delayed train will make you about twenty minutes late for the midterm. Write before the exam.",
+    "bullets": [
+      "Explain the train delay.",
+      "Ask whether you may start late.",
+      "Ask how much time you will still have."
+    ],
+    "keywords": [
+      [
+        "train",
+        "delay",
+        "late"
+      ],
+      [
+        "start late",
+        "begin late",
+        "still take"
+      ],
+      [
+        "how much time",
+        "remaining",
+        "minutes left"
+      ]
+    ]
+  },
+  {
+    "id": "em20",
+    "pool": "practice",
+    "to": "Language exchange partner, Mei",
+    "subject": "Changing this week's meeting",
+    "scenario": "You practice Portuguese and Mandarin with Mei. You have a lab that conflicts this week. Write to Mei.",
+    "bullets": [
+      "Apologize for the conflict.",
+      "Explain the lab time.",
+      "Offer two other times this week."
+    ],
+    "keywords": [
+      [
+        "sorry",
+        "apolog"
+      ],
+      [
+        "lab"
+      ],
+      [
+        "another time",
+        "instead",
+        "other times",
+        "thursday"
+      ]
+    ]
+  },
+  {
+    "id": "em-m1",
+    "pool": "mock1",
+    "to": "Professor Costa",
+    "subject": "Extension for the field report",
+    "scenario": "Rain canceled your soil samples for a geography field report due Monday. Write to the professor.",
+    "bullets": [
+      "Explain why the samples could not be collected.",
+      "Ask for a three-day extension.",
+      "Describe what you can submit on the original date."
+    ],
+    "keywords": [
+      [
+        "rain",
+        "samples",
+        "could not"
+      ],
+      [
+        "extension",
+        "three days",
+        "more time"
+      ],
+      [
+        "original date",
+        "partial",
+        "notes"
+      ]
+    ]
+  },
+  {
+    "id": "em-m2",
+    "pool": "mock2",
+    "to": "Campus IT Help Desk",
+    "subject": "Cannot open the course files",
+    "scenario": "The files for your statistics course will not open on your laptop. Write to the help desk.",
+    "bullets": [
+      "Name the course and the error message.",
+      "Say what you already tried.",
+      "Ask for an appointment or a remote session."
+    ],
+    "keywords": [
+      [
+        "statistics",
+        "error",
+        "course"
+      ],
+      [
+        "tried",
+        "restart",
+        "already"
+      ],
+      [
+        "appointment",
+        "remote",
+        "help session"
+      ]
+    ]
+  }
+]
