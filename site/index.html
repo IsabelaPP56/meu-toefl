@@ -3,21 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Meu TOEFL — Home Edition 2026</title>
-  <meta name="description" content="Preparação para o TOEFL iBT Home Edition no formato de 2026. Interface em português, tarefas em inglês.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230f5c56' width='32' height='32' rx='6'/%3E%3Ctext x='16' y='22' text-anchor='middle' fill='white' font-size='14' font-family='Georgia'%3ET%3C/text%3E%3C/svg%3E">
+  <title>Meu TOEFL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
-  <header class="top" id="site-header">
-    <div class="top-inner">
-      <a class="brand" href="#/"><strong>Meu TOEFL</strong><span>Home Edition · formato 2026 · prática autoral</span></a>
-      <nav class="nav" id="nav" aria-label="Seções"></nav>
+  <div class="scrim" id="scrim"></div>
+  <div class="app">
+    <aside class="sidebar" id="sidebar"></aside>
+    <div class="maincol">
+      <header class="topbar">
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">☰</button>
+        <div id="crumb"></div>
+      </header>
+      <main id="conteudo"></main>
     </div>
-  </header>
-  <main id="conteudo"></main>
-  <footer class="site" id="site-footer">Material independente. Não é a ETS e não calcula nota oficial. Questões autorais, de treino.</footer>
+  </div>
   <script src="js/store.js"></script>
   <script src="js/audio.js"></script>
   <script src="js/widgets.js"></script>
