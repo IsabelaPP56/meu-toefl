@@ -7,7 +7,8 @@
   }
 
   function assemble(bank, mockId) {
-    const p = mockId === 1 ? "m1" : "m2";
+    const p = "m" + mockId;
+    const tag = "mock" + mockId;
     return {
       reading: {
         m1: blocksReading(bank, p),
@@ -19,11 +20,11 @@
         upper: blocksListening(bank, p + "u"),
         lower: blocksListening(bank, p + "l")
       },
-      bas: byPool(bank.bas, mockId === 1 ? "mock1" : "mock2").slice(0, 10),
-      email: byPool(bank.email, mockId === 1 ? "mock1" : "mock2")[0],
-      discussion: byPool(bank.discussion, mockId === 1 ? "mock1" : "mock2")[0],
-      repeat: byPool(bank.repeat, mockId === 1 ? "mock1" : "mock2")[0],
-      interview: byPool(bank.interview, mockId === 1 ? "mock1" : "mock2")[0]
+      bas: byPool(bank.bas, tag).slice(0, 10),
+      email: byPool(bank.email, tag)[0],
+      discussion: byPool(bank.discussion, tag)[0],
+      repeat: byPool(bank.repeat, tag)[0],
+      interview: byPool(bank.interview, tag)[0]
     };
   }
 
@@ -118,7 +119,10 @@
           total += 1;
           if (String(got[i] || "").toLowerCase() === g.missing.toLowerCase()) hit += 1;
         });
-      } else {
+      } else if (b.type === "choose") {
+        total += 1;
+        if (answers[b.item.id] === b.item.a) hit += 1;
+      } else if (b.item.questions) {
         b.item.questions.forEach((q, i) => {
           total += 1;
           if (answers[b.item.id + ":" + i] === q.a) hit += 1;

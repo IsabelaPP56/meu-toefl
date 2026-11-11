@@ -19,7 +19,10 @@
         geminiModel: "gemini-2.5-flash",
         key: ""
       },
-      homeChecks: {}
+      homeChecks: {},
+      theme: "light",
+      streak: { count: 0, last: "" },
+      drill: {}
     };
   }
   let state = blank();
@@ -84,12 +87,25 @@
     save();
   }
 
+  function touchStreak(today) {
+    if (!state.streak) state.streak = { count: 0, last: "" };
+    if (state.streak.last === today) return state.streak;
+    const prev = new Date(today + "T00:00:00Z");
+    prev.setUTCDate(prev.getUTCDate() - 1);
+    const y = prev.toISOString().slice(0, 10);
+    state.streak.count = state.streak.last === y ? (state.streak.count || 0) + 1 : 1;
+    state.streak.last = today;
+    save();
+    return state.streak;
+  }
+
   window.Store = {
     get: () => state,
     save,
     bump,
     gradeError,
     gradeVocab,
+    touchStreak,
     set(patch) { Object.assign(state, patch); save(); },
     reset() { state = blank(); save(); },
     backup() {
