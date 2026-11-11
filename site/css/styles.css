@@ -73,9 +73,10 @@ a:hover { text-decoration: underline; }
   border: 0; background: transparent; color: var(--ink);
   border-radius: 10px; padding: 8px 10px; font-weight: 500; text-decoration: none;
 }
-.nav-item.active, .nav-sub a.active, .group-btn.open {
+.nav-item.active, .nav-sub a.active {
   background: var(--soft); color: var(--purple-d); font-weight: 650;
 }
+.group-btn.open { font-weight: 650; }
 .nav-item:hover, .nav-sub a:hover, .group-btn:hover { background: var(--soft); text-decoration: none; }
 .ico {
   width: 22px; height: 22px; border-radius: 7px; flex: none;

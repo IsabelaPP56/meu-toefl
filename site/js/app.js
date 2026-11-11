@@ -184,7 +184,7 @@
           <div class="card"><p class="eyebrow">Contagem</p><div class="stat"><b>${left < 0 ? "A data passou" : left === 0 ? "É hoje" : left + " dias"}</b></div>
             <label class="field">Data da prova<input type="date" id="exam" value="${esc(s.examDate)}"></label>
             <p class="muted">Fuso de Brasília. Só neste navegador.</p></div>
-          <div class="card"><p class="eyebrow">Sequência</p><div class="stat"><b>${streak.count || 0}</b> dia(s) seguido(s)</div>
+          <div class="card"><p class="eyebrow">Sequência</p><div class="stat"><b>${streak.count || 0}</b> dias seguidos</div>
             <p class="muted">Último estudo registrado: ${esc(streak.last || "ainda não")}.</p>
             <p>Prioridade: <b>escrita e fala</b>. Build a Sentence e Listen and Repeat vêm primeiro.</p>
             <a class="btn" href="#/diagnostico">Fazer o diagnóstico</a></div>

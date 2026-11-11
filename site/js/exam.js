@@ -119,7 +119,10 @@
           total += 1;
           if (String(got[i] || "").toLowerCase() === g.missing.toLowerCase()) hit += 1;
         });
-      } else {
+      } else if (b.type === "choose") {
+        total += 1;
+        if (answers[b.item.id] === b.item.a) hit += 1;
+      } else if (b.item.questions) {
         b.item.questions.forEach((q, i) => {
           total += 1;
           if (answers[b.item.id + ":" + i] === q.a) hit += 1;
