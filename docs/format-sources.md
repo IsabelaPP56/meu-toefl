@@ -1,6 +1,6 @@
 # Formato do TOEFL iBT usado neste site
 
-Consulta feita em **10 de novembro de 2026**. As páginas HTML da ETS são as versões publicadas nessa data. Os PDFs não trazem, no arquivo, uma data de “última revisão” única; a data abaixo é a da consulta.
+Consulta feita em **10 de novembro de 2026**. O PDF *Updated TOEFL iBT Test Overview* com copyright **2026** (não só 2025) repete a mesma tabela: Reading 50 / 30 min, Listening 47 / 29 min, Writing 12 / 23 min, Speaking 11 / 8 min, ordem Reading → Listening → Writing → Speaking, e diz que as notas oficiais saem em **3 dias**. A prova leva menos de duas horas. As páginas HTML da ETS são as versões publicadas nessa data. Os PDFs não trazem, no arquivo, uma data de “última revisão” única; a data abaixo é a da consulta.
 
 Este repositório **não reproduz** questões, textos ou áudios protegidos da ETS. Os links oficiais abrem no site da ETS.
 
