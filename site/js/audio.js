@@ -2,12 +2,20 @@
   function voices() {
     return window.speechSynthesis ? speechSynthesis.getVoices() : [];
   }
+  function voiceScore(v) {
+    let s = 0;
+    if (/en-US/i.test(v.lang)) s += 50;
+    else if (/^en/i.test(v.lang)) s += 20;
+    if (/female|samantha|aria|jenny|zira|google us english/i.test(v.name)) s += 30;
+    if (/neural|natural|premium|enhanced/i.test(v.name)) s += 15;
+    if (v.localService) s += 5;
+    if (/male|daniel|david|alex/i.test(v.name) && !/female/i.test(v.name)) s -= 8;
+    return s;
+  }
   function pickVoice() {
     const all = voices();
-    return all.find((v) => /en-US/i.test(v.lang) && /female|samantha|aria|jenny/i.test(v.name))
-      || all.find((v) => /^en-US/i.test(v.lang))
-      || all.find((v) => /^en/i.test(v.lang))
-      || null;
+    if (!all.length) return null;
+    return all.slice().sort((a, b) => voiceScore(b) - voiceScore(a))[0];
   }
   function speak(text, opts) {
     opts = opts || {};
@@ -21,7 +29,8 @@
       };
       const u = new SpeechSynthesisUtterance(text);
       u.lang = opts.lang || "en-US";
-      u.rate = opts.rate || 0.96;
+      const stored = window.Store && Store.get().speechRate;
+      u.rate = opts.rate != null ? opts.rate : (stored || 0.96);
       const v = pickVoice();
       if (v) u.voice = v;
       u.onend = () => finish(true);

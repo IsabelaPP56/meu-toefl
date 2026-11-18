@@ -1,0 +1,2357 @@
+{
+ "email": {
+  "em01": {
+   "high": "Dear Professor Alvarez,\n\nI am writing because I missed yesterday's biology lab. A clinic visit ran long, so I could not attend.\n\nCould you please send the worksheet or the slides from that session? I would also like to review the experiment. I can come to your office on Thursday at 3 p.m., or Friday morning if that is better for you.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Alvarez,\n\nI am writing because I missed the lab. My clinic visit ran long, and I could not attend.\n\nCould you please send the worksheet or the slides? I can come to your office on Thursday to review the experiment.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em02": {
+   "high": "Dear Registrar,\n\nI am writing because my family name is misspelled on my student record. The incorrect spelling is missing one letter. The correct spelling is the one on my passport.\n\nCould you please tell me how long the processing time will be after I send a copy of that document?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Registrar,\n\nI am writing because my name is misspelled. The incorrect form is on the record, and the correct spelling is on my passport.\n\nCould you please tell me the processing time?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em03": {
+   "high": "Dear Sam,\n\nI am writing because I have a job interview on Friday, so I cannot present that day. There is a conflict with our seminar.\n\nCould you please trade dates with me? I would take your original date, and you would take my Friday slot. I can also share my slides early so the switch is easy.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Sam,\n\nI am writing because my interview is on Friday, and I cannot present. Could you please switch dates? I will take your original date.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em04": {
+   "high": "Dear Film Club,\n\nI am writing because I would like to suggest a screening of a short documentary about city libraries. The film fits the club because it leaves room for a discussion afterward.\n\nCould you please hold it on a Thursday evening in the small screening room? I can also volunteer. What do you need me to do?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Film Club,\n\nI am writing because I have a film for next month. It fits a short discussion. Could you please use a Thursday evening and a small room? I can volunteer. What do you need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em05": {
+   "high": "Dear Circulation Desk,\n\nI am writing because a book I had reserved was returned to the shelf. The title is Urban Trees. I was off campus when the hold expired, so I could not pick it up.\n\nCould you please place a new hold on the same book?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Circulation Desk,\n\nI am writing because my hold expired while I was away. The title is Urban Trees. Could you please place a new hold?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em06": {
+   "high": "Dear Building Manager,\n\nI am writing because the heater in apartment 4B has been out for three days. The room is too cold to study or sleep well.\n\nCould you please schedule a repair visit? I am home on Tuesday after 4 p.m. and on Wednesday morning.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Building Manager,\n\nI am writing because the heater has been cold for three days. I cannot study or sleep well. Could you please send a repair visit? I am home Tuesday after 4 and Wednesday morning.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em07": {
+   "high": "Dear Professor Okonkwo,\n\nI am writing because one line of the essay prompt is unclear to me. It says we should use reliable sources, but it does not say what that includes.\n\nCould you please tell me whether a news article may be used? An example of an acceptable source would help me start.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Okonkwo,\n\nI am writing because the prompt is unclear. Could you please tell me if a news article is allowed? I would like one example of an acceptable source.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em08": {
+   "high": "Dear Housing Office,\n\nI am writing because my room faces a loading dock. The noise starts at dawn, and I lose sleep before class.\n\nCould you please tell me what other rooms are available next month? I am ready to switch.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Housing Office,\n\nI am writing because of the noise from the loading dock at dawn. It affects my sleep and my class. Could you please tell me if another room is available next month?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em09": {
+   "high": "Dear Club Secretary,\n\nI am sorry to cancel the plan to host this week's meeting. I am writing because my residence has a fire drill that evening, so the room will not be quiet.\n\nCould you please ask someone else, or use the campus lounge? I can still bring the notes.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Club Secretary,\n\nI am sorry. I cannot host because of a fire drill. Could you please use the campus lounge or another room?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em10": {
+   "high": "Dear Professor Silva,\n\nI am writing because I am applying for a research assistant post. I took your lab course last spring, and the deadline for the application is next Friday.\n\nCould you please write a recommendation if you feel you know my work well enough? I can send the description today.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Silva,\n\nI am writing because I need a recommendation for a research assistant post. I took your lab course, and the deadline is next Friday. Could you please let me know if you can write it?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em11": {
+   "high": "Dear Landlord,\n\nI am writing because my parents will visit for three nights, from the 12th to the 15th. The lease is not clear about this.\n\nCould you please tell me whether three nights are allowed? I can send their names in advance.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Landlord,\n\nI am writing because my parents will stay three nights, from the 12th to the 15th. Could you please confirm that this is allowed? I can send their names in advance.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em12": {
+   "high": "Dear Jordan,\n\nI am writing to confirm our grammar session on Thursday at the library. I would like to review the introduction of my draft.\n\nCould you please bring a printed copy if you can? I will bring mine as well.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Jordan,\n\nI am writing to confirm Thursday at the library. I want to review the introduction of the draft. Could you please bring a printed copy?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em13": {
+   "high": "Dear Student Health Center,\n\nI am writing because a form for my program is due before my checkup. The appointment is in three weeks, which is too late.\n\nCould you please move my appointment earlier? I am free on Tuesday and Thursday morning.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Student Health Center,\n\nI am writing because a form is due before my checkup. Could you please give me an earlier appointment? I am free Tuesday and Thursday morning.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em14": {
+   "high": "Dear Professor Rahman,\n\nI am writing because one member of our project group has not answered messages for a week. The rest of us have already finished the shared slides and the method section.\n\nCould you please advise how the grade should be divided if the silence continues?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Rahman,\n\nI am writing because a group member has not answered for a week. We have already finished the slides. Could you please tell us how the grade would be divided?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em15": {
+   "high": "Dear Bookstore,\n\nI am writing because I bought the sociology textbook yesterday, but I received an older edition. The professor requires the newer edition for the course, and the chapter numbers do not match.\n\nCould you please exchange it or give me a refund? I still have the receipt.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Bookstore,\n\nI am writing because the sociology edition I received is not the newer one the professor requires. Could you please exchange it or refund it?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em16": {
+   "high": "Dear Photography Club,\n\nI am writing because my visual studies class has a night-photo assignment. Could you please let me borrow a camera on Monday and Tuesday?\n\nI will return it in the same condition on Wednesday morning.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Photography Club,\n\nI am writing because I need a camera for a night class assignment on Monday and Tuesday. I will return it in the same condition. Could you please let me borrow one?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em17": {
+   "high": "Dear Advisor,\n\nI am writing because I hope to postpone one course next term. I need a lighter spring so I can meet a family responsibility.\n\nCould you please tell me whether dropping that course would delay graduation?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because I want to postpone one course for a family responsibility. Could you please tell me if that delay affects graduation?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em18": {
+   "high": "Dear Laundry Desk,\n\nI am writing because machine 4 charged my card twice for one wash on March 3 at 7 p.m. I ran a single cycle, and the reader took the money two times.\n\nCould you please put the extra money back on the card as a refund?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Laundry Desk,\n\nI am writing because machine 4 charged me twice on March 3 at 7 p.m. Could you please refund the second charge on the card?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em19": {
+   "high": "Dear Professor Nguyen,\n\nI am writing because a train delay will make me about twenty minutes late for the midterm.\n\nCould you please let me start late? I also need to know how much time I will still have.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Nguyen,\n\nI am writing because my train is late, so I will arrive about twenty minutes late. Could you please let me start late, and tell me how much time will be left?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em20": {
+   "high": "Dear Mei,\n\nI am sorry about this week. I am writing because my lab conflicts with our usual time.\n\nCould you please meet at another time, either Thursday at 5 or Friday at noon?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Mei,\n\nI am sorry. My lab conflicts with our meeting. Could you please meet Thursday at 5 or Friday at noon instead?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-m1": {
+   "high": "Dear Professor Costa,\n\nI am writing because rain canceled the soil samples for my geography field report, so I could not collect them before Monday.\n\nCould you please give me a three-day extension? On the original date I can still submit my notes and the map.\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Professor Costa,\n\nI am writing because the rain meant I could not collect the samples. Could you please give me three more days? I can submit my notes on the original date.\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-m2": {
+   "high": "Dear Help Desk,\n\nI am writing because the files for my statistics course will not open. The error says the format is not supported. I already tried a restart, and the file still fails.\n\nCould you please offer an appointment or a remote help session?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Help Desk,\n\nI am writing because my statistics course files show an error. I already restarted the laptop. Could you please book a remote help session?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock3": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 3 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 3 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock4": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 4 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 4 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock5": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 5 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 5 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock6": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 6 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 6 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock7": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 7 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 7 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock8": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 8 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 8 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock9": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 9 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 9 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  },
+  "em-mock10": {
+   "high": "Dear Advisor,\n\nI am writing because my lab for course 10 was moved onto the same hour as a required workshop. The conflict means I cannot be in both rooms.\n\nI can still attend the workshop, because that session meets only once. Could you please tell me what form or approval I need so I can join another lab section?\n\nThank you for considering this.\nBest regards",
+   "b2": "Dear Advisor,\n\nI am writing because my lab for course 10 and a required workshop are at the same time. I can still attend the workshop. Could you please tell me what approval or form I need?\n\nThank you for considering this.\nBest regards",
+   "phrases": [
+    "I am writing because",
+    "Could you please",
+    "Thank you for considering"
+   ],
+   "note": "A banda 5–6 cobre os três pedidos, com um motivo e um pedido educado. A versão B2 faz o mesmo com frases mais curtas. As duas são autorais, não são um gabarito da ETS."
+  }
+ },
+ "discussion": {
+  "di01": {
+   "high": "I agree with Lena that a short public-speaking course should be required. Should universities require a public-speaking course for every student? In my view, the useful answer is yes only when the rule stays flexible. Lena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, in a lab section, a clear idea of mine was ignored because I could not explain it in one minute. At the same time, I understand Mateo's point. the course should be one credit and offered in the evening, so heavy majors are not punished. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Lena. Should universities require a public-speaking course for every student? I think the answer is yes, but the rule should be flexible. For example, in a lab section, a clear idea of mine was ignored because I could not explain it in one minute. I also understand Mateo, because the cost and the time are real. the course should be one credit and offered in the evening, so heavy majors are not punished. That is my opinion.",
+   "phrases": [
+    "I agree with Lena",
+    "For example",
+    "I understand Mateo",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di02": {
+   "high": "I agree with Priya that some downtown parking should become bus and bike lanes. Should cities replace downtown parking with bus and bike lanes? In my view, the useful answer is yes only when the rule stays flexible. Priya is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, last month I lost forty minutes looking for a space and then walked farther than the bus would have taken me. At the same time, I understand Owen's point. delivery vans and people who cannot cycle still need a few spaces near the shops. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Priya. Should cities replace downtown parking with bus and bike lanes? I think the answer is yes, but the rule should be flexible. For example, last month I lost forty minutes looking for a space and then walked farther than the bus would have taken me. I also understand Owen, because the cost and the time are real. delivery vans and people who cannot cycle still need a few spaces near the shops. That is my opinion.",
+   "phrases": [
+    "I agree with Priya",
+    "For example",
+    "I understand Owen",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di03": {
+   "high": "I agree with Hana that a small participation grade can help. Should students be graded on class participation? In my view, the useful answer is yes only when the rule stays flexible. Hana is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, when my seminar gave two points for a prepared comment, I read the article the night before instead of staying quiet. At the same time, I understand Luis's point. the points should reward a prepared comment, not the fastest speaker. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Hana. Should students be graded on class participation? I think the answer is yes, but the rule should be flexible. For example, when my seminar gave two points for a prepared comment, I read the article the night before instead of staying quiet. I also understand Luis, because the cost and the time are real. the points should reward a prepared comment, not the fastest speaker. That is my opinion.",
+   "phrases": [
+    "I agree with Hana",
+    "For example",
+    "I understand Luis",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di04": {
+   "high": "I agree with Sofia that single-use bottles should leave ordinary campus sales. Should campuses ban single-use plastic bottles? In my view, the useful answer is yes only when the rule stays flexible. Sofia is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, I already refill at the library, and the bottle I bought between classes was a habit, not a need. At the same time, I understand Noah's point. the gym and visitor desks should still sell water when someone arrives without a bottle. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Sofia. Should campuses ban single-use plastic bottles? I think the answer is yes, but the rule should be flexible. For example, I already refill at the library, and the bottle I bought between classes was a habit, not a need. I also understand Noah, because the cost and the time are real. the gym and visitor desks should still sell water when someone arrives without a bottle. That is my opinion.",
+   "phrases": [
+    "I agree with Sofia",
+    "For example",
+    "I understand Noah",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di05": {
+   "high": "I agree with Amira that popular majors should not cost more. Should the university charge higher tuition for the most popular majors? In my view, the useful answer is yes only when the rule stays flexible. Amira is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a friend almost left engineering when she heard a lab fee might rise, even though she was doing well. At the same time, I understand Jonah's point. crowded programs can charge a lab fee for materials, not a higher tuition for the whole major. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Amira. Should the university charge higher tuition for the most popular majors? I think the answer is yes, but the rule should be flexible. For example, a friend almost left engineering when she heard a lab fee might rise, even though she was doing well. I also understand Jonah, because the cost and the time are real. crowded programs can charge a lab fee for materials, not a higher tuition for the whole major. That is my opinion.",
+   "phrases": [
+    "I agree with Amira",
+    "For example",
+    "I understand Jonah",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di06": {
+   "high": "I agree with Elena that dorm students should show the vaccinations the clinic lists. Should a university require vaccination for students who live in dorms? In my view, the useful answer is yes only when the rule stays flexible. Elena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, in a shared hall, one illness moved through our floor in a week and closed a study group. At the same time, I understand Chris's point. students with a medical reason need a clear form to wait, not a lost housing place. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Elena. Should a university require vaccination for students who live in dorms? I think the answer is yes, but the rule should be flexible. For example, in a shared hall, one illness moved through our floor in a week and closed a study group. I also understand Chris, because the cost and the time are real. students with a medical reason need a clear form to wait, not a lost housing place. That is my opinion.",
+   "phrases": [
+    "I agree with Elena",
+    "For example",
+    "I understand Chris",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di07": {
+   "high": "I agree with Maya that photos without flash should be allowed. Should museums allow visitors to take photos of the art? In my view, the useful answer is yes only when the rule stays flexible. Maya is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a picture of a composition helped me write about it later, when I could not return to the museum. At the same time, I understand Victor's point. staff can still stop photos when a crowd blocks the painting. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Maya. Should museums allow visitors to take photos of the art? I think the answer is yes, but the rule should be flexible. For example, a picture of a composition helped me write about it later, when I could not return to the museum. I also understand Victor, because the cost and the time are real. staff can still stop photos when a crowd blocks the painting. That is my opinion.",
+   "phrases": [
+    "I agree with Maya",
+    "For example",
+    "I understand Victor",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di08": {
+   "high": "I agree with Rita that online group work can match an in-person meeting when the rules are clear. Is online group work as useful as meeting in person? In my view, the useful answer is yes only when the rule stays flexible. Rita is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, last term my group posted a short agenda and finished the slides before the video call, so nobody hid on mute. At the same time, I understand Andre's point. a library table is still better for the one meeting that decides the argument. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Rita. Is online group work as useful as meeting in person? I think the answer is yes, but the rule should be flexible. For example, last term my group posted a short agenda and finished the slides before the video call, so nobody hid on mute. I also understand Andre, because the cost and the time are real. a library table is still better for the one meeting that decides the argument. That is my opinion.",
+   "phrases": [
+    "I agree with Rita",
+    "For example",
+    "I understand Andre",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di09": {
+   "high": "I agree with Nina that virtual labs can replace some introductory lessons. Should introductory labs use virtual simulations instead of live materials? In my view, the useful answer is yes only when the rule stays flexible. Nina is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a simulation let every student repeat a step that only two people could try at the real bench. At the same time, I understand Paulo's point. the smell, the timing, and the small mistakes of a live lab should stay in the course later. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Nina. Should introductory labs use virtual simulations instead of live materials? I think the answer is yes, but the rule should be flexible. For example, a simulation let every student repeat a step that only two people could try at the real bench. I also understand Paulo, because the cost and the time are real. the smell, the timing, and the small mistakes of a live lab should stay in the course later. That is my opinion.",
+   "phrases": [
+    "I agree with Nina",
+    "For example",
+    "I understand Paulo",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di10": {
+   "high": "I agree with Grace that laptops should be closed during most of a lecture. Should professors ban laptops during lectures? In my view, the useful answer is yes only when the rule stays flexible. Grace is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, I sit behind screens, and I notice shopping sites more often than the diagram. At the same time, I understand Hugo's point. a student who types faster, or who needs to search one term, should be able to ask for an exception. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Grace. Should professors ban laptops during lectures? I think the answer is yes, but the rule should be flexible. For example, I sit behind screens, and I notice shopping sites more often than the diagram. I also understand Hugo, because the cost and the time are real. a student who types faster, or who needs to search one term, should be able to ask for an exception. That is my opinion.",
+   "phrases": [
+    "I agree with Grace",
+    "For example",
+    "I understand Hugo",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di11": {
+   "high": "I agree with Irene that students should memorize a small set of dates. Should students memorize dates, or is understanding causes enough? In my view, the useful answer is yes only when the rule stays flexible. Irene is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, I could not order two causes until I knew which year came first, so the story stayed fuzzy. At the same time, I understand Samir's point. a long list of years is less useful than a short timeline tied to causes. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Irene. Should students memorize dates, or is understanding causes enough? I think the answer is yes, but the rule should be flexible. For example, I could not order two causes until I knew which year came first, so the story stayed fuzzy. I also understand Samir, because the cost and the time are real. a long list of years is less useful than a short timeline tied to causes. That is my opinion.",
+   "phrases": [
+    "I agree with Irene",
+    "For example",
+    "I understand Samir",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di12": {
+   "high": "I agree with Lucia that the cafeteria should drop fried food on ordinary weekdays. Should the campus cafeteria drop fried food from the daily menu? In my view, the useful answer is yes only when the rule stays flexible. Lucia is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the meal plan is where many students eat, so the daily menu teaches a habit. At the same time, I understand Ethan's point. a fried option once a week is enough, or students will buy the same food off campus. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Lucia. Should the campus cafeteria drop fried food from the daily menu? I think the answer is yes, but the rule should be flexible. For example, the meal plan is where many students eat, so the daily menu teaches a habit. I also understand Ethan, because the cost and the time are real. a fried option once a week is enough, or students will buy the same food off campus. That is my opinion.",
+   "phrases": [
+    "I agree with Lucia",
+    "For example",
+    "I understand Ethan",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di13": {
+   "high": "I agree with Yara that beginner courses should limit code-generation tools. Should programming courses forbid the use of code-generation tools? In my view, the useful answer is yes only when the rule stays flexible. Yara is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, when a tool wrote a loop for me, I could not explain the bug in the next class. At the same time, I understand Felix's point. later courses should teach students to check and test generated code, not pretend the tools do not exist. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Yara. Should programming courses forbid the use of code-generation tools? I think the answer is yes, but the rule should be flexible. For example, when a tool wrote a loop for me, I could not explain the bug in the next class. I also understand Felix, because the cost and the time are real. later courses should teach students to check and test generated code, not pretend the tools do not exist. That is my opinion.",
+   "phrases": [
+    "I agree with Yara",
+    "For example",
+    "I understand Felix",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di14": {
+   "high": "I agree with Nadia that student voting should be easy, not compulsory. Should voting in student government be compulsory? In my view, the useful answer is yes only when the rule stays flexible. Nadia is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, last year our council was chosen by a small group, so a simple online ballot would help. At the same time, I understand Peter's point. treating a missed vote as a penalty punishes new students who do not know the candidates yet. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Nadia. Should voting in student government be compulsory? I think the answer is yes, but the rule should be flexible. For example, last year our council was chosen by a small group, so a simple online ballot would help. I also understand Peter, because the cost and the time are real. treating a missed vote as a penalty punishes new students who do not know the candidates yet. That is my opinion.",
+   "phrases": [
+    "I agree with Nadia",
+    "For example",
+    "I understand Peter",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di15": {
+   "high": "I agree with Clara that practice rooms should stay free. Should practice rooms be free, or should students pay a small hourly fee? In my view, the useful answer is yes only when the rule stays flexible. Clara is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a small hourly fee would keep me out during the weeks before a recital, which is when I need the room most. At the same time, I understand Marcus's point. a booking limit of one hour would free rooms without charging the students who already pay tuition. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Clara. Should practice rooms be free, or should students pay a small hourly fee? I think the answer is yes, but the rule should be flexible. For example, a small hourly fee would keep me out during the weeks before a recital, which is when I need the room most. I also understand Marcus, because the cost and the time are real. a booking limit of one hour would free rooms without charging the students who already pay tuition. That is my opinion.",
+   "phrases": [
+    "I agree with Clara",
+    "For example",
+    "I understand Marcus",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di16": {
+   "high": "I agree with Aisha that introductory geography should include a field trip. Should field trips be a required part of introductory geography? In my view, the useful answer is yes only when the rule stays flexible. Aisha is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a slope on a map made sense only after I stood on a similar hill and saw where the water ran. At the same time, I understand Diego's point. students who work or commute need a second date, or a local walk they can do alone. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Aisha. Should field trips be a required part of introductory geography? I think the answer is yes, but the rule should be flexible. For example, a slope on a map made sense only after I stood on a similar hill and saw where the water ran. I also understand Diego, because the cost and the time are real. students who work or commute need a second date, or a local walk they can do alone. That is my opinion.",
+   "phrases": [
+    "I agree with Aisha",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di17": {
+   "high": "I agree with Helena that clubs should not sign exclusive contracts. Should student clubs be allowed to sign exclusive contracts with one company? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, after the business club took a gift from one company, other speakers were harder to invite. At the same time, I understand Tom's point. a public gift is fine when the terms are open and no other company is blocked. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should student clubs be allowed to sign exclusive contracts with one company? I think the answer is yes, but the rule should be flexible. For example, after the business club took a gift from one company, other speakers were harder to invite. I also understand Tom, because the cost and the time are real. a public gift is fine when the terms are open and no other company is blocked. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Tom",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di18": {
+   "high": "I agree with Bianca that universities should offer local languages as well as international ones. Should universities teach local languages as well as international ones? In my view, the useful answer is yes only when the rule stays flexible. Bianca is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, in my city, many families use a language that never appears in the course list. At the same time, I understand Karl's point. students with few free terms can choose, so a local language is an option, not a new requirement for everyone. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Bianca. Should universities teach local languages as well as international ones? I think the answer is yes, but the rule should be flexible. For example, in my city, many families use a language that never appears in the course list. I also understand Karl, because the cost and the time are real. students with few free terms can choose, so a local language is an option, not a new requirement for everyone. That is my opinion.",
+   "phrases": [
+    "I agree with Bianca",
+    "For example",
+    "I understand Karl",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di19": {
+   "high": "I agree with Leila that new campus buildings should use less glass. Should new campus buildings use glass walls? In my view, the useful answer is yes only when the rule stays flexible. Leila is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, full glass walls look open, but in our climate they heat the room and the blinds stay down. At the same time, I understand Simon's point. glass still helps at an entrance, where students can see activity and walk in. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Leila. Should new campus buildings use glass walls? I think the answer is yes, but the rule should be flexible. For example, full glass walls look open, but in our climate they heat the room and the blinds stay down. I also understand Simon, because the cost and the time are real. glass still helps at an entrance, where students can see activity and walk in. That is my opinion.",
+   "phrases": [
+    "I agree with Leila",
+    "For example",
+    "I understand Simon",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di20": {
+   "high": "I agree with Camila that detection software can be a first signal, not a judge. Should professors use software that detects AI-written sentences? In my view, the useful answer is yes only when the rule stays flexible. Camila is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a strange paragraph should lead to a conversation, not an automatic zero. At the same time, I understand Ivan's point. the tools are often wrong, and a false flag can frighten a student who simply writes in a plain style. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Camila. Should professors use software that detects AI-written sentences? I think the answer is yes, but the rule should be flexible. For example, a strange paragraph should lead to a conversation, not an automatic zero. I also understand Ivan, because the cost and the time are real. the tools are often wrong, and a false flag can frighten a student who simply writes in a plain style. That is my opinion.",
+   "phrases": [
+    "I agree with Camila",
+    "For example",
+    "I understand Ivan",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di-m1": {
+   "high": "I agree with Rosa that campus cafes should keep cash. Should campus cafes stop accepting cash? In my view, the useful answer is yes only when the rule stays flexible. Rosa is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, a visitor without a campus card had to leave the line, and a small purchase should not need a full account. At the same time, I understand Neil's point. card lines can stay faster if one register still takes cash. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Rosa. Should campus cafes stop accepting cash? I think the answer is yes, but the rule should be flexible. For example, a visitor without a campus card had to leave the line, and a small purchase should not need a full account. I also understand Neil, because the cost and the time are real. card lines can stay faster if one register still takes cash. That is my opinion.",
+   "phrases": [
+    "I agree with Rosa",
+    "For example",
+    "I understand Neil",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "di-m2": {
+   "high": "I agree with Tina that first-year students should live on campus when a room is free. Should first-year students live on campus if housing is available? In my view, the useful answer is yes only when the rule stays flexible. Tina is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Omar's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Tina. Should first-year students live on campus if housing is available? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Omar, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Tina",
+    "For example",
+    "I understand Omar",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock3": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock4": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock5": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock6": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock7": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock8": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock9": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  },
+  "disc-mock10": {
+   "high": "I agree with Helena that first-year students should live on campus when a room is free. Should the university require first-year students to live on campus? Why or why not? In my view, the useful answer is yes only when the rule stays flexible. Helena is right about the main benefit, and I want to add a campus example rather than repeat the post. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. At the same time, I understand Diego's point. students who support a family or already have a quiet home nearby should be able to opt out. So I support the idea with that limit, and I would say so in my own words.",
+   "b2": "I agree with Helena. Should the university require first-year students to live on campus? Why or why not? I think the answer is yes, but the rule should be flexible. For example, the first months are when people find a study partner, and that happened for me in the hall, not in class. I also understand Diego, because the cost and the time are real. students who support a family or already have a quiet home nearby should be able to opt out. That is my opinion.",
+   "phrases": [
+    "I agree with Helena",
+    "For example",
+    "I understand Diego",
+    "So I support"
+   ],
+   "note": "A versão alta abre com a posição, cita os dois colegas, dá um exemplo com uma situação concreta e fecha com um limite. A versão B2 faz o mesmo em menos frases. Meta realista: banda 4, com cerca de 100 palavras e um exemplo."
+  }
+ },
+ "repeat": {
+  "rep01": [
+   {
+    "high": "Please bring your student card inside.",
+    "b2": "Please bring the student card inside.",
+    "phrases": [
+     "Please",
+     "bring",
+     "your"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "The service desk is near the front door.",
+    "b2": "The service desk is near a front door.",
+    "phrases": [
+     "The",
+     "service",
+     "desk"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Students may borrow up to ten books for three weeks.",
+    "b2": "Students may borrow up to ten books for three weeks today.",
+    "phrases": [
+     "Students",
+     "may",
+     "borrow"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Group study rooms should be reserved online at least a day ahead.",
+    "b2": "Group study rooms can be reserved online at least a day ahead.",
+    "phrases": [
+     "Group",
+     "study",
+     "rooms"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Drinks with lids are allowed, but hot food is not permitted near the computers.",
+    "b2": "Drinks with lids are allowed, but hot food is not permitted near a computers.",
+    "phrases": [
+     "Drinks",
+     "with",
+     "lids"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If the book you need is already checked out, place a hold using your card.",
+    "b2": "If a book you need is already checked out, place a hold using your card.",
+    "phrases": [
+     "If",
+     "the",
+     "book"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please return every item to the outdoor bin after closing so that you avoid a late fee.",
+    "b2": "Please return every item to a outdoor bin after closing so that you avoid a late fee.",
+    "phrases": [
+     "Please",
+     "return",
+     "every"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep02": [
+   {
+    "high": "Check in at the front window.",
+    "b2": "Check in at a front window.",
+    "phrases": [
+     "Check",
+     "in",
+     "at"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your student card and appointment number ready.",
+    "b2": "Have the student card and appointment number ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "student"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please sit in the blue chairs until your name is called.",
+    "b2": "Please sit in a blue chairs until your name is called.",
+    "phrases": [
+     "Please",
+     "sit",
+     "in"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Tell the nurse about any regular medicine you already take each day.",
+    "b2": "Tell a nurse about any regular medicine you already take each day.",
+    "phrases": [
+     "Tell",
+     "the",
+     "nurse"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel dizzy after the visit, do not walk home alone tonight.",
+    "b2": "If you feel dizzy after a visit, do not walk home alone tonight.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "The pharmacy next door can fill a simple prescription before six o'clock on weekdays.",
+    "b2": "The pharmacy next door can fill a simple prescription before six o'clock on weekdays today.",
+    "phrases": [
+     "The",
+     "pharmacy",
+     "next"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Call the clinic the same day if a fever starts or if the pain becomes much worse.",
+    "b2": "Call a clinic the same day if a fever starts or if the pain becomes much worse.",
+    "phrases": [
+     "Call",
+     "the",
+     "clinic"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep03": [
+   {
+    "high": "Sign up before you come in.",
+    "b2": "Sign up before you come in today.",
+    "phrases": [
+     "Sign",
+     "up",
+     "before"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Bring a printed draft of your paper with you.",
+    "b2": "Bring a printed draft of the paper with you.",
+    "phrases": [
+     "Bring",
+     "a",
+     "printed"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A tutor will ask what part you want to improve first.",
+    "b2": "A tutor can ask what part you want to improve first.",
+    "phrases": [
+     "A",
+     "tutor",
+     "will"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "We will not rewrite the whole essay for you during the session.",
+    "b2": "We will not rewrite a whole essay for you during the session.",
+    "phrases": [
+     "We",
+     "will",
+     "not"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "You should leave with a short list of changes to make before tomorrow.",
+    "b2": "You can leave with a short list of changes to make before tomorrow.",
+    "phrases": [
+     "You",
+     "should",
+     "leave"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments last twenty-five minutes, so please arrive a little early and ready to talk.",
+    "b2": "Appointments last twenty-five minutes, so please arrive a little early and ready to talk today.",
+    "phrases": [
+     "Appointments",
+     "last",
+     "twenty-five"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you miss two appointments without notice, you must wait a week before booking another one.",
+    "b2": "If you miss two appointments without notice, you must wait a week before booking another one today.",
+    "phrases": [
+     "If",
+     "you",
+     "miss"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep04": [
+   {
+    "high": "Collect your key from the lobby desk.",
+    "b2": "Collect your key from a lobby desk.",
+    "phrases": [
+     "Collect",
+     "your",
+     "key"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Elevators are reserved for people carrying boxes this morning.",
+    "b2": "Elevators are reserved for people carrying boxes this morning today.",
+    "phrases": [
+     "Elevators",
+     "are",
+     "reserved"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please label every box with your name and room number.",
+    "b2": "Please label every box with the name and room number.",
+    "phrases": [
+     "Please",
+     "label",
+     "every"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Cars may stop at the side door for only fifteen minutes.",
+    "b2": "Cars may stop at a side door for only fifteen minutes.",
+    "phrases": [
+     "Cars",
+     "may",
+     "stop"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Quiet hours begin at ten tonight, including the hallways and the kitchen.",
+    "b2": "Quiet hours begin at ten tonight, including a hallways and the kitchen.",
+    "phrases": [
+     "Quiet",
+     "hours",
+     "begin"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Report a broken lock or a missing chair on the housing form before you unpack.",
+    "b2": "Report a broken lock or a missing chair on a housing form before you unpack.",
+    "phrases": [
+     "Report",
+     "a",
+     "broken"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Roommates should agree on a cleaning plan this weekend so shared spaces stay fair for everyone.",
+    "b2": "Roommates can agree on a cleaning plan this weekend so shared spaces stay fair for everyone.",
+    "phrases": [
+     "Roommates",
+     "should",
+     "agree"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep05": [
+   {
+    "high": "Have your pass ready to scan.",
+    "b2": "Have the pass ready to scan.",
+    "phrases": [
+     "Have",
+     "your",
+     "pass"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "The next stop is the science building entrance.",
+    "b2": "The next stop is a science building entrance.",
+    "phrases": [
+     "The",
+     "next",
+     "stop"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please move back so more riders can board at this stop.",
+    "b2": "Please move back so more riders can board at this stop today.",
+    "phrases": [
+     "Please",
+     "move",
+     "back"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please hold the metal rail while the bus turns onto College Avenue.",
+    "b2": "Please hold a metal rail while the bus turns onto College Avenue.",
+    "phrases": [
+     "Please",
+     "hold",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Bags belong on your lap or under the seat, not in the aisle.",
+    "b2": "Bags belong on your lap or under a seat, not in the aisle.",
+    "phrases": [
+     "Bags",
+     "belong",
+     "on"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "This evening shuttle does not run after midnight on Friday or on Saturday night.",
+    "b2": "This evening shuttle does not run after midnight on Friday or on Saturday night today.",
+    "phrases": [
+     "This",
+     "evening",
+     "shuttle"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you miss the last bus, the night ride line can send a car to the library.",
+    "b2": "If you miss a last bus, the night ride line can send a car to the library.",
+    "phrases": [
+     "If",
+     "you",
+     "miss"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep06": [
+   {
+    "high": "Pick up a name tag first.",
+    "b2": "Pick up a name tag first today.",
+    "phrases": [
+     "Pick",
+     "up",
+     "a"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Employers are seated by field along the side walls.",
+    "b2": "Employers are seated by field along a side walls.",
+    "phrases": [
+     "Employers",
+     "are",
+     "seated"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "You may visit any table, but wait until the person is free.",
+    "b2": "You may visit any table, but wait until a person is free.",
+    "phrases": [
+     "You",
+     "may",
+     "visit"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please offer a short personal introduction and one clean copy of your resume.",
+    "b2": "Please offer a short personal introduction and one clean copy of the resume.",
+    "phrases": [
+     "Please",
+     "offer",
+     "a"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Ask about internships that start in June rather than asking only about full-time jobs.",
+    "b2": "Ask about internships that start in June rather than asking only about full-time jobs today.",
+    "phrases": [
+     "Ask",
+     "about",
+     "internships"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Write the name of each person you meet so you can send a thank-you note.",
+    "b2": "Write a name of each person you meet so you can send a thank-you note.",
+    "phrases": [
+     "Write",
+     "the",
+     "name"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "The fair closes at three, and leftover guides will be outside the career office tomorrow morning.",
+    "b2": "The fair closes at three, and leftover guides will be outside a career office tomorrow morning.",
+    "phrases": [
+     "The",
+     "fair",
+     "closes"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-m1": [
+   {
+    "high": "Take a number and wait to be called.",
+    "b2": "Take a number and wait to be called today.",
+    "phrases": [
+     "Take",
+     "a",
+     "number"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Course changes are accepted through Friday of this week.",
+    "b2": "Course changes are accepted through Friday of this week today.",
+    "phrases": [
+     "Course",
+     "changes",
+     "are"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Bring a photo identification card before we can print your schedule.",
+    "b2": "Bring a photo identification card before we can print the schedule.",
+    "phrases": [
+     "Bring",
+     "a",
+     "photo"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A full-time load is at least twelve credits in the fall term.",
+    "b2": "A full-time load is at least twelve credits in a fall term.",
+    "phrases": [
+     "A",
+     "full-time",
+     "load"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If a class is closed, ask about the waiting list before you leave.",
+    "b2": "If a class is closed, ask about a waiting list before you leave.",
+    "phrases": [
+     "If",
+     "a",
+     "class"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Official transcripts ordered today are sent electronically within three business days of the request.",
+    "b2": "Official transcripts ordered today are sent electronically within three business days of a request.",
+    "phrases": [
+     "Official",
+     "transcripts",
+     "ordered"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please check your student account tonight to confirm that the new section replaced the old one.",
+    "b2": "Please check your student account tonight to confirm that a new section replaced the old one.",
+    "phrases": [
+     "Please",
+     "check",
+     "your"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-m2": [
+   {
+    "high": "Wear goggles before you touch anything.",
+    "b2": "Wear goggles before you touch anything today.",
+    "phrases": [
+     "Wear",
+     "goggles",
+     "before"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Tie back long hair and roll loose sleeves.",
+    "b2": "Tie back long hair and roll loose sleeves today.",
+    "phrases": [
+     "Tie",
+     "back",
+     "long"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please read the full safety label twice before you pour.",
+    "b2": "Please read a full safety label twice before you pour.",
+    "phrases": [
+     "Please",
+     "read",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Point every test tube away from other people when you heat it.",
+    "b2": "Point every test tube away from other people when you heat it today.",
+    "phrases": [
+     "Point",
+     "every",
+     "test"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Spill kits are under the sink, and you should call a supervisor at once.",
+    "b2": "Spill kits are under a sink, and you should call a supervisor at once.",
+    "phrases": [
+     "Spill",
+     "kits",
+     "are"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Never taste a sample or return any unused liquid back to the original bottle on the shelf.",
+    "b2": "Never taste a sample or return any unused liquid back to a original bottle on the shelf.",
+    "phrases": [
+     "Never",
+     "taste",
+     "a"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Please wash your hands and wipe the bench before you leave, even if the experiment seemed completely safe.",
+    "b2": "Please wash your hands and wipe a bench before you leave, even if the experiment seemed completely safe.",
+    "phrases": [
+     "Please",
+     "wash",
+     "your"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock3": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 3.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 3 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock4": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 4.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 4 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock5": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 5.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 5 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock6": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 6.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 6 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock7": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 7.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 7 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock8": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 8.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 8 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock9": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 9.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 9 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ],
+  "rep-mock10": [
+   {
+    "high": "Welcome to the desk.",
+    "b2": "Welcome to a desk.",
+    "phrases": [
+     "Welcome",
+     "to",
+     "the"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Have your ID ready.",
+    "b2": "Have the ID ready.",
+    "phrases": [
+     "Have",
+     "your",
+     "ID"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "A staff member will call you when a room is free.",
+    "b2": "A staff member can call you when a room is free.",
+    "phrases": [
+     "A",
+     "staff",
+     "member"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "If you feel unwell, tell us immediately and stay seated.",
+    "b2": "If you feel unwell, tell us immediately and stay seated today.",
+    "phrases": [
+     "If",
+     "you",
+     "feel"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Water is available beside the window.",
+    "b2": "Water is available beside a window.",
+    "phrases": [
+     "Water",
+     "is",
+     "available"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Appointments more than ten minutes late may need a new time in week 10.",
+    "b2": "Appointments more than ten minutes late may need a new time in week 10 today.",
+    "phrases": [
+     "Appointments",
+     "more",
+     "than"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   },
+   {
+    "high": "Before you leave, check that you have the paper the clinician gave you and that your name is spelled correctly.",
+    "b2": "Before you leave, check that you have a paper the clinician gave you and that your name is spelled correctly.",
+    "phrases": [
+     "Before",
+     "you",
+     "leave,"
+    ],
+    "note": "Na prova, a meta 5 é repetir a frase inteira. Uma troca pequena que não muda o sentido fica perto de 4, que é B2. Treine a frase exata."
+   }
+  ]
+ },
+ "interview": {
+  "int01": [
+   {
+    "high": "I usually study in the late afternoon, from about four to seven, at a desk on the second floor of the campus library. I go there because the room is quiet after most classes end. On weekdays I keep the same seat so I do not lose time choosing a place. On Sundays I stay home and use the kitchen table.",
+    "b2": "I study in the afternoon at the library, because it is quiet. On Sunday I study at home.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What time of day do you usually study, and where do you do it?"
+   },
+   {
+    "high": "Last month a three-block plan worked well before a quiz. After each short block I closed the book and wrote the main point from memory. I could explain the idea in class the next day, not only recognize it on the page. When I skipped the last block, I forgot the example, so the failure taught me something too.",
+    "b2": "Last month I studied in three short parts and wrote notes from memory. It worked, because I could explain the idea later. One day I skipped a part and forgot the example.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Tell me about a time when a study plan worked well for you."
+   },
+   {
+    "high": "I think students should study alone first and with a group later. Alone, I can find what I do not understand. In a group, I have to explain it, and that shows the gap. For example, I understood a chart only after I described it to a classmate. A group from the start is noisy for me.",
+    "b2": "I prefer to study alone first and with a group later. Alone, I find the gap. In a group, I have to explain it. That worked with a chart I could not read at first.",
+    "phrases": [
+     "For example"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you think students should study alone or with a group? Why?"
+   },
+   {
+    "high": "Phones should stay out of silent study areas. A lit screen is a small class for everyone nearby, even with no sound. I put mine in my bag, and I check it only outside the room. A student who waits for a family message can sit near the door.",
+    "b2": "Phones should stay out of quiet study rooms. The screen distracts other people. I leave mine in my bag and check it outside.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should phones be allowed in study areas? Explain your view."
+   }
+  ],
+  "int02": [
+   {
+    "high": "The place I visit most is the river path near the market. I go there two or three evenings a week because it is flat and I can walk without planning. On Saturdays I buy fruit at the start of the path and walk for half an hour.",
+    "b2": "I often walk on the river path near the market. I go in the evening because it is easy and quiet.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What is one place in your city that you visit often?"
+   },
+   {
+    "high": "Last June I showed the city to my cousin for one day. We started at the market, took a bus to the old square, and ate lunch at a counter she chose. The day worked because I kept the list short. She still talks about the square, not about the museum we skipped.",
+    "b2": "I showed the city to my cousin. We saw the market and the old square, then ate lunch. A short list worked better than many stops.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a day when you showed your city to a visitor."
+   },
+   {
+    "high": "The change that would help most is a bus that runs later at night. Many people finish work after the last bus, so they pay for a car or a ride. A bus until midnight would make ordinary days easier.",
+    "b2": "A later bus would help most. People finish work after the last bus and then need a car.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What change would most improve daily life in your city?"
+   },
+   {
+    "high": "I prefer to live a little farther out, if the bus is reliable. The center is lively, but the rent and the noise make study hard. Farther out, I have a quieter room and I still reach campus in thirty minutes.",
+    "b2": "I prefer to live a little farther out. The center is noisy and expensive. A good bus still gets me to campus.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Is it better to live near the center or farther out? Why?"
+   }
+  ],
+  "int03": [
+   {
+    "high": "The device I use most is a laptop. I read the slides, type notes, and send work on it. My phone is only for messages and for a reading when I am on the bus.",
+    "b2": "I use a laptop most. I read slides and type notes on it. My phone is for the bus.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Which device do you use most often for your classes?"
+   },
+   {
+    "high": "In a biology class we used a shared document during a lab. Each pair typed one result, and the teacher projected the table. It helped because we saw a wrong number before we left the room. A video alone would not have done that.",
+    "b2": "In a lab we typed results in one shared document. We saw a mistake before we left. That was more useful than a video.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Tell me about a class activity that used technology in a helpful way."
+   },
+   {
+    "high": "Recorded lectures should not replace live classes. A recording is excellent when I miss a day or when I want to hear a definition again. The live class is where I ask the question that the recording cannot answer. I would keep both.",
+    "b2": "Recorded lectures should add to live classes, not replace them. A recording helps me review. The live class is where I ask questions.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should recorded lectures replace live classes? Give reasons."
+   },
+   {
+    "high": "I learn more when I take some notes by hand. Typing keeps every word, but I do not choose what matters. On paper I write only the point I might forget. For a fast lecture I still type, then I copy three lines by hand that night.",
+    "b2": "I learn more with some notes by hand, because I choose what matters. For a fast lecture I type, then I copy three lines later.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you think students learn more when they take notes by hand?"
+   }
+  ],
+  "int04": [
+   {
+    "high": "My main meal is lunch, usually rice, beans, and a vegetable. I eat it at home when I can, around noon, because I study better after a real plate than after a snack.",
+    "b2": "My main meal is lunch: rice, beans, and vegetables. I eat it at home around noon.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What do you usually eat for your main meal of the day?"
+   },
+   {
+    "high": "Last month I cooked a simple pasta and salad for two classmates before a group meeting. I kept the recipe short so the food was ready when they arrived. They stayed to work, and the meal made the meeting easier than meeting hungry in the library.",
+    "b2": "I cooked pasta and a salad for two classmates. The meal was simple, and we could start the work on time.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a meal you prepared for other people."
+   },
+   {
+    "high": "Yes, schools should teach a few simple meals. Many students leave home and then eat only what is fastest. One class on rice, eggs, and a vegetable would save money and time. It does not need to be a full cooking course.",
+    "b2": "Schools should teach a few simple meals. Students who leave home often eat only what is fast. A short class is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should schools teach students how to cook simple meals? Why?"
+   },
+   {
+    "high": "Trying food from other regions matters, but it is not a duty. It teaches me what other people eat on an ordinary day, not only on a holiday. I try a new dish when a friend cooks it. I do not need to like all of it.",
+    "b2": "Trying food from other places is useful, because I learn an ordinary meal, not only a holiday dish. I try it when a friend cooks.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Is trying food from other regions important? Explain."
+   }
+  ],
+  "int05": [
+   {
+    "high": "I have not had a formal job, but I have regular family duties. I shop for the week and I help my younger cousin with homework on Wednesdays. That is steady work, even without a paycheck.",
+    "b2": "I have not had a paid job. I shop for my family and I help my cousin with homework on Wednesdays.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Have you had a job, an internship, or regular family duties?"
+   },
+   {
+    "high": "Helping my cousin with math taught me to explain a step without doing it for her. The first week I gave the answer, and she learned nothing. After that I asked one question and waited. She got further, and I got more patient.",
+    "b2": "I used to give my cousin the answer. Then I asked one question and waited. She learned more, and I became more patient.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Tell me about a task at work or at home that taught you something useful."
+   },
+   {
+    "high": "A part-time job can help if the hours stay small. Ten hours a week taught people I know how to arrive on time. More than that hurt their reading. I would work only if the job ended before my hardest course.",
+    "b2": "A small job can help students learn to be on time. Too many hours hurt their reading. I would keep the hours low.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should university students work part time during the term? Why?"
+   },
+   {
+    "high": "In a first job, the learning matters more than the pay, if the pay still covers the bus and food. A higher salary with no new skill leaves me in the same place next year. I would ask what I will be able to do after six months.",
+    "b2": "Learning matters more than pay in a first job, if I can still pay for the bus and food. I want a skill I can use next year.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What matters more in a first job, the pay or the learning? Explain."
+   }
+  ],
+  "int06": [
+   {
+    "high": "People in my area talk most about flooding after hard rain. Streets near the river stay closed for a day, and the bus changes its route. That is the issue I hear about every summer.",
+    "b2": "People talk about flooding after hard rain. Streets close, and the bus changes its route.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What is one environmental issue people talk about in your area?"
+   },
+   {
+    "high": "I started taking a cloth bag to the market and I unplug the small lamp when I leave my room. The bag was the harder habit, because I forgot it twice. Now it hangs on the door. The change is small, but I produce less trash each week.",
+    "b2": "I take a cloth bag to the market and I unplug my lamp. I forgot the bag at first. Now I use less plastic.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe something you did to reduce waste or save energy."
+   },
+   {
+    "high": "Cities should limit car traffic in the center during the day. The street is then safer for the bus and for people walking. Delivery vans can enter early in the morning. A full ban at all hours would hurt shops.",
+    "b2": "Cities should limit cars in the center during the day. The bus and people walking are safer. Vans can come in the morning.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should cities limit car traffic in the center? Give your view."
+   },
+   {
+    "high": "The city should pay for most of cleaner public transport, and riders should pay a fare they can afford. If only riders pay, the people who need the bus most stop using it. A low fare plus public money keeps the service frequent.",
+    "b2": "The city should pay most of the cost, and riders should pay a fare they can afford. A high fare pushes people back into cars.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Who should pay for cleaner public transport, riders or the city? Why?"
+   }
+  ],
+  "int-m1": [
+   {
+    "high": "The class that meets most often is my writing class. It meets three times a week, on Monday, Wednesday, and Friday, in the morning. The other courses meet twice.",
+    "b2": "My writing class meets most often: Monday, Wednesday, and Friday morning.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Which class are you taking that meets most often?"
+   },
+   {
+    "high": "I still remember a discussion about a short article on city parks. Two students disagreed about who the park was for, and the teacher made us point to a sentence. I remember it because I had to defend a line, not a feeling.",
+    "b2": "I remember a discussion about a park article. We had to point to a sentence. That is why I still remember it.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Tell me about a class discussion you still remember."
+   },
+   {
+    "high": "Attendance can be a small part of the grade, not the main part. Showing up matters in a seminar, because the talk is the class. It should not punish a student who was ill and later did the reading. I would count attendance as ten percent.",
+    "b2": "Attendance can be a small part of the grade in a seminar. It should not punish someone who was ill and did the work later.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should attendance be part of the grade? Explain your opinion."
+   },
+   {
+    "high": "I learn more when I take fewer courses and go deeper. Four hard courses left me skimming every reading. Three courses let me finish one book and talk about it. More courses look busy, but I remember less.",
+    "b2": "Fewer courses are better for me. With four classes I only skimmed. With three I could finish a book and talk about it.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Is it better to take fewer courses and go deeper, or more courses? Why?"
+   }
+  ],
+  "int-m2": [
+   {
+    "high": "On Saturday morning I buy bread, clean my desk, and walk for twenty minutes before I open a book. I keep that order so the rest of the day is quieter.",
+    "b2": "On Saturday morning I buy bread, clean my desk, and take a short walk. Then I study.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "What do you usually do on Saturday morning?"
+   },
+   {
+    "high": "Two weeks ago my sister and I spent Saturday at a neighborhood fair. We listened to one band and ate lunch there. We left after two hours, which was enough. The short visit was better than a whole day of plans.",
+    "b2": "My sister and I went to a neighborhood fair. We stayed two hours. A short visit was better than a long plan.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a weekend activity you did with friends or family."
+   },
+   {
+    "high": "Students should protect one day, or at least one long morning, from new schoolwork. Rest is when I notice what I did not understand. I still review lightly, but I do not start a new chapter that day.",
+    "b2": "Students should keep one morning free. I rest, and I only review a little. I do not start a new chapter.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should students keep one day each week free from schoolwork? Why?"
+   },
+   {
+    "high": "Time outdoors is better for me than a long stretch online, but not for every hour. A walk clears my head before I study. After that, an online call with a friend is fine. All day on a screen leaves me tired and behind.",
+    "b2": "A walk is better before I study. After that, some time online is fine. A whole day on a screen makes me tired.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Is spending free time outdoors better than spending it online? Explain."
+   }
+  ],
+  "iv-mock3": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock4": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock5": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock6": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock7": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock8": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock9": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ],
+  "iv-mock10": [
+   {
+    "high": "I usually study alone. I sit at the same library desk in the afternoon. I meet a classmate only after I have a list of questions. That way the meeting is short and useful.",
+    "b2": "I usually study alone at the library. I meet a classmate only when I already have questions.",
+    "phrases": [
+     "I usually"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Do you usually study alone or with other people?"
+   },
+   {
+    "high": "A two-evening plan worked before my last quiz. I read on Monday and explained the chapter out loud on Tuesday. The plan failed when I left both nights for Wednesday, because I ran out of time and forgot the example.",
+    "b2": "I read one night and explained the chapter the next night. When I left both nights for one day, I forgot the example.",
+    "phrases": [
+     "The"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Describe a time when a study plan worked well or failed."
+   },
+   {
+    "high": "I do not agree that one long session is better. I feel busy, but I remember less the next day. For example, two evenings on one chapter worked better than one long night. A long session is useful only for a final review, not for the first reading.",
+    "b2": "I disagree. One long session feels productive, but I forget more. Two shorter nights worked better for me.",
+    "phrases": [
+     "For example",
+     "I do not agree"
+    ],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Some people prefer one long study session. Do you agree that it is better? Why or why not?"
+   },
+   {
+    "high": "Universities should teach a few study habits, and the rest stays the student's job. A short workshop on planning and recall would have helped me in the first month. After that, I have to choose the hours myself. A required course all year is more than I need.",
+    "b2": "Universities should teach a few study habits at the start. After that, the hours are my job. A short workshop is enough.",
+    "phrases": [],
+    "note": "A resposta alta começa na pergunta, dá um motivo e um exemplo com tempo ou lugar. A versão B2 faz o mesmo com menos palavras. Em 45 segundos, essa estrutura vale mais do que um texto decorado.",
+    "q": "Should universities teach students how to study, or is that each student's own job? Why?"
+   }
+  ]
+ }
+}

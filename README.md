@@ -17,8 +17,8 @@ O repositório é `IsabelaPP56/meu-toefl`. O GitHub publica o endereço em minú
 - Diagnóstico curto que reordena o plano. O ponto de partida já privilegia Build a Sentence e Speaking.
 - Guia de cada tarefa, com vídeo verificado (TST Prep e Test Resources, formato 2026) e a lista de links oficiais, separados em 2026 e legado.
 - Prática autoral com correção na hora. Build a Sentence é montado com peças. Complete the Words esconde a segunda metade da palavra. A escuta usa a voz do navegador e só mostra a transcrição depois da resposta.
-- Dois simulados na ordem Reading → Listening → Writing → Speaking, com módulos, relógio, sem volta onde a prova não deixa, e segundo módulo mais fácil ou mais difícil conforme o primeiro. A banda é estimativa.
-- Coach de fala (repetir, modo bloco, transcrição, diff, gravador) e de escrita (relógio, contagem, lista, prompt para colar no ChatGPT/Grok/Gemini, ou API opcional).
+- Dez simulados na ordem Reading → Listening → Writing → Speaking, com módulos, relógio, sem volta onde a prova não deixa, e segundo módulo mais fácil ou mais difícil conforme o primeiro. Depois de cada seção e no fim, a banda 1–6, o CEFR e a meta B2 aparecem como estimativa.
+- Coach de fala (repetir, modo bloco, transcrição, diff, gravador) e de escrita (relógio, contagem, lista, prompt para colar). Depois da tentativa, há uma resposta-modelo autoral na faixa 5–6 e outra na faixa 4 (B2).
 - Vocabulário com repetição espaçada e fila de erros.
 
 Os fatos da prova e o que **não** deu para confirmar estão em [docs/format-sources.md](docs/format-sources.md).

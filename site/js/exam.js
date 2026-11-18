@@ -144,6 +144,78 @@
     return band;
   }
 
+  function adjustBand(band, flags) {
+    if (band == null || !flags) return band;
+    const n = ["points", "example", "grammar", "clear"].filter((k) => flags[k]).length;
+    let b = band;
+    if (n >= 4) b += 0.5;
+    else if (n === 2) b -= 0.5;
+    else if (n <= 1) b -= 1;
+    return Math.max(1, Math.min(6, Math.round(b * 2) / 2));
+  }
+
+  function cefrOf(band) {
+    if (band == null) return "—";
+    if (band >= 6) return "C2";
+    if (band >= 5) return "C1";
+    if (band >= 4) return "B2";
+    if (band >= 3) return "B1";
+    if (band >= 2) return "A2";
+    return "A1";
+  }
+
+  function overallOf(bands, keys) {
+    const nums = keys.map((k) => bands[k]).filter((n) => n != null);
+    if (!nums.length) return null;
+    return Math.round((nums.reduce((a, b) => a + b, 0) / nums.length) * 2) / 2;
+  }
+
+  function skillBands(form, run) {
+    const readBlocks = form.reading.m1.concat(form.reading[run.readingRoute || "lower"]);
+    const lisBlocks = form.listening.m1.concat(form.listening[run.listeningRoute || "lower"]);
+    const read = scoreReadingBlocks(readBlocks, run.answers);
+    const lis = scoreListening(lisBlocks, run.answers);
+    const bas = basScore(form.bas, run.answers);
+    const emailScore = form.email ? Widgets.heuristicBand(Widgets.emailChecks(form.email, run.answers.email || "")) : 0;
+    const discScore = form.discussion ? Widgets.heuristicBand(Widgets.discussionChecks(form.discussion, run.answers.disc || "")) : 0;
+    const writingBase = bandFromPct((bas.hit + emailScore + discScore) / 20, null);
+    const writing = adjustBand(writingBase, run.rubric && run.rubric.writing);
+    const readCap = run.readingRoute === "lower" ? 4 : null;
+    const lisCap = run.listeningRoute === "lower" ? 4 : null;
+    const rep = (run.speak.repeat || []).filter((x) => x && x.accuracy != null);
+    const repAvg = rep.length ? rep.reduce((s, x) => s + x.accuracy, 0) / rep.length : null;
+    const interviews = (run.speak.interview || []).filter(Boolean);
+    const wordAvg = interviews.length ? interviews.reduce((s, x) => s + (x.words || 0), 0) / interviews.length : 0;
+    let speakingBase = null;
+    if (repAvg != null || interviews.length) {
+      const repPart = repAvg == null ? 0.4 : repAvg;
+      const lenPart = wordAvg >= 70 ? 1 : wordAvg >= 45 ? 0.75 : wordAvg >= 25 ? 0.5 : 0.25;
+      speakingBase = bandFromPct(repPart * 0.55 + lenPart * 0.45, null);
+    }
+    const speaking = adjustBand(speakingBase, run.rubric && run.rubric.speaking);
+    return {
+      reading: bandFromPct(read.pct, readCap),
+      listening: bandFromPct(lis.pct, lisCap),
+      writing, speaking, writingBase, speakingBase,
+      read, lis, bas, emailScore, discScore
+    };
+  }
+
+  function markPhrases(text, phrases) {
+    let html = esc(text || "").replace(/\n/g, "<br>");
+    (phrases || []).forEach((p) => {
+      if (!p) return;
+      const e = esc(p);
+      html = html.split(e).join("<mark>" + e + "</mark>");
+    });
+    return html;
+  }
+
+  function modelHtml(m) {
+    if (!m) return "<p class=\"muted\">Sem modelo para este item.</p>";
+    return '<p class="tag">Banda 5–6</p><p>' + markPhrases(m.high, m.phrases) + '</p><p class="tag">B2 · banda 4, meta realista</p><p>' + markPhrases(m.b2, m.phrases) + '</p><p class="muted">' + esc(m.note) + "</p>";
+  }
+
   function basScore(items, answers) {
     let hit = 0;
     items.forEach((item) => {
@@ -184,13 +256,17 @@
 
     function onTimeUp() {
       if (run.stage === "read1") return finishRead1();
-      if (run.stage === "read2") return go("vol-lis");
+      if (run.stage === "read2") return go("sec-read");
       if (run.stage === "lis1") return finishLis1();
-      if (run.stage === "lis2") return go("dir-wri");
+      if (run.stage === "lis2") return go("sec-lis");
       if (run.stage === "bas") return go("email");
       if (run.stage === "email") return go("disc");
-      if (run.stage === "disc") return go("dir-spk");
-      if (run.stage === "repeat" || run.stage === "interview") return advanceSpeak(true);
+      if (run.stage === "disc") return go("sec-wri");
+      if (run.stage === "repeat" || run.stage === "interview") {
+        const i = run.index || 0;
+        run.review = { kind: run.stage, i };
+        return go("model", { index: i });
+      }
     }
 
     function go(stage, extra) {
@@ -293,13 +369,13 @@
         root.querySelector("#next").onclick = () => step(1);
       }
       root.querySelector("#back").onclick = () => step(-1);
-      root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "read1" ? finishRead1() : go("vol-lis"));
+      root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "read1" ? finishRead1() : go("sec-read"));
       function step(d) {
         const nxt = run.cursor + d;
         if (nxt < 0) return;
         if (nxt >= units.length) {
           if (run.stage === "read1") finishRead1();
-          else go("vol-lis");
+          else go("sec-read");
           return;
         }
         run.cursor = nxt;
@@ -331,7 +407,7 @@
       );
       root.querySelector("#begin").textContent = "Ouvir a frase de teste";
       root.querySelector("#begin").onclick = async () => {
-        await AudioKit.speak("This is a volume check. Listening is about to begin.");
+        await AudioKit.speak("This is a volume check. Listening is about to begin.", { rate: 1 });
         const b = document.createElement("p");
         b.innerHTML = '<button class="btn" id="okvol">O volume está bom</button>';
         root.querySelector(".dir-screen").appendChild(b);
@@ -354,7 +430,7 @@
     if (run.stage === "lis1" || run.stage === "lis2") {
       const blocks = run.stage === "lis1" ? form.listening.m1 : form.listening[run.listeningRoute || "lower"];
       if (run.cursor >= blocks.length) {
-        if (run.stage === "lis1") finishLis1(); else go("dir-wri");
+        if (run.stage === "lis1") finishLis1(); else go("sec-lis");
         return;
       }
       const block = blocks[run.cursor];
@@ -377,7 +453,7 @@
           persist(run);
           redraw();
         });
-        root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "lis1" ? finishLis1() : go("dir-wri"));
+        root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "lis1" ? finishLis1() : go("sec-lis"));
         timerHandle = requestAnimationFrame(tick);
         return;
       }
@@ -406,10 +482,10 @@
         run.index = 0;
         persist(run);
         if (run.cursor >= blocks.length) {
-          if (run.stage === "lis1") finishLis1(); else go("dir-wri");
+          if (run.stage === "lis1") finishLis1(); else go("sec-lis");
         } else redraw();
       };
-      root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "lis1" ? finishLis1() : go("dir-wri"));
+      root.querySelector("#abandon").onclick = () => abandon(() => run.stage === "lis1" ? finishLis1() : go("sec-lis"));
       timerHandle = requestAnimationFrame(tick);
       return;
     }
@@ -508,8 +584,8 @@
       };
       area.addEventListener("input", update);
       update();
-      root.querySelector("#next").onclick = () => { update(); go(run.stage === "email" ? "disc-dir" : "dir-spk"); };
-      root.querySelector("#abandon").onclick = () => abandon(() => go(run.stage === "email" ? "disc-dir" : "dir-spk"));
+      root.querySelector("#next").onclick = () => { update(); go(run.stage === "email" ? "disc-dir" : "sec-wri"); };
+      root.querySelector("#abandon").onclick = () => abandon(() => go(run.stage === "email" ? "disc-dir" : "sec-wri"));
       timerHandle = requestAnimationFrame(tick);
       return;
     }
@@ -546,7 +622,7 @@
       root.innerHTML = shell("Speaking · Listen and Repeat", "00:" + String(seconds).padStart(2, "0"), seconds < 10,
         "<p class=\"kicker\">Listen and repeat only once · " + (i + 1) + " / 7</p><h2>" + esc(sc.scenario) + "</h2><p id=\"status\">Ouça e repita. A frase não aparece agora.</p><p id=\"heard\" class=\"muted\"></p>", "");
       (async () => {
-        await AudioKit.speak(sentence.text);
+        await AudioKit.speak(sentence.text, { rate: 1 });
         if (run.view !== view) return;
         root.querySelector("#status").textContent = "Repita agora.";
         let left = seconds;
@@ -568,9 +644,8 @@
           run.speak.repeat[i] = { transcript: "", accuracy: null, error: "microfone" };
           persist(run);
         }
-        run.index = i + 1;
-        persist(run);
-        redraw();
+        run.review = { kind: "repeat", i };
+        go("model", { index: i });
       })();
       return;
     }
@@ -579,12 +654,12 @@
       const sc = form.interview;
       if (!sc) { root.innerHTML = "<p>Falta a entrevista.</p>"; return; }
       const i = run.index || 0;
-      if (i >= sc.questions.length) { finishAll(); return; }
+      if (i >= sc.questions.length) { go("sec-spk"); return; }
       const q = sc.questions[i];
       root.innerHTML = shell("Speaking · Take an Interview", "00:45", false,
         "<p class=\"kicker\">Question " + (i + 1) + " of 4 · no preparation</p><h2>" + esc(sc.scenario) + "</h2><div class=\"passage\" id=\"qtext\">" + esc(q.text) + "</div><p class=\"note\">Na prova a pergunta é falada. O texto fica aqui porque a voz do navegador não é o áudio oficial. Não confirmamos se a tela real mostra a pergunta.</p><p id=\"heard\"></p>", "");
       (async () => {
-        await AudioKit.speak(q.text);
+        await AudioKit.speak(q.text, { rate: 1 });
         if (run.view !== view) return;
         let left = 45;
         const iv = setInterval(() => {
@@ -606,52 +681,151 @@
           run.speak.interview[i] = { transcript: "", words: 0, error: "microfone" };
           persist(run);
         }
-        run.index = i + 1;
-        persist(run);
-        redraw();
+        run.review = { kind: "interview", i };
+        go("model", { index: i });
       })();
       return;
     }
 
-    function finishAll() {
-      const readBlocks = form.reading.m1.concat(form.reading[run.readingRoute || "lower"]);
-      const lisBlocks = form.listening.m1.concat(form.listening[run.listeningRoute || "lower"]);
-      const read = scoreReadingBlocks(readBlocks, run.answers);
-      const lis = scoreListening(lisBlocks, run.answers);
-      const bas = basScore(form.bas, run.answers);
-      const emailText = run.answers.email || "";
-      const discText = run.answers.disc || "";
-      const emailScore = form.email ? Widgets.heuristicBand(Widgets.emailChecks(form.email, emailText)) : 0;
-      const discScore = form.discussion ? Widgets.heuristicBand(Widgets.discussionChecks(form.discussion, discText)) : 0;
-      const rawW = bas.hit + emailScore + discScore;
-      const wBand = bandFromPct(rawW / 20, null);
-      const readCap = run.readingRoute === "lower" ? 4 : null;
-      const lisCap = run.listeningRoute === "lower" ? 4 : null;
-      const rep = run.speak.repeat.filter((x) => x && x.accuracy != null);
-      const repAvg = rep.length ? rep.reduce((s, x) => s + x.accuracy, 0) / rep.length : null;
-      const interviews = run.speak.interview.filter(Boolean);
-      const wordAvg = interviews.length ? interviews.reduce((s, x) => s + (x.words || 0), 0) / interviews.length : 0;
-      let speakBand = null;
-      if (repAvg != null) {
-        const repPart = repAvg;
-        const lenPart = wordAvg >= 70 ? 1 : wordAvg >= 45 ? 0.75 : wordAvg >= 25 ? 0.5 : 0.25;
-        speakBand = bandFromPct(repPart * 0.55 + lenPart * 0.45, null);
+    if (run.stage === "sec-read" || run.stage === "sec-lis" || run.stage === "sec-wri" || run.stage === "sec-spk") {
+      const keys = run.stage === "sec-read" ? ["reading"]
+        : run.stage === "sec-lis" ? ["reading", "listening"]
+        : run.stage === "sec-wri" ? ["reading", "listening", "writing"]
+        : ["reading", "listening", "writing", "speaking"];
+      const partial = run.stage !== "sec-spk";
+      const snap = skillBands(form, run);
+      const cards = keys.map((k) => {
+        const name = { reading: "Reading", listening: "Listening", writing: "Writing", speaking: "Speaking" }[k];
+        const v = snap[k];
+        const c = cefrOf(v);
+        return '<div class="card stat"><b id="band-' + k + '">' + (v == null ? "—" : v.toFixed(1)) + "</b>" + name +
+          '<div class="muted">CEFR <span class="' + (c === "B2" ? "cefr goal" : "cefr") + '" id="cefr-' + k + '">' + c + "</span>" +
+          (c === "B2" ? " · sua meta" : "") + "</div></div>";
+      }).join("");
+      const ov = overallOf(snap, keys);
+      const oc = cefrOf(ov);
+      let body = "<h2>Estimativa da seção</h2><p class=\"muted\">Estimativa deste site, não é nota da ETS. B2 (banda 4 a 4,5) é a sua meta.</p><div class=\"grid-4\">" + cards + "</div>";
+      body += "<p>Geral " + (partial ? "até aqui" : "") + ': <b id="band-overall">' + (ov == null ? "—" : ov.toFixed(1)) + '</b> · CEFR <span id="cefr-overall" class="' + (oc === "B2" ? "cefr goal" : "cefr") + '">' + oc + "</span></p>";
+      if (run.stage === "sec-wri" || run.stage === "sec-spk") {
+        const kind = run.stage === "sec-wri" ? "writing" : "speaking";
+        const labels = kind === "writing"
+          ? [["points", "Cobri o que a tarefa pediu"], ["example", "Dei um detalhe ou exemplo"], ["grammar", "Frases completas, com um conector"], ["clear", "Os erros não atrapalham a leitura"]]
+          : [["points", "Respondi o que foi perguntado"], ["example", "Dei motivo e exemplo"], ["grammar", "Dá para me entender"], ["clear", "Falei com poucas pausas e poucos fillers"]];
+        const cur = (run.rubric && run.rubric[kind]) || {};
+        body += '<fieldset class="card"><legend>Autoavaliação · entra na estimativa</legend>' +
+          labels.map(([k, lab]) => '<label class="checkline"><input type="checkbox" data-rub="' + k + '"' + (cur[k] ? " checked" : "") + "> " + lab + "</label>").join("") +
+          '<p class="muted">Quatro marcas sobem 0,5. Duas descem 0,5. Uma ou nenhuma desce 1.</p></fieldset>';
       }
-      const bands = {
-        reading: bandFromPct(read.pct, readCap),
-        listening: bandFromPct(lis.pct, lisCap),
-        writing: wBand,
-        speaking: speakBand
+      if (run.stage === "sec-wri") {
+        const models = window.MODELS || {};
+        const em = form.email && models.email && models.email[form.email.id];
+        const di = form.discussion && models.discussion && models.discussion[form.discussion.id];
+        body += "<details class=\"card\"><summary>Respostas-modelo do e-mail e da discussão</summary>" + modelHtml(em) + "<hr>" + modelHtml(di) + "</details>";
+      }
+      const nextLabel = run.stage === "sec-read" ? "Continuar para Listening"
+        : run.stage === "sec-lis" ? "Continuar para Writing"
+        : run.stage === "sec-wri" ? "Continuar para Speaking"
+        : "Ver resultado";
+      body += '<p><button class="btn" id="next">' + nextLabel + "</button></p>";
+      root.innerHTML = shell("Estimativa", "", false, body, "");
+      root.querySelectorAll("[data-rub]").forEach((el) => {
+        el.onchange = () => {
+          const kind = run.stage === "sec-wri" ? "writing" : "speaking";
+          run.rubric = run.rubric || {};
+          run.rubric[kind] = run.rubric[kind] || {};
+          run.rubric[kind][el.dataset.rub] = el.checked;
+          persist(run);
+          const again = skillBands(form, run);
+          ["writing", "speaking"].forEach((k) => {
+            const node = root.querySelector("#band-" + k);
+            if (node) node.textContent = again[k] == null ? "—" : again[k].toFixed(1);
+            const cf = root.querySelector("#cefr-" + k);
+            if (cf) {
+              cf.textContent = cefrOf(again[k]);
+              cf.className = cefrOf(again[k]) === "B2" ? "cefr goal" : "cefr";
+            }
+          });
+          const keysNow = run.stage === "sec-wri" ? ["reading", "listening", "writing"] : ["reading", "listening", "writing", "speaking"];
+          const o2 = overallOf(again, keysNow);
+          const ob = root.querySelector("#band-overall");
+          if (ob) ob.textContent = o2 == null ? "—" : o2.toFixed(1);
+          const oc2 = root.querySelector("#cefr-overall");
+          if (oc2) { oc2.textContent = cefrOf(o2); oc2.className = cefrOf(o2) === "B2" ? "cefr goal" : "cefr"; }
+        };
+      });
+      root.querySelector("#next").onclick = () => {
+        if (run.stage === "sec-read") go("vol-lis");
+        else if (run.stage === "sec-lis") go("dir-wri");
+        else if (run.stage === "sec-wri") go("dir-spk");
+        else finishAll();
       };
-      const nums = [bands.reading, bands.listening, bands.writing].concat(speakBand == null ? [] : [speakBand]);
-      const overall = nums.length ? Math.round((nums.reduce((a, b) => a + b, 0) / nums.length) * 2) / 2 : null;
+      return;
+    }
+
+    if (run.stage === "model") {
+      const rev = run.review || { kind: "repeat", i: 0 };
+      const models = window.MODELS || {};
+      let body = "<h2>Depois da sua tentativa</h2>";
+      if (rev.kind === "repeat" && form.repeat) {
+        const sent = form.repeat.sentences[rev.i];
+        const pack = models.repeat && models.repeat[form.repeat.id];
+        const m = pack && pack[rev.i];
+        const got = (run.speak.repeat[rev.i] && run.speak.repeat[rev.i].transcript) || "";
+        body += "<p class=\"muted\">A frase só aparece agora, depois da tentativa.</p>";
+        body += "<p>Você disse: " + esc(got || "(sem transcrição)") + "</p>";
+        body += modelHtml(m || (sent ? { high: sent.text, b2: sent.text, phrases: [], note: "A meta alta é a frase exata." } : null));
+      } else if (form.interview) {
+        const q = form.interview.questions[rev.i];
+        const pack = models.interview && models.interview[form.interview.id];
+        const m = pack && pack[rev.i];
+        body += "<p><b>" + esc(q ? q.text : "") + "</b></p>";
+        body += modelHtml(m);
+      }
+      body += '<p><button class="btn" id="next">Continuar</button></p>';
+      root.innerHTML = shell("Speaking", "", false, body, "");
+      root.querySelector("#next").onclick = () => {
+        const nextI = rev.i + 1;
+        if (rev.kind === "repeat") {
+          const len = form.repeat ? form.repeat.sentences.length : 0;
+          if (nextI >= len) go("interview");
+          else go("repeat", { index: nextI });
+        } else {
+          const len = form.interview ? form.interview.questions.length : 0;
+          if (nextI >= len) go("sec-spk");
+          else go("interview", { index: nextI });
+        }
+      };
+      return;
+    }
+
+    function finishAll() {
+      const snap = skillBands(form, run);
+      const bands = {
+        reading: snap.reading,
+        listening: snap.listening,
+        writing: snap.writing,
+        speaking: snap.speaking
+      };
+      const overall = overallOf(bands, ["reading", "listening", "writing", "speaking"]);
       const result = {
         when: new Date().toISOString(),
         mockId: run.mockId,
-        bands, overall, read, lis, bas, emailScore, discScore, rawW,
+        bands, overall,
+        base: { writing: snap.writingBase, speaking: snap.speakingBase },
+        rubric: run.rubric || {},
+        read: snap.read, lis: snap.lis, bas: snap.bas,
+        emailScore: snap.emailScore, discScore: snap.discScore,
+        rawW: snap.bas.hit + snap.emailScore + snap.discScore,
         routes: { reading: run.readingRoute, listening: run.listeningRoute },
         speak: run.speak,
-        emailText, discText
+        emailText: run.answers.email || "",
+        discText: run.answers.disc || "",
+        prompts: {
+          email: form.email && form.email.id,
+          discussion: form.discussion && form.discussion.id,
+          repeat: form.repeat && form.repeat.id,
+          interview: form.interview && form.interview.id
+        }
       };
       Store.get().mocks.push(result);
       Store.get().mockRun = null;
@@ -663,5 +837,5 @@
     if (run.stage === "results") location.hash = "#/resultado";
   }
 
-  window.ExamKit = { assemble, countReading, countListening, render, fresh, bandFromPct };
+  window.ExamKit = { assemble, countReading, countListening, render, fresh, bandFromPct, cefrOf, adjustBand, overallOf };
 })();

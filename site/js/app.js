@@ -48,11 +48,30 @@
     { href: "#/", label: "Início", ico: "I", color: "#7c3aed" },
     { href: "#/estrutura", label: "Estrutura da prova", ico: "E", color: "#4f46e5" },
     { group: "Estudar", ico: "A", color: "#0ea5e9", items: [
-      ["#/estudar/reading", "Reading"],
-      ["#/estudar/listening", "Listening"],
-      ["#/estudar/writing", "Writing"],
-      ["#/estudar/speaking", "Speaking"],
-      ["#/bas", "Build a Sentence"]
+      { group: "Reading", href: "#/estudar/reading", items: [
+        ["#/estudar/reading", "Visão da seção"],
+        ["#/pratica/ctw", "Complete the Words"],
+        ["#/pratica/daily", "Read in Daily Life"],
+        ["#/pratica/academic", "Read an Academic Passage"]
+      ]},
+      { group: "Listening", href: "#/estudar/listening", items: [
+        ["#/estudar/listening", "Visão da seção"],
+        ["#/pratica/choose", "Listen and Choose a Response"],
+        ["#/pratica/conversation", "Listen to a Conversation"],
+        ["#/pratica/announcement", "Listen to an Announcement"],
+        ["#/pratica/talk", "Listen to an Academic Talk"]
+      ]},
+      { group: "Writing", href: "#/estudar/writing", items: [
+        ["#/estudar/writing", "Visão da seção"],
+        ["#/bas", "Build a Sentence"],
+        ["#/pratica/email", "Write an Email"],
+        ["#/pratica/discussion", "Write for an Academic Discussion"]
+      ]},
+      { group: "Speaking", href: "#/estudar/speaking", items: [
+        ["#/estudar/speaking", "Visão da seção"],
+        ["#/coach-fala?mode=repeat", "Listen and Repeat"],
+        ["#/coach-fala?mode=interview", "Take an Interview"]
+      ]}
     ]},
     { group: "Simulados", ico: "S", color: "#7c3aed", items: [
       ["#/simulados", "Os 10 simulados"],
@@ -65,10 +84,24 @@
     { href: "#/prova", label: "Dia da prova", ico: "D", color: "#be123c" }
   ];
 
+  function pathOf(href) {
+    return href.split("?")[0];
+  }
+  function renderNavItems(items, here, open) {
+    return items.map((it) => {
+      if (Array.isArray(it)) {
+        const [href, label] = it;
+        const active = here === pathOf(href) || (href.indexOf("?") > 0 && location.hash === href) ? " active" : "";
+        return `<a href="${href}" class="${active.trim()}">${label}</a>`;
+      }
+      const on = open[it.group] ? " open" : "";
+      return `<button class="group-btn sub${on}" data-g="${it.group}">${it.group}</button><div class="nav-sub nest${on}">${renderNavItems(it.items, here, open)}</div>`;
+    }).join("");
+  }
   function paintChrome(crumb) {
     const r = route();
     const here = "#" + (location.hash.slice(1).split("?")[0] || "/");
-    const open = JSON.parse(sessionStorage.getItem("navopen") || '{"Estudar":true,"Simulados":true}');
+    const open = JSON.parse(sessionStorage.getItem("navopen") || '{"Estudar":true,"Reading":true,"Simulados":true}');
     const side = document.getElementById("sidebar");
     const theme = Store.get().theme || "light";
     document.documentElement.dataset.theme = theme;
@@ -80,7 +113,7 @@
           return `<a class="nav-item${active}" href="${item.href}"><span class="ico" style="background:${item.color}">${item.ico}</span>${item.label}</a>`;
         }
         const on = open[item.group] ? " open" : "";
-        const kids = item.items.map(([href, label]) => `<a href="${href}" class="${here === href ? "active" : ""}">${label}</a>`).join("");
+        const kids = renderNavItems(item.items, here, open);
         return `<button class="group-btn${on}" data-g="${item.group}"><span class="ico" style="background:${item.color}">${item.ico}</span>${item.group}</button><div class="nav-sub${on}">${kids}</div>`;
       }).join("")}</div>
       <div class="side-foot">
@@ -104,6 +137,45 @@
     return `<p class="eyebrow">${esc(eyebrow)}</p><h1 class="page">${esc(title)}</h1>${lede ? `<p class="lede">${lede}</p>` : ""}`;
   }
 
+  let models = { email: {}, discussion: {}, repeat: {}, interview: {} };
+  function highlight(text, phrases) {
+    let html = esc(text || "").replace(/\n/g, "<br>");
+    (phrases || []).forEach((p) => {
+      if (!p) return;
+      const e = esc(p);
+      html = html.split(e).join("<mark>" + e + "</mark>");
+    });
+    return html;
+  }
+  function modelCard(m) {
+    if (!m) return "";
+    return `<article class="card model"><p class="tag">Banda 5–6</p><p>${highlight(m.high, m.phrases)}</p><p class="tag">B2 · banda 4, meta realista</p><p>${highlight(m.b2, m.phrases)}</p><p class="muted">${esc(m.note)}</p></article>`;
+  }
+  function historyChart(list) {
+    if (!list.length) return "";
+    const bars = list.map((m) => {
+      const h = Math.max(8, Math.round(((m.overall || 0) / 6) * 100));
+      return `<div class="bar" title="Simulado ${esc(String(m.mockId))}"><span style="height:${h}%"></span><em>${m.overall ?? "—"}</em><small>${esc(String(m.mockId))}</small></div>`;
+    }).join("");
+    return `<div class="card"><h2>Ao longo do tempo</h2><div class="chart">${bars}</div><p class="muted">Cada barra é a banda geral estimada, de 1 a 6.</p></div>`;
+  }
+  function cefrTable(band) {
+    const rows = [["6", "C2", (b) => b >= 6], ["5–5,5", "C1", (b) => b >= 5 && b < 6], ["4–4,5", "B2", (b) => b >= 4 && b < 5], ["3–3,5", "B1", (b) => b >= 3 && b < 4], ["2–2,5", "A2", (b) => b >= 2 && b < 3], ["1–1,5", "A1", (b) => b != null && b < 2]];
+    return `<table class="cefr-table"><tr><th>Banda</th><th>CEFR</th></tr>${rows.map(([range, name, hit]) => {
+      const on = band != null && hit(band) ? " on" : "";
+      const goal = name === "B2" ? " goal" : "";
+      return `<tr class="${(on + goal).trim()}"><td>${range}</td><td>${name}${name === "B2" ? " · sua meta" : ""}</td></tr>`;
+    }).join("")}</table>`;
+  }
+  function rubricBox(res, kind) {
+    const labels = kind === "writing"
+      ? [["points", "Cobri o que a tarefa pediu"], ["example", "Dei um detalhe ou exemplo"], ["grammar", "Frases completas, com um conector"], ["clear", "Os erros não atrapalham a leitura"]]
+      : [["points", "Respondi o que foi perguntado"], ["example", "Dei motivo e exemplo"], ["grammar", "Dá para me entender"], ["clear", "Falei com poucas pausas e poucos fillers"]];
+    const cur = (res.rubric && res.rubric[kind]) || {};
+    const title = kind === "writing" ? "Autoavaliação da escrita" : "Autoavaliação da fala";
+    return `<fieldset class="card"><legend>${title}</legend>${labels.map(([k, lab]) => `<label class="checkline"><input type="checkbox" data-kind="${kind}" data-rub="${k}" ${cur[k] ? "checked" : ""}> ${lab}</label>`).join("")}<p class="muted">Quatro marcas sobem 0,5. Duas descem 0,5. Uma ou nenhuma desce 1. Estimativa.</p></fieldset>`;
+  }
+
   async function boot() {
     const files = ["ctw","daily","academic","choose","conversation","announcement","talk","bas","email","discussion","repeat","interview","vocab"];
     bank = {};
@@ -116,6 +188,29 @@
     if (extra.ok) {
       const scale = await extra.json();
       Object.keys(scale).forEach((k) => { if (Array.isArray(scale[k])) bank[k] = (bank[k] || []).concat(scale[k]); });
+    }
+    const modelRes = await fetch("data/parts/models.json");
+    if (modelRes.ok) {
+      models = await modelRes.json();
+      window.MODELS = models;
+    }
+    document.addEventListener("keydown", (ev) => {
+      const t = ev.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable)) return;
+      if (ev.key >= "1" && ev.key <= "4") {
+        const opts = document.querySelectorAll(".q-option");
+        const btn = opts[Number(ev.key) - 1];
+        if (btn) { ev.preventDefault(); btn.click(); }
+      } else if (ev.key === "Enter") {
+        const btn = document.getElementById("go") || document.getElementById("next") || document.getElementById("begin");
+        if (btn) { ev.preventDefault(); btn.click(); }
+      } else if (ev.key === "n" || ev.key === "N") {
+        const btn = document.getElementById("next");
+        if (btn) { ev.preventDefault(); btn.click(); }
+      }
+    });
+    if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
     }
     document.getElementById("hamburger").onclick = () => document.body.classList.toggle("nav-open");
     document.getElementById("scrim").onclick = () => document.body.classList.remove("nav-open");
@@ -130,6 +225,7 @@
       const id = r.parts[1];
       if (r.q.novo === "1") {
         Store.get().mockRun = ExamKit.fresh(Number(id));
+        Store.get().lastHref = "#/simulado/" + id;
         Store.save();
         history.replaceState(null, "", "#/simulado/" + id);
       } else if (!Store.get().mockRun || String(Store.get().mockRun.mockId) !== id) {
@@ -169,7 +265,13 @@
     const plan = PlanKit.build(s);
     const today = plan[0];
     const streak = s.streak || { count: 0, last: "" };
-    root().innerHTML = head("Seu ritmo, sua prova", "Meu plano · TOEFL iBT", "Uma rotina curta, no feminino e no seu fuso. A meta é banda 4 ou mais, o começo de B2. A aula de inglês continua; aqui entra o que a prova cronometra.") + `
+    const resume = s.lastHref || "#/pratica/ctw";
+    const todayHref = today && today.blocks[0] ? today.blocks[0].href : "#/pratica/bas?n=8";
+    root().innerHTML = head("Seu ritmo", "Meu plano · TOEFL iBT", "Meta: banda 4 ou mais (B2).") + `
+      <div class="row" style="margin-bottom:14px">
+        <a class="btn" href="${esc(todayHref)}">Treino de hoje</a>
+        <a class="btn secondary" href="${esc(resume)}">Continuar de onde parei</a>
+      </div>` + (left != null && left <= 7 ? `<div class="card"><b>Última semana.</b> <a href="#/prova">Checklist da semana e do dia</a></div>` : "") + `
       <div class="pills">
         <button class="pill active" data-tab="hoje">Hoje</button>
         <button class="pill" data-tab="semana">Semana</button>
@@ -186,14 +288,14 @@
             <p class="muted">Fuso de Brasília. Só neste navegador.</p></div>
           <div class="card"><p class="eyebrow">Sequência</p><div class="stat"><b>${streak.count || 0}</b> dias seguidos</div>
             <p class="muted">Último estudo registrado: ${esc(streak.last || "ainda não")}.</p>
-            <p>Prioridade: <b>escrita e fala</b>. Build a Sentence e Listen and Repeat vêm primeiro.</p>
-            <a class="btn" href="#/diagnostico">Fazer o diagnóstico</a></div>
+            <p class="muted">Prioridade: escrita (Build a Sentence) e fala.</p>
+            <a class="btn secondary" href="#/diagnostico">Diagnóstico</a></div>
         </div>
         <div class="card"><h2>Mapa das habilidades</h2><div class="grid-4">${["reading","listening","writing","speaking"].map((k) => {
           const p = skillPct(k);
           return `<div><b>${k}</b><div class="heat"><span style="width:${p == null ? 8 : p}%"></span></div><span class="muted">${p == null ? "sem dados" : p + "% de acerto"}</span></div>`;
         }).join("")}</div></div>
-        <div class="card"><h2>Hoje</h2>${today ? today.blocks.map((b) => `<p><a href="${esc(b.href)}">${esc(b.title)}</a><br><span class="muted">${esc(b.note)}</span></p>`).join("") : "<p>Se a prova é hoje, abra o dia da prova e descanse.</p>"}</div>`;
+        <div class="card"><h2>Hoje</h2>${today ? today.blocks.map((b) => `<p class="task-row"><a href="${esc(b.href)}">${esc(b.title)}</a><span class="muted">${b.minutes} min</span></p>`).join("") : "<p>Se a prova é hoje, descanse.</p>"}</div>`;
         const input = tab.querySelector("#exam");
         if (input) input.onchange = (e) => { Store.set({ examDate: e.target.value }); home(); };
       } else if (name === "semana") {
@@ -299,8 +401,8 @@
   function estudar(r) {
     const key = r.parts[1] || "reading";
     const g = GUIDE[key] || GUIDE.reading;
-    root().innerHTML = head("Estudar", g.title, g.lede) + g.blocks.map((b) => `<article class="card"><h2>${esc(b[0])}</h2><p><b>O que cobra.</b> ${esc(b[1])}</p><p><b>Passo a passo.</b> ${esc(b[2])}</p><p><b>Armadilha.</b> ${esc(b[3])}</p><p><b>Exemplo.</b> ${esc(b[4])}</p><p><a class="btn" href="#/pratica/${taskKey(b[0])}">Praticar esta tarefa</a></p></article>`).join("") +
-      `<div class="card"><h2>Vídeos</h2>${(VIDEOS[key] || []).map(([href, title]) => `<p><a href="${href}" target="_blank" rel="noopener">${esc(title)}</a></p>`).join("")}<p class="muted">Terceiros. Se divergirem da ETS, fique com a ETS. Links conferidos em 10/11/2026.</p></div>`;
+    root().innerHTML = head(key === "reading" ? "Reading" : "Estudar", g.title, g.lede) + g.blocks.map((b) => `<article class="card"><div class="task-row"><div><h2>${esc(b[0])}</h2><p class="muted" style="margin:0">${esc(b[1])}</p></div><a class="btn" href="#/pratica/${taskKey(b[0])}">Praticar</a></div><details class="tips"><summary>Ver dicas</summary><p>${esc(b[2])}</p><p>Armadilha: ${esc(b[3])}</p><p>Exemplo: ${esc(b[4])}</p></details></article>`).join("") +
+      `<details class="tips card"><summary>Vídeos</summary>${(VIDEOS[key] || []).map(([href, title]) => `<p><a href="${href}" target="_blank" rel="noopener">${esc(title)}</a></p>`).join("")}</details>`;
   }
   function taskKey(title) {
     const map = {
@@ -315,8 +417,8 @@
 
   function basPage() {
     const patterns = ["embedded-wh","indirect-question","auxiliary","relative-clause","passive","preposition","reported-speech","conditional","comparison","gerund-infinitive","word-order","agreement"];
-    root().innerHTML = head("Sua tarefa mais frágil", "Build a Sentence", "Monte a resposta com as peças. Sobram palavras. A ordem da pergunta direta não entra depois de if, whether ou de um wh- embutido.") +
-      `<div class="card"><p>Treino por padrão. Cada série puxa primeiro o que você errou.</p><div class="pills">${patterns.map((p) => `<a class="pill" href="#/pratica/bas?pattern=${p}&n=8">${p}</a>`).join("")}</div><p><a class="btn" href="#/pratica/bas?n=10&timer=1">Série cronometrada, 10 itens</a></p></div>`;
+    root().innerHTML = head("Writing", "Build a Sentence", "Monte a frase. Peças sobram.") +
+      `<div class="card"><a class="btn" href="#/pratica/bas?n=10&timer=1">10 itens no relógio</a><div class="pills">${patterns.map((p) => `<a class="pill" href="#/pratica/bas?pattern=${p}&n=8">${p}</a>`).join("")}</div><details class="tips"><summary>Ver dicas</summary><p>Pergunta indireta não inverte o verbo. Relativa cola no nome. Passiva: be + particípio.</p></details></div>`;
   }
 
   function simulados() {
@@ -330,18 +432,20 @@
         const rl = ExamKit.countReading(c.reading.lower);
         const l1 = ExamKit.countListening(c.listening.m1);
         const lu = ExamKit.countListening(c.listening.upper);
-        info = `Reading ${r1}+${ru} (fácil ${rl}). Listening ${l1}+${lu}. Frases: ${c.bas.length}. E-mail: ${c.email ? "sim" : "não"}. Discussão: ${c.discussion ? "sim" : "não"}. Repetir: ${c.repeat ? 7 : 0}. Entrevista: ${c.interview ? 4 : 0}.`;
+        info = `Reading ${r1 + ru} · Listening ${l1 + lu} · Writing 12 · Speaking 11`;
       } catch (e) { info = e.message; }
       cards += `<article class="card"><h2>Simulado ${n}</h2><p>${esc(info)}</p><a class="btn" href="#/simulado/${n}?novo=1">Começar</a></article>`;
     }
-    root().innerHTML = head("Condições de prova", "Dez simulados", "Ordem oficial, relógios de módulo e módulo 2 adaptativo. A banda é estimativa. Itens em branco contam como erro.") +
-      `<div class="warn">Relógios: Reading 21:00 + 9:00. Listening 18:00 + 11:00 ou 7:00. Build a Sentence 5:50, número da TST Prep, não da ETS. E-mail 7:00. Discussão 10:00. Repetição 8–12 s. Entrevista 45 s.</div>` + cards;
+    root().innerHTML = head("Simulados", "Dez simulados", "Ordem da prova. Toque em Começar.") +
+      `<details class="estimate"><summary>Estimativa de tempo e de nota</summary><p>Relógios: Reading 21:00 + 9:00. Listening 18:00 + 11:00 ou 7:00. Build a Sentence 5:50 (TST Prep, não é número da ETS). E-mail 7:00. Discussão 10:00. Repetição 8–12 s. Entrevista 45 s. A banda na tela é estimativa. O corte de 65% e a divisão dos módulos não foram publicados pela ETS. Itens em branco contam como erro.</p></details>` + cards;
   }
 
   function historico() {
-    const list = (Store.get().mocks || []).slice().reverse();
-    root().innerHTML = head("O que você já fez", "Histórico", "Cada simulado salvo neste navegador.") +
-      (list.length ? list.map((m, i) => `<article class="card"><b>Simulado ${m.mockId}</b> · geral ${m.overall ?? "—"} · R ${m.bands.reading} · L ${m.bands.listening} · W ${m.bands.writing} · S ${m.bands.speaking ?? "—"}<br><span class="muted">${esc(m.when || "")}</span> <button class="btn ghost" data-i="${list.length - 1 - i}">Abrir</button></article>`).join("") : `<p class="card">Nenhum simulado salvo ainda.</p>`);
+    const all = Store.get().mocks || [];
+    const list = all.slice().reverse();
+    root().innerHTML = head("O que você já fez", "Histórico", "Estimativa deste site, não é nota da ETS.") +
+      historyChart(all) +
+      (list.length ? list.map((m, i) => `<article class="card"><b>Simulado ${m.mockId}</b> · geral ${m.overall ?? "—"} · R ${m.bands.reading} · L ${m.bands.listening} · W ${m.bands.writing} · S ${m.bands.speaking ?? "—"} · ${ExamKit.cefrOf(m.overall)}<br><span class="muted">${esc(m.when || "")}</span> <button class="btn ghost" data-i="${list.length - 1 - i}">Abrir</button></article>`).join("") : `<p class="card">Nenhum simulado salvo ainda.</p>`);
     root().querySelectorAll("button[data-i]").forEach((b) => b.onclick = () => {
       Store.get().lastResult = Store.get().mocks[Number(b.dataset.i)];
       Store.save();
@@ -351,27 +455,71 @@
 
   function resultado() {
     const res = Store.get().lastResult || (Store.get().mocks || []).slice(-1)[0];
-    if (!res) { root().innerHTML = head("Resultado", "Nenhum simulado ainda", "") ; return; }
+    if (!res) { root().innerHTML = head("Resultado", "Nenhum simulado ainda", ""); return; }
+    if (!res.base) res.base = { writing: res.bands.writing, speaking: res.bands.speaking };
+    if (!res.rubric) res.rubric = {};
     const b = res.bands || {};
-    root().innerHTML = head("Estimativa, não nota ETS", "Simulado " + res.mockId, "A fórmula oficial que transforma acertos em banda não é pública. Se o módulo 2 foi o fácil, a estimativa de Reading ou Listening fica limitada a 4,0.") +
-      `<div class="grid-4"><div class="card stat"><b>${b.reading}</b>Reading</div><div class="card stat"><b>${b.listening}</b>Listening</div><div class="card stat"><b>${b.writing}</b>Writing</div><div class="card stat"><b>${b.speaking == null ? "—" : b.speaking}</b>Speaking</div></div>
-      <div class="card"><p>Geral estimada: <b>${res.overall ?? "—"}</b>. B2 começa em 4.</p><p>Reading ${res.read.hit}/${res.read.total}. Listening ${res.lis.hit}/${res.lis.total}. Build a Sentence ${res.bas.hit}/${res.bas.total}. Lista do e-mail ${res.emailScore}/5. Lista da discussão ${res.discScore}/5.</p><a class="btn" href="#/erros">Caderno de erros</a></div>`;
+    const skills = [["reading", "Reading"], ["listening", "Listening"], ["writing", "Writing"], ["speaking", "Speaking"]];
+    const cards = skills.map(([k, name]) => {
+      const v = b[k];
+      const c = ExamKit.cefrOf(v);
+      return `<div class="card stat"><b>${v == null ? "—" : Number(v).toFixed(1)}</b>${name}<div class="muted">CEFR <span class="${c === "B2" ? "cefr goal" : "cefr"}">${c}</span>${c === "B2" ? " · sua meta" : ""}</div></div>`;
+    }).join("");
+    const oc = ExamKit.cefrOf(res.overall);
+    const prompts = res.prompts || {};
+    const em = prompts.email && models.email[prompts.email];
+    const di = prompts.discussion && models.discussion[prompts.discussion];
+    const reps = prompts.repeat && models.repeat[prompts.repeat];
+    const ivs = prompts.interview && models.interview[prompts.interview];
+    root().innerHTML = head("Resultado", "Simulado " + res.mockId, "") +
+      `<details class="estimate"><summary>Isto é uma estimativa, não nota da ETS</summary><p>A fórmula oficial não é pública. Se o módulo 2 foi o fácil, Reading ou Listening fica limitada a 4,0. A autoavaliação abaixo ajusta só Writing e Speaking.</p></details>` +
+      `<div class="grid-4">${cards}</div>
+      <div class="card"><p>Geral estimada: <b>${res.overall == null ? "—" : Number(res.overall).toFixed(1)}</b> · CEFR <span class="${oc === "B2" ? "cefr goal" : "cefr"}">${oc}</span>${oc === "B2" ? " · sua meta" : ""}</p>${cefrTable(res.overall)}<p>Reading ${res.read.hit}/${res.read.total}. Listening ${res.lis.hit}/${res.lis.total}. Build a Sentence ${res.bas.hit}/${res.bas.total}. Lista do e-mail ${res.emailScore}/5. Lista da discussão ${res.discScore}/5.</p><a class="btn" href="#/erros">Caderno de erros</a></div>` +
+      rubricBox(res, "writing") + rubricBox(res, "speaking") +
+      historyChart(Store.get().mocks || []) +
+      (em || di ? `<h2>Respostas-modelo da escrita</h2>${modelCard(em)}${modelCard(di)}` : "") +
+      (reps ? `<h2>Frases do Listen and Repeat</h2>` + reps.map((m, i) => `<details class="card"><summary>Frase ${i + 1}</summary>${modelCard(m)}</details>`).join("") : "") +
+      (ivs ? `<h2>Entrevista</h2>` + ivs.map((m, i) => `<details class="card"><summary>Pergunta ${i + 1}${m.q ? ": " + esc(m.q) : ""}</summary>${modelCard(m)}</details>`).join("") : "");
+    root().querySelectorAll("[data-rub]").forEach((el) => el.onchange = () => {
+      const kind = el.dataset.kind;
+      res.rubric[kind] = res.rubric[kind] || {};
+      res.rubric[kind][el.dataset.rub] = el.checked;
+      res.bands.writing = ExamKit.adjustBand(res.base.writing, res.rubric.writing);
+      res.bands.speaking = ExamKit.adjustBand(res.base.speaking, res.rubric.speaking);
+      res.overall = ExamKit.overallOf(res.bands, ["reading", "listening", "writing", "speaking"]);
+      const idx = (Store.get().mocks || []).indexOf(res);
+      if (idx >= 0) Store.get().mocks[idx] = res;
+      Store.get().lastResult = res;
+      Store.save();
+      resultado();
+    });
   }
 
   let practice = null;
   function pratica(r) {
     const task = r.parts[1];
     if (!task) {
-      root().innerHTML = head("Prática autoral", "Escolha a tarefa", "Não são questões da ETS.") + `<div class="grid-2">${Object.keys(TASK_NAME).map((id) => `<a class="card" href="#/pratica/${id}"><b>${TASK_NAME[id]}</b></a>`).join("")}</div>`;
+      const groups = [["Reading", SKILL.reading], ["Listening", SKILL.listening], ["Writing", SKILL.writing], ["Speaking", SKILL.speaking]];
+      const mode = Store.get().practiceMode || "estudo";
+      root().innerHTML = head("Prática", "Escolha a tarefa", "Teclas: 1 a 4 escolhem, Enter corrige, N continua.") +
+        `<div class="pills"><button class="pill ${mode !== "prova" ? "active" : ""}" id="modo-estudo">Estudo</button><button class="pill ${mode === "prova" ? "active" : ""}" id="modo-prova">Prova</button></div><p class="muted">Estudo: velocidade e uma repetição do áudio. Prova: o áudio toca uma vez e entra um relógio.</p>` +
+        groups.map(([name, ids]) => `<section class="card"><h2>${name}</h2>${ids.map((id) => `<p class="task-row"><span>${TASK_NAME[id]}</span><a class="btn" href="#/pratica/${id}">Abrir</a></p>`).join("")}</section>`).join("");
+      root().querySelector("#modo-estudo").onclick = () => { Store.set({ practiceMode: "estudo" }); pratica(r); };
+      root().querySelector("#modo-prova").onclick = () => { Store.set({ practiceMode: "prova" }); pratica(r); };
       return;
     }
     const n = Number(r.q.n || 0) || ({ ctw: 1, daily: 2, academic: 1, choose: 6, conversation: 2, announcement: 2, talk: 1, bas: 8 }[task] || 4);
+    const timed = r.q.timer === "1" || Store.get().practiceMode === "prova";
     const pool = (bank[task] || []).filter((x) => x.pool === "practice" && (!r.q.pattern || x.pattern === r.q.pattern));
     const due = new Set(Store.get().errors.filter((e) => e.task === task && e.due <= Date.now()).map((e) => e.id));
     const items = pool.filter((x) => due.has(x.id)).concat(pool.filter((x) => !due.has(x.id)));
     for (let i = items.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [items[i], items[j]] = [items[j], items[i]]; }
-    practice = { task, items: items.slice(0, n), i: 0, timer: r.q.timer === "1" ? 6 * 60 : 0, left: r.q.timer === "1" ? 6 * 60 : 0 };
+    practice = { task, items: items.slice(0, n), i: 0, timer: timed ? 6 * 60 : 0, left: timed ? 6 * 60 : 0 };
+    Store.set({ lastHref: location.hash });
     showPractice();
+  }
+  function skillOf(task) {
+    return Object.keys(SKILL).find((k) => SKILL[k].indexOf(task) >= 0) || "Prática";
   }
   function mark(task, ok) {
     Store.bump(task, ok);
@@ -379,12 +527,26 @@
   }
   function showPractice() {
     const p = practice;
+    if (p && p._iv) { clearInterval(p._iv); p._iv = null; }
     if (!p || p.i >= p.items.length) {
       root().innerHTML = head("Prática", "Série fechada", "Os erros entraram na fila.") + `<p><a class="btn" href="#/pratica">Outra tarefa</a></p>`;
       return;
     }
     const item = p.items[p.i];
-    root().innerHTML = head("Prática autoral", TASK_NAME[p.task] + " · " + (p.i + 1) + "/" + p.items.length, p.timer ? "Relógio da série ligado." : "") + `<div class="card" id="stage"></div><div id="feedback"></div>`;
+    const clock = p.left ? `<p id="pclock" class="muted">${String(Math.floor(p.left / 60)).padStart(2, "0")}:${String(p.left % 60).padStart(2, "0")}</p>` : "";
+    root().innerHTML = head(skillOf(p.task), TASK_NAME[p.task] + " · " + (p.i + 1) + "/" + p.items.length, "") + clock + `<div class="card" id="stage"></div><div id="feedback"></div>`;
+    if (p.left) {
+      p._iv = setInterval(() => {
+        p.left -= 1;
+        const el = root().querySelector("#pclock");
+        if (el) el.textContent = String(Math.max(0, Math.floor(p.left / 60))).padStart(2, "0") + ":" + String(Math.max(0, p.left % 60)).padStart(2, "0");
+        if (p.left <= 0) {
+          clearInterval(p._iv);
+          const goBtn = root().querySelector("#go");
+          if (goBtn) goBtn.click();
+        }
+      }, 1000);
+    }
     const stage = root().querySelector("#stage");
     if (p.task === "ctw") {
       stage.innerHTML = `<div id="host" class="passage"></div><button class="btn" id="go">Corrigir</button>`;
@@ -392,7 +554,7 @@
       stage.querySelector("#go").onclick = () => {
         const sc = api.score();
         sc.gaps.forEach((g, i) => mark("ctw", (sc.got[i] || "").toLowerCase() === g.missing.toLowerCase()));
-        Store.gradeError(item.id, "ctw", sc.hit === sc.total, {});
+        Store.gradeError(item.id, "ctw", sc.hit === sc.total, { label: (item.text || "").slice(0, 90) });
         Widgets.mountCTW(stage.querySelector("#host"), item, { initial: sc.got, locked: true, reveal: true });
         root().querySelector("#feedback").innerHTML = `<div class="note">${sc.hit} de ${sc.total}.</div><button class="btn" id="next">Próxima</button>`;
         root().querySelector("#next").onclick = () => { p.i += 1; showPractice(); };
@@ -405,38 +567,64 @@
       stage.querySelector("#go").onclick = () => {
         const ok = api.correct();
         mark("bas", ok);
-        Store.gradeError(item.id, "bas", ok, {});
+        Store.gradeError(item.id, "bas", ok, { label: item.prompt });
         root().querySelector("#feedback").innerHTML = `<div class="${ok ? "note" : "warn"}">${ok ? "Ordem certa." : "Gabarito: " + esc(item.answer.join(" "))}</div><p>${esc(item.why || "")}</p><button class="btn" id="next">Próxima</button>`;
         root().querySelector("#next").onclick = () => { p.i += 1; showPractice(); };
       };
       return;
     }
     if (p.task === "email" || p.task === "discussion") {
+      if (p._iv) clearInterval(p._iv);
       go(p.task === "email" ? "#/coach-escrita?task=email" : "#/coach-escrita?task=discussion");
       return;
     }
     if (p.task === "repeat" || p.task === "interview") {
+      if (p._iv) clearInterval(p._iv);
       go(p.task === "repeat" ? "#/coach-fala?mode=repeat" : "#/coach-fala?mode=interview");
       return;
     }
     const listening = ["choose", "conversation", "announcement", "talk"].includes(p.task);
+    const study = (Store.get().practiceMode || "estudo") !== "prova";
     if (listening && !p.heard) {
       const script = p.task === "choose" ? item.line : p.task === "conversation" ? item.lines.map((l) => l.text).join(". ") : item.script;
-      stage.innerHTML = `<p>A transcrição fica escondida.</p><button class="btn" id="play">Ouvir uma vez</button>`;
-      stage.querySelector("#play").onclick = async () => { stage.querySelector("#play").disabled = true; await AudioKit.speak(script); p.heard = true; showPractice(); };
+      const rate = study
+        ? `<label class="field">Velocidade<select id="rate"><option value="0.85">0,85</option><option value="0.96">1</option><option value="1.05">1,05</option></select></label>`
+        : "";
+      stage.innerHTML = `<p>A transcrição fica escondida. ${study ? "No estudo dá para repetir uma vez depois." : "No modo prova o áudio toca uma vez."}</p><div class="row">${rate}<button class="btn" id="play">Ouvir</button></div>`;
+      const sel = stage.querySelector("#rate");
+      if (sel) {
+        sel.value = String(Store.get().speechRate || 0.96);
+        sel.onchange = () => Store.set({ speechRate: Number(sel.value) });
+      }
+      stage.querySelector("#play").onclick = async () => {
+        stage.querySelector("#play").disabled = true;
+        await AudioKit.speak(script, study ? {} : { rate: 1 });
+        p.heard = true;
+        showPractice();
+      };
       return;
     }
     const questions = p.task === "choose" ? [{ q: "Choose the best response.", options: item.options, a: item.a, why: item.why }] : item.questions;
     const qi = p.qi || 0;
     const q = questions[qi];
     const passage = (p.task === "daily" || p.task === "academic") ? `<div class="passage">${esc(item.text)}</div>` : "";
-    stage.innerHTML = passage + `<h3>${esc(q.q)}</h3>` + q.options.map((op, i) => `<button class="q-option" data-a="${i}">${esc(op)}</button>`).join("") + `<p><button class="btn" id="go">Corrigir</button></p>`;
+    const replay = listening && study && !p.replays
+      ? `<button class="btn ghost" id="replay">Ouvir de novo</button>`
+      : "";
+    stage.innerHTML = passage + `<h3>${esc(q.q)}</h3>` + q.options.map((op, i) => `<button class="q-option" data-a="${i}">${esc(op)}</button>`).join("") + `<p class="row"><button class="btn" id="go">Corrigir</button>${replay}</p>`;
+    const replayBtn = stage.querySelector("#replay");
+    if (replayBtn) replayBtn.onclick = async () => {
+      p.replays = 1;
+      replayBtn.disabled = true;
+      const script = p.task === "choose" ? item.line : p.task === "conversation" ? item.lines.map((l) => l.text).join(". ") : item.script;
+      await AudioKit.speak(script);
+    };
     let picked = null;
     stage.querySelectorAll(".q-option").forEach((btn) => btn.onclick = () => { picked = Number(btn.dataset.a); stage.querySelectorAll(".q-option").forEach((b) => b.classList.remove("picked")); btn.classList.add("picked"); });
     stage.querySelector("#go").onclick = () => {
       const ok = picked === q.a;
       mark(p.task, ok);
-      Store.gradeError(item.id, p.task, ok, {});
+      Store.gradeError(item.id, p.task, ok, { label: q.q });
       stage.querySelectorAll(".q-option").forEach((btn) => {
         const i = Number(btn.dataset.a);
         if (i === q.a) btn.classList.add("good");
@@ -479,13 +667,28 @@
         try {
           const rec = await AudioKit.recordFor(12000, (t) => { document.getElementById("live").textContent = t; });
           const diff = AudioKit.align(sent.text, rec.transcript);
-          document.getElementById("diff").innerHTML = `<p>Precisão: <b>${Math.round(diff.accuracy * 100)}%</b></p><p class="diff">${diff.tokens.map((tk) => `<span class="${tk.ok ? "ok" : tk.extra ? "extra" : "miss"}">${esc(tk.t)}</span>`).join(" ")}</p>`;
+          const pack = models.repeat[sc.id] || [];
+          document.getElementById("diff").innerHTML = `<p>Precisão: <b>${Math.round(diff.accuracy * 100)}%</b></p><p class="diff">${diff.tokens.map((tk) => `<span class="${tk.ok ? "ok" : tk.extra ? "extra" : "miss"}">${esc(tk.t)}</span>`).join(" ")}</p>` + modelCard(pack[coach.at || 0]) + `<button class="btn" id="nextsent">Próxima frase</button>`;
           const audio = document.getElementById("replay");
           audio.src = rec.url; audio.classList.remove("hidden");
           mark("repeat", diff.accuracy >= 0.9);
-          Store.gradeError("repeat:" + sent.text, "repeat", diff.accuracy >= 0.9, {});
+          Store.gradeError("repeat:" + sent.text, "repeat", diff.accuracy >= 0.9, { label: sent.text });
+          const nxt = document.getElementById("nextsent");
+          if (nxt) nxt.onclick = () => {
+            coach.at = ((coach.at || 0) + 1) % sc.sentences.length;
+            if ((coach.at || 0) === 0) coach.si += 1;
+            coachFala(r);
+          };
         } catch (e) {
-          document.getElementById("live").textContent = "O microfone não abriu. Dá para ouvir e repetir mesmo assim; a nota automática precisa da permissão.";
+          const pack = models.repeat[sc.id] || [];
+          document.getElementById("live").textContent = "O microfone não abriu. A frase aparece mesmo assim, para você comparar.";
+          document.getElementById("diff").innerHTML = modelCard(pack[coach.at || 0]) + `<button class="btn" id="nextsent">Próxima frase</button>`;
+          const nxt = document.getElementById("nextsent");
+          if (nxt) nxt.onclick = () => {
+            coach.at = ((coach.at || 0) + 1) % sc.sentences.length;
+            if ((coach.at || 0) === 0) coach.si += 1;
+            coachFala(r);
+          };
         }
       };
       host.querySelector("#play").onclick = () => run(false);
@@ -503,13 +706,18 @@
           const rec = await AudioKit.recordFor(45000, (t) => { document.getElementById("live").textContent = t; });
           const words = AudioKit.tokenize(rec.transcript);
           const fillers = (rec.transcript.match(AudioKit.FILLERS) || []).length;
-          document.getElementById("metrics").innerHTML = `<div class="grid-3"><div class="stat"><b>${words.length}</b>palavras</div><div class="stat"><b>${Math.round(words.length / 0.75)}</b>por minuto</div><div class="stat"><b>${fillers}</b>fillers</div><div class="stat"><b>${rec.pauses}</b>pausas</div></div><button class="btn" id="copy">Copiar prompt de correção</button>`;
+          const pack = models.interview[iv.id] || [];
+          document.getElementById("metrics").innerHTML = `<div class="grid-3"><div class="stat"><b>${words.length}</b>palavras</div><div class="stat"><b>${Math.round(words.length / 0.75)}</b>por minuto</div><div class="stat"><b>${fillers}</b>fillers</div><div class="stat"><b>${rec.pauses}</b>pausas</div></div>` + modelCard(pack[coach.q % 4]) + `<div class="row"><button class="btn" id="copy">Copiar prompt de correção</button><button class="btn secondary" id="nextq">Próxima pergunta</button></div>`;
           const audio = document.getElementById("replay"); audio.src = rec.url; audio.classList.remove("hidden");
           document.getElementById("copy").onclick = () => navigator.clipboard.writeText(promptFor("interview", q.text, rec.transcript));
-          coach.q = (coach.q + 1) % 4;
+          document.getElementById("nextq").onclick = () => { coach.q = (coach.q + 1) % 4; coachFala(r); };
           mark("interview", words.length >= 60);
+          Store.gradeError("iv:" + q.text, "interview", words.length >= 60, { label: q.text });
         } catch (e) {
-          document.getElementById("live").textContent = "Sem microfone nesta tentativa.";
+          const pack = models.interview[iv.id] || [];
+          document.getElementById("live").textContent = "Sem microfone nesta tentativa. A resposta-modelo aparece mesmo assim.";
+          document.getElementById("metrics").innerHTML = modelCard(pack[coach.q % 4]) + `<button class="btn" id="nextq">Próxima pergunta</button>`;
+          document.getElementById("nextq").onclick = () => { coach.q = (coach.q + 1) % 4; coachFala(r); };
         }
       };
     }
@@ -537,8 +745,10 @@
     host.querySelector("#start").onclick = () => { if (iv) return; iv = setInterval(() => { left -= 1; tick(Math.max(0, left)); if (left <= 0) clearInterval(iv); }, 1000); };
     host.querySelector("#check").onclick = () => {
       const checks = task === "email" ? Widgets.emailChecks(item, area.value) : Widgets.discussionChecks(item, area.value);
-      host.querySelector("#list").innerHTML = Widgets.renderChecks(checks) + `<p>Lista: ${Widgets.heuristicBand(checks)} / 5.</p>`;
-      mark(task, Widgets.heuristicBand(checks) >= 4);
+      const band = Widgets.heuristicBand(checks);
+      host.querySelector("#list").innerHTML = Widgets.renderChecks(checks) + `<p>Lista: ${band} / 5. Estimativa da tarefa, não banda da seção.</p>` + modelCard(models[task][item.id]);
+      mark(task, band >= 4);
+      Store.gradeError(item.id, task, band >= 4, { label: task === "email" ? item.subject : item.question });
     };
     host.querySelector("#copy").onclick = () => {
       const stimulus = task === "email" ? item.scenario + "\n" + item.bullets.join("\n") : item.question + "\n" + item.s1.name + ": " + item.s1.text + "\n" + item.s2.name + ": " + item.s2.text;
@@ -547,7 +757,21 @@
     host.querySelector("#swap").onclick = () => { sessionStorage.setItem("widx", String(idx + 1)); coachEscrita(r); };
   }
   function promptFor(kind, stimulus, response) {
-    return `Você avalia TOEFL iBT 2026. Responda em português.\nTarefa (${kind}):\n${stimulus}\n\nResposta:\n${response || "(vazia)"}\n\nDê nota 0–5 da tarefa, banda estimada 1–6, erros concretos e uma versão melhor no nível B2. Diga que é estimativa, não nota ETS.`;
+    return `Você avalia uma resposta de treino do TOEFL iBT no formato de 2026. Responda em português. Isto é estimativa, não nota da ETS.
+
+Critérios, em resumo (não é o texto oficial da rubrica):
+- E-mail: os três pedidos, frases completas, tom adequado, pedido educado.
+- Discussão: posição clara, elaboração, exemplo, contribuição própria, pelo menos 100 palavras.
+- Entrevista: resposta direta, motivo, exemplo, fluência em cerca de 45 segundos.
+- Repetição: a frase inteira, inteligível.
+
+Tarefa (${kind}):
+${stimulus}
+
+Resposta:
+${response || "(vazia)"}
+
+Dê nota 0–5 da tarefa, banda estimada 1–6, o que faltou, e uma versão melhor no nível B2.`;
   }
 
   function vocab(r) {
@@ -598,7 +822,7 @@
     const now = Date.now();
     const list = Store.get().errors.slice().sort((a, b) => a.due - b.due);
     root().innerHTML = head("Recuperação", "Caderno de erros", "O que você errou volta hoje e, se acertar, espaça.") +
-      (list.slice(0, 40).map((e) => `<div class="card"><b>${esc(e.task)}</b> · ${esc(e.id)}<div class="muted">${e.due <= now ? "para hoje" : "em " + Math.ceil((e.due - now) / 86400000) + " dia(s)"}</div><a href="#/pratica/${esc(e.task)}">Refazer a tarefa</a></div>`).join("") || `<p class="card">Nenhum erro guardado.</p>`);
+      (list.slice(0, 40).map((e) => `<div class="card"><b>${esc(TASK_NAME[e.task] || e.task)}</b><p>${esc((e.payload && e.payload.label) || e.id)}</p><div class="muted">${e.due <= now ? "para hoje" : "em " + Math.ceil((e.due - now) / 86400000) + " dia(s)"}</div><a href="#/pratica/${esc(e.task)}">Refazer a tarefa</a></div>`).join("") || `<p class="card">Nenhum erro guardado.</p>`);
   }
 
   function metodo() {
@@ -634,14 +858,75 @@
     root().innerHTML = head("Sem nota", "Diagnóstico curto", "Uma lacuna, um texto, seis respostas ouvidas e seis frases. Serve para lembrar onde dói. Não vira banda.") +
       `<p><a class="btn" href="#/pratica/ctw?n=1">Começar pelas lacunas</a> <a class="btn secondary" href="#/pratica/bas?n=6">Seis frases</a> <a class="btn secondary" href="#/pratica/choose?n=6">Seis falas</a></p>`;
   }
+  function checkList(title, key, items) {
+    const bag = Store.get()[key] || {};
+    return `<fieldset class="card"><legend>${title}</legend>${items.map((lab, i) => `<label class="checkline"><input type="checkbox" data-key="${key}" data-i="${i}" ${bag[i] ? "checked" : ""}> ${esc(lab)}</label>`).join("")}</fieldset>`;
+  }
+  function bindChecks() {
+    root().querySelectorAll("input[data-key]").forEach((el) => el.onchange = () => {
+      const key = el.dataset.key;
+      const bag = Object.assign({}, Store.get()[key] || {});
+      bag[el.dataset.i] = el.checked;
+      const patch = {};
+      patch[key] = bag;
+      Store.set(patch);
+    });
+  }
   function prova() {
-    root().innerHTML = head("Logística", "Dia da prova", "Na véspera, sala e sono. Nada de formulário novo.") +
-      `<div class="card"><ul>
-        <li>App da ETS e Equipment Check no mesmo dia da semana e horário.</li>
-        <li>Sem fone. Um monitor. Documento. Quadro apagável.</li>
-        <li>Sozinha, sem pausa, sem comida.</li>
-        <li>E-mail 7 min, discussão 10 min, entrevista 45 s.</li>
-      </ul><a class="btn" href="#/estrutura">Ver todas as regras</a></div>`;
+    const days = PlanKit.daysUntil(Store.get().examDate);
+    const week = days != null && days <= 7;
+    const weekItems = [
+      "Fazer o Equipment Check no mesmo dia da semana e no mesmo horário da prova.",
+      "Fechar um simulado inteiro neste site.",
+      "Rever o caderno de erros de escrita e de fala.",
+      "Testar microfone, que não pode ser de um fone.",
+      "Ler de novo as regras da Home Edition."
+    ];
+    const dayItems = [
+      "Computador na tomada, um monitor, sem fone.",
+      "Documento com foto e nome igual à inscrição.",
+      "Quadro branco pequeno ou papel em plástico, com caneta apagável.",
+      "Sozinha, porta fechada, sem comida, sem pausa.",
+      "Apps de acesso remoto fechados.",
+      "App da ETS aberto por My TOEFL Home."
+    ];
+    root().innerHTML = head("Logística", "Dia da prova", week ? "Falta uma semana ou menos. Marque o que já fez." : "Na véspera, sala e sono. Nada de formulário novo.") +
+      (week ? "" : `<p class="muted">Faltam ${days == null ? "—" : days} dias. A lista da semana já pode ser marcada.</p>`) +
+      checkList("Última semana", "weekChecks", weekItems) +
+      checkList("No dia", "homeChecks", dayItems) +
+      `<div class="card"><a class="btn" href="#/estrutura">Ver todas as regras</a></div>
+      <div class="card"><h2>Cópia do progresso</h2><p class="muted">A chave de API não entra no arquivo. Ao importar, a chave que já está neste navegador permanece.</p>
+        <div class="row"><button class="btn" id="exp">Exportar</button><button class="btn secondary" id="imp">Importar</button></div>
+        <input id="file" type="file" accept="application/json" class="hidden"></div>`;
+    bindChecks();
+    root().querySelector("#exp").onclick = () => {
+      const blob = new Blob([Store.backup()], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "meu-toefl-progresso.json";
+      a.click();
+    };
+    const file = root().querySelector("#file");
+    root().querySelector("#imp").onclick = () => file.click();
+    file.onchange = () => {
+      const f = file.files && file.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(String(reader.result || ""));
+          const key = Store.get().api && Store.get().api.key;
+          if (data.api) data.api.key = key || "";
+          Store.set(data);
+          if (key) Store.get().api.key = key;
+          Store.save();
+          prova();
+        } catch (e) {
+          alert("Não consegui ler esse arquivo.");
+        }
+      };
+      reader.readAsText(f);
+    };
   }
 
   boot().catch((e) => { document.getElementById("conteudo").innerHTML = `<div class="warn">${esc(e.message)}</div>`; });

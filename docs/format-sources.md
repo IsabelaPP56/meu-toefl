@@ -253,7 +253,8 @@ Identidade: passaporte, documento oficial ou carteira de motorista, conforme a p
 
 ## 6. O que este site não afirma
 
-- Não há banda oficial calculada a partir destes exercícios. A estimativa está rotulada.
+- Não há banda oficial calculada a partir destes exercícios. A estimativa está rotulada. A autoavaliação de Writing e Speaking, com critérios resumidos (cobertura, exemplo, clareza, fluência), só ajusta essa estimativa.
+- As respostas-modelo de e-mail, discussão, Listen and Repeat e entrevista são textos originais deste site, nas faixas banda 5–6 e banda 4 (B2). Não são amostras da ETS nem da TST Prep. Elas aparecem depois da tentativa.
 - Não há o áudio, a imagem ou a interface gráfica da ETS.
 - O relógio da escuta, neste simulado, **não pausa** durante o TTS. Não está confirmado se o relógio de 2026 pausa enquanto o áudio oficial toca.
 - O PDF histórico https://www.ets.org/pdfs/toefl/writing-rubrics.pdf e o plano de aula https://www.ets.org/pdfs/toefl/toefl-ibt-lesson-plan-writing.pdf existem (HTTP 200 em 10/11/2026), mas o conteúdo útil das rubricas novas de e-mail e discussão está no overview de 2026. Tratamos aqueles dois PDFs como material anterior, a conferir antes de estudar por eles.
