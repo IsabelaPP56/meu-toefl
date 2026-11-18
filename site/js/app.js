@@ -79,7 +79,6 @@
     ]},
     { href: "#/vocab", label: "Vocabulário", ico: "V", color: "#16a34a" },
     { href: "#/erros", label: "Caderno de erros", ico: "C", color: "#e11d48" },
-    { href: "#/metodo", label: "Como estudar", ico: "M", color: "#d97706" },
     { href: "#/materiais", label: "Materiais oficiais", ico: "O", color: "#0891b2" },
     { href: "#/prova", label: "Dia da prova", ico: "D", color: "#be123c" }
   ];
@@ -237,14 +236,18 @@
       return;
     }
     document.body.classList.remove("exam-mode");
+    if (top === "metodo") {
+      history.replaceState(null, "", "#/");
+      return draw();
+    }
     const pages = {
-      "": home, estrutura, estudar, bas: basPage, simulados, historico, vocab, erros, metodo, materiais, prova,
+      "": home, estrutura, estudar, bas: basPage, simulados, historico, vocab, erros, materiais, prova,
       pratica: pratica, resultado, diagnostico, "coach-fala": coachFala, "coach-escrita": coachEscrita
     };
     const crumb = {
       "": "Início", estrutura: "Meu TOEFL / Estrutura da prova", estudar: "Meu TOEFL / Estudar",
       bas: "Meu TOEFL / Build a Sentence", simulados: "Meu TOEFL / Simulados", historico: "Meu TOEFL / Histórico",
-      vocab: "Meu TOEFL / Vocabulário", erros: "Meu TOEFL / Caderno de erros", metodo: "Meu TOEFL / Como estudar",
+      vocab: "Meu TOEFL / Vocabulário", erros: "Meu TOEFL / Caderno de erros",
       materiais: "Meu TOEFL / Materiais", prova: "Meu TOEFL / Dia da prova", pratica: "Meu TOEFL / Prática"
     }[top] || "Meu TOEFL";
     paintChrome(crumb);
@@ -265,7 +268,7 @@
     const plan = PlanKit.build(s);
     const today = plan[0];
     const streak = s.streak || { count: 0, last: "" };
-    const resume = s.lastHref || "#/pratica/ctw";
+    const resume = s.lastHref && s.lastHref.indexOf("#/metodo") !== 0 ? s.lastHref : "#/pratica/ctw";
     const todayHref = today && today.blocks[0] ? today.blocks[0].href : "#/pratica/bas?n=8";
     root().innerHTML = head("Seu ritmo", "Meu plano · TOEFL iBT", "Meta: banda 4 ou mais (B2).") + `
       <div class="row" style="margin-bottom:14px">
@@ -823,18 +826,6 @@ Dê nota 0–5 da tarefa, banda estimada 1–6, o que faltou, e uma versão melh
     const list = Store.get().errors.slice().sort((a, b) => a.due - b.due);
     root().innerHTML = head("Recuperação", "Caderno de erros", "O que você errou volta hoje e, se acertar, espaça.") +
       (list.slice(0, 40).map((e) => `<div class="card"><b>${esc(TASK_NAME[e.task] || e.task)}</b><p>${esc((e.payload && e.payload.label) || e.id)}</p><div class="muted">${e.due <= now ? "para hoje" : "em " + Math.ceil((e.due - now) / 86400000) + " dia(s)"}</div><a href="#/pratica/${esc(e.task)}">Refazer a tarefa</a></div>`).join("") || `<p class="card">Nenhum erro guardado.</p>`);
-  }
-
-  function metodo() {
-    root().innerHTML = head("Poucas semanas", "Como estudar", "A aula cobre língua geral. Aqui você recupera de memória, no relógio, o que a prova cobra.") + `
-      <div class="grid-2">
-        <article class="card"><h2>Recuperar, não reler</h2><p>Tente a resposta antes da explicação. Por isso o erro volta sozinho.</p><p class="muted">Roediger e Karpicke, 2006. Dunlosky e colegas, 2013.</p></article>
-        <article class="card"><h2>Espaçar e intercalar</h2><p>No mesmo dia entram frase, repetição e um bloco de leitura ou escuta.</p><p class="muted">Cepeda e colegas, 2006. Rohrer e Taylor, 2007.</p></article>
-        <article class="card"><h2>Um padrão por vez</h2><p>Build a Sentence errado vira nome: indireta, auxiliar, relativa, passiva.</p><p class="muted">Ericsson, Krampe e Tesch-Römer, 1993.</p></article>
-        <article class="card"><h2>Blocos de sentido</h2><p>Não traduza a frase. Fale o primeiro bloco assim que ele acabar.</p><p class="muted">Murphey, 2001. TST Prep, Listen and Repeat 2026.</p></article>
-      </div>
-      <div class="card"><p>O plano de 9–12 semanas da ETS pede prova de prática, variação de seções e foco em Speaking. O seu calendário até o início de dezembro comprime isso: todo dia frase e fala, e um simulado no meio e outro perto do fim.</p>
-      <p>Fontes da prova: <a href="https://www.ets.org/toefl/test-takers/ibt/about/content.html" target="_blank" rel="noopener">conteúdo</a>, <a href="https://www.ets.org/pdfs/toefl/toefl-ibt-test-overview.pdf" target="_blank" rel="noopener">overview</a>, <a href="https://tstprep.com/articles/toefl/complete-practice-test-for-the-toefl-test/" target="_blank" rel="noopener">TST Prep</a>.</p></div>`;
   }
 
   function materiais() {
