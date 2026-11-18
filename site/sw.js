@@ -1,4 +1,4 @@
-const CACHE = "meutoefl-v3";
+const CACHE = "meutoefl-v4";
 
 self.addEventListener("install", () => {
   self.skipWaiting();

@@ -13,7 +13,6 @@ O repositório é `IsabelaPP56/meu-toefl`. O GitHub publica o endereço em minú
 ## O que tem no site
 
 - Painel com a estrutura oficial (50 / 30 min, 47 / 29 min, 12 / 23 min, 11 / 8 min), contagem até a data da prova e plano diário que cabe nessa data. Tudo fica no `localStorage`.
-- Página **Como estudar**, com recuperação, espaçamento, intercalação, prática deliberada e repetição em blocos, e as fontes.
 - Diagnóstico curto que reordena o plano. O ponto de partida já privilegia Build a Sentence e Speaking.
 - Guia de cada tarefa, com vídeo verificado (TST Prep e Test Resources, formato 2026) e a lista de links oficiais, separados em 2026 e legado.
 - Prática autoral com correção na hora. Build a Sentence é montado com peças. Complete the Words esconde a segunda metade da palavra. A escuta usa a voz do navegador e só mostra a transcrição depois da resposta.
