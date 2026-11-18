@@ -20,9 +20,13 @@
         key: ""
       },
       homeChecks: {},
+      weekChecks: {},
       theme: "light",
       streak: { count: 0, last: "" },
-      drill: {}
+      drill: {},
+      lastHref: "",
+      speechRate: 0.96,
+      practiceMode: "estudo"
     };
   }
   let state = blank();

@@ -84,7 +84,12 @@ a:hover { text-decoration: underline; }
 }
 .nav-sub { display: none; padding: 2px 0 6px 18px; }
 .nav-sub.open { display: block; }
-.nav-sub a { padding: 7px 10px; font-size: 14px; color: var(--muted); }
+.nav-sub a, .nav-sub .group-btn { padding: 7px 10px; font-size: 14px; color: var(--muted); }
+.nav-sub .nest { padding-left: 12px; }
+details.tips, details.estimate { margin-top: 8px; color: var(--muted); font-size: 14px; }
+details.tips summary, details.estimate summary { cursor: pointer; font-weight: 650; color: var(--ink); }
+.task-row { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.task-row h2 { margin: 0 0 4px; font-size: 18px; }
 .side-foot { border-top: 1px solid var(--line); padding-top: 10px; font-size: 12px; color: var(--muted); }
 .side-foot p { margin: 6px 8px; }
 .toggle { display: flex; align-items: center; justify-content: space-between; padding: 6px 8px; }
@@ -142,7 +147,17 @@ th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line
 [data-theme="dark"] .tag.bad { background: #7f1d1d; }
 .note { background: var(--soft); border-radius: 12px; padding: 12px 14px; }
 .warn { background: var(--warn); border: 1px solid #fed7aa; border-radius: 12px; padding: 12px 14px; }
+.hidden { display: none !important; }
 .heat { height: 10px; border-radius: 99px; background: var(--line); overflow: hidden; }
+mark { background: #fde68a; color: inherit; border-radius: 4px; padding: 0 2px; }
+.cefr.goal, tr.goal td { background: var(--soft); color: var(--purple-d); font-weight: 700; border-radius: 6px; padding: 0 4px; }
+tr.on td { outline: 2px solid var(--purple); }
+.chart { display: flex; align-items: flex-end; gap: 8px; height: 140px; }
+.bar { flex: 1; min-width: 28px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+.bar span { display: block; width: 100%; background: var(--purple); border-radius: 8px 8px 0 0; }
+.bar em, .bar small { font-style: normal; font-size: 11px; color: var(--muted); }
+fieldset.card { border: 1px solid var(--line); }
+fieldset.card legend { font-weight: 700; padding: 0 6px; }
 .heat span { display: block; height: 100%; background: var(--purple); }
 .tiles, .slots { display: flex; flex-wrap: wrap; gap: 8px; }
 .tile, .slot {
